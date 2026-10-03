@@ -1,0 +1,1200 @@
+{
+  "chapter": {
+    "id": "bab_01",
+    "number": 1,
+    "title_ar": "بَابُ الْكَلَامِ",
+    "title_id": "Bab 1: Al-Kalam",
+    "description": "Pelajari definisi kalimat sempurna (Kalam) dan 3 pilar penyusun tata bahasa Arab: Isim, Fi'il, dan Huruf.",
+    "matan_full": "الْكَلَامُ هُوَ اللَّفْظُ الْمُرَكَّبُ الْمُفِيدُ بِالْوَضْعِ. وَأَقْسَامُهُ ثَلَاثَةٌ: اسْمٌ، وَفِعْلٌ، وَحَرْفٌ جَاءَ لِمَعْنًى. فَالِاسْمُ يُعْرَفُ بِالْخَفْضِ وَالتَّنْوِينِ وَدُخُولِ الْأَلِفِ وَاللَّامِ وَحُرُوفِ الْخَفْضِ وَهِيَ: مِنْ وَإِلَى وَعَنْ وَعَلَى وَفِي وَرُبَّ وَالْبَاءُ وَالْكَافُ وَاللَّامُ وَحُرُوفُ الْقَسَمِ وَهِيَ الْوَاوُ وَالْبَاءُ وَالتَّاءُ. وَالْفِعْلُ يُعْرَفُ بِقَدْ وَالسِّينِ وَسَوْفَ وَتَاءِ التَّأْنِيثِ السَّاكِنَةِ.",
+    "qawaidCard": {
+      "title": "Kaidah Bab Al-Kalam",
+      "matanSnippet": "الْكَلَامُ هُوَ اللَّفْظُ الْمُرَكَّبُ الْمُفِيدُ بِالْوَضْعِ. وَأَقْسَامُهُ ثَلَاثَةٌ: اسْمٌ، وَفِعْلٌ، وَحَرْفٌ جَاءَ لِمَعْنًى",
+      "formula": "Kalam = Suara (Lafadz) + Minimal 2 Kata (Murakkab) + Paham (Mufid) + Bahasa Arab (Wadh'i)",
+      "keyTakeaways": [
+        "Isim: Ciri Alif Lam (ال), Tanwin, Khafadh/Kasrah, Huruf Jar (مِنْ، إِلَى، عَنْ، عَلَى، فِي، رُبَّ، الْبَاءُ، الْكَافُ، اللَّامُ).",
+        "Fi'il: Ciri Qad (قَدْ), Sin (سَ), Sawfa (سَوْفَ), Ta' Ta'nits Sakinah (تْ).",
+        "Huruf: Kata yang tidak pantas menerima tanda isim maupun tanda fi'il (contoh: فِي، مِنْ، هَلْ، لَمْ)."
+      ]
+    },
+    "levels": [
+      {
+        "id": "level_1_1",
+        "title": "Level 1.1: Apa itu Kalam?",
+        "subtitle": "4 Syarat Kalimat Sempurna",
+        "type": "binary_kalam",
+        "xp_reward": 50,
+        "icon": "✨",
+        "theory": {
+          "headline": "Definisi Kalam Menurut Jurumiyah",
+          "matan_snippet": "الْكَلَامُ هُوَ اللَّفْظُ الْمُرَكَّبُ الْمُفِيدُ بِالْوَضْعِ",
+          "points": [
+            {
+              "term_ar": "اللَّفْظُ",
+              "term_id": "Al-Lafadz (Suara/Ucapan)",
+              "desc": "Suara yang terbentuk dari huruf-huruf hijaiyah dan bisa didengar. Artinya, yang dipikirkan dalam hati tanpa diucapkan belum termasuk Kalam. Contoh: kamu berkata 'زَيْدٌ' — itulah lafadz."
+            },
+            {
+              "term_ar": "الْمُرَكَّبُ",
+              "term_id": "Al-Murakkab (Tersusun)",
+              "desc": "Tersusun minimal dari 2 kata atau lebih. Satu kata saja seperti 'كِتَابٌ' (buku) belum disebut Kalam. Harus ada minimal dua unsur, misalnya: Isim + Isim (الْعِلْمُ نُورٌ) atau Fi'il + Isim (قَامَ زَيْدٌ)."
+            },
+            {
+              "term_ar": "الْمُفِيدُ",
+              "term_id": "Al-Mufid (Memberi Faedah)",
+              "desc": "Susunan kata itu harus memberikan pemahaman yang tuntas kepada pendengar sehingga ia tidak menunggu kelanjutan. Contoh: 'إِنْ جَاءَ زَيْدٌ...' (Jika Zaid datang...) belum Mufid karena pendengar masih menunggu jawab syaratnya."
+            },
+            {
+              "term_ar": "بِالْوَضْعِ",
+              "term_id": "Bil-Wadh'i (Dengan Bahasa Arab)",
+              "desc": "Ucapan itu harus menggunakan kaidah bahasa Arab yang telah ditetapkan (Wadh' Arabi). Suara yang tidak bermakna dalam bahasa Arab, atau kalimat dalam bahasa lain, tidak termasuk Kalam menurut ulama nahwu."
+            }
+          ]
+        },
+        "questions": [
+          {
+            "id": "q1_1_1",
+            "text_ar": "قَامَ زَيْدٌ",
+            "meaning": "Zaid telah berdiri",
+            "is_kalam": true,
+            "explanation": "✅ KALAM: Bersuara (Lafadz), tersusun dari 2 kata — Fi'il (قَامَ) + Isim/Fa'il (زَيْدٌ), bermakna tuntas sempurna (Mufid), dan berbahasa Arab (Wadh'i). Keempat syarat terpenuhi.",
+            "translation": "Zaid telah berdiri",
+            "arabic": "قَامَ زَيْدٌ",
+            "sentence": "قَامَ زَيْدٌ"
+          },
+          {
+            "id": "q1_1_2",
+            "text_ar": "كِتَابٌ",
+            "meaning": "Sebuah buku",
+            "is_kalam": false,
+            "explanation": "❌ BUKAN KALAM: Hanya terdiri dari 1 kata (Mufrad). Syarat Kalam harus Murakkab (minimal 2 kata). Kata tunggal 'كِتَابٌ' tidak memberikan berita yang tuntas kepada pendengar.",
+            "translation": "Sebuah buku",
+            "arabic": "كِتَابٌ"
+          },
+          {
+            "id": "q1_1_3",
+            "text_ar": "إِنْ جَاءَ الْأُسْتَاذُ...",
+            "meaning": "Jika ustadz datang...",
+            "is_kalam": false,
+            "explanation": "❌ BUKAN KALAM: Tidak Mufid (makna belum tuntas). Ini adalah jumlah syarthiyyah (kalimat pengandaian) yang belum disebutkan jawab syaratnya. Pendengar pasti masih menunggu kelanjutan '...maka apa?'.",
+            "translation": "Jika ustadz datang...",
+            "arabic": "إِنْ جَاءَ الْأُسْتَاذُ...",
+            "sentence": "إِنْ جَاءَ الْأُسْتَاذُ..."
+          },
+          {
+            "id": "q1_1_4",
+            "text_ar": "الْعِلْمُ نُورٌ",
+            "meaning": "Ilmu itu adalah cahaya",
+            "is_kalam": true,
+            "explanation": "✅ KALAM: Tersusun dari 2 Isim — Mubtada' (الْعِلْمُ) + Khabar (نُورٌ). Memberikan pemahaman yang tuntas ('ilmu adalah cahaya'), dan berbahasa Arab. Keempat syarat terpenuhi.",
+            "translation": "Ilmu itu adalah cahaya",
+            "arabic": "الْعِلْمُ نُورٌ",
+            "sentence": "الْعِلْمُ نُورٌ"
+          },
+          {
+            "id": "q1_1_5",
+            "text_ar": "غُلَامُ زَيْدٍ",
+            "meaning": "Pelayan milik Zaid",
+            "is_kalam": false,
+            "explanation": "❌ BUKAN KALAM: Meskipun terdiri dari 2 kata, ini hanya susunan Idhafah (kata majemuk: Mudhaf + Mudhaf Ilaih). Belum ada predikat/khabar sehingga tidak Mufid — pendengar masih bertanya 'pelayan Zaid itu bagaimana?'.",
+            "translation": "Pelayan milik Zaid",
+            "arabic": "غُلَامُ زَيْدٍ",
+            "sentence": "غُلَامُ زَيْدٍ"
+          },
+          {
+            "id": "q1_1_6",
+            "text_ar": "حَضَرَ مُحَمَّدٌ",
+            "meaning": "Muhammad telah hadir",
+            "is_kalam": true,
+            "explanation": "✅ KALAM: Kalimat fi'liyyah yang sempurna — terdiri dari Fi'il (حَضَرَ) dan Fa'il/pelaku (مُحَمَّدٌ). Bermakna tuntas dan berbahasa Arab. Semua syarat Kalam terpenuhi.",
+            "translation": "Muhammad telah hadir",
+            "arabic": "حَضَرَ مُحَمَّدٌ",
+            "sentence": "حَضَرَ مُحَمَّدٌ"
+          },
+          {
+            "id": "q1_1_7",
+            "text_ar": "إِنْ جَاءَ زَيْدٌ",
+            "meaning": "Jika Zaid datang...",
+            "is_kalam": false,
+            "explanation": "❌ BUKAN KALAM: Meskipun lafadz murakkab (tersusun dari huruf syarat, fiil, dan fa'il), ia TIDAK MUFID (tidak berfaedah tuntas). Pendengar masih menunggu kelanjutan akibat atau jawab syaratnya.",
+            "translation": "Jika Zaid datang...",
+            "arabic": "إِنْ جَاءَ زَيْدٌ",
+            "sentence": "إِنْ جَاءَ زَيْدٌ"
+          },
+          {
+            "id": "q1_1_8",
+            "text_ar": "الْعِلْمُ نُورٌ",
+            "meaning": "Ilmu itu cahaya",
+            "is_kalam": true,
+            "explanation": "✅ KALAM: Tersusun dari 2 isim (Mubtada' الْعِلْمُ + Khabar نُورٌ), berfaedah tuntas (Mufid), bersuara (Lafadz), dan berbahasa Arab (Bil Wadh'i). Keempat syarat terpenuhi sempurna.",
+            "translation": "Ilmu itu cahaya",
+            "arabic": "الْعِلْمُ نُورٌ",
+            "sentence": "الْعِلْمُ نُورٌ"
+          },
+          {
+            "id": "q1_1_9",
+            "text_ar": "غُلَامُ زَيْدٍ",
+            "meaning": "Pembantu Zaid...",
+            "is_kalam": false,
+            "explanation": "❌ BUKAN KALAM: Ini adalah susunan Idhafat (frasa kepemilikan / Tarkib Idhafi). Meskipun terdiri dari dua kata, ia BELUM MUFID karena pendengar belum mendapat informasi lengkap tentang apa yang terjadi dengan pembantu Zaid.",
+            "translation": "Pembantu Zaid...",
+            "arabic": "غُلَامُ زَيْدٍ",
+            "sentence": "غُلَامُ زَيْدٍ"
+          },
+          {
+            "id": "q1_1_10",
+            "text_ar": "صَامَ الْمُسْلِمُ",
+            "meaning": "Seorang muslim telah berpuasa",
+            "is_kalam": true,
+            "explanation": "✅ KALAM: Kalimat verbal sempurna (Jumlah Fi'liyyah) terdiri dari Fi'il Madhi (صَامَ) dan Fa'il (الْمُسْلِمُ). Maknanya tuntas sehingga pendengar tidak memerlukan penjelasan tambahan.",
+            "translation": "Seorang muslim telah berpuasa",
+            "arabic": "صَامَ الْمُسْلِمُ",
+            "sentence": "صَامَ الْمُسْلِمُ"
+          }
+        ]
+      },
+      {
+        "id": "level_1_2",
+        "title": "Level 1.2: Ciri-Ciri Isim",
+        "subtitle": "Detective Penanda Kata Benda",
+        "type": "feature_detective",
+        "xp_reward": 60,
+        "icon": "🔍",
+        "theory": {
+          "headline": "Tanda-Tanda Isim (عَلَامَاتُ الِاسْمِ)",
+          "matan_snippet": "فَالِاسْمُ يُعْرَفُ بِالْخَفْضِ، وَالتَّنْوِينِ، وَدُخُولِ الْأَلِفِ وَاللَّامِ، وَحُرُوفِ الْخَفْضِ",
+          "points": [
+            {
+              "term_ar": "الْخَفْضُ (الْكَسْرَةُ)",
+              "term_id": "Khofadh / Kasrah",
+              "desc": "Isim bisa menerima harakat kasrah di akhir katanya karena pengaruh amil (misalnya setelah huruf jer). Ini ciri yang membedakan isim dari fi'il dan huruf, karena fi'il tidak pernah dikhafadh. Contoh: مَرَرْتُ بِزَيْدٍ — kata 'زَيْدٍ' berakhiran kasrah karena didahului huruf jer 'بِ'."
+            },
+            {
+              "term_ar": "التَّنْوِينُ",
+              "term_id": "Tanwin (ـً ـٍ ـٌ)",
+              "desc": "Suara nun mati (ن ساكنة) yang terdengar di akhir kata namun tidak tertulis. Ada 3 jenis: Dhommatain (ـٌ) untuk rafa', Fathatain (ـً) untuk nashab, dan Kasratain (ـٍ) untuk khafadh. Contoh: كِتَابٌ (rafa'), كِتَابًا (nashab), كِتَابٍ (khafadh). Tanwin hanya ada pada Isim Nakirah (kata benda tak tentu)."
+            },
+            {
+              "term_ar": "دُخُولُ (ال)",
+              "term_id": "Kemungkinan Masuk Alif Lam",
+              "desc": "Isim bisa diawali awalan 'Al' (الـ) untuk menjadi ma'rifat (tertentu/definite). Contoh: كِتَابٌ (sebuah buku) → الْكِتَابُ (buku itu). Fi'il dan huruf tidak bisa menerima Alif Lam. Contoh lain: مَسْجِدٌ → الْمَسْجِدُ, قَلَمٌ → الْقَلَمُ."
+            },
+            {
+              "term_ar": "حُرُوفُ الْخَفْضِ",
+              "term_id": "Didahului Huruf Jer",
+              "desc": "Isim bisa menjadi Majrur (berharakat kasrah) setelah didahului huruf jer. Huruf jer ada 9+: مِنْ (dari), إِلَى (ke), عَنْ (dari/tentang), عَلَى (di atas), فِي (di dalam), رُبَّ (berapa banyak), الْبَاءُ (dengan), الْكَافُ (seperti), اللَّامُ (milik/untuk), dan huruf qasam: الْوَاوُ، الْبَاءُ، التَّاءُ."
+            }
+          ]
+        },
+        "questions": [
+          {
+            "id": "q1_2_1",
+            "word_ar": "الْمَسْجِدِ",
+            "meaning": "Masjid itu (dalam keadaan majrur)",
+            "correct_features": [
+              "alif_lam",
+              "kasrah"
+            ],
+            "options": [
+              {
+                "id": "alif_lam",
+                "label": "Awalan Al (ال)"
+              },
+              {
+                "id": "tanwin",
+                "label": "Tanwin (ـٌ)"
+              },
+              {
+                "id": "kasrah",
+                "label": "Akhiran Kasrah"
+              },
+              {
+                "id": "qad",
+                "label": "Diawali Qad (قَدْ)"
+              }
+            ],
+            "explanation": "Kata 'الْمَسْجِدِ' memiliki 2 ciri Isim: (1) diawali Alif Lam (الـ) — penanda ma'rifat, dan (2) berakhiran Kasrah — karena dalam posisi majrur (setelah huruf jer atau idhafah). Qad bukan tanda isim, melainkan tanda fi'il.",
+            "translation": "Masjid itu",
+            "text_ar": "الْمَسْجِدِ",
+            "arabic": "الْمَسْجِدِ"
+          },
+          {
+            "id": "q1_2_2",
+            "word_ar": "بَيْتٌ",
+            "meaning": "Sebuah rumah",
+            "correct_features": [
+              "tanwin"
+            ],
+            "options": [
+              {
+                "id": "alif_lam",
+                "label": "Awalan Al (ال)"
+              },
+              {
+                "id": "tanwin",
+                "label": "Tanwin (ـٌ)"
+              },
+              {
+                "id": "huruf_jer",
+                "label": "Didahului Huruf Jer"
+              },
+              {
+                "id": "sin",
+                "label": "Awalan Sin (سَـ)"
+              }
+            ],
+            "explanation": "Kata 'بَيْتٌ' adalah Isim Nakirah (tak tentu) karena memiliki tanda Tanwin Dhommatain (ـٌ) di akhirnya. Tanwin dhommatain menunjukkan isim dalam posisi rafa'. Sin (سَـ) adalah tanda fi'il mudhari', bukan isim.",
+            "translation": "Sebuah rumah",
+            "text_ar": "بَيْتٌ",
+            "arabic": "بَيْتٌ"
+          },
+          {
+            "id": "q1_2_3",
+            "word_ar": "فِي الْمَدْرَسَةِ",
+            "meaning": "Di dalam sekolah",
+            "correct_features": [
+              "huruf_jer",
+              "alif_lam",
+              "kasrah"
+            ],
+            "options": [
+              {
+                "id": "huruf_jer",
+                "label": "Didahului Huruf Jer (فِي)"
+              },
+              {
+                "id": "alif_lam",
+                "label": "Awalan Al (ال)"
+              },
+              {
+                "id": "kasrah",
+                "label": "Akhiran Kasrah"
+              },
+              {
+                "id": "ta_tanits",
+                "label": "Ta Ta'nits Sakinah (تْ)"
+              }
+            ],
+            "explanation": "Frasa ini mengandung tanda Isim lengkap pada kata 'الْمَدْرَسَةِ': (1) Didahului huruf jer 'فِي' (di dalam), (2) ber-Alif Lam (الـ) sebagai penanda ma'rifat, dan (3) berharakat Kasrah di akhir karena menjadi Majrur. Ta Ta'nits adalah tanda fi'il madhi, bukan isim.",
+            "translation": "Di dalam sekolah",
+            "text_ar": "فِي الْمَدْرَسَةِ",
+            "arabic": "فِي الْمَدْرَسَةِ",
+            "sentence": "فِي الْمَدْرَسَةِ"
+          },
+          {
+            "id": "q1_2_4",
+            "word_ar": "قَلَمًا",
+            "meaning": "Sebuah pena (dalam posisi nashab)",
+            "correct_features": [
+              "tanwin"
+            ],
+            "options": [
+              {
+                "id": "tanwin",
+                "label": "Tanwin Fathatain (ـً)"
+              },
+              {
+                "id": "alif_lam",
+                "label": "Awalan Al (ال)"
+              },
+              {
+                "id": "sawfa",
+                "label": "Diawali Sawfa (سَوْفَ)"
+              },
+              {
+                "id": "kasrah",
+                "label": "Akhiran Kasrah"
+              }
+            ],
+            "explanation": "Kata 'قَلَمًا' adalah Isim Nakirah dengan tanda Tanwin Fathatain (ـً) — menunjukkan posisi nashab (misalnya sebagai maf'ul bih/objek). Sawfa adalah tanda fi'il mudhari', bukan isim.",
+            "translation": "Sebuah pena",
+            "text_ar": "قَلَمًا",
+            "arabic": "قَلَمًا"
+          },
+          {
+            "id": "q1_2_5",
+            "word_ar": "بِسْمِ",
+            "meaning": "Dengan nama...",
+            "correct_features": [
+              "kasrah"
+            ],
+            "options": [
+              {
+                "id": "alif_lam",
+                "label": "Awalan Al (ال)"
+              },
+              {
+                "id": "tanwin",
+                "label": "Tanwin (ـٌ)"
+              },
+              {
+                "id": "kasrah",
+                "label": "Akhiran Kasrah"
+              },
+              {
+                "id": "qad",
+                "label": "Diawali Qad (قَدْ)"
+              }
+            ],
+            "explanation": "Kata 'اسْمِ' berakhiran Kasrah karena diawali huruf jar Ba (بِـ). Akhiran kasrah (khafadh) adalah tanda khas Isim menurut Al-Ajurrumiyyah.",
+            "translation": "Dengan nama...",
+            "text_ar": "بِسْمِ",
+            "arabic": "بِسْمِ"
+          },
+          {
+            "id": "q1_2_6",
+            "word_ar": "الرَّحْمَٰنِ",
+            "meaning": "Yang Maha Pengasih",
+            "correct_features": [
+              "alif_lam",
+              "kasrah"
+            ],
+            "options": [
+              {
+                "id": "alif_lam",
+                "label": "Awalan Al (ال)"
+              },
+              {
+                "id": "tanwin",
+                "label": "Tanwin (ـٌ)"
+              },
+              {
+                "id": "kasrah",
+                "label": "Akhiran Kasrah"
+              },
+              {
+                "id": "sawfa",
+                "label": "Sawfa (سَوْفَ)"
+              }
+            ],
+            "explanation": "Kata 'الرَّحْمَٰنِ' memiliki 2 ciri Isim: (1) diawali Alif Lam (الـ), dan (2) berakhiran harakat kasrah (posisi na'at/majrur).",
+            "translation": "Yang Maha Pengasih",
+            "text_ar": "الرَّحْمَٰنِ",
+            "arabic": "الرَّحْمَٰنِ"
+          },
+          {
+            "id": "q1_2_7",
+            "word_ar": "عَلِيمٌ",
+            "meaning": "Maha Mengetahui",
+            "correct_features": [
+              "tanwin"
+            ],
+            "options": [
+              {
+                "id": "alif_lam",
+                "label": "Awalan Al (ال)"
+              },
+              {
+                "id": "tanwin",
+                "label": "Tanwin (ـٌ)"
+              },
+              {
+                "id": "kasrah",
+                "label": "Akhiran Kasrah"
+              },
+              {
+                "id": "sin",
+                "label": "Awalan Sin (سـ)"
+              }
+            ],
+            "explanation": "Kata 'عَلِيمٌ' memiliki tanda Isim berupa TANWIN dhommatain (ـٌ). Tanwin adalah ciri mutlak isim dan tidak pernah masuk ke fi'il maupun huruf.",
+            "translation": "Maha Mengetahui",
+            "text_ar": "عَلِيمٌ",
+            "arabic": "عَلِيمٌ"
+          },
+          {
+            "id": "q1_2_8",
+            "word_ar": "فِي السَّمَاءِ",
+            "meaning": "Di langit",
+            "correct_features": [
+              "alif_lam",
+              "kasrah"
+            ],
+            "options": [
+              {
+                "id": "alif_lam",
+                "label": "Awalan Al (ال)"
+              },
+              {
+                "id": "tanwin",
+                "label": "Tanwin (ـٌ)"
+              },
+              {
+                "id": "kasrah",
+                "label": "Akhiran Kasrah"
+              },
+              {
+                "id": "ta_tanits",
+                "label": "Ta Ta'nits (تْ)"
+              }
+            ],
+            "explanation": "Kata 'السَّمَاءِ' memiliki dua tanda Isim: berawalan Alif Lam (الـ) dan berakhiran kasrah karena didahului huruf jar فِي.",
+            "translation": "Di langit",
+            "text_ar": "فِي السَّمَاءِ",
+            "arabic": "فِي السَّمَاءِ"
+          },
+          {
+            "id": "q1_2_9",
+            "word_ar": "جَنَّةٍ",
+            "meaning": "Sebuah kebun / surga",
+            "correct_features": [
+              "tanwin",
+              "kasrah"
+            ],
+            "options": [
+              {
+                "id": "alif_lam",
+                "label": "Awalan Al (ال)"
+              },
+              {
+                "id": "tanwin",
+                "label": "Tanwin (ـٍ)"
+              },
+              {
+                "id": "kasrah",
+                "label": "Akhiran Kasrah (Jar)"
+              },
+              {
+                "id": "qad",
+                "label": "Diawali Qad (قَدْ)"
+              }
+            ],
+            "explanation": "Kata 'جَنَّةٍ' berakhiran tanwin kasratain (ـٍ), yang membuktikan dua tanda sekaligus: ia menerima tanwin dan menerima kasrah.",
+            "translation": "Sebuah surga",
+            "text_ar": "جَنَّةٍ",
+            "arabic": "جَنَّةٍ"
+          },
+          {
+            "id": "q1_2_10",
+            "word_ar": "الْحَمْدُ",
+            "meaning": "Segala puji",
+            "correct_features": [
+              "alif_lam"
+            ],
+            "options": [
+              {
+                "id": "alif_lam",
+                "label": "Awalan Al (ال)"
+              },
+              {
+                "id": "tanwin",
+                "label": "Tanwin (ـٌ)"
+              },
+              {
+                "id": "kasrah",
+                "label": "Akhiran Kasrah"
+              },
+              {
+                "id": "sawfa",
+                "label": "Sawfa (سَوْفَ)"
+              }
+            ],
+            "explanation": "Kata 'الْحَمْدُ' memiliki tanda Isim yang sangat jelas yaitu diawali Alif Lam (الـ). Karena sudah ada Alif Lam, maka kata ini tidak boleh bertanwin.",
+            "translation": "Segala puji",
+            "text_ar": "الْحَمْدُ",
+            "arabic": "الْحَمْدُ"
+          }
+        ]
+      },
+      {
+        "id": "level_1_3",
+        "title": "Level 1.3: Ciri-Ciri Fi'il",
+        "subtitle": "Radar Penanda Kata Kerja",
+        "type": "feature_detective",
+        "xp_reward": 60,
+        "icon": "⚡",
+        "theory": {
+          "headline": "Tanda-Tanda Fi'il (عَلَامَاتُ الْفِعْلِ)",
+          "matan_snippet": "وَالْفِعْلُ يُعْرَفُ بِقَدْ، وَالسِّينِ، وَسَوْفَ، وَتَاءِ التَّأْنِيثِ السَّاكِنَةِ",
+          "points": [
+            {
+              "term_ar": "قَدْ",
+              "term_id": "Qad",
+              "desc": "Partikel 'قَدْ' bisa masuk ke dua jenis fi'il: (1) Jika masuk ke Fi'il Madhi (lampau), berarti 'sungguh/benar-benar telah' — seperti قَدْ قَامَ (sungguh telah berdiri). (2) Jika masuk ke Fi'il Mudhari' (sekarang/akan), berarti 'kadang-kadang/terkadang' — seperti قَدْ يَقُومُ (kadang-kadang dia berdiri). Ini alat deteksi fi'il yang paling kuat."
+            },
+            {
+              "term_ar": "السِّينُ (سَـ)",
+              "term_id": "Sin (Tanfis)",
+              "desc": "Huruf Sin (سَـ) hanya bisa melekat di depan Fi'il Mudhari' dan memberi makna masa depan dekat ('akan segera'). Contoh: سَيَذْهَبُ (dia akan segera pergi), سَنَنْصُرُكَ (Kami akan segera menolongmu). Sin tidak bisa masuk ke isim atau huruf, sehingga kehadirannya memastikan kata setelahnya adalah fi'il."
+            },
+            {
+              "term_ar": "سَوْفَ",
+              "term_id": "Sawfa (Taswif)",
+              "desc": "Kata 'سَوْفَ' masuk ke Fi'il Mudhari' untuk menunjukkan masa depan yang lebih jauh atau tidak pasti ('kelak'). Contoh: سَوْفَ يَعْلَمُونَ (kelak mereka akan mengetahui). Perbedaannya dengan Sin: Sawfa untuk masa depan jauh/tidak tentu, Sin untuk masa depan dekat/pasti."
+            },
+            {
+              "term_ar": "تَاءُ التَّأْنِيثِ السَّاكِنَةُ",
+              "term_id": "Ta Ta'nits Mati (تْ)",
+              "desc": "Huruf Ta' berharakat sukun (مati) yang melekat di akhir Fi'il Madhi sebagai tanda bahwa pelakunya adalah perempuan. Contoh: قَالَتْ (dia [wanita] berkata), ذَهَبَتْ (dia [wanita] pergi), جَاءَتْ (dia [wanita] datang). Ini BERBEDA dengan Ta' Ta'nits Marbuthah (ةٌ) yang merupakan tanda isim muannats."
+            }
+          ]
+        },
+        "questions": [
+          {
+            "id": "q1_3_1",
+            "word_ar": "قَدْ قَامَتِ الصَّلَاةُ",
+            "meaning": "Sungguh shalat telah ditegakkan",
+            "correct_features": [
+              "qad",
+              "ta_tanits"
+            ],
+            "options": [
+              {
+                "id": "qad",
+                "label": "Diawali Qad (قَدْ)"
+              },
+              {
+                "id": "ta_tanits",
+                "label": "Akhiran Ta Ta'nits (تْ)"
+              },
+              {
+                "id": "tanwin",
+                "label": "Tanwin"
+              },
+              {
+                "id": "sawfa",
+                "label": "Sawfa"
+              }
+            ],
+            "explanation": "Fi'il 'قَامَتْ' memiliki 2 tanda fi'il sekaligus: (1) didahului huruf 'قَدْ' (sungguh — masuk Fi'il Madhi), dan (2) bersambung dengan Ta Ta'nits Sakinah 'تْ' (penanda pelaku perempuan, yaitu الصَّلَاةُ). Kasrah pada تِ adalah kasrah tambahan karena bertemu Lam Syamsiyyah (لتَّقاء ساكنين).",
+            "translation": "Sungguh shalat telah ditegakkan",
+            "text_ar": "قَدْ قَامَتِ الصَّلَاةُ",
+            "arabic": "قَدْ قَامَتِ الصَّلَاةُ",
+            "sentence": "قَدْ قَامَتِ الصَّلَاةُ"
+          },
+          {
+            "id": "q1_3_2",
+            "word_ar": "سَيَقُولُ",
+            "meaning": "Dia akan segera berkata",
+            "correct_features": [
+              "sin"
+            ],
+            "options": [
+              {
+                "id": "sin",
+                "label": "Awalan Sin (سَـ)"
+              },
+              {
+                "id": "alif_lam",
+                "label": "Alif Lam"
+              },
+              {
+                "id": "kasrah",
+                "label": "Kasrah"
+              },
+              {
+                "id": "qad",
+                "label": "Qad"
+              }
+            ],
+            "explanation": "Kata 'سَيَقُولُ' adalah Fi'il Mudhari' karena diawali huruf Sin (سَـ) yang menunjukkan makna masa depan dekat. Kata asalnya 'يَقُولُ' sudah fi'il, lalu Sin melekat di depannya. Alif Lam dan Kasrah adalah tanda isim, bukan fi'il.",
+            "translation": "Dia akan segera berkata",
+            "text_ar": "سَيَقُولُ",
+            "arabic": "سَيَقُولُ"
+          },
+          {
+            "id": "q1_3_3",
+            "word_ar": "سَوْفَ تَعْلَمُونَ",
+            "meaning": "Kelak kalian akan mengetahui",
+            "correct_features": [
+              "sawfa"
+            ],
+            "options": [
+              {
+                "id": "sawfa",
+                "label": "Didahului Sawfa (سَوْفَ)"
+              },
+              {
+                "id": "tanwin",
+                "label": "Tanwin"
+              },
+              {
+                "id": "huruf_jer",
+                "label": "Huruf Jer"
+              },
+              {
+                "id": "ta_tanits",
+                "label": "Ta Ta'nits Sakinah"
+              }
+            ],
+            "explanation": "Kata 'تَعْلَمُونَ' adalah Fi'il Mudhari' (bentuk jamak muzakkar) karena dimasuki kata bantu masa depan 'سَوْفَ'. Makna Sawfa adalah masa depan yang lebih jauh/tidak pasti dibanding Sin. Tanwin dan huruf jer adalah tanda isim, bukan fi'il.",
+            "translation": "Kelak kalian akan mengetahui",
+            "text_ar": "سَوْفَ تَعْلَمُونَ",
+            "arabic": "سَوْفَ تَعْلَمُونَ",
+            "sentence": "سَوْفَ تَعْلَمُونَ"
+          },
+          {
+            "id": "q1_3_4",
+            "word_ar": "قَالَتْ عَائِشَةُ",
+            "meaning": "Aisyah telah berkata",
+            "correct_features": [
+              "ta_tanits"
+            ],
+            "options": [
+              {
+                "id": "ta_tanits",
+                "label": "Ta Ta'nits Sakinah (تْ)"
+              },
+              {
+                "id": "sin",
+                "label": "Awalan Sin"
+              },
+              {
+                "id": "alif_lam",
+                "label": "Alif Lam"
+              },
+              {
+                "id": "tanwin",
+                "label": "Tanwin"
+              }
+            ],
+            "explanation": "Kata 'قَالَتْ' adalah Fi'il Madhi (lampau) karena berakhiran Ta Ta'nits Sakinah (تْ) yang menandakan pelakunya perempuan, yaitu عَائِشَةُ (Aisyah). Tanwin dan Alif Lam adalah tanda isim, bukan fi'il.",
+            "translation": "Aisyah telah berkata",
+            "text_ar": "قَالَتْ عَائِشَةُ",
+            "arabic": "قَالَتْ عَائِشَةُ",
+            "sentence": "قَالَتْ عَائِشَةُ"
+          },
+          {
+            "id": "q1_3_5",
+            "word_ar": "سَوْفَ تَعْلَمُونَ",
+            "meaning": "Kelak kalian akan mengetahui",
+            "correct_features": [
+              "sawfa"
+            ],
+            "options": [
+              {
+                "id": "sawfa",
+                "label": "Diawali Sawfa (سَوْفَ)"
+              },
+              {
+                "id": "sin",
+                "label": "Awalan Sin (سـ)"
+              },
+              {
+                "id": "tanwin",
+                "label": "Tanwin"
+              },
+              {
+                "id": "alif_lam",
+                "label": "Alif Lam"
+              }
+            ],
+            "explanation": "Kata kerja 'تَعْلَمُونَ' (Fi'il Mudhari') didahului oleh huruf tanfis/taswif 'سَوْفَ' yang menunjukkan perbuatan akan terjadi di masa depan yang agak jauh. 'سَوْفَ' adalah tanda khusus Fi'il.",
+            "translation": "Kelak kalian akan mengetahui",
+            "text_ar": "سَوْفَ تَعْلَمُونَ",
+            "arabic": "سَوْفَ تَعْلَمُونَ",
+            "sentence": "سَوْفَ تَعْلَمُونَ"
+          },
+          {
+            "id": "q1_3_6",
+            "word_ar": "سَيَقُولُ",
+            "meaning": "Akan berkata...",
+            "correct_features": [
+              "sin"
+            ],
+            "options": [
+              {
+                "id": "sin",
+                "label": "Awalan Sin (سـ)"
+              },
+              {
+                "id": "qad",
+                "label": "Diawali Qad (قَدْ)"
+              },
+              {
+                "id": "ta_tanits",
+                "label": "Ta Ta'nits (تْ)"
+              },
+              {
+                "id": "tanwin",
+                "label": "Tanwin"
+              }
+            ],
+            "explanation": "Kata 'يَقُولُ' bersambung langsung di depannya dengan huruf Sin (سـ) penanda waktu dekat (istiqbal qarib). Huruf Sin adalah ciri khas Fi'il Mudhari'.",
+            "translation": "Akan berkata...",
+            "text_ar": "سَيَقُولُ",
+            "arabic": "سَيَقُولُ",
+            "sentence": "سَيَقُولُ السُّفَهَاءُ"
+          },
+          {
+            "id": "q1_3_7",
+            "word_ar": "جَاءَتْ عَائِشَةُ",
+            "meaning": "Aisyah telah datang",
+            "correct_features": [
+              "ta_tanits"
+            ],
+            "options": [
+              {
+                "id": "ta_tanits",
+                "label": "Ta Ta'nits Sakinah (تْ)"
+              },
+              {
+                "id": "sawfa",
+                "label": "Sawfa (سَوْفَ)"
+              },
+              {
+                "id": "sin",
+                "label": "Awalan Sin (سـ)"
+              },
+              {
+                "id": "alif_lam",
+                "label": "Alif Lam (الـ)"
+              }
+            ],
+            "explanation": "Kata kerja 'جَاءَتْ' memiliki tanda Fi'il berupa Ta Ta'nits Sakinah (تْ) di akhirnya, yang menunjukkan bahwa subjek pelakunya adalah muannats (perempuan: 'Aisyah).",
+            "translation": "Aisyah telah datang",
+            "text_ar": "جَاءَتْ عَائِشَةُ",
+            "arabic": "جَاءَتْ عَائِشَةُ",
+            "sentence": "جَاءَتْ عَائِشَةُ"
+          },
+          {
+            "id": "q1_3_8",
+            "word_ar": "قَدْ أَفْلَحَ",
+            "meaning": "Sungguh telah beruntung",
+            "correct_features": [
+              "qad"
+            ],
+            "options": [
+              {
+                "id": "qad",
+                "label": "Diawali Qad (قَدْ)"
+              },
+              {
+                "id": "ta_tanits",
+                "label": "Ta Ta'nits (تْ)"
+              },
+              {
+                "id": "tanwin",
+                "label": "Tanwin"
+              },
+              {
+                "id": "kasrah",
+                "label": "Akhiran Kasrah"
+              }
+            ],
+            "explanation": "Kata 'أَفْلَحَ' (Fi'il Madhi) didahului partikel 'قَدْ' yang berfaedah tahqiq (penegasan/kepastian). Huruf 'قَدْ' adalah tanda khusus Fi'il menurut Al-Ajurrumiyyah.",
+            "translation": "Sungguh telah beruntung",
+            "text_ar": "قَدْ أَفْلَحَ الْمُؤْمِنُونَ",
+            "arabic": "قَدْ أَفْلَحَ الْمُؤْمِنُونَ",
+            "sentence": "قَدْ أَفْلَحَ الْمُؤْمِنُونَ"
+          },
+          {
+            "id": "q1_3_9",
+            "word_ar": "سَيَذْكُرُ",
+            "meaning": "Akan mengambil pelajaran",
+            "correct_features": [
+              "sin"
+            ],
+            "options": [
+              {
+                "id": "sin",
+                "label": "Awalan Sin (سـ)"
+              },
+              {
+                "id": "sawfa",
+                "label": "Sawfa (سَوْفَ)"
+              },
+              {
+                "id": "kasrah",
+                "label": "Akhiran Kasrah"
+              },
+              {
+                "id": "tanwin",
+                "label": "Tanwin"
+              }
+            ],
+            "explanation": "Kata 'يَذْكُرُ' memiliki tanda Fi'il Mudhari' berupa awalan huruf Sin (سـ). Matan Al-Ajurrumiyyah menyatakan: 'والفعل يُعرف بقد والسين وسوف وتاء التأنيث الساكنة'.",
+            "translation": "Akan mengambil pelajaran",
+            "text_ar": "سَيَذَّكَّرُ مَنْ يَخْشَىٰ",
+            "arabic": "سَيَذَّكَّرُ مَنْ يَخْشَىٰ",
+            "sentence": "سَيَذَّكَّرُ مَنْ يَخْشَىٰ"
+          },
+          {
+            "id": "q1_3_10",
+            "word_ar": "خَرَجَتْ فَاطِمَةُ",
+            "meaning": "Fatimah telah keluar",
+            "correct_features": [
+              "ta_tanits"
+            ],
+            "options": [
+              {
+                "id": "ta_tanits",
+                "label": "Ta Ta'nits Sakinah (تْ)"
+              },
+              {
+                "id": "qad",
+                "label": "Diawali Qad (قَدْ)"
+              },
+              {
+                "id": "sin",
+                "label": "Awalan Sin (سـ)"
+              },
+              {
+                "id": "tanwin",
+                "label": "Tanwin"
+              }
+            ],
+            "explanation": "Kata kerja 'خَرَجَتْ' bersambung dengan akhiran Ta Ta'nits berharakat sukun (تْ). Ini adalah tanda pasti Fi'il Madhi.",
+            "translation": "Fatimah telah keluar",
+            "text_ar": "خَرَجَتْ فَاطِمَةُ",
+            "arabic": "خَرَجَتْ فَاطِمَةُ",
+            "sentence": "خَرَجَتْ فَاطِمَةُ"
+          }
+        ]
+      },
+      {
+        "id": "level_1_4",
+        "title": "Level 1.4: Klasifikasi Tiga Jenis Kata",
+        "subtitle": "Isim vs Fi'il vs Huruf",
+        "type": "basket_sort",
+        "xp_reward": 80,
+        "icon": "🧺",
+        "theory": {
+          "headline": "3 Pembagian Kata (أَقْسَامُ الْكَلَامِ)",
+          "matan_snippet": "وَأَقْسَامُهُ ثَلَاثَةٌ: اسْمٌ، وَفِعْلٌ، وَحَرْفٌ جَاءَ لِمَعْنًى",
+          "points": [
+            {
+              "term_ar": "الِاسْمُ",
+              "term_id": "Isim (Kata Benda / Sifat / Nama / Tempat)",
+              "desc": "Kata yang mengandung makna secara mandiri dan TIDAK terikat dengan waktu. Isim bisa berupa: nama orang (زَيْدٌ), benda (كِتَابٌ), sifat (كَبِيرٌ), atau tempat (مَسْجِدٌ). Ciri khasnya: bisa menerima tanwin, Alif Lam, kasrah, dan didahului huruf jer."
+            },
+            {
+              "term_ar": "الْفِعْلُ",
+              "term_id": "Fi'il (Kata Kerja)",
+              "desc": "Kata yang mengandung makna secara mandiri dan TERIKAT dengan waktu. Ada 3 jenis: Fi'il Madhi/lampau (كَتَبَ = telah menulis), Fi'il Mudhari'/sekarang-akan datang (يَكْتُبُ = sedang/akan menulis), dan Fi'il Amr/perintah (اُكْتُبْ = tulislah!). Ciri khasnya: bisa masuk Qad, Sin, Sawfa, dan Ta Ta'nits."
+            },
+            {
+              "term_ar": "الْحَرْفُ",
+              "term_id": "Huruf (Kata Tugas / Partikel)",
+              "desc": "Kata yang TIDAK memiliki makna mandiri dan baru bermakna jika dirangkai dengan kata lain. Huruf tidak bisa menerima tanda isim maupun tanda fi'il. Contoh: مِنْ (dari), إِلَى (ke), فِي (di), عَلَى (di atas), هَلْ (apakah?), لَمْ (belum), وَ (dan), أَوْ (atau)."
+            }
+          ]
+        },
+        "questions": [
+          {
+            "id": "q1_4_1",
+            "word_ar": "كَتَبَ",
+            "meaning": "Dia telah menulis",
+            "category": "fiil",
+            "hint": "Kata kerja masa lampau (Fi'il Madhi) — berakhiran fathah, pelakunya orang ke-3 tunggal laki-laki.",
+            "translation": "Dia telah menulis",
+            "text_ar": "كَتَبَ",
+            "arabic": "كَتَبَ"
+          },
+          {
+            "id": "q1_4_2",
+            "word_ar": "مِنْ",
+            "meaning": "Dari",
+            "category": "huruf",
+            "hint": "Huruf jer yang menyebabkan isim setelahnya berharakat kasrah. Tidak punya makna berdiri sendiri.",
+            "translation": "Dari",
+            "text_ar": "مِنْ",
+            "arabic": "مِنْ"
+          },
+          {
+            "id": "q1_4_3",
+            "word_ar": "أُسْتَاذٌ",
+            "meaning": "Seorang guru",
+            "category": "isim",
+            "hint": "Kata benda berakhiran Tanwin Dhommatain (ـٌ) — ciri khas Isim Nakirah dalam posisi rafa'.",
+            "translation": "Seorang guru",
+            "text_ar": "أُسْتَاذٌ",
+            "arabic": "أُسْتَاذٌ"
+          },
+          {
+            "id": "q1_4_4",
+            "word_ar": "يَشْرَبُ",
+            "meaning": "Dia sedang minum",
+            "category": "fiil",
+            "hint": "Kata kerja masa sekarang/mendatang (Fi'il Mudhari') — diawali huruf Mudhara'ah Ya' (يَـ) untuk orang ke-3 tunggal laki-laki.",
+            "translation": "Dia sedang minum",
+            "text_ar": "يَشْرَبُ",
+            "arabic": "يَشْرَبُ"
+          },
+          {
+            "id": "q1_4_5",
+            "word_ar": "عَلَى",
+            "meaning": "Di atas",
+            "category": "huruf",
+            "hint": "Huruf jer yang menunjukkan posisi 'di atas sesuatu'. Hanya bermakna jika diikuti isim.",
+            "translation": "Di atas",
+            "text_ar": "عَلَى",
+            "arabic": "عَلَى"
+          },
+          {
+            "id": "q1_4_6",
+            "word_ar": "الْقُرْآنُ",
+            "meaning": "Al-Qur'an",
+            "category": "isim",
+            "hint": "Isim Ma'rifat diawali Alif Lam (الـ) — tanda jelas bahwa ini adalah kata benda tertentu (definite).",
+            "translation": "Al-Qur'an",
+            "text_ar": "الْقُرْآنُ",
+            "arabic": "الْقُرْآنُ"
+          },
+          {
+            "id": "q1_4_7",
+            "word_ar": "ثُمَّ",
+            "meaning": "Kemudian",
+            "category": "huruf",
+            "hint": "Huruf 'athaf (penghubung) yang menunjukkan urutan dengan jeda waktu. Tidak bisa berdiri sendiri.",
+            "translation": "Kemudian",
+            "text_ar": "ثُمَّ",
+            "arabic": "ثُمَّ"
+          },
+          {
+            "id": "q1_4_8",
+            "word_ar": "نَصَرَتْ",
+            "meaning": "Dia (wanita) telah menolong",
+            "category": "fiil",
+            "hint": "Fi'il Madhi dengan tanda Ta Ta'nits Sakinah (تْ) di akhir — penanda pelaku perempuan.",
+            "translation": "Dia (wanita) telah menolong",
+            "text_ar": "نَصَرَتْ",
+            "arabic": "نَصَرَتْ"
+          },
+          {
+            "id": "q1_4_9",
+            "word_ar": "مِنْ",
+            "meaning": "Dari",
+            "category": "huruf",
+            "hint": "Huruf Jar yang menunjukkan titik awal (ibtida'ul ghayah). Huruf tidak memiliki tanda isim maupun fi'il.",
+            "translation": "Dari",
+            "text_ar": "مِنْ",
+            "arabic": "مِنْ"
+          },
+          {
+            "id": "q1_4_10",
+            "word_ar": "الْمَسْجِدُ",
+            "meaning": "Masjid itu",
+            "category": "isim",
+            "hint": "Kata benda yang diawali Alif Lam (الـ). Tanda isim yang sangat gamblang.",
+            "translation": "Masjid itu",
+            "text_ar": "الْمَسْجِدُ",
+            "arabic": "الْمَسْجِدُ"
+          }
+        ]
+      },
+      {
+        "id": "level_1_5",
+        "title": "Level 1.5: Ujian Akhir Bab Al-Kalam",
+        "subtitle": "Bedah Surat Al-Ikhlas & Al-Fatihah",
+        "type": "boss_ayat_scanner",
+        "xp_reward": 120,
+        "icon": "👑",
+        "theory": {
+          "headline": "Ujian Akhir Bab 1: Bedah Ayat Al-Qur'an",
+          "matan_snippet": "تَطْبِيقٌ عَمَلِيٌّ عَلَى كِتَابِ اللَّهِ عَزَّ وَجَلَّ",
+          "points": [
+            {
+              "term_ar": "الْهَدَفُ",
+              "term_id": "Tujuan Boss Stage",
+              "desc": "Menguji kemampuan langsung mengidentifikasi setiap kata dalam ayat Al-Qur'an apakah termasuk Isim, Fi'il, atau Huruf. Gunakan semua tanda yang sudah dipelajari: Alif Lam, Tanwin, Kasrah, Huruf Jer (→ Isim); Qad, Sin, Sawfa, Ta Ta'nits (→ Fi'il); tidak ada tanda isim maupun fi'il (→ Huruf)."
+            }
+          ]
+        },
+        "surah_sections": [
+          {
+            "surah_name": "Surat Al-Ikhlas — Ayat 1",
+            "ayah_number": 1,
+            "ayah_ar": "قُلْ هُوَ اللَّهُ أَحَدٌ",
+            "ayah_translation": "Katakanlah (Muhammad), 'Dialah Allah, Yang Maha Esa.'",
+            "tokens": [
+              {
+                "id": "ikhlas_1_1",
+                "word": "قُلْ",
+                "type": "fiil",
+                "grammar_role": "Fi'il Amr (Kata Kerja Perintah)",
+                "explanation": "Kata kerja perintah (Fi'il Amr) dari akar ق-و-ل yang bermakna 'Katakanlah!'. Memiliki tanda menerima Ya' Muannats Mukhathabah (قُولِي) dan menunjukkan tuntutan perbuatan.",
+                "dalil": "فَالْفِعْلُ يُعْرَفُ بِقَدْ، وَالسِّينِ، وَسَوْفَ، وَتَاءِ التَّأْنِيثِ السَّاكِنَةِ"
+              },
+              {
+                "id": "ikhlas_1_2",
+                "word": "هُوَ",
+                "type": "isim",
+                "grammar_role": "Isim Dhomir Munfashil (Subjek / Mubtada')",
+                "explanation": "Dhomir (kata ganti) termasuk kelompok Isim Ma'rifat. 'هُوَ' adalah dhomir rafa' munfashil untuk orang ketiga tunggal laki-laki yang berkedudukan sebagai Mubtada' (subjek).",
+                "dalil": "وَالِاسْمُ يُعْرَفُ: بِالْخَفْضِ، وَالتَّنْوِينِ، وَدُخُولِ الْأَلِفِ وَاللَّامِ"
+              },
+              {
+                "id": "ikhlas_1_3",
+                "word": "اللَّهُ",
+                "type": "isim",
+                "grammar_role": "Isim 'Alam (Lafdzul Jalalah) — Mubtada' / Khabar",
+                "explanation": "Lafdzul Jalalah adalah Isim 'Alam (nama diri yang paling ma'rifat). Memiliki tanda isim yang kuat (diawali Alif Lam dan menunjukkan nama Dzat Yang Maha Suci).",
+                "dalil": "وَالِاسْمُ يُعْرَفُ بِدُخُولِ الْأَلِفِ وَاللَّامِ"
+              },
+              {
+                "id": "ikhlas_1_4",
+                "word": "أَحَدٌ",
+                "type": "isim",
+                "grammar_role": "Isim Marfu' bertanwin (Khabar)",
+                "explanation": "Tanda Isim sangat nyata dan jelas: bertanwin dhommatain (أَحَدٌ). Berkedudukan sebagai Khabar (predikat) yang marfu'. Bermakna 'Yang Maha Tunggal / Esa'.",
+                "dalil": "وَالِاسْمُ يُعْرَفُ بِالْخَفْضِ، وَالتَّنْوِينِ"
+              }
+            ]
+          },
+          {
+            "surah_name": "Surat Al-Ikhlas — Ayat 2",
+            "ayah_number": 2,
+            "ayah_ar": "اللَّهُ الصَّمَدُ",
+            "ayah_translation": "Allah tempat meminta segala sesuatu.",
+            "tokens": [
+              {
+                "id": "ikhlas_2_1",
+                "word": "اللَّهُ",
+                "type": "isim",
+                "grammar_role": "Isim 'Alam (Mubtada' Marfu')",
+                "explanation": "Lafdzul Jalalah berstatus marfu' dengan tanda dhommah sebagai Mubtada' di awal kalimat. Termasuk kategori Isim.",
+                "dalil": "وَالِاسْمُ يُعْرَفُ بِدُخُولِ الْأَلِفِ وَاللَّامِ"
+              },
+              {
+                "id": "ikhlas_2_2",
+                "word": "الصَّمَدُ",
+                "type": "isim",
+                "grammar_role": "Isim ber-Alif Lam (Khabar)",
+                "explanation": "Tanda Isim terlihat jelas dari awalan Alif Lam (الصَّـ) dan berharakat dhommah di akhir karena menjadi Khabar. Bermakna 'Yang Maha Dibutuhkan tempat bergantung'.",
+                "dalil": "وَالِاسْمُ يُعْرَفُ بِدُخُولِ الْأَلِفِ وَاللَّامِ"
+              }
+            ]
+          },
+          {
+            "surah_name": "Surat Al-Ikhlas — Ayat 3",
+            "ayah_number": 3,
+            "ayah_ar": "لَمْ يَلِدْ وَلَمْ يُولَدْ",
+            "ayah_translation": "Dia tidak beranak dan tidak pula diperanakkan.",
+            "tokens": [
+              {
+                "id": "ikhlas_3_1",
+                "word": "لَمْ",
+                "type": "huruf",
+                "grammar_role": "Huruf Jazm & Nafyi (Peniadaan)",
+                "explanation": "Huruf jazm yang bertugas meniadakan perbuatan di masa lampau dan menjazmkan fi'il mudhari'. Huruf tidak memiliki tanda isim maupun tanda fi'il.",
+                "dalil": "وَالْحَرْفُ مَا لَا يَصْلُحُ مَعَهُ دَلِيلُ الِاسْمِ وَلَا دَلِيلُ الْفِعْلِ"
+              },
+              {
+                "id": "ikhlas_3_2",
+                "word": "يَلِدْ",
+                "type": "fiil",
+                "grammar_role": "Fi'il Mudhari' Majzum",
+                "explanation": "Kata kerja masa kini/akan datang (Fi'il Mudhari') yang dijazmkan oleh huruf 'لَمْ' sehingga sukun di akhir. Diawali huruf mudhara'ah ya (يَـ).",
+                "dalil": "فَالْفِعْلُ يُعْرَفُ بِقَدْ، وَالسِّينِ، وَسَوْفَ"
+              },
+              {
+                "id": "ikhlas_3_3",
+                "word": "وَ",
+                "type": "huruf",
+                "grammar_role": "Huruf 'Athaf (Kata Hubung)",
+                "explanation": "Huruf penghubung ('Athaf) yang menyambungkan dua kalimat. Huruf tidak bisa berdiri sendiri maknanya tanpa kata lain.",
+                "dalil": "وَحَرْفٌ جَاءَ لِمَعْنًى"
+              },
+              {
+                "id": "ikhlas_3_4",
+                "word": "لَمْ",
+                "type": "huruf",
+                "grammar_role": "Huruf Jazm & Nafyi",
+                "explanation": "Huruf jazm dan nafyi kedua yang masuk pada kata kerja berikutnya.",
+                "dalil": "وَالْحَرْفُ مَا لَا يَصْلُحُ مَعَهُ دَلِيلُ الِاسْمِ وَلَا دَلِيلُ الْفِعْلِ"
+              },
+              {
+                "id": "ikhlas_3_5",
+                "word": "يُولَدْ",
+                "type": "fiil",
+                "grammar_role": "Fi'il Mudhari' Majhul (Pasif) Majzum",
+                "explanation": "Kata kerja pasif (mabni maf'ul) dari w-l-d yang berstatus majzum karena huruf 'لَمْ'. Termasuk kategori Fi'il.",
+                "dalil": "فَالْفِعْلُ يُعْرَفُ بِقَدْ، وَالسِّينِ، وَسَوْفَ"
+              }
+            ]
+          },
+          {
+            "surah_name": "Surat Al-Ikhlas — Ayat 4",
+            "ayah_number": 4,
+            "ayah_ar": "وَلَمْ يَكُن لَّهُ كُفُوًا أَحَدٌ",
+            "ayah_translation": "Dan tidak ada seorang pun yang setara dengan Dia.",
+            "tokens": [
+              {
+                "id": "ikhlas_4_1",
+                "word": "وَلَمْ",
+                "type": "huruf",
+                "grammar_role": "Huruf 'Athaf (وَ) + Huruf Jazm (لَمْ)",
+                "explanation": "Rangkaian dua huruf: Wawu 'Athaf (penghubung) dan Lam Jazm (peniadaan). Keduanya adalah Huruf yang bertugas memodifikasi kalimat.",
+                "dalil": "وَحَرْفٌ جَاءَ لِمَعْنًى"
+              },
+              {
+                "id": "ikhlas_4_2",
+                "word": "يَكُن",
+                "type": "fiil",
+                "grammar_role": "Fi'il Mudhari' Naqish Majzum",
+                "explanation": "Fi'il mudhari' dari 'كَانَ' yang dijazmkan oleh 'لَمْ' sehingga huruf wau dibuang untuk menghindari pertemuan dua sukun. Kategori: Fi'il.",
+                "dalil": "فَالْفِعْلُ يُعْرَفُ بِقَدْ، وَالسِّينِ، وَسَوْفَ"
+              },
+              {
+                "id": "ikhlas_4_3",
+                "word": "لَهُ",
+                "type": "huruf",
+                "grammar_role": "Huruf Jar (لَـ) + Dhomir",
+                "explanation": "Diawali oleh huruf jar Lam (لَـ). Bagian pokok amilnya adalah Huruf Jar yang menuntut kata sesudahnya majrur.",
+                "dalil": "وَحُرُوفِ الْخَفْضِ: وَهِيَ مِنْ، وَإِلَى، وَعَنْ... وَاللَّامُ"
+              },
+              {
+                "id": "ikhlas_4_4",
+                "word": "كُفُوًا",
+                "type": "isim",
+                "grammar_role": "Isim Manshub bertanwin (Khabar Kana Muqaddam)",
+                "explanation": "Tanda Isim sangat nyata yaitu bertanwin fathatain (ـً). Berkedudukan sebagai Khabar Kana yang didahulukan (manshub).",
+                "dalil": "وَالِاسْمُ يُعْرَفُ بِالْخَفْضِ، وَالتَّنْوِينِ"
+              },
+              {
+                "id": "ikhlas_4_5",
+                "word": "أَحَدٌ",
+                "type": "isim",
+                "grammar_role": "Isim Marfu' bertanwin (Isim Kana Muakhkhar)",
+                "explanation": "Tanda Isim jelas berupa tanwin dhommatain (ـٌ). Berkedudukan sebagai Isim Kaana yang diakhirkan (marfu').",
+                "dalil": "وَالِاسْمُ يُعْرَفُ بِالْخَفْضِ، وَالتَّنْوِينِ"
+              }
+            ]
+          },
+          {
+            "surah_name": "Surat Al-Falaq — Ayat 1-2",
+            "ayah_number": 1,
+            "ayah_ar": "قُلْ أَعُوذُ بِرَبِّ الْفَلَقِ ۝ مِنْ شَرِّ مَا خَلَقَ",
+            "ayah_translation": "Katakanlah, 'Aku berlindung kepada Tuhan yang menguasai subuh, dari kejahatan apa yang diciptakan-Nya.'",
+            "tokens": [
+              {
+                "id": "falaq_1_1",
+                "word": "قُلْ",
+                "type": "fiil",
+                "grammar_role": "Fi'il Amr (Kata Kerja Perintah)",
+                "explanation": "Kata kerja perintah (Amr) yang bermakna 'Katakanlah'. Kategori Fi'il.",
+                "dalil": "فَالْفِعْلُ يُعْرَفُ بِقَدْ، وَالسِّينِ، وَسَوْفَ"
+              },
+              {
+                "id": "falaq_1_2",
+                "word": "أَعُوذُ",
+                "type": "fiil",
+                "grammar_role": "Fi'il Mudhari' Marfu'",
+                "explanation": "Kata kerja mudhari' yang diawali huruf mudhara'ah Hamzah (أَ) untuk mutakallim (aku berlindung). Berharakat akhir dhommah. Kategori Fi'il.",
+                "dalil": "فَالْفِعْلُ يُعْرَفُ بِقَدْ، وَالسِّينِ، وَسَوْفَ"
+              },
+              {
+                "id": "falaq_1_3",
+                "word": "بِرَبِّ",
+                "type": "isim",
+                "grammar_role": "Isim Majrur diawali Huruf Jar (بِـ)",
+                "explanation": "Kata 'رَبِّ' adalah Isim yang menerima tanda khafadh/jar yaitu didahului huruf jar Ba (بِـ) dan berharakat kasrah.",
+                "dalil": "وَالِاسْمُ يُعْرَفُ بِالْخَفْضِ، وَحُرُوفِ الْخَفْضِ وَهِيَ الْبَاءُ"
+              },
+              {
+                "id": "falaq_1_4",
+                "word": "الْفَلَقِ",
+                "type": "isim",
+                "grammar_role": "Isim ber-Alif Lam & Berkasrah (Mudhaf Ilaih)",
+                "explanation": "Memiliki 2 tanda Isim sekaligus: diawali Alif Lam (الـ) dan berharakat kasrah di akhir sebagai Mudhaf Ilaih.",
+                "dalil": "وَالِاسْمُ يُعْرَفُ بِالْخَفْضِ، وَدُخُولِ الْأَلِفِ وَاللَّامِ"
+              }
+            ]
+          }
+        ],
+        "questions": [],
+        "is_boss": true
+      }
+    ]
+  }
+}

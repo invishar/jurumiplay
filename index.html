@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="id" class="h-full">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+  <title>JurumiPlay — Belajar Nahwu Al-Jurumiyyah</title>
+  <link rel="manifest" href="./manifest.json" />
+  <meta name="theme-color" content="#059669" />
+  
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            brand: {
+              50: '#F0FDF4',
+              100: '#DCFCE7',
+              200: '#BBF7D0',
+              500: '#10B981',
+              600: '#059669',
+              700: '#047857',
+              800: '#065F46',
+            },
+            pastel: {
+              mint: '#E6F4EA',
+              mintDark: '#137333',
+              amber: '#FEF3C7',
+              amberDark: '#B45309',
+              rose: '#FCE8E6',
+              roseDark: '#C5221F',
+              sky: '#E8F0FE',
+              skyDark: '#1A73E8',
+              lavender: '#F3E8FD',
+              lavenderDark: '#7B1FA2'
+            }
+          },
+          fontFamily: {
+            sans: ['"Plus Jakarta Sans"', 'system-ui', 'sans-serif'],
+            arabic: ['"Amiri"', '"Scheherazade New"', 'serif']
+          }
+        }
+      }
+    }
+  </script>
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Amiri:ital,wght@0,400;0,700;1,400&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Scheherazade+New:wght@400;700&display=swap" rel="stylesheet">
+
+  <!-- Lucide Icons -->
+  <script src="https://unpkg.com/lucide@latest"></script>
+  <!-- Canvas Confetti -->
+  <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>
+
+  <style>
+    *, *::before, *::after {
+      box-sizing: border-box;
+    }
+    html, body {
+      width: 100%;
+      max-width: 100%;
+      min-height: 100%;
+      margin: 0;
+      padding: 0;
+      overflow-x: hidden;
+      overscroll-behavior-x: none;
+      -webkit-overflow-scrolling: touch;
+      touch-action: pan-y;
+    }
+    body {
+      background-color: #F8FAFC;
+      /* Smooth ambient gradient - NO background-attachment: fixed to prevent mobile scroll repaints */
+      background-image: 
+        radial-gradient(at 0% 0%, rgba(209, 250, 229, 0.4) 0px, transparent 50%),
+        radial-gradient(at 100% 100%, rgba(254, 243, 199, 0.35) 0px, transparent 50%);
+    }
+    body {
+      min-height: 100vh;
+      min-height: 100dvh;
+      background-color: #0f172a;
+    }
+    #app {
+      background-color: #F8FAFC;
+      background-image: url("data:image/svg+xml,%3Csvg width='32' height='32' viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M16 0l4.94 11.06L32 16l-11.06 4.94L16 32l-4.94-11.06L0 16l11.06-4.94L16 0z' fill='%23059669' fill-opacity='0.025' fill-rule='evenodd'/%3E%3C/svg%3E");
+      width: 100%;
+      max-width: 440px;
+      height: 100vh;
+      height: 100dvh;
+      position: relative;
+      display: flex;
+      flex-direction: column;
+      overflow: hidden;
+      box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.5), 0 0 0 1px rgba(255, 255, 255, 0.08);
+    }
+    #main-view {
+      flex: 1 1 0%;
+      overflow-y: auto;
+      overflow-x: hidden;
+      -webkit-overflow-scrolling: touch;
+      overscroll-behavior-y: contain;
+    }
+    @media (min-width: 640px) {
+      body {
+        background: radial-gradient(circle at 50% 25%, #1e293b 0%, #090d16 100%);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 20px 0;
+      }
+      #app {
+        border-radius: 40px;
+        height: 92vh;
+        max-height: 880px;
+        border: 4px solid #334155;
+      }
+    }
+    .no-scrollbar::-webkit-scrollbar {
+      display: none;
+    }
+    .no-scrollbar {
+      -ms-overflow-style: none;
+      scrollbar-width: none;
+      touch-action: pan-x pan-y;
+      overscroll-behavior-x: contain;
+    }
+    .font-arabic {
+      font-family: 'Amiri', 'Scheherazade New', serif;
+      line-height: 2.5 !important;
+      direction: rtl;
+      font-size: 1.65rem;
+    }
+    .touch-btn {
+      transition: all 0.15s cubic-bezier(0.4, 0, 0.2, 1);
+      touch-action: manipulation;
+    }
+    .touch-btn:active {
+      transform: scale(0.97);
+    }
+    /* Subtle custom scrollbar */
+    ::-webkit-scrollbar {
+      width: 5px;
+    }
+    ::-webkit-scrollbar-thumb {
+      background: #CBD5E1;
+      border-radius: 9999px;
+    }
+  </style>
+</head>
+<body class="min-h-screen text-slate-800 font-sans select-none overflow-x-hidden bg-slate-900 sm:bg-slate-950 flex flex-col items-center justify-start antialiased">
+
+  <!-- Mobile Container for Clean App Feel -->
+  <div id="app" class="w-full max-w-[440px] flex flex-col bg-[#F8FAFC] relative sm:border sm:border-slate-800">
+    
+    <!-- Compact Mobile-First Header Bar (Height ~50px) -->
+    <header class="sticky top-0 z-30 bg-white/95 backdrop-blur-md border-b border-slate-200/90 px-3.5 py-2 flex flex-col shadow-2xs shrink-0">
+      <div class="flex items-center justify-between">
+        <!-- Logo Compact -->
+        <div class="flex items-center space-x-2">
+          <div class="w-8 h-8 rounded-xl bg-emerald-50 text-emerald-600 border border-emerald-200 flex items-center justify-center shrink-0 shadow-2xs">
+            <i data-lucide="book-open" class="w-4 h-4 stroke-[2.2]"></i>
+          </div>
+          <div>
+            <h1 class="text-sm font-extrabold tracking-tight text-slate-800 leading-none">Jurumi<span class="text-emerald-600">Play</span></h1>
+          </div>
+        </div>
+
+        <!-- Badges (Sound, Streak, Stars) -->
+        <div class="flex items-center space-x-1.5 text-xs font-extrabold">
+          <!-- Sound Toggle Button -->
+          <button onclick="toggleAudio()" id="btn-sound-toggle" class="flex items-center justify-center w-7 h-7 rounded-full bg-slate-100 hover:bg-slate-200 text-slate-600 border border-slate-200 shadow-2xs touch-btn transition" title="Pengaturan Suara">
+            <i data-lucide="volume-2" id="sound-icon" class="w-3.5 h-3.5 stroke-[2.2]"></i>
+          </button>
+
+          <!-- Streak -->
+          <div class="flex items-center space-x-1 bg-orange-50 text-orange-700 border border-orange-200 px-2.5 py-1 rounded-full shadow-2xs" title="Hari beruntun">
+            <i data-lucide="flame" class="w-3.5 h-3.5 fill-orange-500 stroke-orange-600"></i>
+            <span id="stat-streak">1</span>
+          </div>
+
+          <!-- Stars -->
+          <div class="flex items-center space-x-1 bg-amber-50 text-amber-700 border border-amber-200 px-2.5 py-1 rounded-full shadow-2xs" title="Total Bintang">
+            <i data-lucide="star" class="w-3.5 h-3.5 fill-amber-400 stroke-amber-500"></i>
+            <span id="stat-stars">0</span>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- Content Views Area -->
+    <main id="main-view" class="flex-1 flex flex-col w-full pb-6">
+      <!-- Dynamic View Container (rendered by app.js) -->
+    </main>
+
+    <nav id="bottom-nav" class="relative w-full z-30 bg-white/95 backdrop-blur-md border-t border-slate-200 py-2.5 px-4 flex items-center justify-around text-slate-500 shadow-lg shrink-0">
+      <button onclick="router.navigate('home')" id="nav-btn-home" class="flex flex-col items-center justify-center py-1.5 px-4 rounded-xl text-emerald-600 font-bold focus:outline-none touch-btn min-w-[64px] min-h-[44px]">
+        <i data-lucide="help-circle" class="w-5 h-5 stroke-[2.2]"></i>
+        <span class="text-[11px] mt-1 font-bold">Kuis</span>
+      </button>
+
+      <button onclick="router.navigate('qawaid')" id="nav-btn-qawaid" class="flex flex-col items-center justify-center py-1.5 px-4 rounded-xl hover:text-slate-800 transition focus:outline-none touch-btn min-w-[64px] min-h-[44px]">
+        <i data-lucide="sparkles" class="w-5 h-5 stroke-[2]"></i>
+        <span class="text-[11px] mt-1 font-bold">Kaidah</span>
+      </button>
+
+      <button onclick="router.navigate('matan')" id="nav-btn-matan" class="flex flex-col items-center justify-center py-1.5 px-4 rounded-xl hover:text-slate-800 transition focus:outline-none touch-btn min-w-[64px] min-h-[44px]">
+        <i data-lucide="scroll-text" class="w-5 h-5 stroke-[2]"></i>
+        <span class="text-[11px] mt-1 font-bold">Matan</span>
+      </button>
+    </nav>
+
+    <!-- Modal Drawer (Teori & Matan) -->
+    <div id="modal-container" class="fixed inset-0 z-50 bg-slate-900/40 backdrop-blur-xs flex items-end sm:items-center justify-center p-0 sm:p-4 transition-opacity hidden">
+      <div class="bg-white border border-slate-100 w-full sm:max-w-md rounded-t-3xl sm:rounded-3xl p-5 shadow-2xl max-h-[85vh] overflow-y-auto animate-slide-up">
+        <div id="modal-content"></div>
+      </div>
+    </div>
+
+  </div>
+
+  <script src="app.js?v=3.3"></script>
+</body>
+</html>

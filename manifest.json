@@ -1,0 +1,17 @@
+{
+  "name": "JurumiPlay - Gamifikasi Kitab Jurumiyah",
+  "short_name": "JurumiPlay",
+  "description": "Belajar Nahwu dan Kitab Al-Jurumiyah dengan cara seru, interaktif, dan gamifikasi bertahap.",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#064e3b",
+  "theme_color": "#059669",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='20' fill='%23059669'/><text x='50%' y='65%' font-size='50' text-anchor='middle' fill='white'>📖</text></svg>",
+      "sizes": "192x192 512x512",
+      "type": "image/svg+xml"
+    }
+  ]
+}

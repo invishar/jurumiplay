@@ -1,0 +1,1676 @@
+{
+  "chapter": {
+    "id": "bab_04",
+    "number": 4,
+    "title_ar": "بَابُ الْمُعْرَبِ",
+    "title_id": "Al-Mu'rab",
+    "description": "Isim-isim yang berubah akhirnya berdasarkan posisi dalam kalimat.",
+    "matan_full": "وَالْمُعْرَبُ مِنَ الأَسْمَاءِ مَا لَيْسَ بِمَبْنِيٍّ، وَالْمُعْرَبَاتُ قِسْمَانِ: قِسْمٌ يُعْرَبُ بِالْحَرَكَاتِ، وَقِسْمٌ يُعْرَبُ بِالْحُرُوفِ. فَالَّذِي يُعْرَبُ بِالْحَرَكَاتِ أَرْبَعَةُ أَشْيَاءَ: الِاسْمُ الْمُفْرَدُ، وَجَمْعُ التَّكْسِيرِ، وَجَمْعُ الْمُؤَنَّثِ السَّالِمُ، وَالْفِعْلُ الْمُضَارِعُ الَّذِي لَمْ يَتَّصِلْ بِآخِرِهِ شَيْءٌ. وَكُلُّهَا تُرْفَعُ بِالضَّمَّةِ، وَتُنْصَبُ بِالْفَتْحَةِ، وَتُخْفَضُ بِالْكَسْرَةِ، وَتُجْزَمُ بِالسُّكُونِ. وَخَرَجَ عَنْ ذَلِكَ ثَلَاثَةُ أَشْيَاءَ: جَمْعُ الْمُؤَنَّثِ السَّالِمُ يُنْصَبُ بِالْكَسْرَةِ، وَالِاسْمُ الَّذِي لَا يَنْصَرِفُ يُخْفَضُ بِالْفَتْحَةِ، وَالْفِعْلُ الْمُضَارِعُ الْمُعْتَلُّ الْآخِرِ يُجْزَمُ بِحَذْفِ آخِرِهِ. وَالَّذِي يُعْرَبُ بِالْحُرُوفِ أَرْبَعَةُ أَشْيَاءَ: التَّثْنِيَةُ، وَجَمْعُ الْمُذَكَّرِ السَّالِمُ، وَالْأَسْمَاءُ الْخَمْسَةُ، وَالْأَفْعَالُ الْخَمْسَةُ. فَأَمَّا التَّثْنِيَةُ فَتُرْفَعُ بِالْأَلِفِ، وَتُنْصَبُ وَتُخْفَضُ بِالْيَاءِ. وَأَمَّا جَمْعُ الْمُذَكَّرِ السَّالِمُ فَيُرْفَعُ بِالْوَاوِ، وَيُنْصَبُ وَتُخْفَضُ بِالْيَاءِ. وَأَمَّا الْأَسْمَاءُ الْخَمْسَةُ فَتُرْفَعُ بِالْوَاوِ، وَتُنْصَبُ بِالْأَلِفِ، وَتُخْفَضُ بِالْيَاءِ. وَأَمَّا الْأَفْعَالُ الْخَمْسَةُ فَتُرْفَعُ بِالنُّونِ، وَتُنْصَبُ وَتُجْزَمُ بِحَذْفِهَا.",
+    "qawaidCard": {
+      "title": "Kaidah: Isim Mu'rab",
+      "matanSnippet": "فَالْمُعْرَبَاتُ قِسْمَانِ: قِسْمٌ يُعْرَبُ بِالْحَرَكَاتِ، وَقِسْمٌ يُعْرَبُ بِالْحُرُوفِ",
+      "formula": "Mu'rab Bil Harakat (Mufrad, JMuS) vs Mu'rab Bil Huruf (Mutsanna, JMS, Asmaul Khamsah)",
+      "points": [
+        "Mufrad: dhommah/fathah/kasrah",
+        "Mutsanna: wawu/ya' (alif tetap)",
+        "Jama' Mudzakkar Salim: wawu/ya'",
+        "Jama' Muannats Salim: dhommah/fathah/kasrah (kasratain)",
+        "Asmaul Khamsah: wawu/alif/ya'"
+      ],
+      "keyTakeaways": [
+        "Mufrad: dhommah saat rafa', fathah saat nashab, kasrah saat jar/khafadh.",
+        "Mutsanna: alif saat rafa', ya' saat nashab & khafadh/jar.",
+        "Jama' Mudzakkar Salim: wawu saat rafa', ya' saat nashab & khafadh/jar.",
+        "Jama' Muannats Salim: dhommah saat rafa', kasrah saat nashab & khafadh/jar.",
+        "Asmaul Khamsah: wawu saat rafa', alif saat nashab, ya' saat khafadh/jar."
+      ]
+    },
+    "levels": [
+      {
+        "id": "level_4_1",
+        "code": "4.1",
+        "title": "Level 4.1: Isim Mufrad & Tanda I'rabnya",
+        "subtitle": "Dhommah, Fathah, & Kasrah pada Kata Tunggal",
+        "titleArabic": "الِاسْمُ الْمُفْرَدُ وَعَلَامَاتُ إِعْرَابِهِ",
+        "xp": 70,
+        "unlocked": true,
+        "is_boss": false,
+        "theory": {
+          "title": "Isim Mufrad & Tanda I'rabnya",
+          "matan": "فَالَّذِي يُعْرَبُ بِالْحَرَكَاتِ أَرْبَعَةُ أَشْيَاءَ: الِاسْمُ الْمُفْرَدُ... وَكُلُّهَا تُرْفَعُ بِالضَّمَّةِ، وَتُنْصَبُ بِالْفَتْحَةِ، وَتُخْفَضُ بِالْكَسْرَةِ",
+          "translation": "Yang di-i'rab dengan harakat ada empat hal: salah satunya Isim Mufrad. Semuanya di-rafa'-kan dengan dhommah, di-nashab-kan dengan fathah, dan di-khafadh/jar-kan dengan kasrah.",
+          "points": [
+            {
+              "label": "Definisi Isim Mufrad",
+              "arabic": "الِاسْمُ الْمُفْرَدُ",
+              "desc": "Kata benda tunggal — bukan isim mutsanna (ganda), bukan jamak, dan bukan asmaul khamsah. Contoh: كِتَابٌ (sebuah buku), مُسْلِمٌ (seorang muslim)."
+            },
+            {
+              "label": "Rafa' dengan Dhommah",
+              "arabic": "الرَّفْعُ بِالضَّمَّةِ",
+              "desc": "Isim mufrad berstatus rafa' ditandai dengan Dhommah (atau Dhommatain bila tanpa Alif Lam). Contoh: جَاءَ زَيْدٌ (Zaid telah datang — Fa'il marfu')."
+            },
+            {
+              "label": "Nashab dengan Fathah",
+              "arabic": "النَّصْبُ بِالْفَتْحَةِ",
+              "desc": "Isim mufrad berstatus nashab ditandai dengan Fathah (atau Fathatain). Contoh: رَأَيْتُ زَيْدًا (Aku melihat Zaid — Maf'ul bih manshub)."
+            },
+            {
+              "label": "Jar/Khafadh dengan Kasrah",
+              "arabic": "الْخَفْضُ بِالْكَسْرَةِ",
+              "desc": "Isim mufrad berstatus jar/khafadh ditandai dengan Kasrah (atau Kasratain). Contoh: مَرَرْتُ بِزَيْدٍ (Aku berpapasan dengan Zaid — Majrur bil ba')."
+            }
+          ]
+        },
+        "questions": [
+          {
+            "id": "q4_1_1",
+            "type": "mcq",
+            "question": "Kata 'الطَّالِبُ' pada kalimat di atas berstatus Rafa' karena menjadi Fa'il. Apakah tanda rafa'-nya?",
+            "prompt": "Kata 'الطَّالِبُ' pada kalimat di atas berstatus Rafa' karena menjadi Fa'il. Apakah tanda rafa'-nya?",
+            "arabic": "كَتَبَ الطَّالِبُ الرِّسَالَةَ",
+            "translation": "Siswa itu telah menulis surat",
+            "meaning": "Siswa itu telah menulis surat",
+            "options": [
+              {
+                "label": "Dhommah",
+                "value": "dhommah"
+              },
+              {
+                "label": "Fathah",
+                "value": "fathah"
+              },
+              {
+                "label": "Kasrah",
+                "value": "kasrah"
+              },
+              {
+                "label": "Sukun",
+                "value": "sukun"
+              }
+            ],
+            "correct": "dhommah",
+            "explanation": "'الطَّالِبُ' adalah isim mufrad (kata tunggal). Tanda asli rafa' isim mufrad adalah Dhommah."
+          },
+          {
+            "id": "q4_1_2",
+            "type": "mcq",
+            "question": "Kata 'كِتَابًا' berposisi sebagai Maf'ul Bih (objek). Apa tanda I'rab Nashab-nya?",
+            "prompt": "Kata 'كِتَابًا' berposisi sebagai Maf'ul Bih (objek). Apa tanda I'rab Nashab-nya?",
+            "arabic": "قَرَأَ مُحَمَّدٌ كِتَابًا",
+            "translation": "Muhammad telah membaca sebuah buku",
+            "meaning": "Muhammad telah membaca sebuah buku",
+            "options": [
+              {
+                "label": "Fathah",
+                "value": "fathah"
+              },
+              {
+                "label": "Dhommah",
+                "value": "dhommah"
+              },
+              {
+                "label": "Alif",
+                "value": "alif"
+              },
+              {
+                "label": "Kasrah",
+                "value": "kasrah"
+              }
+            ],
+            "correct": "fathah",
+            "explanation": "Kata 'كِتَابًا' adalah isim mufrad dalam keadaan Nashab (Maf'ul Bih). Tanda pokok nashab isim mufrad adalah Fathah (atau Fathatain)."
+          },
+          {
+            "id": "q4_1_3",
+            "type": "mcq",
+            "question": "Kata 'الْمَسْجِدِ' didahului huruf jar 'فِي'. Apa tanda I'rab Jar/Khafadh-nya?",
+            "prompt": "Kata 'الْمَسْجِدِ' didahului huruf jar 'فِي'. Apa tanda I'rab Jar/Khafadh-nya?",
+            "arabic": "جَلَسْتُ فِي الْمَسْجِدِ",
+            "translation": "Aku duduk di dalam masjid",
+            "meaning": "Aku duduk di dalam masjid",
+            "options": [
+              {
+                "label": "Kasrah",
+                "value": "kasrah"
+              },
+              {
+                "label": "Fathah",
+                "value": "fathah"
+              },
+              {
+                "label": "Sukun",
+                "value": "sukun"
+              },
+              {
+                "label": "Huruf Ya'",
+                "value": "ya"
+              }
+            ],
+            "correct": "kasrah",
+            "explanation": "Kata 'الْمَسْجِدِ' adalah isim mufrad majrur karena kemasukan amil jar 'فِي'. Tanda asli jar isim mufrad adalah Kasrah."
+          },
+          {
+            "id": "q4_1_4",
+            "type": "mcq",
+            "question": "Kata 'مُسْلِمٌ' adalah contoh dari kategori isim...",
+            "prompt": "Kata 'مُسْلِمٌ' adalah contoh dari kategori isim...",
+            "arabic": "مُسْلِمٌ",
+            "translation": "Seorang muslim",
+            "meaning": "Seorang muslim",
+            "options": [
+              {
+                "label": "Mufrad",
+                "value": "mufrad"
+              },
+              {
+                "label": "Mutsanna",
+                "value": "mutsanna"
+              },
+              {
+                "label": "Jama' Mudzakkar Salim",
+                "value": "jama_mudzakkar"
+              },
+              {
+                "label": "Mabni",
+                "value": "mabni"
+              }
+            ],
+            "correct": "mufrad",
+            "explanation": "'مُسْلِمٌ' adalah isim mufrad (tunggal), tanda rafa'nya dhommatain."
+          },
+          {
+            "id": "q4_1_5",
+            "type": "mcq",
+            "question": "Kedua kata pada kalimat di atas (الْعِلْمُ dan نُورٌ) adalah isim mufrad. Apa I'rab dari keduanya?",
+            "prompt": "Kedua kata pada kalimat di atas (الْعِلْمُ dan نُورٌ) adalah isim mufrad. Apa I'rab dari keduanya?",
+            "arabic": "الْعِلْمُ نُورٌ",
+            "translation": "Ilmu itu adalah cahaya",
+            "meaning": "Ilmu itu adalah cahaya",
+            "options": [
+              {
+                "label": "Marfu' (Rafa') dengan Dhommah",
+                "value": "marfu"
+              },
+              {
+                "label": "Manshub (Nashab) dengan Fathah",
+                "value": "manshub"
+              },
+              {
+                "label": "Majrur (Jar) dengan Kasrah",
+                "value": "majrur"
+              },
+              {
+                "label": "Majzum (Jazm) dengan Sukun",
+                "value": "majzum"
+              }
+            ],
+            "correct": "marfu",
+            "explanation": "Keduanya adalah Mubtada' dan Khabar yang ber-i'rab Marfu' (Rafa') dengan tanda Dhommah di akhirnya."
+          },
+          {
+            "id": "q4_1_6",
+            "type": "mcq",
+            "question": "Pilihlah bentuk kata isim mufrad yang benar untuk melengkapi posisi Maf'ul Bih (Nashab):",
+            "prompt": "Pilihlah bentuk kata isim mufrad yang benar untuk melengkapi posisi Maf'ul Bih (Nashab):",
+            "arabic": "شَرِبَ الْوَلَدُ ......",
+            "translation": "Anak itu telah meminum ......",
+            "meaning": "Anak itu telah meminum ......",
+            "options": [
+              {
+                "label": "الْمَاءَ (berharakat Fathah)",
+                "value": "al-ma-a"
+              },
+              {
+                "label": "الْمَاءُ (berharakat Dhommah)",
+                "value": "al-ma-u"
+              },
+              {
+                "label": "الْمَاءِ (berharakat Kasrah)",
+                "value": "al-ma-i"
+              },
+              {
+                "label": "الْمَاءْ (berharakat Sukun)",
+                "value": "al-ma"
+              }
+            ],
+            "correct": "al-ma-a",
+            "explanation": "Posisi objek (Maf'ul Bih) berstatus Nashab. Isim mufrad tanda nashabnya adalah Fathah: 'الْمَاءَ'."
+          },
+          {
+            "id": "q4_1_7",
+            "type": "mcq",
+            "question": "Lengkapilah dengan kata isim mufrad yang benar setelah huruf jar 'الْبَاءُ':",
+            "prompt": "Lengkapilah dengan kata isim mufrad yang benar setelah huruf jar 'الْبَاءُ':",
+            "arabic": "مَرَرْتُ بِـ ......",
+            "translation": "Aku berpapasan dengan ......",
+            "meaning": "Aku berpapasan dengan ......",
+            "options": [
+              {
+                "label": "رَجُلٍ (berharakat Kasratain)",
+                "value": "rajulin"
+              },
+              {
+                "label": "رَجُلٌ (berharakat Dhommatain)",
+                "value": "rajulun"
+              },
+              {
+                "label": "رَجُلاً (berharakat Fathatain)",
+                "value": "rajulan"
+              },
+              {
+                "label": "رَجُلْ (berharakat Sukun)",
+                "value": "rajul"
+              }
+            ],
+            "correct": "rajulin",
+            "explanation": "Huruf 'بِـ' adalah amil jar, sehingga isim mufrad setelahnya wajib di-jar-kan dengan Kasratain: 'رَجُلٍ'."
+          },
+          {
+            "id": "q4_1_8",
+            "type": "mcq",
+            "question": "Dalam pembagian Al-Mu'rabat menurut Jurumiyyah, isim mufrad termasuk kelompok yang di-i'rab dengan...",
+            "prompt": "Dalam pembagian Al-Mu'rabat menurut Jurumiyyah, isim mufrad termasuk kelompok yang di-i'rab dengan...",
+            "arabic": "الِاسْمُ الْمُفْرَدُ يُعْرَبُ بِـ...",
+            "translation": "Isim Mufrad di-i'rab dengan...",
+            "meaning": "Isim Mufrad di-i'rab dengan...",
+            "options": [
+              {
+                "label": "Harakat (بِالْحَرَكَاتِ)",
+                "value": "harakat"
+              },
+              {
+                "label": "Huruf (بِالْحُرُوفِ)",
+                "value": "huruf"
+              },
+              {
+                "label": "Membuang Huruf (بِالْحَذْفِ)",
+                "value": "hadzf"
+              },
+              {
+                "label": "Mabni (tidak di-i'rab)",
+                "value": "mabni"
+              }
+            ],
+            "correct": "harakat",
+            "explanation": "Menurut Matan Al-Ajurrumiyyah: 'فَالَّذِي يُعْرَبُ بِالْحَرَكَاتِ أَرْبَعَةُ أَشْيَاءَ: الِاسْمُ الْمُفْرَدُ...'. Isim mufrad di-i'rab dengan harakat asli."
+          },
+          {
+            "id": "q4_1_9",
+            "type": "mcq",
+            "question": "Kata 'القَاضِي' adalah isim mufrad manqush. Bagaimana i'rab rafa' dhommah padanya?",
+            "prompt": "Kata 'القَاضِي' adalah isim mufrad manqush. Bagaimana i'rab rafa' dhommah padanya?",
+            "arabic": "جَاءَ القَاضِي",
+            "translation": "Hakim itu telah datang",
+            "meaning": "Hakim itu telah datang",
+            "options": [
+              {
+                "label": "Taqdiri (tersembunyi karena berat/tsiqal)",
+                "value": "taqdiri"
+              },
+              {
+                "label": "Lafzhi (tampak jelas di lisan)",
+                "value": "lafzhi"
+              },
+              {
+                "label": "Di-rafa'-kan dengan huruf Ya'",
+                "value": "huruf_ya"
+              },
+              {
+                "label": "Mabni di atas sukun",
+                "value": "mabni"
+              }
+            ],
+            "correct": "taqdiri",
+            "explanation": "Isim manqus (berakhir Ya' lazimah) seperti 'الْقَاضِي' tanda rafa'nya adalah Dhommah Muqaddarah (taqdiri) karena berat diucapkan (tsiqal)."
+          },
+          {
+            "id": "q4_1_10",
+            "type": "mcq",
+            "question": "Manakah pasangan I'rab yang tepat untuk 'الْمُعَلِّمُ' dan 'الْفَصْلَ'?",
+            "prompt": "Manakah pasangan I'rab yang tepat untuk 'الْمُعَلِّمُ' dan 'الْفَصْلَ'?",
+            "arabic": "دَخَلَ الْمُعَلِّمُ الْفَصْلَ",
+            "translation": "Guru itu memasuki kelas",
+            "meaning": "Guru itu memasuki kelas",
+            "options": [
+              {
+                "label": "الْمُعَلِّمُ marfu' (dhommah), الْفَصْلَ manshub (fathah)",
+                "value": "marfu_manshub"
+              },
+              {
+                "label": "الْمُعَلِّمُ manshub (fathah), الْفَصْلَ marfu' (dhommah)",
+                "value": "manshub_marfu"
+              },
+              {
+                "label": "Keduanya marfu' dengan dhommah",
+                "value": "kedua_marfu"
+              },
+              {
+                "label": "Keduanya majrur dengan kasrah",
+                "value": "kedua_majrur"
+              }
+            ],
+            "correct": "marfu_manshub",
+            "explanation": "'الْمُعَلِّمُ' adalah Fa'il (pelaku) berstatus Marfu' dengan dhommah, sedangkan 'الْفَصْلَ' adalah Maf'ul Bih berstatus Manshub dengan fathah."
+          }
+        ]
+      },
+      {
+        "id": "level_4_2",
+        "code": "4.2",
+        "title": "Level 4.2: Isim Mutsanna — Wawu & Ya'",
+        "subtitle": "Alif untuk Rafa' & Ya' untuk Nashab serta Jar",
+        "titleArabic": "إِعْرَابُ الِاسْمِ الْمُثَنَّى",
+        "xp": 75,
+        "unlocked": false,
+        "is_boss": false,
+        "theory": {
+          "title": "Isim Mutsanna (Kata Ganda)",
+          "matan": "فَأَمَّا التَّثْنِيَةُ فَتُرْفَعُ بِالْأَلِفِ، وَتُنْصَبُ وَتُخْفَضُ بِالْيَاءِ",
+          "translation": "Adapun Isim Tastniyah (Mutsanna) maka di-rafa'-kan dengan Alif, serta di-nashab-kan dan di-khafadh/jar-kan dengan Ya'.",
+          "points": [
+            {
+              "label": "Definisi Isim Mutsanna",
+              "arabic": "الِاسْمُ الْمُثَنَّى",
+              "desc": "Kata yang menunjukkan dua dengan tambahan alif dan nun (ـَانِ) atau ya' dan nun (ـَيْنِ) di akhirnya. Contoh: كِتَابَانِ / كِتَابَيْنِ (dua buku)."
+            },
+            {
+              "label": "Rafa' dengan Huruf Alif",
+              "arabic": "الرَّفْعُ بِالْأَلِفِ",
+              "desc": "Ketika mutsanna dalam posisi marfu' (fa'il, mubtada', khabar), tandanya adalah huruf Alif (ـَانِ). Contoh: قَامَ الرَّجُلَانِ (dua lelaki itu berdiri)."
+            },
+            {
+              "label": "Nashab & Jar dengan Huruf Ya'",
+              "arabic": "النَّصْبُ وَالْخَفْضُ بِالْيَاءِ",
+              "desc": "Saat nashab atau jar, tandanya adalah huruf Ya' dengan huruf sebelum Ya' berfathah dan nun berkasrah (ـَيْنِ). Contoh: رَأَيْتُ الطَّالِبَيْنِ (nashab), سَلَّمْتُ عَلَى الطَّالِبَيْنِ (jar)."
+            },
+            {
+              "label": "Hukum Nun Dibuang saat Idhafah",
+              "arabic": "حَذْفُ النُّونِ لِلْإِضَافَةِ",
+              "desc": "Huruf nun pada mutsanna adalah pengganti tanwin. Nun ini wajib dibuang saat kata di-idhafahkan. Contoh: كِتَابَا زَيْدٍ (dua buku milik Zaid — asalnya كِتَابَانِ)."
+            }
+          ]
+        },
+        "questions": [
+          {
+            "id": "q4_2_1",
+            "type": "mcq",
+            "question": "Kata 'الرَّجُلَانِ' adalah Isim Mutsanna dalam posisi Rafa' (Fa'il). Apakah tanda rafa'-nya?",
+            "prompt": "Kata 'الرَّجُلَانِ' adalah Isim Mutsanna dalam posisi Rafa' (Fa'il). Apakah tanda rafa'-nya?",
+            "arabic": "حَضَرَ الرَّجُلَانِ",
+            "translation": "Dua lelaki itu telah hadir",
+            "meaning": "Dua lelaki itu telah hadir",
+            "options": [
+              {
+                "label": "Huruf Alif (ا)",
+                "value": "alif"
+              },
+              {
+                "label": "Dhommah",
+                "value": "dhommah"
+              },
+              {
+                "label": "Huruf Nun (ن)",
+                "value": "nun"
+              },
+              {
+                "label": "Huruf Wawu (و)",
+                "value": "wawu"
+              }
+            ],
+            "correct": "alif",
+            "explanation": "Isim Mutsanna di-rafa'-kan dengan tanda huruf Alif (ا) sebagai pengganti dhommah. Cirinya berakhiran (ـَانِ)."
+          },
+          {
+            "id": "q4_2_2",
+            "type": "mcq",
+            "question": "Kata 'الطَّالِبَيْنِ' berposisi sebagai Maf'ul Bih (Nashab). Apakah tanda nashab-nya?",
+            "prompt": "Kata 'الطَّالِبَيْنِ' berposisi sebagai Maf'ul Bih (Nashab). Apakah tanda nashab-nya?",
+            "arabic": "رَأَيْتُ الطَّالِبَيْنِ",
+            "translation": "Aku melihat dua siswa itu",
+            "meaning": "Aku melihat dua siswa itu",
+            "options": [
+              {
+                "label": "Huruf Ya' (ي)",
+                "value": "ya"
+              },
+              {
+                "label": "Fathah",
+                "value": "fathah"
+              },
+              {
+                "label": "Huruf Alif (ا)",
+                "value": "alif"
+              },
+              {
+                "label": "Kasrah",
+                "value": "kasrah"
+              }
+            ],
+            "correct": "ya",
+            "explanation": "Isim Mutsanna di-nashab-kan dengan tanda huruf Ya' (ـَيْنِ) dengan huruf sebelum Ya' berharakat fathah."
+          },
+          {
+            "id": "q4_2_3",
+            "type": "mcq",
+            "question": "Kata 'الصَّدِيقَيْنِ' didahului huruf jar 'عَلَى'. Apakah tanda jar/khafadh-nya?",
+            "prompt": "Kata 'الصَّدِيقَيْنِ' didahului huruf jar 'عَلَى'. Apakah tanda jar/khafadh-nya?",
+            "arabic": "سَلَّمْتُ عَلَى الصَّدِيقَيْنِ",
+            "translation": "Aku memberi salam kepada dua sahabat itu",
+            "meaning": "Aku memberi salam kepada dua sahabat itu",
+            "options": [
+              {
+                "label": "Huruf Ya' (ي)",
+                "value": "ya"
+              },
+              {
+                "label": "Kasrah",
+                "value": "kasrah"
+              },
+              {
+                "label": "Huruf Alif (ا)",
+                "value": "alif"
+              },
+              {
+                "label": "Sukun",
+                "value": "sukun"
+              }
+            ],
+            "correct": "ya",
+            "explanation": "Isim Mutsanna di-khafadh/jar-kan dengan tanda huruf Ya' (ي). Tanda nashab dan jar-nya sama-sama Ya'."
+          },
+          {
+            "id": "q4_2_4",
+            "type": "mcq",
+            "question": "Kapan bentuk 'كِتَابَانِ' (dengan Alif) digunakan dalam kalimat?",
+            "prompt": "Kapan bentuk 'كِتَابَانِ' (dengan Alif) digunakan dalam kalimat?",
+            "arabic": "كِتَابَانِ • كِتَابَيْنِ",
+            "translation": "Dua buku (kondisi rafa') • Dua buku (kondisi nashab/jar)",
+            "meaning": "Dua buku (kondisi rafa') • Dua buku (kondisi nashab/jar)",
+            "options": [
+              {
+                "label": "Saat statusnya Rafa' (seperti Fa'il atau Mubtada')",
+                "value": "rafa"
+              },
+              {
+                "label": "Saat statusnya Nashab (seperti Maf'ul Bih)",
+                "value": "nashab"
+              },
+              {
+                "label": "Saat kemasukan huruf jar (Khafadh)",
+                "value": "jar"
+              },
+              {
+                "label": "Saat menjadi Mudhaf Ilaih",
+                "value": "mudhaf_ilaih"
+              }
+            ],
+            "correct": "rafa",
+            "explanation": "Bentuk akhiran (ـَانِ) berhuruf Alif khusus dipakai ketika kata mutsanna berstatus Rafa' (fa'il, mubtada', khabar)."
+          },
+          {
+            "id": "q4_2_5",
+            "type": "mcq",
+            "question": "Lengkapilah kalimat dengan bentuk Mutsanna yang benar untuk posisi Maf'ul Bih (Nashab):",
+            "prompt": "Lengkapilah kalimat dengan bentuk Mutsanna yang benar untuk posisi Maf'ul Bih (Nashab):",
+            "arabic": "اشْتَرَيْتُ ......",
+            "translation": "Aku telah membeli ......",
+            "meaning": "Aku telah membeli ......",
+            "options": [
+              {
+                "label": "قَلَمَيْنِ (dengan Ya')",
+                "value": "qalamaini"
+              },
+              {
+                "label": "قَلَمَانِ (dengan Alif)",
+                "value": "qalamani"
+              },
+              {
+                "label": "قَلَمُونَ (dengan Wawu)",
+                "value": "qalamuna"
+              },
+              {
+                "label": "قَلَمٍ (dengan Kasrah)",
+                "value": "qalamin"
+              }
+            ],
+            "correct": "qalamaini",
+            "explanation": "Posisi objek (Maf'ul Bih) harus Nashab. Tanda nashab isim mutsanna adalah huruf Ya': 'قَلَمَيْنِ'."
+          },
+          {
+            "id": "q4_2_6",
+            "type": "mcq",
+            "question": "Lengkapilah posisi Khabar (Rafa') berikut dengan kata mutsanna yang tepat:",
+            "prompt": "Lengkapilah posisi Khabar (Rafa') berikut dengan kata mutsanna yang tepat:",
+            "arabic": "الْكِتَابَانِ ......",
+            "translation": "Dua buku itu ......",
+            "meaning": "Dua buku itu ......",
+            "options": [
+              {
+                "label": "مُفِيدَانِ (dengan Alif)",
+                "value": "mufidani"
+              },
+              {
+                "label": "مُفِيدَيْنِ (dengan Ya')",
+                "value": "mufidaini"
+              },
+              {
+                "label": "مُفِيدُونَ (dengan Wawu)",
+                "value": "mufiduna"
+              },
+              {
+                "label": "مُفِيدَاتٌ (dengan Dhommatain)",
+                "value": "mufidatun"
+              }
+            ],
+            "correct": "mufidani",
+            "explanation": "Khabar wajib Marfu'. Karena mubtada'-nya mutsanna, khabar-nya juga mutsanna marfu' dengan Alif: 'مُفِيدَانِ'."
+          },
+          {
+            "id": "q4_2_7",
+            "type": "mcq",
+            "question": "Menurut Matan Al-Ajurrumiyyah, dengan huruf apakah Isim Tatsniyah (Mutsanna) di-rafa'-kan?",
+            "prompt": "Menurut Matan Al-Ajurrumiyyah, dengan huruf apakah Isim Tatsniyah (Mutsanna) di-rafa'-kan?",
+            "arabic": "تُرْفَعُ التَّثْنِيَةُ بِـ...",
+            "translation": "Isim Tastniyah (Mutsanna) di-rafa'-kan dengan...",
+            "meaning": "Isim Tastniyah (Mutsanna) di-rafa'-kan dengan...",
+            "options": [
+              {
+                "label": "Alif (الْأَلِفُ)",
+                "value": "alif"
+              },
+              {
+                "label": "Wawu (الْوَاوُ)",
+                "value": "wawu"
+              },
+              {
+                "label": "Dhommah (الضَّمَّةُ)",
+                "value": "dhommah"
+              },
+              {
+                "label": "Nun (النُّونُ)",
+                "value": "nun"
+              }
+            ],
+            "correct": "alif",
+            "explanation": "Matan Al-Ajurrumiyyah menyatakan: 'فَأَمَّا التَّثْنِيَةُ فَتُرْفَعُ بِالْأَلِفِ، وَتُنْصَبُ وَتُخْفَضُ بِالْيَاءِ'."
+          },
+          {
+            "id": "q4_2_8",
+            "type": "mcq",
+            "question": "Kata 'الْجَنَّتَيْنِ' berposisi sebagai Mudhaf Ilaih (Majrur). Apakah tanda jar-nya?",
+            "prompt": "Kata 'الْجَنَّتَيْنِ' berposisi sebagai Mudhaf Ilaih (Majrur). Apakah tanda jar-nya?",
+            "arabic": "كِلْتَا الْجَنَّتَيْنِ",
+            "translation": "Kedua kebun itu (QS. Al-Kahf: 33)",
+            "meaning": "Kedua kebun itu (QS. Al-Kahf: 33)",
+            "options": [
+              {
+                "label": "Huruf Ya' (ي)",
+                "value": "ya"
+              },
+              {
+                "label": "Kasrah",
+                "value": "kasrah"
+              },
+              {
+                "label": "Huruf Alif (ا)",
+                "value": "alif"
+              },
+              {
+                "label": "Fathah",
+                "value": "fathah"
+              }
+            ],
+            "correct": "ya",
+            "explanation": "'الْجَنَّتَيْنِ' adalah isim mutsanna muannats yang menjadi mudhaf ilaih (majrur), tanda jarnya adalah huruf Ya'."
+          },
+          {
+            "id": "q4_2_9",
+            "type": "mcq",
+            "question": "Huruf Nun pada akhir isim mutsanna (seperti pada رَجُلَانِ) berfungsi sebagai apa?",
+            "prompt": "Huruf Nun pada akhir isim mutsanna (seperti pada رَجُلَانِ) berfungsi sebagai apa?",
+            "arabic": "جَاءَ رَجُلَانِ اثْنَانِ",
+            "translation": "Telah datang dua orang laki-laki",
+            "meaning": "Telah datang dua orang laki-laki",
+            "options": [
+              {
+                "label": "Pengganti tanwin pada isim mufrad",
+                "value": "pengganti_tanwin"
+              },
+              {
+                "label": "Tanda pokok i'rab rafa'",
+                "value": "tanda_rafa"
+              },
+              {
+                "label": "Huruf tambahan pemanis kata",
+                "value": "huruf_pemanis"
+              },
+              {
+                "label": "Dhomir kata ganti orang ketiga",
+                "value": "dhomir"
+              }
+            ],
+            "correct": "pengganti_tanwin",
+            "explanation": "Dalam kaidah Nahwu, huruf Nun pada akhir Isim Mutsanna adalah pengganti tanwin dari bentuk mufradnya (عِوَضٌ عَنِ التَّنْوِينِ فِي الِاسْمِ الْمُفْرَدِ)."
+          },
+          {
+            "id": "q4_2_10",
+            "type": "mcq",
+            "question": "Mengapa huruf Nun dibuang pada kata 'كِتَابَا' (asalnya كِتَابَانِ)?",
+            "prompt": "Mengapa huruf Nun dibuang pada kata 'كِتَابَا' (asalnya كِتَابَانِ)?",
+            "arabic": "كِتَابَا زَيْدٍ",
+            "translation": "Dua buku milik Zaid",
+            "meaning": "Dua buku milik Zaid",
+            "options": [
+              {
+                "label": "Karena berposisi sebagai Mudhaf (disandarkan)",
+                "value": "karena_idhafah"
+              },
+              {
+                "label": "Karena dalam keadaan Nashab",
+                "value": "karena_nashab"
+              },
+              {
+                "label": "Karena kemasukan amil jazm",
+                "value": "karena_jazm"
+              },
+              {
+                "label": "Karena berstatus isim mabni",
+                "value": "karena_mabni"
+              }
+            ],
+            "correct": "karena_idhafah",
+            "explanation": "Nun pada isim mutsanna wajib dibuang ketika kata tersebut di-idhafahkan (menjadi Mudhaf): كِتَابَانِ + زَيْدٍ ➔ كِتَابَا زَيْدٍ."
+          }
+        ]
+      },
+      {
+        "id": "level_4_3",
+        "code": "4.3",
+        "title": "Level 4.3: Jama' Mudzakkar Salim",
+        "subtitle": "Wawu untuk Rafa' & Ya' untuk Nashab serta Jar",
+        "titleArabic": "جَمْعُ الْمُذَكَّرِ السَّالِمِ",
+        "xp": 80,
+        "unlocked": false,
+        "is_boss": false,
+        "theory": {
+          "title": "Jama' Mudzakkar Salim",
+          "matan": "وَأَمَّا جَمْعُ الْمُذَكَّرِ السَّالِمُ فَيُرْفَعُ بِالْوَاوِ، وَيُنْصَبُ وَتُخْفَضُ بِالْيَاءِ",
+          "translation": "Adapun Jama' Mudzakkar Salim maka di-rafa'-kan dengan Wawu, serta di-nashab-kan dan di-khafadh/jar-kan dengan Ya'.",
+          "points": [
+            {
+              "label": "Definisi JMS",
+              "arabic": "جَمْعُ الْمُذَكَّرِ السَّالِمِ",
+              "desc": "Jamak beraturan untuk mudzakkar yang berakal dengan tambahan wawu dan nun (ـُونَ) atau ya' dan nun (ـِينَ) tanpa merusak bentuk mufradnya."
+            },
+            {
+              "label": "Rafa' dengan Wawu",
+              "arabic": "الرَّفْعُ بِالْوَاوِ",
+              "desc": "JMS di-rafa'-kan dengan huruf Wawu (ـُونَ) sebagai pengganti dhommah. Contoh: أَفْلَحَ الْمُؤْمِنُونَ (Orang-orang beriman telah beruntung)."
+            },
+            {
+              "label": "Nashab & Jar dengan Ya'",
+              "arabic": "النَّصْبُ وَالْخَفْضُ بِالْيَاءِ",
+              "desc": "JMS di-nashab-kan dan di-jar-kan dengan huruf Ya' (ـِينَ). Ciri khas: huruf sebelum Ya' berharakat KASRAH. Contoh: رَأَيْتُ الْمُسْلِمِينَ (nashab), مَرَرْتُ بِالْمُسْلِمِينَ (jar)."
+            },
+            {
+              "label": "Hukum Nun Dibuang saat Idhafah",
+              "arabic": "حَذْفُ النُّونِ لِلْإِضَافَةِ",
+              "desc": "Nun pada JMS wajib dibuang jika kata menjadi Mudhaf. Contoh: مُعَلِّمُو الْمَدْرَسَةِ (para guru sekolah itu — asalnya مُعَلِّمُونَ)."
+            }
+          ]
+        },
+        "questions": [
+          {
+            "id": "q4_3_1",
+            "type": "mcq",
+            "question": "Kata 'الْمُؤْمِنُونَ' berposisi sebagai Fa'il (Marfu'). Apakah tanda rafa'-nya?",
+            "prompt": "Kata 'الْمُؤْمِنُونَ' berposisi sebagai Fa'il (Marfu'). Apakah tanda rafa'-nya?",
+            "arabic": "فَرِحَ الْمُؤْمِنُونَ",
+            "translation": "Orang-orang beriman itu telah bergembira",
+            "meaning": "Orang-orang beriman itu telah bergembira",
+            "options": [
+              {
+                "label": "Huruf Wawu (و)",
+                "value": "wawu"
+              },
+              {
+                "label": "Dhommah",
+                "value": "dhommah"
+              },
+              {
+                "label": "Huruf Nun (ن)",
+                "value": "nun"
+              },
+              {
+                "label": "Huruf Alif (ا)",
+                "value": "alif"
+              }
+            ],
+            "correct": "wawu",
+            "explanation": "Jama' Mudzakkar Salim (JMS) di-rafa'-kan dengan tanda huruf Wawu (ـُونَ) sebagai pengganti dhommah."
+          },
+          {
+            "id": "q4_3_2",
+            "type": "mcq",
+            "question": "Kata 'الْمُعَلِّمِينَ' berposisi sebagai Maf'ul Bih (Nashab). Apakah tanda nashab-nya?",
+            "prompt": "Kata 'الْمُعَلِّمِينَ' berposisi sebagai Maf'ul Bih (Nashab). Apakah tanda nashab-nya?",
+            "arabic": "شَاهَدْتُ الْمُعَلِّمِينَ",
+            "translation": "Aku menyaksikan para guru itu",
+            "meaning": "Aku menyaksikan para guru itu",
+            "options": [
+              {
+                "label": "Huruf Ya' (ي)",
+                "value": "ya"
+              },
+              {
+                "label": "Fathah",
+                "value": "fathah"
+              },
+              {
+                "label": "Kasrah",
+                "value": "kasrah"
+              },
+              {
+                "label": "Huruf Wawu (و)",
+                "value": "wawu"
+              }
+            ],
+            "correct": "ya",
+            "explanation": "Jama' Mudzakkar Salim di-nashab-kan dengan tanda huruf Ya' (ـِينَ) sebagai pengganti fathah."
+          },
+          {
+            "id": "q4_3_3",
+            "type": "mcq",
+            "question": "Kata 'الْفَائِزِينَ' didahului huruf jar 'عَلَى'. Apakah tanda jar/khafadh-nya?",
+            "prompt": "Kata 'الْفَائِزِينَ' didahului huruf jar 'عَلَى'. Apakah tanda jar/khafadh-nya?",
+            "arabic": "سَلَّمْتُ عَلَى الْفَائِزِينَ",
+            "translation": "Aku mengucapkan salam kepada para pemenang",
+            "meaning": "Aku mengucapkan salam kepada para pemenang",
+            "options": [
+              {
+                "label": "Huruf Ya' (ي)",
+                "value": "ya"
+              },
+              {
+                "label": "Kasrah",
+                "value": "kasrah"
+              },
+              {
+                "label": "Fathah",
+                "value": "fathah"
+              },
+              {
+                "label": "Huruf Nun (ن)",
+                "value": "nun"
+              }
+            ],
+            "correct": "ya",
+            "explanation": "Jama' Mudzakkar Salim di-khafadh/jar-kan dengan tanda huruf Ya' (ي). JMS memakai Ya' untuk nashab dan jar."
+          },
+          {
+            "id": "q4_3_4",
+            "type": "mcq",
+            "question": "Bagaimana cara membedakan harakat huruf sebelum Ya' pada JMS (الْمُسْلِمِينَ) vs Mutsanna (الْمُسْلِمَيْنِ)?",
+            "prompt": "Bagaimana cara membedakan harakat huruf sebelum Ya' pada JMS (الْمُسْلِمِينَ) vs Mutsanna (الْمُسْلِمَيْنِ)?",
+            "arabic": "الْمُسْلِمُونَ • الْمُسْلِمِينَ",
+            "translation": "Orang-orang muslim (rafa') • Orang-orang muslim (nashab/jar)",
+            "meaning": "Orang-orang muslim (rafa') • Orang-orang muslim (nashab/jar)",
+            "options": [
+              {
+                "label": "Pada JMS kasrah (ـلِمِينَ), pada Mutsanna fathah (ـلَمَيْنِ)",
+                "value": "jms_kasrah_mutsanna_fathah"
+              },
+              {
+                "label": "Pada JMS fathah, pada Mutsanna kasrah",
+                "value": "jms_fathah_mutsanna_kasrah"
+              },
+              {
+                "label": "Keduanya sama-sama berharakat dhommah",
+                "value": "keduanya_dhommah"
+              },
+              {
+                "label": "Keduanya sama-sama berharakat sukun",
+                "value": "keduanya_sukun"
+              }
+            ],
+            "correct": "jms_kasrah_mutsanna_fathah",
+            "explanation": "Rumus pembeda: Pada JMS sebelum Ya' berharakat KASRAH dan Nun berfathah (مُسْلِمِينَ). Pada Mutsanna sebelum Ya' berharakat FATHAH dan Nun berkasrah (مُسْلِمَيْنِ)."
+          },
+          {
+            "id": "q4_3_5",
+            "type": "mcq",
+            "question": "Lengkapilah isim 'إِنَّ' (wajib Nashab) berikut dengan bentuk JMS yang benar:",
+            "prompt": "Lengkapilah isim 'إِنَّ' (wajib Nashab) berikut dengan bentuk JMS yang benar:",
+            "arabic": "إِنَّ ......",
+            "translation": "Sesungguhnya ......",
+            "meaning": "Sesungguhnya ......",
+            "options": [
+              {
+                "label": "الصَّابِرِينَ (dengan Ya')",
+                "value": "ash-shabirina"
+              },
+              {
+                "label": "الصَّابِرُونَ (dengan Wawu)",
+                "value": "ash-shabiruna"
+              },
+              {
+                "label": "الصَّابِرَانِ (dengan Alif)",
+                "value": "ash-shabirani"
+              },
+              {
+                "label": "الصَّابِرُ (dengan Dhommah)",
+                "value": "ash-shabiru"
+              }
+            ],
+            "correct": "ash-shabirina",
+            "explanation": "Isim 'إِنَّ' berstatus Nashab. Tanda nashab bagi Jama' Mudzakkar Salim adalah huruf Ya': 'الصَّابِرِينَ'."
+          },
+          {
+            "id": "q4_3_6",
+            "type": "mcq",
+            "question": "Lengkapilah isim 'كَانَ' (wajib Rafa') berikut dengan bentuk JMS yang tepat:",
+            "prompt": "Lengkapilah isim 'كَانَ' (wajib Rafa') berikut dengan bentuk JMS yang tepat:",
+            "arabic": "كَانَ ......",
+            "translation": "Dahulu/Adalah ......",
+            "meaning": "Dahulu/Adalah ......",
+            "options": [
+              {
+                "label": "الْمُجْتَهِدُونَ (dengan Wawu)",
+                "value": "al-mujtahiduna"
+              },
+              {
+                "label": "الْمُجْتَهِدِينَ (dengan Ya')",
+                "value": "al-mujtahidina"
+              },
+              {
+                "label": "الْمُجْتَهِدَانِ (dengan Alif)",
+                "value": "al-mujtahidani"
+              },
+              {
+                "label": "الْمُجْتَهِدَ (dengan Fathah)",
+                "value": "al-mujtahida"
+              }
+            ],
+            "correct": "al-mujtahiduna",
+            "explanation": "Isim 'كَانَ' wajib Marfu' (Rafa'). Tanda rafa' bagi Jama' Mudzakkar Salim adalah huruf Wawu: 'الْمُجْتَهِدُونَ'."
+          },
+          {
+            "id": "q4_3_7",
+            "type": "mcq",
+            "question": "Apa kedudukan kata 'الْمُؤْمِنُونَ' dan apakah tanda I'rab-nya?",
+            "prompt": "Apa kedudukan kata 'الْمُؤْمِنُونَ' dan apakah tanda I'rab-nya?",
+            "arabic": "قَدْ أَفْلَحَ الْمُؤْمِنُونَ",
+            "translation": "Sungguh beruntung orang-orang yang beriman (QS. Al-Mu'minun: 1)",
+            "meaning": "Sungguh beruntung orang-orang yang beriman (QS. Al-Mu'minun: 1)",
+            "options": [
+              {
+                "label": "Fa'il marfu' dengan tanda Wawu",
+                "value": "fail_wawu"
+              },
+              {
+                "label": "Maf'ul bih manshub dengan tanda Ya'",
+                "value": "maful_ya"
+              },
+              {
+                "label": "Mubtada' marfu' dengan tanda Nun",
+                "value": "mubtada_nun"
+              },
+              {
+                "label": "Khabar marfu' dengan tanda Dhommah",
+                "value": "khabar_dhommah"
+              }
+            ],
+            "correct": "fail_wawu",
+            "explanation": "'الْمُؤْمِنُونَ' adalah Fa'il (pelaku) marfu' dengan tanda huruf Wawu karena Jama' Mudzakkar Salim."
+          },
+          {
+            "id": "q4_3_8",
+            "type": "mcq",
+            "question": "Mengapa huruf Nun dibuang pada kata 'مُعَلِّمُو' (asalnya مُعَلِّمُونَ)?",
+            "prompt": "Mengapa huruf Nun dibuang pada kata 'مُعَلِّمُو' (asalnya مُعَلِّمُونَ)?",
+            "arabic": "مُعَلِّمُو الْمَدْرَسَةِ",
+            "translation": "Para guru sekolah itu",
+            "meaning": "Para guru sekolah itu",
+            "options": [
+              {
+                "label": "Karena berposisi sebagai Mudhaf (di-idhafahkan)",
+                "value": "karena_idhafah"
+              },
+              {
+                "label": "Karena berstatus Manshub",
+                "value": "karena_manshub"
+              },
+              {
+                "label": "Karena kemasukan amil nawashib",
+                "value": "karena_amil"
+              },
+              {
+                "label": "Karena huruf Nun berada di awal kalimat",
+                "value": "karena_posisi"
+              }
+            ],
+            "correct": "karena_idhafah",
+            "explanation": "Nun pada Jama' Mudzakkar Salim wajib dibuang ketika di-idhafahkan (menjadi Mudhaf): مُعَلِّمُونَ + الْمَدْرَسَةِ ➔ مُعَلِّمُو الْمَدْرَسَةِ."
+          },
+          {
+            "id": "q4_3_9",
+            "type": "mcq",
+            "question": "Lengkapilah kutipan kaidah Matan Ajurrumiyyah: 'وَأَمَّا جَمْعُ الْمُذَكَّرِ السَّالِمُ فَيُرْفَعُ بِـ...'",
+            "prompt": "Lengkapilah kutipan kaidah Matan Ajurrumiyyah: 'وَأَمَّا جَمْعُ الْمُذَكَّرِ السَّالِمُ فَيُرْفَعُ بِـ...'",
+            "arabic": "يُرْفَعُ جَمْعُ الْمُذَكَّرِ السَّالِمُ بِـ...",
+            "translation": "Jama' Mudzakkar Salim di-rafa'-kan dengan...",
+            "meaning": "Jama' Mudzakkar Salim di-rafa'-kan dengan...",
+            "options": [
+              {
+                "label": "الْوَاوِ (Huruf Wawu)",
+                "value": "wawu"
+              },
+              {
+                "label": "الْأَلِفِ (Huruf Alif)",
+                "value": "alif"
+              },
+              {
+                "label": "الضَّمَّةِ (Dhommah)",
+                "value": "dhommah"
+              },
+              {
+                "label": "النُّونِ (Huruf Nun)",
+                "value": "nun"
+              }
+            ],
+            "correct": "wawu",
+            "explanation": "Matan Al-Ajurrumiyyah menyatakan: 'وَأَمَّا جَمْعُ الْمُذَكَّرِ السَّالِمُ فَيُرْفَعُ بِالْوَاوِ، وَيُنْصَبُ وَتُخْفَضُ بِالْيَاءِ'."
+          },
+          {
+            "id": "q4_3_10",
+            "type": "mcq",
+            "question": "Kata 'مَسَاكِين' berakhiran huruf Ya' dan Nun. Mengapa ia BUKAN Jama' Mudzakkar Salim?",
+            "prompt": "Kata 'مَسَاكِين' berakhiran huruf Ya' dan Nun. Mengapa ia BUKAN Jama' Mudzakkar Salim?",
+            "arabic": "مَسَاكِين • مُسْلِمِين",
+            "translation": "Orang-orang miskin • Orang-orang muslim",
+            "meaning": "Orang-orang miskin • Orang-orang muslim",
+            "options": [
+              {
+                "label": "Karena bentuk mufradnya (مِسْكِين) pecah, sehingga ia Jama' Taksir",
+                "value": "jama_taksir"
+              },
+              {
+                "label": "Karena ia adalah Isim Mutsanna",
+                "value": "mutsanna"
+              },
+              {
+                "label": "Karena ia adalah Asmaul Khamsah",
+                "value": "asmaul_khamsah"
+              },
+              {
+                "label": "Karena huruf Nun-nya adalah dhomir",
+                "value": "dhomir"
+              }
+            ],
+            "correct": "jama_taksir",
+            "explanation": "Pada 'مَسَاكِين', huruf Ya' dan Nun adalah huruf asli dari mufradnya (مِسْكِين) yang polanya pecah, bukan tambahan salim. Maka ia adalah Jama' Taksir, bukan JMS."
+          }
+        ]
+      },
+      {
+        "id": "level_4_4",
+        "code": "4.4",
+        "title": "Level 4.4: Jama' Muannats Salim & Asmaul Khamsah",
+        "subtitle": "Nashab Kasrah pada JMuS & Tanda Huruf Asmaul Khamsah",
+        "titleArabic": "جَمْعُ الْمُؤَنَّثِ السَّالِمِ وَالْأَسْمَاءُ الْخَمْسَةُ",
+        "xp": 85,
+        "unlocked": false,
+        "is_boss": false,
+        "theory": {
+          "title": "Jama' Muannats Salim & Asmaul Khamsah",
+          "matan": "جَمْعُ الْمُؤَنَّثِ السَّالِمُ يُنْصَبُ بِالْكَسْرَةِ، وَأَمَّا الْأَسْمَاءُ الْخَمْسَةُ فَتُرْفَعُ بِالْوَاوِ، وَتُنْصَبُ بِالْأَلِفِ، وَتُخْفَضُ بِالْيَاءِ",
+          "translation": "Jama' Muannats Salim di-nashab-kan dengan Kasrah. Adapun Asmaul Khamsah di-rafa'-kan dengan Wawu, di-nashab-kan dengan Alif, dan di-khafadh/jar-kan dengan Ya'.",
+          "points": [
+            {
+              "label": "Jama' Muannats Salim (JMuS)",
+              "arabic": "جَمْعُ الْمُؤَنَّثِ السَّالِمُ",
+              "desc": "Jamak berakhiran alif & ta' (ـَاتٌ). Rafa' dengan dhommah (مُسْلِمَاتٌ), uniknya NASHAB dengan KASRAH (مُسْلِمَاتٍ) menggantikan fathah, dan jar dengan kasrah (مُسْلِمَاتٍ)."
+            },
+            {
+              "label": "Lima Isim Asmaul Khamsah",
+              "arabic": "الْأَسْمَاءُ الْخَمْسَةُ",
+              "desc": "Lima isim khusus: أَبُوكَ (ayahmu), أَخُوكَ (saudaramu), حَمُوكَ (mertuamu), فُوكَ (mulutmu), ذُو مَالٍ (pemilik harta)."
+            },
+            {
+              "label": "Tanda I'rab Asmaul Khamsah",
+              "arabic": "إِعْرَابُ الْأَسْمَاءِ الْخَمْسَةِ",
+              "desc": "Rafa' dengan WAWU (أَبُوكَ), Nashab dengan ALIF (أَبَاكَ), Khafadh/Jar dengan YA' (أَبِيكَ)."
+            },
+            {
+              "label": "Syarat I'rab Bil-Huruf",
+              "arabic": "شُرُوطُ إِعْرَابِهَا بِالْحُرُوفِ",
+              "desc": "Harus Mufrad, Mukabbar (tidak ditashghir), Mudhaf (disandarkan), dan idhafah-nya kepada selain Ya' Mutakallim. Jika disandarkan ke Ya' mutakallim (أَبِي = ayahku), maka dengan harakat muqaddarah."
+            }
+          ]
+        },
+        "questions": [
+          {
+            "id": "q4_4_1",
+            "type": "mcq",
+            "question": "Kata 'الْمُعَلِّمَاتُ' adalah Jama' Muannats Salim (JMuS) dalam posisi Fa'il (Rafa'). Apakah tanda rafa'-nya?",
+            "prompt": "Kata 'الْمُعَلِّمَاتُ' adalah Jama' Muannats Salim (JMuS) dalam posisi Fa'il (Rafa'). Apakah tanda rafa'-nya?",
+            "arabic": "جَاءَتِ الْمُعَلِّمَاتُ",
+            "translation": "Para guru wanita itu telah datang",
+            "meaning": "Para guru wanita itu telah datang",
+            "options": [
+              {
+                "label": "Dhommah",
+                "value": "dhommah"
+              },
+              {
+                "label": "Alif",
+                "value": "alif"
+              },
+              {
+                "label": "Kasrah",
+                "value": "kasrah"
+              },
+              {
+                "label": "Fathah",
+                "value": "fathah"
+              }
+            ],
+            "correct": "dhommah",
+            "explanation": "Jama' Muannats Salim di-rafa'-kan dengan tanda pokok Dhommah (الضَّمَّةُ): 'جَاءَتِ الْمُعَلِّمَاتُ'."
+          },
+          {
+            "id": "q4_4_2",
+            "type": "mcq",
+            "question": "Kata 'السَّمَاوَاتِ' berposisi sebagai Maf'ul Bih (Nashab). Apakah tanda nashab-nya yang unik?",
+            "prompt": "Kata 'السَّمَاوَاتِ' berposisi sebagai Maf'ul Bih (Nashab). Apakah tanda nashab-nya yang unik?",
+            "arabic": "خَلَقَ اللَّهُ السَّمَاوَاتِ",
+            "translation": "Allah telah menciptakan langit-langit (QS. Al-Ankabut: 44)",
+            "meaning": "Allah telah menciptakan langit-langit (QS. Al-Ankabut: 44)",
+            "options": [
+              {
+                "label": "Kasrah (menggantikan fathah)",
+                "value": "kasrah"
+              },
+              {
+                "label": "Fathah",
+                "value": "fathah"
+              },
+              {
+                "label": "Alif",
+                "value": "alif"
+              },
+              {
+                "label": "Dhommah",
+                "value": "dhommah"
+              }
+            ],
+            "correct": "kasrah",
+            "explanation": "Keistimewaan Jama' Muannats Salim adalah di-nashab-kan dengan tanda KASRAH sebagai pengganti fathah: 'خَلَقَ اللَّهُ السَّمَاوَاتِ'."
+          },
+          {
+            "id": "q4_4_3",
+            "type": "mcq",
+            "question": "Kata 'الطَّالِبَاتِ' didahului huruf jar 'الْبَاءُ'. Apakah tanda jar/khafadh-nya?",
+            "prompt": "Kata 'الطَّالِبَاتِ' didahului huruf jar 'الْبَاءُ'. Apakah tanda jar/khafadh-nya?",
+            "arabic": "مَرَرْتُ بِالطَّالِبَاتِ",
+            "translation": "Aku berpapasan dengan para siswi itu",
+            "meaning": "Aku berpapasan dengan para siswi itu",
+            "options": [
+              {
+                "label": "Kasrah",
+                "value": "kasrah"
+              },
+              {
+                "label": "Fathah",
+                "value": "fathah"
+              },
+              {
+                "label": "Huruf Ya'",
+                "value": "ya"
+              },
+              {
+                "label": "Dhommah",
+                "value": "dhommah"
+              }
+            ],
+            "correct": "kasrah",
+            "explanation": "Jama' Muannats Salim di-jar-kan dengan tanda pokok Kasrah. Tanda nashab dan jar JMuS sama-sama Kasrah."
+          },
+          {
+            "id": "q4_4_4",
+            "type": "mcq",
+            "question": "Kata 'أَبُوكَ' adalah bagian dari Asmaul Khamsah dalam posisi Rafa' (Fa'il). Apakah tanda rafa'-nya?",
+            "prompt": "Kata 'أَبُوكَ' adalah bagian dari Asmaul Khamsah dalam posisi Rafa' (Fa'il). Apakah tanda rafa'-nya?",
+            "arabic": "جَاءَ أَبُوكَ",
+            "translation": "Ayahmu telah datang",
+            "meaning": "Ayahmu telah datang",
+            "options": [
+              {
+                "label": "Huruf Wawu (و)",
+                "value": "wawu"
+              },
+              {
+                "label": "Dhommah",
+                "value": "dhommah"
+              },
+              {
+                "label": "Huruf Alif (ا)",
+                "value": "alif"
+              },
+              {
+                "label": "Huruf Kaf (ك)",
+                "value": "kaf"
+              }
+            ],
+            "correct": "wawu",
+            "explanation": "Asmaul Khamsah di-rafa'-kan dengan tanda huruf Wawu (و) sebagai pengganti dhommah: 'جَاءَ أَبُوكَ'."
+          },
+          {
+            "id": "q4_4_5",
+            "type": "mcq",
+            "question": "Kata 'أَبَاكَ' berposisi sebagai Maf'ul Bih (Nashab). Apakah tanda nashab-nya?",
+            "prompt": "Kata 'أَبَاكَ' berposisi sebagai Maf'ul Bih (Nashab). Apakah tanda nashab-nya?",
+            "arabic": "رَأَيْتُ أَبَاكَ",
+            "translation": "Aku telah melihat ayahmu",
+            "meaning": "Aku telah melihat ayahmu",
+            "options": [
+              {
+                "label": "Huruf Alif (ا)",
+                "value": "alif"
+              },
+              {
+                "label": "Fathah",
+                "value": "fathah"
+              },
+              {
+                "label": "Huruf Wawu (و)",
+                "value": "wawu"
+              },
+              {
+                "label": "Huruf Ya' (ي)",
+                "value": "ya"
+              }
+            ],
+            "correct": "alif",
+            "explanation": "Asmaul Khamsah di-nashab-kan dengan tanda huruf Alif (ا) sebagai pengganti fathah: 'رَأَيْتُ أَبَاكَ'."
+          },
+          {
+            "id": "q4_4_6",
+            "type": "mcq",
+            "question": "Kata 'أَبِيكَ' didahului huruf jar 'الْبَاءُ'. Apakah tanda jar/khafadh-nya?",
+            "prompt": "Kata 'أَبِيكَ' didahului huruf jar 'الْبَاءُ'. Apakah tanda jar/khafadh-nya?",
+            "arabic": "مَرَرْتُ بِأَبِيكَ",
+            "translation": "Aku berpapasan dengan ayahmu",
+            "meaning": "Aku berpapasan dengan ayahmu",
+            "options": [
+              {
+                "label": "Huruf Ya' (ي)",
+                "value": "ya"
+              },
+              {
+                "label": "Kasrah",
+                "value": "kasrah"
+              },
+              {
+                "label": "Huruf Alif (ا)",
+                "value": "alif"
+              },
+              {
+                "label": "Huruf Wawu (و)",
+                "value": "wawu"
+              }
+            ],
+            "correct": "ya",
+            "explanation": "Asmaul Khamsah di-khafadh/jar-kan dengan tanda huruf Ya' (ي) sebagai pengganti kasrah: 'مَرَرْتُ بِأَبِيكَ'."
+          },
+          {
+            "id": "q4_4_7",
+            "type": "mcq",
+            "question": "Manakah yang BUKAN termasuk 5 isim dalam Asmaul Khamsah (الْأَسْمَاءُ الْخَمْسَةُ)?",
+            "prompt": "Manakah yang BUKAN termasuk 5 isim dalam Asmaul Khamsah (الْأَسْمَاءُ الْخَمْسَةُ)?",
+            "arabic": "أَبٌ، أَخٌ، حَمٌ، فُوْ، ذُو مَالٍ",
+            "translation": "Ayah, saudara, mertua/ipar, mulut, pemilik harta",
+            "meaning": "Ayah, saudara, mertua/ipar, mulut, pemilik harta",
+            "options": [
+              {
+                "label": "ابْنٌ (anak laki-laki)",
+                "value": "ibnun"
+              },
+              {
+                "label": "أَبٌ (ayah)",
+                "value": "abun"
+              },
+              {
+                "label": "حَمٌ (mertua/ipar)",
+                "value": "hamun"
+              },
+              {
+                "label": "ذُو (pemilik)",
+                "value": "dzu"
+              }
+            ],
+            "correct": "ibnun",
+            "explanation": "Asmaul Khamsah hanya terdiri dari 5 isim khusus: أَبٌ, أَخٌ, حَمٌ, فُوْ, dan ذُو. Kata 'ابْنٌ' bukan Asmaul Khamsah."
+          },
+          {
+            "id": "q4_4_8",
+            "type": "mcq",
+            "question": "Lengkapilah posisi Maf'ul Bih (Nashab) dengan kata Asmaul Khamsah yang benar:",
+            "prompt": "Lengkapilah posisi Maf'ul Bih (Nashab) dengan kata Asmaul Khamsah yang benar:",
+            "arabic": "أَطِعْ ......",
+            "translation": "Taatilah ......",
+            "meaning": "Taatilah ......",
+            "options": [
+              {
+                "label": "أَخَاكَ (dengan Alif)",
+                "value": "akhaka"
+              },
+              {
+                "label": "أَخُوكَ (dengan Wawu)",
+                "value": "akhuka"
+              },
+              {
+                "label": "أَخِيكَ (dengan Ya')",
+                "value": "akhika"
+              },
+              {
+                "label": "أَخٌ (dengan Dhommah)",
+                "value": "akhun"
+              }
+            ],
+            "correct": "akhaka",
+            "explanation": "Maf'ul Bih berstatus Nashab. Tanda nashab Asmaul Khamsah adalah huruf Alif: 'أَخَاكَ'."
+          },
+          {
+            "id": "q4_4_9",
+            "type": "mcq",
+            "question": "Mengapa kata 'أَبِي' di sini TIDAK di-i'rab dengan huruf Wawu/Alif/Ya'?",
+            "prompt": "Mengapa kata 'أَبِي' di sini TIDAK di-i'rab dengan huruf Wawu/Alif/Ya'?",
+            "arabic": "هَذَا أَبِي",
+            "translation": "Ini adalah ayahku",
+            "meaning": "Ini adalah ayahku",
+            "options": [
+              {
+                "label": "Karena bersambung dengan Ya' Mutakallim (ayahku)",
+                "value": "ya_mutakallim"
+              },
+              {
+                "label": "Karena berstatus Manshub",
+                "value": "status_manshub"
+              },
+              {
+                "label": "Karena bentuknya jamak",
+                "value": "bentuk_jamak"
+              },
+              {
+                "label": "Karena hurufnya kurang dari tiga",
+                "value": "kurang_huruf"
+              }
+            ],
+            "correct": "ya_mutakallim",
+            "explanation": "Syarat Asmaul Khamsah di-i'rab bil-huruf adalah harus di-idhafahkan kepada selain Ya' Mutakallim. Jika disandarkan ke Ya' Mutakallim (أَبِي), tanda i'rabnya dengan harakat muqaddarah."
+          },
+          {
+            "id": "q4_4_10",
+            "type": "mcq",
+            "question": "Pilihlah bentuk Jama' Muannats Salim yang benar untuk mengisi posisi Isim 'إِنَّ' (Nashab):",
+            "prompt": "Pilihlah bentuk Jama' Muannats Salim yang benar untuk mengisi posisi Isim 'إِنَّ' (Nashab):",
+            "arabic": "إِنَّ ......",
+            "translation": "Sesungguhnya ......",
+            "meaning": "Sesungguhnya ......",
+            "options": [
+              {
+                "label": "الْمُسْلِمَاتِ (berharakat Kasrah)",
+                "value": "al-muslimati"
+              },
+              {
+                "label": "الْمُسْلِمَاتَ (berharakat Fathah)",
+                "value": "al-muslimata"
+              },
+              {
+                "label": "الْمُسْلِمَاتُ (berharakat Dhommah)",
+                "value": "al-muslimatu"
+              },
+              {
+                "label": "الْمُسْلِمَاتْ (berharakat Sukun)",
+                "value": "al-muslimat"
+              }
+            ],
+            "correct": "al-muslimati",
+            "explanation": "Isim 'إِنَّ' berstatus Nashab. Jama' Muannats Salim tanda nashabnya adalah Kasrah (bukan fathah): 'إِنَّ الْمُسْلِمَاتِ'."
+          }
+        ]
+      },
+      {
+        "id": "level_4_5",
+        "code": "4.5",
+        "title": "Level 4.5: Boss Stage: Ujian Al-Mu'rab",
+        "subtitle": "Ujian Komprehensif Seluruh Isim Mu'rab",
+        "titleArabic": "تَحَدِّي بَابِ الْمُعْرَبِ",
+        "xp": 120,
+        "unlocked": false,
+        "is_boss": true,
+        "theory": {
+          "title": "Ringkasan Lengkap Bab Al-Mu'rab",
+          "matan": "فَالْمُعْرَبَاتُ قِسْمَانِ: قِسْمٌ يُعْرَبُ بِالْحَرَكَاتِ، وَقِسْمٌ يُعْرَبُ بِالْحُرُوفِ",
+          "translation": "Maka kata-kata yang di-i'rab terbagi dua kelompok: kelompok yang di-i'rab dengan harakat dan kelompok yang di-i'rab dengan huruf.",
+          "points": [
+            {
+              "label": "Mu'rab Bil-Harakat",
+              "arabic": "يُعْرَبُ بِالْحَرَكَاتِ",
+              "desc": "Mufrad (dhommah/fathah/kasrah), Jamak Taksir, Jamak Muannats Salim (rafa' dhommah, nashab & jar kasrah!)."
+            },
+            {
+              "label": "Mu'rab Bil-Huruf",
+              "arabic": "يُعْرَبُ بِالْحُرُوفِ",
+              "desc": "Mutsanna (rafa' alif, nashab & jar ya'), JMS (rafa' wawu, nashab & jar ya'), Asmaul Khamsah (rafa' wawu, nashab alif, jar ya')."
+            },
+            {
+              "label": "Perbedaan Mutsanna vs JMS",
+              "arabic": "الْفَرْقُ بَيْنَ الْمُثَنَّى وَالْجَمْعِ",
+              "desc": "Pada nashab/jar: Mutsanna berakhiran (ـَيْنِ) fathah sebelum Ya', JMS berakhiran (ـِينَ) kasrah sebelum Ya'."
+            },
+            {
+              "label": "Kunci Sukses Ujian Boss",
+              "arabic": "خُلَاصَةُ التَّحَدِّي",
+              "desc": "Tentukan jenis isimnya terlebih dahulu, lalu tentukan posisi i'rabnya (rafa'/nashab/jar), baru terapkan tanda yang sesuai kaidah Matan Ajurrumiyyah."
+            }
+          ]
+        },
+        "questions": [
+          {
+            "id": "q4_5_1",
+            "type": "mcq",
+            "question": "Di antara pilihan berikut, manakah kelompok isim yang SELURUHNYA di-i'rab dengan huruf (Bil Huruf)?",
+            "prompt": "Di antara pilihan berikut, manakah kelompok isim yang SELURUHNYA di-i'rab dengan huruf (Bil Huruf)?",
+            "arabic": "مُعْرَبٌ بِالْحَرَكَاتِ • مُعْرَبٌ بِالْحُرُوفِ",
+            "translation": "Di-i'rab dengan harakat • Di-i'rab dengan huruf",
+            "meaning": "Di-i'rab dengan harakat • Di-i'rab dengan huruf",
+            "options": [
+              {
+                "label": "Isim Mutsanna, Jama' Mudzakkar Salim, Asmaul Khamsah",
+                "value": "mutsanna_jms_asmaul"
+              },
+              {
+                "label": "Isim Mufrad, Jama' Taksir, Jama' Muannats Salim",
+                "value": "mufrad_taksir_jmus"
+              },
+              {
+                "label": "Isim Mufrad, Mutsanna, Jama' Mudzakkar Salim",
+                "value": "mufrad_mutsanna_jms"
+              },
+              {
+                "label": "Jama' Muannats Salim, Asmaul Khamsah, Isim Mufrad",
+                "value": "jmus_asmaul_mufrad"
+              }
+            ],
+            "correct": "mutsanna_jms_asmaul",
+            "explanation": "Tiga kelompok isim yang di-i'rab dengan huruf menurut Ajurrumiyyah adalah: Isim Tastniyah (Mutsanna), Jama' Mudzakkar Salim, dan Asmaul Khamsah."
+          },
+          {
+            "id": "q4_5_2",
+            "type": "mcq",
+            "question": "Analisis I'rab kata 'أَخُوكَ' dan 'الصَّدِيقَيْنِ' pada kalimat tersebut adalah...",
+            "prompt": "Analisis I'rab kata 'أَخُوكَ' dan 'الصَّدِيقَيْنِ' pada kalimat tersebut adalah...",
+            "arabic": "قَامَ أَخُوكَ وَأَكْرَمَ الصَّدِيقَيْنِ",
+            "translation": "Saudaramu telah berdiri dan memuliakan kedua sahabat itu",
+            "meaning": "Saudaramu telah berdiri dan memuliakan kedua sahabat itu",
+            "options": [
+              {
+                "label": "أَخُوكَ Fa'il marfu' bil-wawu, الصَّدِيقَيْنِ Maf'ul bih manshub bil-ya'",
+                "value": "akhuka_fail_shadiqaini_maful"
+              },
+              {
+                "label": "أَخُوكَ Maf'ul bih manshub bil-alif, الصَّدِيقَيْنِ Fa'il marfu' bil-alif",
+                "value": "akhuka_maful_shadiqaini_fail"
+              },
+              {
+                "label": "Keduanya marfu' dengan tanda Wawu",
+                "value": "keduanya_wawu"
+              },
+              {
+                "label": "Keduanya majrur dengan tanda Ya'",
+                "value": "keduanya_ya"
+              }
+            ],
+            "correct": "akhuka_fail_shadiqaini_maful",
+            "explanation": "'أَخُوكَ' adalah Fa'il marfu' dengan huruf Wawu (Asmaul Khamsah), sedangkan 'الصَّدِيقَيْنِ' adalah Maf'ul bih manshub dengan huruf Ya' (Mutsanna)."
+          },
+          {
+            "id": "q4_5_3",
+            "type": "mcq",
+            "question": "Apakah tanda I'rab kata 'الْمُتَّقِينَ' (Isim Inna) dan 'جَنَّاتٍ' (Majrur)?",
+            "prompt": "Apakah tanda I'rab kata 'الْمُتَّقِينَ' (Isim Inna) dan 'جَنَّاتٍ' (Majrur)?",
+            "arabic": "إِنَّ الْمُتَّقِينَ فِي جَنَّاتٍ",
+            "translation": "Sesungguhnya orang-orang bertakwa berada di dalam surga (QS. Adz-Dzariyat: 15)",
+            "meaning": "Sesungguhnya orang-orang bertakwa berada di dalam surga (QS. Adz-Dzariyat: 15)",
+            "options": [
+              {
+                "label": "الْمُتَّقِينَ tanda nashabnya Ya', جَنَّاتٍ tanda jarnya Kasrah",
+                "value": "ya_dan_kasrah"
+              },
+              {
+                "label": "الْمُتَّقِينَ tanda nashabnya Fathah, جَنَّاتٍ tanda jarnya Ya'",
+                "value": "fathah_dan_ya"
+              },
+              {
+                "label": "Keduanya bertanda I'rab Fathah",
+                "value": "keduanya_fathah"
+              },
+              {
+                "label": "Keduanya bertanda I'rab Dhommah",
+                "value": "keduanya_dhommah"
+              }
+            ],
+            "correct": "ya_dan_kasrah",
+            "explanation": "'الْمُتَّقِينَ' adalah Jama' Mudzakkar Salim manshub dengan huruf Ya'. 'جَنَّاتٍ' adalah Jama' Muannats Salim majrur dengan Kasrah."
+          },
+          {
+            "id": "q4_5_4",
+            "type": "mcq",
+            "question": "Berapa banyak isim yang di-i'rab dengan huruf (Bil Huruf) pada kalimat di atas?",
+            "prompt": "Berapa banyak isim yang di-i'rab dengan huruf (Bil Huruf) pada kalimat di atas?",
+            "arabic": "كَتَبَ الطَّالِبَانِ رِسَالَتَيْنِ إِلَى الْمُعَلِّمِينَ",
+            "translation": "Dua siswa itu telah menulis dua surat kepada para guru",
+            "meaning": "Dua siswa itu telah menulis dua surat kepada para guru",
+            "options": [
+              {
+                "label": "3 isim (الطَّالِبَانِ, رِسَالَتَيْنِ, الْمُعَلِّمِينَ)",
+                "value": "tiga_isim"
+              },
+              {
+                "label": "1 isim saja (الطَّالِبَانِ)",
+                "value": "satu_isim"
+              },
+              {
+                "label": "2 isim saja (رِسَالَتَيْنِ dan الْمُعَلِّمِينَ)",
+                "value": "dua_isim"
+              },
+              {
+                "label": "Tidak ada sama sekali",
+                "value": "nol_isim"
+              }
+            ],
+            "correct": "tiga_isim",
+            "explanation": "Ketiganya di-i'rab dengan huruf: 'الطَّالِبَانِ' (Mutsanna rafa' bil-alif), 'رِسَالَتَيْنِ' (Mutsanna nashab bil-ya'), dan 'الْمُعَلِّمِينَ' (JMS jar bil-ya')."
+          },
+          {
+            "id": "q4_5_5",
+            "type": "mcq",
+            "question": "Kata 'أَبُوكَ' adalah Isim Kana (Marfu') dan 'ذَا' adalah Khabar Kana (Manshub). Tanda I'rab keduanya adalah...",
+            "prompt": "Kata 'أَبُوكَ' adalah Isim Kana (Marfu') dan 'ذَا' adalah Khabar Kana (Manshub). Tanda I'rab keduanya adalah...",
+            "arabic": "كَانَ أَبُوكَ ذَا مَالٍ",
+            "translation": "Ayahmu dahulu adalah seorang pemilik harta",
+            "meaning": "Ayahmu dahulu adalah seorang pemilik harta",
+            "options": [
+              {
+                "label": "أَبُوكَ tanda rafa'nya Wawu, ذَا tanda nashabnya Alif",
+                "value": "wawu_dan_alif"
+              },
+              {
+                "label": "أَبُوكَ tanda rafa'nya Alif, ذَا tanda nashabnya Wawu",
+                "value": "alif_dan_wawu"
+              },
+              {
+                "label": "Keduanya bertanda Dhommah",
+                "value": "keduanya_dhommah"
+              },
+              {
+                "label": "Keduanya bertanda Fathah",
+                "value": "keduanya_fathah"
+              }
+            ],
+            "correct": "wawu_dan_alif",
+            "explanation": "Keduanya Asmaul Khamsah. Isim Kana marfu' dengan Wawu ('أَبُوكَ'), dan Khabar Kana manshub dengan Alif ('ذَا')."
+          },
+          {
+            "id": "q4_5_6",
+            "type": "mcq",
+            "question": "Kata 'صَالِحَيْنِ' mengikuti 'رَجُلَيْنِ' sebagai Na'at (sifat). Mengapa ia memakai huruf Ya'?",
+            "prompt": "Kata 'صَالِحَيْنِ' mengikuti 'رَجُلَيْنِ' sebagai Na'at (sifat). Mengapa ia memakai huruf Ya'?",
+            "arabic": "سَلَّمْتُ عَلَى رَجُلَيْنِ صَالِحَيْنِ",
+            "translation": "Aku memberi salam kepada dua orang lelaki yang shalih",
+            "meaning": "Aku memberi salam kepada dua orang lelaki yang shalih",
+            "options": [
+              {
+                "label": "Karena mengikuti kata sebelumnya yang Majrur (dengan Ya')",
+                "value": "tabi_majrur"
+              },
+              {
+                "label": "Karena berstatus Marfu'",
+                "value": "marfu"
+              },
+              {
+                "label": "Karena berstatus Manshub",
+                "value": "manshub"
+              },
+              {
+                "label": "Karena ia adalah isim mabni",
+                "value": "mabni"
+              }
+            ],
+            "correct": "tabi_majrur",
+            "explanation": "Na'at (sifat) mengikuti man'ut-nya dalam hal I'rab. Karena 'رَجُلَيْنِ' majrur dengan Ya', maka 'صَالِحَيْنِ' juga majrur dengan huruf Ya'."
+          },
+          {
+            "id": "q4_5_7",
+            "type": "mcq",
+            "question": "Kata 'وَالِدَيْهِ' adalah bentuk Mutsanna yang majrur oleh huruf 'بِـ'. Apa tanda jar-nya?",
+            "prompt": "Kata 'وَالِدَيْهِ' adalah bentuk Mutsanna yang majrur oleh huruf 'بِـ'. Apa tanda jar-nya?",
+            "arabic": "وَوَصَّيْنَا الْإِنْسَانَ بِوَالِدَيْهِ",
+            "translation": "Dan Kami wasiatkan kepada manusia (berbuat baik) kepada kedua orang tuanya (QS. Luqman: 14)",
+            "meaning": "Dan Kami wasiatkan kepada manusia (berbuat baik) kepada kedua orang tuanya (QS. Luqman: 14)",
+            "options": [
+              {
+                "label": "Huruf Ya' (ي)",
+                "value": "ya"
+              },
+              {
+                "label": "Kasrah",
+                "value": "kasrah"
+              },
+              {
+                "label": "Huruf Alif (ا)",
+                "value": "alif"
+              },
+              {
+                "label": "Dhomir Ha' (ـهِ)",
+                "value": "dhomir_ha"
+              }
+            ],
+            "correct": "ya",
+            "explanation": "Kata 'وَالِدَيْنِ' adalah isim mutsanna (dua orang tua). Saat bersambung huruf jar 'بِـ' dan dhomir, tanda jar-nya tetap huruf Ya' (nun dibuang karena idhafah)."
+          },
+          {
+            "id": "q4_5_8",
+            "type": "mcq",
+            "question": "Manakah pernyataan yang BENAR mengenai perbedaan dua kata JMS pada kalimat tersebut?",
+            "prompt": "Manakah pernyataan yang BENAR mengenai perbedaan dua kata JMS pada kalimat tersebut?",
+            "arabic": "الْمُؤْمِنُونَ يُحِبُّونَ الْمُؤْمِنِينَ",
+            "translation": "Orang-orang beriman itu mencintai sesama orang-orang beriman",
+            "meaning": "Orang-orang beriman itu mencintai sesama orang-orang beriman",
+            "options": [
+              {
+                "label": "الْمُؤْمِنُونَ marfu' (Wawu) sebagai Mubtada', الْمُؤْمِنِينَ manshub (Ya') sebagai Maf'ul Bih",
+                "value": "mubtada_maful"
+              },
+              {
+                "label": "الْمُؤْمِنُونَ manshub (Wawu), الْمُؤْمِنِينَ marfu' (Ya')",
+                "value": "salah_posisi"
+              },
+              {
+                "label": "Keduanya berstatus Marfu' dengan tanda yang berbeda",
+                "value": "keduanya_marfu"
+              },
+              {
+                "label": "Keduanya berstatus Majrur karena ada fi'il",
+                "value": "keduanya_majrur"
+              }
+            ],
+            "correct": "mubtada_maful",
+            "explanation": "'الْمُؤْمِنُونَ' di awal kalimat adalah Mubtada' marfu' dengan Wawu, sedangkan 'الْمُؤْمِنِينَ' adalah Maf'ul Bih manshub dengan Ya'."
+          },
+          {
+            "id": "q4_5_9",
+            "type": "mcq",
+            "question": "Kata 'حَمَاكَ' adalah Asmaul Khamsah. Tanda I'rab dan statusnya adalah...",
+            "prompt": "Kata 'حَمَاكَ' adalah Asmaul Khamsah. Tanda I'rab dan statusnya adalah...",
+            "arabic": "رَأَيْتُ حَمَاكَ فِي الْمَسْجِدِ",
+            "translation": "Aku melihat mertuamu di dalam masjid",
+            "meaning": "Aku melihat mertuamu di dalam masjid",
+            "options": [
+              {
+                "label": "Manshub dengan tanda huruf Alif (ا)",
+                "value": "manshub_alif"
+              },
+              {
+                "label": "Marfu' dengan tanda huruf Wawu (و)",
+                "value": "marfu_wawu"
+              },
+              {
+                "label": "Majrur dengan tanda huruf Ya' (ي)",
+                "value": "majrur_ya"
+              },
+              {
+                "label": "Majzum dengan tanda sukun",
+                "value": "majzum_sukun"
+              }
+            ],
+            "correct": "manshub_alif",
+            "explanation": "'حَمَاكَ' berkedudukan sebagai Maf'ul Bih (objek) yang berstatus Manshub dengan tanda huruf Alif (ا)."
+          },
+          {
+            "id": "q4_5_10",
+            "type": "mcq",
+            "question": "Manakah isim yang Nashab-nya KELUAR dari kaidah pokok harakat (tidak dengan fathah, melainkan dengan kasrah)?",
+            "prompt": "Manakah isim yang Nashab-nya KELUAR dari kaidah pokok harakat (tidak dengan fathah, melainkan dengan kasrah)?",
+            "arabic": "فَالَّذِي يُعْرَبُ بِالْحَرَكَاتِ أَرْبَعَةُ أَشْيَاءَ",
+            "translation": "Yang di-i'rab dengan harakat ada empat perkara",
+            "meaning": "Yang di-i'rab dengan harakat ada empat perkara",
+            "options": [
+              {
+                "label": "Jama' Muannats Salim (جَمْعُ الْمُؤَنَّثِ السَّالِمِ)",
+                "value": "jmus"
+              },
+              {
+                "label": "Isim Mufrad (الِاسْمُ الْمُفْرَدُ)",
+                "value": "mufrad"
+              },
+              {
+                "label": "Jama' Taksir (جَمْعُ التَّكْسِيرِ)",
+                "value": "jama_taksir"
+              },
+              {
+                "label": "Isim Mutsanna (التَّثْنِيَةُ)",
+                "value": "mutsanna"
+              }
+            ],
+            "correct": "jmus",
+            "explanation": "Ajurrumiyyah menyatakan: 'وَخَرَجَ عَنْ ذَلِكَ ثَلَاثَةُ أَشْيَاءَ: جَمْعُ الْمُؤَنَّثِ السَّالِمُ يُنْصَبُ بِالْكَسْرَةِ...'. JMuS di-nashab-kan dengan kasrah, bukan fathah."
+          }
+        ]
+      }
+    ]
+  }
+}

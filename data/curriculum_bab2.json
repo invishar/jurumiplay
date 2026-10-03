@@ -1,0 +1,1267 @@
+{
+  "chapter": {
+    "id": "bab_02",
+    "number": 2,
+    "title_ar": "بَابُ الْإِعْرَابِ",
+    "title_id": "Bab 2: Al-I'rab",
+    "description": "Kunci utama memahami perubahan harakat akhir kata dalam tata bahasa Arab.",
+    "matan_full": "الْإِعْرَابُ هُوَ تَغْيِيرُ أَوَاخِرِ الْكَلِمِ لِاخْتِلَافِ الْعَوَامِلِ الدَّاخِلَةِ عَلَيْهَا لَفْظًا أَوْ تَقْدِيرًا. وَأَقْسَامُهُ أَرْبَعَةٌ: رَفْعٌ، وَنَصْبٌ، وَخَفْضٌ، وَجَزْمٌ. فَلِلْأَسْمَاءِ مِنْ ذَلِكَ الرَّفْعُ، وَالنَّصْبُ، وَالْخَفْضُ، وَلَا جَزْمَ فِيهَا. وَلِلْأَفْعَالِ مِنْ ذَلِكَ الرَّفْعُ، وَالنَّصْبُ، وَالْجَزْمُ، وَلَا خَفْضَ فِيهَا.",
+    "qawaidCard": {
+      "title": "Kaidah Bab I'rab",
+      "matanSnippet": "الْإِعْرَابُ هُوَ تَغْيِيرُ أَوَاخِرِ الْكَلِمِ لِاخْتِلَافِ الْعَوَامِلِ الدَّاخِلَةِ عَلَيْهَا لَفْظًا أَوْ تَقْدِيرًا",
+      "formula": "Amil Berubah ➔ Harakat Akhir Berubah (Mu'rab). Jika tidak berubah ➔ Mabni.",
+      "keyTakeaways": [
+        "I'rab: Perubahan harakat akhir kata karena perbedaan Amil yang masuk.",
+        "4 Macam I'rab: Rafa' (رَفْعٌ), Nashab (نَصْبٌ), Khafadh/Jar (خَفْضٌ), Jazm (جَزْمٌ).",
+        "Isim memiliki 3 I'rab: Rafa', Nashab, Khafadh (TIDAK ADA JAZM).",
+        "Fi'il memiliki 3 I'rab: Rafa', Nashab, Jazm (TIDAK ADA KHAFADH/JAR)."
+      ]
+    },
+    "levels": [
+      {
+        "id": "level_2_1",
+        "code": "2.1",
+        "title": "Level 2.1: Hakikat I'rab & Amil",
+        "subtitle": "Kaidah perubahan akhir kata",
+        "titleArabic": "حَقِيقَةُ الْإِعْرَابِ",
+        "xp": 60,
+        "unlocked": true,
+        "theory": {
+          "title": "Apa Itu I'rab?",
+          "matan": "الْإِعْرَابُ هُوَ تَغْيِيرُ أَوَاخِرِ الْكَلِمِ لِاخْتِلَافِ الْعَوَامِلِ الدَّاخِلَةِ عَلَيْهَا لَفْظًا أَوْ تَقْدِيرًا",
+          "translation": "I'rab adalah perubahan harakat akhir kata karena perbedaan amil-amil yang memasukinya, baik secara lafadz (jelas/terdengar) maupun taqdir (diperkirakan/tersembunyi).",
+          "points": [
+            {
+              "label": "Perubahan Nyata (Lafdzan / لَفْظًا)",
+              "arabic": "لَفْظًا",
+              "desc": "Harakatnya terlihat dan terbaca jelas di akhir kata. Contoh: جَاءَ زَيْدٌ (Zaid datang — Dhommah, tanda Rafa') berubah menjadi رَأَيْتُ زَيْدًا (Aku melihat Zaid — Fathah, tanda Nashab). Perubahan ini jelas karena haruf akhirnya adalah huruf shahih (sehat)."
+            },
+            {
+              "label": "Perubahan Tersirat (Taqdiran / تَقْدِيرًا)",
+              "arabic": "تَقْدِيرًا",
+              "desc": "Harakatnya tidak terlihat jelas karena ujung katanya berupa huruf illat (alif, wawu, ya') yang sulit diberi harakat. Contoh: جَاءَ الْفَتَى (Al-Fata datang) — harakat rafa' pada Alif tidak nampak dan hanya diperkirakan. Begitu pula جَاءَ الْقَاضِي — harakat Ya'-nya tersembunyi."
+            },
+            {
+              "label": "Amil — Penyebab Perubahan (الْعَوَامِلُ)",
+              "arabic": "الْعَوَامِلُ",
+              "desc": "Amil adalah kata atau kondisi yang menuntut harakat tertentu di akhir kata. Ada 2 jenis: (1) Amil Lafdzi — terlihat/terdengar, seperti huruf jer 'فِي' yang memaksa isim berharakat kasrah, atau fi'il yang memaksa fa'il berharakat dhommah. (2) Amil Ma'nawi — tidak terlihat, seperti ibtida' (permulaan) yang me-rafa'-kan mubtada'."
+            }
+          ]
+        },
+        "questions": [
+          {
+            "id": "q21_1",
+            "type": "amil_hunter",
+            "instruction": "Ketuk kata yang menjadi AMIL (penyebab kata setelahnya berharakat Kasrah):",
+            "sentence": "فِي الْمَسْجِدِ",
+            "translation": "Di dalam masjid",
+            "tokens": [
+              {
+                "text": "فِي",
+                "isAmil": true
+              },
+              {
+                "text": "الْمَسْجِدِ",
+                "isAmil": false
+              }
+            ],
+            "explanation": "Tepat! Huruf 'فِي' adalah Amil Jar yang menyebabkan kata 'الْمَسْجِدِ' berharakat kasrah (majrur). Tanpa 'فِي', kata dasarnya adalah 'الْمَسْجِدُ' (dhommah/rafa').",
+            "whyModal": {
+              "title": "Kenapa فِي adalah Amil?",
+              "matan": "لِاخْتِلَافِ الْعَوَامِلِ الدَّاخِلَةِ عَلَيْهَا",
+              "reason": "Sebelum kemasukan 'فِي', kata dasarnya adalah 'الْمَسْجِدُ' (Dhommah/Rafa'). Huruf jer 'فِي' adalah amil lafdzi yang memaksanya menjadi majrur (kasrah). Ini adalah contoh sempurna perubahan i'rab lafdzan."
+            },
+            "meaning": "Di dalam masjid",
+            "text_ar": "فِي الْمَسْجِدِ",
+            "arabic": "فِي الْمَسْجِدِ",
+            "prompt": "Ketuk kata yang menjadi AMIL (penyebab kata setelahnya berharakat Kasrah):",
+            "question": "Ketuk kata yang menjadi AMIL (penyebab kata setelahnya berharakat Kasrah):"
+          },
+          {
+            "id": "q21_2",
+            "type": "binary",
+            "prompt": "Perhatikan kata 'زَيْدٌ' pada kalimat: جَاءَ زَيْدٌ ➔ رَأَيْتُ زَيْدًا. Apakah kata ini mengalami I'rab?",
+            "arabic": "جَاءَ زَيْدٌ • رَأَيْتُ زَيْدًا",
+            "translation": "Zaid datang • Aku melihat Zaid",
+            "options": [
+              {
+                "label": "TIDAK (MABNI)",
+                "value": false
+              },
+              {
+                "label": "YA (MU'RAB / I'RAB)",
+                "value": true
+              }
+            ],
+            "correct": true,
+            "explanation": "Benar! 'Zaid' mengalami I'rab — harakat akhirnya berubah dari Dhommatain (زَيْدٌ = rafa', saat sebagai fa'il) menjadi Fathatain (زَيْدًا = nashab, saat sebagai maf'ul bih). Ini bukti bahwa ia Mu'rab (berubah sesuai amil).",
+            "whyModal": {
+              "title": "Definisi Mu'rab",
+              "matan": "تَغْيِيرُ أَوَاخِرِ الْكَلِمِ",
+              "reason": "Kata yang harakat akhirnya berubah karena beda amil disebut Mu'rab. Zaid berubah dari Dhommah (fa'il/subjek) menjadi Fathah (maf'ul bih/objek) — itulah I'rab yang nyata (lafdzan)."
+            },
+            "meaning": "Zaid datang • Aku melihat Zaid",
+            "text_ar": "جَاءَ زَيْدٌ • رَأَيْتُ زَيْدًا",
+            "sentence": "جَاءَ زَيْدٌ • رَأَيْتُ زَيْدًا",
+            "instruction": "Perhatikan kata 'زَيْدٌ' pada kalimat: جَاءَ زَيْدٌ ➔ رَأَيْتُ زَيْدًا. Apakah kata ini mengalami I'rab?",
+            "question": "Perhatikan kata 'زَيْدٌ' pada kalimat: جَاءَ زَيْدٌ ➔ رَأَيْتُ زَيْدًا. Apakah kata ini mengalami I'rab?"
+          },
+          {
+            "id": "q21_3",
+            "type": "harakat_switcher",
+            "instruction": "Tentukan harakat akhir kata 'زَيْد' ketika didahului amil 'رَأَيْتُ' (Aku melihat ...):",
+            "sentencePrefix": "رَأَيْتُ",
+            "targetWord": "زَيْدًا",
+            "role": "Objek (Maf'ul Bih) berharakat Fathah/Nashab",
+            "translation": "Aku melihat Zaid",
+            "options": [
+              {
+                "harakat": "ٌ",
+                "name": "Dhommatain (زَيْدٌ)",
+                "value": "dhommah"
+              },
+              {
+                "harakat": "ً",
+                "name": "Fathatain (زَيْدًا)",
+                "value": "fathah"
+              },
+              {
+                "harakat": "ٍ",
+                "name": "Kasratain (زَيْدٍ)",
+                "value": "kasrah"
+              }
+            ],
+            "correct": "fathah",
+            "explanation": "Mumtaz! 'Zaid' di sini berperan sebagai objek penderita (Maf'ul Bih) dari fi'il 'رَأَيْتُ'. Posisi Maf'ul Bih wajib nashab, dan tanda asli nashab pada isim mufrad adalah Fathatain (زَيْدًا).",
+            "whyModal": {
+              "title": "Kaidah Objek (Maf'ul Bih)",
+              "matan": "بَابُ الْمَنْصُوبَاتِ",
+              "reason": "Maf'ul bih (objek penderita) wajib manshub. Tanda asli nashab pada isim mufrad munsharif adalah fathah/fathatain."
+            },
+            "meaning": "Aku melihat Zaid",
+            "prompt": "Tentukan harakat akhir kata 'زَيْد' ketika didahului amil 'رَأَيْتُ' (Aku melihat ...):",
+            "question": "Tentukan harakat akhir kata 'زَيْد' ketika didahului amil 'رَأَيْتُ' (Aku melihat ...):"
+          },
+          {
+            "id": "q21_4",
+            "type": "amil_hunter",
+            "instruction": "Ketuk AMIL (kata kerja penuntut pelaku) pada kalimat ini:",
+            "sentence": "قَرَأَ مُحَمَّدٌ",
+            "translation": "Muhammad telah membaca",
+            "tokens": [
+              {
+                "text": "قَرَأَ",
+                "isAmil": true
+              },
+              {
+                "text": "مُحَمَّدٌ",
+                "isAmil": false
+              }
+            ],
+            "explanation": "Benar! 'قَرَأَ' (Fi'il Madhi) adalah amil yang menuntut fa'il (pelaku) dalam posisi Rafa'. Maka 'مُحَمَّدٌ' sebagai fa'il berharakat dhommatain (rafa').",
+            "whyModal": {
+              "title": "Amil Fi'il me-Rafa'-kan Fa'il",
+              "matan": "الْعَوَامِلُ اللَّفْظِيَّةُ",
+              "reason": "Fi'il adalah amil lafdzi yang menuntut fa'il (subjek/pelaku) berada dalam kondisi Rafa' (berharakat dhommah/dhommatain). Ini adalah aturan dasar susunan fi'liyyah."
+            },
+            "meaning": "Muhammad telah membaca",
+            "text_ar": "قَرَأَ مُحَمَّدٌ",
+            "arabic": "قَرَأَ مُحَمَّدٌ",
+            "prompt": "Ketuk AMIL (kata kerja penuntut pelaku) pada kalimat ini:",
+            "question": "Ketuk AMIL (kata kerja penuntut pelaku) pada kalimat ini:"
+          },
+          {
+            "id": "q21_5",
+            "type": "binary",
+            "prompt": "Kata 'هَٰذَا' (ini) tidak pernah berubah harakatnya di kalimat manapun. Apakah ia Mu'rab?",
+            "arabic": "هَٰذَا كِتَابٌ • رَأَيْتُ هَٰذَا",
+            "translation": "Ini buku • Aku melihat ini",
+            "options": [
+              {
+                "label": "BUKAN, IA MABNI",
+                "value": true
+              },
+              {
+                "label": "YA, IA MU'RAB",
+                "value": false
+              }
+            ],
+            "correct": true,
+            "explanation": "Tepat sekali! 'هَٰذَا' tidak berubah harakatnya baik sebagai subjek maupun objek — harakatnya tetap Alif. Kata seperti ini disebut Mabni (tetap/beku), lawannya Mu'rab (berubah). Isim isyarah (kata tunjuk) umumnya bersifat mabni.",
+            "whyModal": {
+              "title": "Mabni vs Mu'rab",
+              "matan": "الْمَبْنِيُّ لَا يَتَغَيَّرُ",
+              "reason": "Isim isyarah seperti 'هَٰذَا' tergolong isim mabni: harakat akhirnya tidak berubah meskipun amil yang memasukinya berbeda-beda. Ini pengecualian dari kaidah umum i'rab."
+            },
+            "meaning": "Ini buku • Aku melihat ini",
+            "text_ar": "هَٰذَا كِتَابٌ • رَأَيْتُ هَٰذَا",
+            "sentence": "هَٰذَا كِتَابٌ • رَأَيْتُ هَٰذَا",
+            "instruction": "Kata 'هَٰذَا' (ini) tidak pernah berubah harakatnya di kalimat manapun. Apakah ia Mu'rab?",
+            "question": "Kata 'هَٰذَا' (ini) tidak pernah berubah harakatnya di kalimat manapun. Apakah ia Mu'rab?"
+          },
+          {
+            "id": "q21_6",
+            "type": "amil_hunter",
+            "instruction": "Ketuk kata yang menjadi AMIL NASHAB (menyebabkan kata setelahnya berharakat Fathah):",
+            "prompt": "Ketuk kata yang menjadi AMIL NASHAB:",
+            "sentence": "لَنْ يَنْجَحَ الْكَسْلَانُ",
+            "translation": "Orang malas itu tidak akan pernah sukses",
+            "text_ar": "لَنْ يَنْجَحَ الْكَسْلَانُ",
+            "arabic": "لَنْ يَنْجَحَ الْكَسْلَانُ",
+            "tokens": [
+              {
+                "text": "لَنْ",
+                "is_correct": true,
+                "feedback": "Benar! لَنْ adalah huruf nawashib (amil penashab) yang menuntut fiil mudhari berfathah."
+              },
+              {
+                "text": "يَنْجَحَ",
+                "is_correct": false,
+                "feedback": "يَنْجَحَ adalah Ma'mul (kata yang dipengaruhi amil), bukan amil-nya."
+              },
+              {
+                "text": "الْكَسْلَانُ",
+                "is_correct": false,
+                "feedback": "الْكَسْلَانُ adalah Fa'il (pelaku) yang marfu."
+              }
+            ],
+            "explanation": "Amil nawashib لَنْ masuk pada Fi'il Mudhari sehingga mengubah harakat akhirnya menjadi fathah.",
+            "whyModal": "Amil adalah kata penuntut perubahan akhir kata (I'rab)."
+          },
+          {
+            "id": "q21_7",
+            "type": "binary",
+            "prompt": "Kata الْفَتَى (seorang pemuda) diakhiri Alif Maqshurah. Apakah perubahannya berupa I'rab Taqdiron (dikira-kirakan)?",
+            "arabic": "جَاءَ الْفَتَى ➔ رَأَيْتُ الْفَتَى ➔ مَرَرْتُ بِالْفَتَى",
+            "translation": "Telah datang pemuda itu ➔ Aku melihat pemuda itu ➔ Aku berpapasan dengan pemuda itu",
+            "text_ar": "جَاءَ الْفَتَى",
+            "sentence": "جَاءَ الْفَتَى",
+            "options": [
+              {
+                "label": "YA (Taqdiron / Dikira-kirakan)",
+                "value": true
+              },
+              {
+                "label": "TIDAK (Lafzhan / Terlihat Jelas)",
+                "value": false
+              }
+            ],
+            "correct": true,
+            "explanation": "Benar! Pada kata bertipe Isim Maqshur seperti الْفَتَى, harakat akhirnya tidak bisa tampak karena alasan udzur (ta'adzdzur). Maka perubahannya adalah I'rab Taqdiron.",
+            "whyModal": "Matan: الإعراب هو تغيير أواخر الكلم... لفظا أو تقديرا."
+          },
+          {
+            "id": "q21_8",
+            "type": "harakat_switcher",
+            "prompt": "Tentukan harakat akhir kata مُحَمَّد ketika didahului amil jar مِنْ:",
+            "arabic": "سَمِعْتُ الْحَدِيثَ مِنْ مُحَمَّد",
+            "translation": "Aku mendengar hadits dari Muhammad",
+            "text_ar": "سَمِعْتُ الْحَدِيثَ مِنْ مُحَمَّد",
+            "sentence": "سَمِعْتُ الْحَدِيثَ مِنْ مُحَمَّد",
+            "options": [
+              {
+                "label": "مُحَمَّدًا (Fathah)",
+                "value": "fathah"
+              },
+              {
+                "label": "مُحَمَّدٍ (Kasrah / Kasratain)",
+                "value": "kasrah"
+              },
+              {
+                "label": "مُحَمَّدٌ (Dhommah)",
+                "value": "dhommah"
+              }
+            ],
+            "correct": "kasrah",
+            "explanation": "Amil jar مِنْ mewajibkan kata isim setelahnya berada dalam keadaan Majrur/Khafadh dengan tanda kasratain.",
+            "whyModal": "Huruf jar selalu menuntut tanda kasrah pada isim mufrad."
+          },
+          {
+            "id": "q21_9",
+            "type": "mcq",
+            "prompt": "Apakah pengertian I'rab menurut teks Matan Al-Ajurrumiyyah?",
+            "arabic": "الْإِعْرَابُ هُوَ تَغْيِيرُ أَوَاخِرِ الْكَلِمِ...",
+            "translation": "I'rab adalah perubahan akhir kata-kata...",
+            "text_ar": "الْإِعْرَابُ هُوَ تَغْيِيرُ أَوَاخِرِ الْكَلِمِ",
+            "sentence": "الْإِعْرَابُ هُوَ تَغْيِيرُ أَوَاخِرِ الْكَلِمِ",
+            "options": [
+              {
+                "label": "Perubahan akhir kata karena perbedaan amil yang masuk",
+                "value": "amil"
+              },
+              {
+                "label": "Penambahan huruf pada awal kata kerja",
+                "value": "awal"
+              },
+              {
+                "label": "Perubahan makna kata karena kamus",
+                "value": "kamus"
+              }
+            ],
+            "correct": "amil",
+            "explanation": "Matan Ajurrumiyyah menyatakan I'rab adalah perubahan kondisi akhir kata karena pengaruh amil yang masuk, baik secara lafadz maupun taqdir.",
+            "whyModal": "Pondasi utama ilmu Nahwu adalah memahami peran amil penuntut."
+          },
+          {
+            "id": "q21_10",
+            "type": "binary",
+            "prompt": "Apakah Isim Dhomir هُوَ dan Isim Isyarah هَٰذَا termasuk kata yang Mu'rab (bisa berubah harakat akhirnya)?",
+            "arabic": "هُوَ ، هَٰذَا ، الَّذِي",
+            "translation": "Dia, ini, yang...",
+            "text_ar": "هُوَ ، هَٰذَا",
+            "sentence": "هُوَ ، هَٰذَا",
+            "options": [
+              {
+                "label": "TIDAK (Keduanya MABNI / Tetap Harakatnya)",
+                "value": false
+              },
+              {
+                "label": "YA (Keduanya Mu'rab)",
+                "value": true
+              }
+            ],
+            "correct": false,
+            "explanation": "Isim Dhomir dan Isim Isyarah adalah kelompok isim MABNI, yaitu kata yang bentuk akhirnya selalu tetap.",
+            "whyModal": "Lawan dari Mu'rab adalah Mabni."
+          }
+        ],
+        "title_ar": "حَقِيقَةُ الْإِعْرَابِ"
+      },
+      {
+        "id": "level_2_2",
+        "code": "2.2",
+        "title": "Level 2.2: 4 Pilar I'rab",
+        "subtitle": "Rafa', Nashab, Khafadh, Jazm",
+        "titleArabic": "أَقْسَامُ الْإِعْرَابِ أَرْبَعَةٌ",
+        "xp": 70,
+        "unlocked": false,
+        "theory": {
+          "title": "4 Macam I'rab",
+          "matan": "وَأَقْسَامُهُ أَرْبَعَةٌ: رَفْعٌ، وَنَصْبٌ، وَخَفْضٌ، وَجَزْمٌ",
+          "translation": "Dan bagian-bagian i'rab itu ada empat: Rafa', Nashab, Khafadh (Jar), dan Jazm.",
+          "points": [
+            {
+              "label": "Rafa' (رَفْعٌ)",
+              "arabic": "رَفْعٌ",
+              "desc": "Kondisi I'rab pertama dan utama — tanda aslinya Dhommah (ضمة). Rafa' menandai posisi subjek/pelaku (fa'il), mubtada', khabar, dan fi'il mudhari' yang tidak dimasuki amil nashab/jazm. Ingat: Rafa' bisa terjadi pada Isim maupun Fi'il Mudhari'. Contoh isim: جَاءَ زَيْدٌ (Zaid = fa'il, rafa'). Contoh fi'il: يَكْتُبُ (sedang menulis, rafa' karena tidak ada amil)."
+            },
+            {
+              "label": "Nashab (نَصْبٌ)",
+              "arabic": "نَصْبٌ",
+              "desc": "Kondisi I'rab kedua — tanda aslinya Fathah (فتحة). Nashab menandai posisi objek (maf'ul bih), berbagai keterangan (zharaf, hal, tamyiz), dan fi'il mudhari' yang dimasuki amil nawashib (أَنْ، لَنْ، كَيْ، dll). Contoh isim: رَأَيْتُ زَيْدًا (Zaid = maf'ul bih, nashab). Contoh fi'il: لَنْ يَضْرِبَ (tidak akan memukul, nashab karena لَنْ)."
+            },
+            {
+              "label": "Khafadh / Jar (خَفْضٌ)",
+              "arabic": "خَفْضٌ",
+              "desc": "Kondisi I'rab ketiga — tanda aslinya Kasrah (كسرة). Khafadh HANYA terjadi pada Isim (tidak pernah pada fi'il). Penyebabnya: (1) Huruf Jer: مِنْ، إِلَى، فِي، بِـ، لِـ, dll. (2) Idhafah: mudhaf ilaih selalu majrur. (3) Tabi' (kata pengikut) dari kata yang majrur. Contoh: ذَهَبْتُ إِلَى الْمَسْجِدِ — الْمَسْجِدِ majrur karena huruf jer إِلَى."
+            },
+            {
+              "label": "Jazm (جَزْمٌ)",
+              "arabic": "جَزْمٌ",
+              "desc": "Kondisi I'rab keempat — tanda aslinya Sukun (سكون). Jazm HANYA terjadi pada Fi'il Mudhari' (tidak pernah pada isim). Penyebabnya: amil jawazim, yaitu: لَمْ (tidak/belum), لَمَّا (belum pernah), لَا (jangan — dalam larangan), lam amr (لِـ = hendaklah), dan 18 amil jazm lainnya. Contoh: لَمْ يَكْتُبْ (dia belum menulis — يَكْتُبْ berakhiran sukun karena dijazmkan لَمْ)."
+            }
+          ]
+        },
+        "questions": [
+          {
+            "id": "q22_1",
+            "type": "mcq",
+            "prompt": "Berapakah jumlah macam I'rab menurut Matan Al-Ajurrumiyyah?",
+            "arabic": "وَأَقْسَامُهُ أَرْبَعَةٌ",
+            "translation": "Dan pembagiannya ada empat",
+            "options": [
+              {
+                "label": "3 Macam",
+                "value": 3
+              },
+              {
+                "label": "4 Macam (Rafa', Nashab, Khafadh, Jazm)",
+                "value": 4
+              },
+              {
+                "label": "5 Macam",
+                "value": 5
+              }
+            ],
+            "correct": 4,
+            "explanation": "Benar! I'rab terbagi menjadi 4 pilar: Rafa', Nashab, Khafadh (Jar), dan Jazm. Teks matan dengan tegas menyebut 'أَرْبَعَةٌ' (empat).",
+            "whyModal": {
+              "title": "Dalil Matan",
+              "matan": "وَأَقْسَامُهُ أَرْبَعَةٌ: رَفْعٌ، وَنَصْبٌ، وَخَفْضٌ، وَجَزْمٌ",
+              "reason": "Teks asli kitab Jurumiyyah menyatakan 4 pilar i'rab tanpa ada tambahan pilar lain."
+            },
+            "meaning": "Dan pembagiannya ada empat",
+            "text_ar": "وَأَقْسَامُهُ أَرْبَعَةٌ",
+            "sentence": "وَأَقْسَامُهُ أَرْبَعَةٌ",
+            "instruction": "Berapakah jumlah macam I'rab menurut Matan Al-Ajurrumiyyah?",
+            "question": "Berapakah jumlah macam I'rab menurut Matan Al-Ajurrumiyyah?"
+          },
+          {
+            "id": "q22_2",
+            "type": "harakat_switcher",
+            "instruction": "Pilih harakat untuk kata berstatus RAFA' pada contoh ini:",
+            "sentencePrefix": "يَكْتُبُ",
+            "targetWord": "الطَّالِبُ",
+            "role": "Status Rafa' (Pelaku/Fa'il) bertanda Dhommah",
+            "translation": "Siswa itu sedang menulis",
+            "options": [
+              {
+                "harakat": "ُ",
+                "name": "Dhommah (الطَّالِبُ)",
+                "value": "dhommah"
+              },
+              {
+                "harakat": "َ",
+                "name": "Fathah (الطَّالِبَ)",
+                "value": "fathah"
+              },
+              {
+                "harakat": "ِ",
+                "name": "Kasrah (الطَّالِبِ)",
+                "value": "kasrah"
+              }
+            ],
+            "correct": "dhommah",
+            "explanation": "Hebat! Siswa (الطَّالِبُ) berkedudukan sebagai Fa'il (pelaku) dari fi'il يَكْتُبُ. Posisi Fa'il selalu Rafa', dan tanda asli Rafa' adalah Dhommah.",
+            "whyModal": {
+              "title": "Tanda Asli Rafa'",
+              "matan": "لِلرَّفْعِ أَرْبَعُ عَلَامَاتٍ: الضَّمَّةُ",
+              "reason": "Dhommah adalah tanda asal/utama dari status I'rab Rafa'. Fa'il (pelaku) dan mubtada' (subjek nominal) selalu dalam kondisi Rafa' berharakat dhommah."
+            },
+            "meaning": "Siswa itu sedang menulis",
+            "prompt": "Pilih harakat untuk kata berstatus RAFA' pada contoh ini:",
+            "question": "Pilih harakat untuk kata berstatus RAFA' pada contoh ini:"
+          },
+          {
+            "id": "q22_3",
+            "type": "amil_hunter",
+            "instruction": "Ketuk AMIL JAZM yang menyebabkan fi'il mudhari' ini sukun:",
+            "sentence": "لَمْ يَكْتُبْ",
+            "translation": "Dia belum menulis",
+            "tokens": [
+              {
+                "text": "لَمْ",
+                "isAmil": true
+              },
+              {
+                "text": "يَكْتُبْ",
+                "isAmil": false
+              }
+            ],
+            "explanation": "Mantap! 'لَمْ' adalah Amil Jawazim (huruf penjazam) yang men-jazm-kan fi'il mudhari' menjadi berharakat sukun (يَكْتُبْ). Tanpa لَمْ, bentuk aslinya يَكْتُبُ (dhommah/rafa').",
+            "whyModal": {
+              "title": "Amil Jawazim: لَمْ",
+              "matan": "وَالْجَوَازِمُ ثَمَانِيَةَ عَشَرَ",
+              "reason": "'Lam' (لَمْ) adalah amil penjazam yang membuat fi'il mudhari' berharakat sukun dan mengubah makna menjadi peniadaan masa lampau ('belum/tidak pernah')."
+            },
+            "meaning": "Dia belum menulis",
+            "text_ar": "لَمْ يَكْتُبْ",
+            "arabic": "لَمْ يَكْتُبْ",
+            "prompt": "Ketuk AMIL JAZM yang menyebabkan fi'il mudhari' ini sukun:",
+            "question": "Ketuk AMIL JAZM yang menyebabkan fi'il mudhari' ini sukun:"
+          },
+          {
+            "id": "q22_4",
+            "type": "mcq",
+            "prompt": "Manakah 4 pembagian I'rab menurut teks Matan Al-Ajurrumiyyah?",
+            "arabic": "وَأَقْسَامُهُ أَرْبَعَةٌ: رَفْعٌ، وَنَصْبٌ، وَخَفْضٌ، وَجَزْمٌ",
+            "translation": "Dan pembagian I'rab ada empat: Rafa', Nashab, Khafadh, dan Jazm",
+            "text_ar": "رَفْعٌ وَنَصْبٌ وَخَفْضٌ وَجَزْمٌ",
+            "sentence": "رَفْعٌ وَنَصْبٌ وَخَفْضٌ وَجَزْمٌ",
+            "options": [
+              {
+                "label": "Rafa', Nashab, Khafadh, Jazm",
+                "value": "correct"
+              },
+              {
+                "label": "Madhi, Mudhari', Amr, Nahyi",
+                "value": "verbs"
+              },
+              {
+                "label": "Mufrad, Mutsanna, Jamak, Idhafah",
+                "value": "nouns"
+              }
+            ],
+            "correct": "correct",
+            "explanation": "Empat pilar status I'rab dalam Ajurrumiyyah adalah Rafa', Nashab, Khafadh (Jar), dan Jazm.",
+            "whyModal": "Empat istilah ini adalah status gramatikal standar dalam bahasa Arab."
+          },
+          {
+            "id": "q22_5",
+            "type": "harakat_switcher",
+            "prompt": "Pilih harakat untuk kata berstatus NASHAB pada objek (Maf'ul Bih) berikut:",
+            "arabic": "قَرَأَ الطَّالِبُ الْكِتَاب",
+            "translation": "Siswa itu membaca buku...",
+            "text_ar": "قَرَأَ الطَّالِبُ الْكِتَاب",
+            "sentence": "قَرَأَ الطَّالِبُ الْكِتَاب",
+            "options": [
+              {
+                "label": "الْكِتَابَ (Fathah - Manshub)",
+                "value": "fathah"
+              },
+              {
+                "label": "الْكِتَابِ (Kasrah - Majrur)",
+                "value": "kasrah"
+              },
+              {
+                "label": "الْكِتَابُ (Dhommah - Marfu')",
+                "value": "dhommah"
+              }
+            ],
+            "correct": "fathah",
+            "explanation": "Kata الْكِتَابَ berkedudukan sebagai objek (Maf'ul Bih) yang berstatus Nashab bertanda Fathah.",
+            "whyModal": "Objek langsung selalu manshub dengan tanda pokok fathah."
+          },
+          {
+            "id": "q22_6",
+            "type": "amil_hunter",
+            "instruction": "Ketuk AMIL RAFA' (kata kerja yang menuntut pelaku/Fa'il berharakat Dhommah):",
+            "prompt": "Ketuk kata kerja yang menuntut Fa'il:",
+            "sentence": "حَضَرَ الْمُعَلِّمُ إِلَى الْمَدْرَسَةِ",
+            "translation": "Guru itu telah hadir ke sekolah",
+            "text_ar": "حَضَرَ الْمُعَلِّمُ إِلَى الْمَدْرَسَةِ",
+            "arabic": "حَضَرَ الْمُعَلِّمُ إِلَى الْمَدْرَسَةِ",
+            "tokens": [
+              {
+                "text": "حَضَرَ",
+                "is_correct": true,
+                "feedback": "Tepat! Kata kerja حَضَرَ adalah amil yang merafa'kan fa'il الْمُعَلِّمُ."
+              },
+              {
+                "text": "الْمُعَلِّمُ",
+                "is_correct": false,
+                "feedback": "الْمُعَلِّمُ adalah Fa'il (pelaku), ma'mul dari amil hadir."
+              },
+              {
+                "text": "إِلَى",
+                "is_correct": false,
+                "feedback": "إِلَى adalah amil jar untuk kata madrasah."
+              },
+              {
+                "text": "الْمَدْرَسَةِ",
+                "is_correct": false,
+                "feedback": "الْمَدْرَسَةِ adalah isim majrur."
+              }
+            ],
+            "explanation": "Kata kerja حَضَرَ menuntut subjek (Fa'il), sehingga kata الْمُعَلِّمُ menjadi marfu' dengan dhommah.",
+            "whyModal": "Fa'il marfu' karena kata kerja yang mendahuluinya."
+          },
+          {
+            "id": "q22_7",
+            "type": "binary",
+            "prompt": "Apakah tanda pokok / tanda asli untuk status I'rab RAFA' adalah Dhommah?",
+            "arabic": "عَلَامَةُ الرَّفْعِ الْأَصْلِيَّةُ هِيَ الضَّمَّةُ",
+            "translation": "Tanda rafa' yang asli adalah dhommah",
+            "text_ar": "عَلَامَةُ الرَّفْعِ هِيَ الضَّمَّةُ",
+            "sentence": "عَلَامَةُ الرَّفْعِ هِيَ الضَّمَّةُ",
+            "options": [
+              {
+                "label": "BENAR (Dhommah adalah tanda pokok Rafa')",
+                "value": true
+              },
+              {
+                "label": "SALAH",
+                "value": false
+              }
+            ],
+            "correct": true,
+            "explanation": "Benar! Dhommah adalah tanda asli bagi status Rafa'. Tanda lain seperti wawu, alif, dan nun adalah pengganti.",
+            "whyModal": "Setiap status i'rab memiliki satu tanda asli harakat."
+          },
+          {
+            "id": "q22_8",
+            "type": "mcq",
+            "prompt": "Tanda pokok apakah yang menjadi ciri khas status I'rab KHAFADH (JAR)?",
+            "arabic": "عَلَامَةُ الْخَفْضِ الْأَصْلِيَّةُ",
+            "translation": "Tanda asli khafadh...",
+            "text_ar": "عَلَامَةُ الْخَفْضِ",
+            "sentence": "عَلَامَةُ الْخَفْضِ",
+            "options": [
+              {
+                "label": "Kasrah (الْكَسْرَةُ)",
+                "value": "kasrah"
+              },
+              {
+                "label": "Dhommah (الضَّمَّةُ)",
+                "value": "dhommah"
+              },
+              {
+                "label": "Sukun (السُّكُونُ)",
+                "value": "sukun"
+              }
+            ],
+            "correct": "kasrah",
+            "explanation": "Kasrah adalah tanda asli bagi Khafadh/Jar.",
+            "whyModal": "Khafadh dan Jar adalah dua istilah untuk konsep gramatikal yang sama."
+          },
+          {
+            "id": "q22_9",
+            "type": "harakat_switcher",
+            "prompt": "Pilih harakat untuk kata berstatus KHAFADH setelah kemasukan huruf jar فِي:",
+            "arabic": "جَلَسْتُ فِي الْفَصْل",
+            "translation": "Aku duduk di dalam kelas...",
+            "text_ar": "جَلَسْتُ فِي الْفَصْل",
+            "sentence": "جَلَسْتُ فِي الْفَصْل",
+            "options": [
+              {
+                "label": "الْفَصْلِ (Kasrah)",
+                "value": "kasrah"
+              },
+              {
+                "label": "الْفَصْلَ (Fathah)",
+                "value": "fathah"
+              },
+              {
+                "label": "الْفَصْلُ (Dhommah)",
+                "value": "dhommah"
+              }
+            ],
+            "correct": "kasrah",
+            "explanation": "Kata الْفَصْلِ berstatus Khafadh karena didahului huruf jar فِي dengan tanda kasrah.",
+            "whyModal": "Huruf jar mewajibkan tanda kasrah pada isim mufrad."
+          },
+          {
+            "id": "q22_10",
+            "type": "mcq",
+            "prompt": "Tanda pokok apakah yang menjadi ciri khas status I'rab JAZM pada Fi'il Mudhari'?",
+            "arabic": "عَلَامَةُ الْجَزْمِ الْأَصْلِيَّةُ",
+            "translation": "Tanda asli jazm...",
+            "text_ar": "عَلَامَةُ الْجَزْمِ",
+            "sentence": "عَلَامَةُ الْجَزْمِ",
+            "options": [
+              {
+                "label": "Sukun (السُّكُونُ)",
+                "value": "sukun"
+              },
+              {
+                "label": "Kasrah (الْكَسْرَةُ)",
+                "value": "kasrah"
+              },
+              {
+                "label": "Fathah (الْفَتْحَةُ)",
+                "value": "fathah"
+              }
+            ],
+            "correct": "sukun",
+            "explanation": "Sukun adalah tanda asli untuk status Jazm pada Fi'il Mudhari' yang shahih akhir.",
+            "whyModal": "Jazm secara bahasa bermakna memotong harakat."
+          }
+        ],
+        "title_ar": "أَقْسَامُ الْإِعْرَابِ أَرْبَعَةٌ"
+      },
+      {
+        "id": "level_2_3",
+        "code": "2.3",
+        "title": "Level 2.3: I'rab Isim vs Fi'il",
+        "subtitle": "Aturan hak istimewa & larangan",
+        "titleArabic": "إِعْرَابُ الْأَسْمَاءِ وَالْأَفْعَالِ",
+        "xp": 75,
+        "unlocked": false,
+        "theory": {
+          "title": "Hak I'rab Isim dan Fi'il",
+          "matan": "فَلِلْأَسْمَاءِ مِنْ ذَلِكَ الرَّفْعُ، وَالنَّصْبُ، وَالْخَفْضُ، وَلَا جَزْمَ فِيهَا، وَلِلْأَفْعَالِ مِنْ ذَلِكَ: الرَّفْعُ، وَالنَّصْبُ، وَالْجَزْمُ، وَلَا خَفْضَ فِيهَا",
+          "translation": "Bagi Isim ada Rafa', Nashab, dan Khafadh, dan TIDAK ADA JAZM padanya. Dan bagi Fi'il ada Rafa', Nashab, dan Jazm, dan TIDAK ADA KHAFADH padanya.",
+          "points": [
+            {
+              "label": "Isim Memiliki 3 I'rab",
+              "arabic": "رَفْعٌ • نَصْبٌ • خَفْضٌ",
+              "desc": "Isim BISA mengalami rafa' (dhommah), nashab (fathah), dan khafadh/jar (kasrah). Namun isim HARAM dijazm — tidak ada sukun i'rab pada kata benda. Kaidah mudah: Isim itu 'R-N-Kh' (Rafa'-Nashab-Khafadh), BUKAN Jazm. Contoh perubahan: زَيْدٌ (rafa') → زَيْدًا (nashab) → زَيْدٍ (khafadh/jar)."
+            },
+            {
+              "label": "Fi'il Memiliki 3 I'rab",
+              "arabic": "رَفْعٌ • نَصْبٌ • جَزْمٌ",
+              "desc": "Fi'il Mudhari' BISA mengalami rafa' (dhommah), nashab (fathah), dan jazm (sukun). Namun fi'il HARAM dikhafadh — tidak ada kasrah i'rab pada kata kerja. Kaidah mudah: Fi'il itu 'R-N-J' (Rafa'-Nashab-Jazm), BUKAN Khafadh. Contoh: يَكْتُبُ (rafa') → لَنْ يَكْتُبَ (nashab) → لَمْ يَكْتُبْ (jazm). Perhatian: fi'il madhi dan amr tidak termasuk mu'rab (keduanya mabni)."
+            }
+          ]
+        },
+        "questions": [
+          {
+            "id": "q23_1",
+            "type": "binary",
+            "prompt": "Apakah Isim (Kata Benda) bisa memiliki status I'rab JAZM (Sukun)?",
+            "arabic": "وَلَا جَزْمَ فِيهَا",
+            "translation": "Dan tidak ada jazm pada isim",
+            "options": [
+              {
+                "label": "TIDAK BISA (HARAM JAZM)",
+                "value": true
+              },
+              {
+                "label": "BISA",
+                "value": false
+              }
+            ],
+            "correct": true,
+            "explanation": "Kaidah Emas: Isim TIDAK AKAN PERNAH dijazmkan! Jazm (sukun i'rab) adalah hak istimewa fi'il mudhari' saja. Jika kamu melihat isim berakhiran sukun, itu bukan tanda jazm melainkan kebetulan bunyi.",
+            "whyModal": {
+              "title": "Larangan Jazm pada Isim",
+              "matan": "وَلَا جَزْمَ فِيهَا",
+              "reason": "Kitab Jurumiyyah menegaskan: kata benda (isim) tidak memiliki bentuk i'rab jazm. Sukun pada isim jika ada adalah karena alasan lain (bukan jazm i'rab)."
+            },
+            "meaning": "Dan tidak ada jazm pada isim",
+            "text_ar": "وَلَا جَزْمَ فِيهَا",
+            "sentence": "وَلَا جَزْمَ فِيهَا",
+            "instruction": "Apakah Isim (Kata Benda) bisa memiliki status I'rab JAZM (Sukun)?",
+            "question": "Apakah Isim (Kata Benda) bisa memiliki status I'rab JAZM (Sukun)?"
+          },
+          {
+            "id": "q23_2",
+            "type": "binary",
+            "prompt": "Apakah Fi'il (Kata Kerja) bisa memiliki status I'rab KHAFADH / JAR (Kasrah)?",
+            "arabic": "وَلَا خَفْضَ فِيهَا",
+            "translation": "Dan tidak ada khafadh pada fi'il",
+            "options": [
+              {
+                "label": "BISA",
+                "value": false
+              },
+              {
+                "label": "TIDAK BISA (HARAM KHAFADH)",
+                "value": true
+              }
+            ],
+            "correct": true,
+            "explanation": "Tepat! Fi'il TIDAK PERNAH dikhafadh/dijarkan. Khafadh/Jar adalah ciri khusus isim — hanya isim yang bisa menjadi majrur setelah huruf jer atau dalam idhafah.",
+            "whyModal": {
+              "title": "Larangan Jar pada Fi'il",
+              "matan": "وَلَا خَفْضَ فِيهَا",
+              "reason": "Kasrah/Khafadh adalah tanda khusus bagi Isim. Fi'il tidak menerima amil jar karena huruf jer adalah amil yang khusus bekerja pada isim."
+            },
+            "meaning": "Dan tidak ada khafadh pada fi'il",
+            "text_ar": "وَلَا خَفْضَ فِيهَا",
+            "sentence": "وَلَا خَفْضَ فِيهَا",
+            "instruction": "Apakah Fi'il (Kata Kerja) bisa memiliki status I'rab KHAFADH / JAR (Kasrah)?",
+            "question": "Apakah Fi'il (Kata Kerja) bisa memiliki status I'rab KHAFADH / JAR (Kasrah)?"
+          },
+          {
+            "id": "q23_3",
+            "type": "mcq",
+            "prompt": "Dua jenis I'rab manakah yang BISA dimiliki OLEH KEDUANYA (Isim maupun Fi'il)?",
+            "arabic": "الرَّفْعُ وَالنَّصْبُ",
+            "translation": "Rafa' dan Nashab",
+            "options": [
+              {
+                "label": "Khafadh dan Jazm",
+                "value": "kj"
+              },
+              {
+                "label": "Rafa' dan Nashab",
+                "value": "rn"
+              },
+              {
+                "label": "Hanya Jazm",
+                "value": "j"
+              }
+            ],
+            "correct": "rn",
+            "explanation": "Mumtaz! Rafa' dan Nashab adalah dua bentuk I'rab yang bisa dialami oleh Isim maupun Fi'il Mudhari'. Khafadh hanya untuk isim, Jazm hanya untuk fi'il mudhari'.",
+            "whyModal": {
+              "title": "Titik Temu I'rab Isim & Fi'il",
+              "matan": "الرَّفْعُ وَالنَّصْبُ مُشْتَرَكَانِ",
+              "reason": "Isim dan fi'il sama-sama bisa berstatus Rafa' dan Nashab. Ini 'titik temu' keduanya dalam hal i'rab."
+            },
+            "meaning": "Rafa' dan Nashab",
+            "text_ar": "الرَّفْعُ وَالنَّصْبُ",
+            "sentence": "الرَّفْعُ وَالنَّصْبُ",
+            "instruction": "Dua jenis I'rab manakah yang BISA dimiliki OLEH KEDUANYA (Isim maupun Fi'il)?",
+            "question": "Dua jenis I'rab manakah yang BISA dimiliki OLEH KEDUANYA (Isim maupun Fi'il)?"
+          },
+          {
+            "id": "q23_4",
+            "type": "mcq",
+            "prompt": "Tiga macam I'rab manakah yang khusus dapat disandang oleh KELOMPOK ISIM?",
+            "arabic": "فَلِلْأَسْمَاءِ مِنْ ذَٰلِكَ: الرَّفْعُ، وَالنَّصْبُ، وَالْخَفْضُ، وَلَا جَزْمَ فِيهَا",
+            "translation": "Maka bagi isim: Rafa', Nashab, Khafadh, dan TIDAK ADA JAZM padanya",
+            "text_ar": "الرَّفْعُ وَالنَّصْبُ وَالْخَفْضُ",
+            "sentence": "الرَّفْعُ وَالنَّصْبُ وَالْخَفْضُ",
+            "options": [
+              {
+                "label": "Rafa', Nashab, Khafadh (Haram Jazm)",
+                "value": "correct"
+              },
+              {
+                "label": "Rafa', Nashab, Jazm (Haram Khafadh)",
+                "value": "wrong1"
+              },
+              {
+                "label": "Khafadh dan Jazm saja",
+                "value": "wrong2"
+              }
+            ],
+            "correct": "correct",
+            "explanation": "Matan: Isim bisa Rafa', Nashab, dan Khafadh, tetapi sama sekali tidak menerima Jazm.",
+            "whyModal": "Isim tidak pernah mengalami jazm."
+          },
+          {
+            "id": "q23_5",
+            "type": "mcq",
+            "prompt": "Tiga macam I'rab manakah yang dapat disandang oleh KELOMPOK FI'IL (Kata Kerja)?",
+            "arabic": "وَلِلْأَفْعَالِ مِنْ ذَٰلِكَ: الرَّفْعُ، وَالنَّصْبُ، وَالْجَزْمُ، وَلَا خَفْضَ فِيهَا",
+            "translation": "Dan bagi kata kerja: Rafa', Nashab, Jazm, dan TIDAK ADA KHAFADH padanya",
+            "text_ar": "الرَّفْعُ وَالنَّصْبُ وَالْجَزْمُ",
+            "sentence": "الرَّفْعُ وَالنَّصْبُ وَالْجَزْمُ",
+            "options": [
+              {
+                "label": "Rafa', Nashab, Jazm (Haram Khafadh / Kasrah)",
+                "value": "correct"
+              },
+              {
+                "label": "Rafa', Nashab, Khafadh",
+                "value": "wrong1"
+              },
+              {
+                "label": "Jazm dan Khafadh saja",
+                "value": "wrong2"
+              }
+            ],
+            "correct": "correct",
+            "explanation": "Fi'il bisa Rafa', Nashab, dan Jazm, namun mustahil menerima Khafadh (jar).",
+            "whyModal": "Khafadh adalah tanda eksklusif milik Isim."
+          },
+          {
+            "id": "q23_6",
+            "type": "binary",
+            "prompt": "Jika kata kerja berakhiran kasrah pada لَمْ يَكُنِ الَّذِينَ, apakah kasrah itu tanda I'rab asli fi'il?",
+            "arabic": "لَمْ يَكُنِ الَّذِينَ كَفَرُوا",
+            "translation": "Tidaklah orang-orang yang kafir itu...",
+            "text_ar": "لَمْ يَكُنِ الَّذِينَ كَفَرُوا",
+            "sentence": "لَمْ يَكُنِ الَّذِينَ كَفَرُوا",
+            "options": [
+              {
+                "label": "BUKAN (Kasrah itu hanya pelancar karena bertemunya dua sukun)",
+                "value": true
+              },
+              {
+                "label": "YA (Itu tanda i'rab asli fi'il)",
+                "value": false
+              }
+            ],
+            "correct": true,
+            "explanation": "Kata kerja يَكُنْ aslinya majzum bersukun. Kasrah hanya harakat tambahan pelancar bacaan karena bertemu sukun.",
+            "whyModal": "Fi'il tidak pernah memiliki i'rab khafadh secara gramatikal."
+          },
+          {
+            "id": "q23_7",
+            "type": "binary",
+            "prompt": "Apakah huruf (huruf ma'ani seperti فِي, مِنْ, إِنَّ) memiliki status I'rab?",
+            "arabic": "كُلُّ حَرْفٍ مَبْنِيٌّ لَا مَحَلَّ لَهُ مِنَ الْإِعْرَابِ",
+            "translation": "Setiap huruf mabni dan tidak memiliki kedudukan i'rab",
+            "text_ar": "كُلُّ حَرْفٍ مَبْنِيٌّ",
+            "sentence": "كُلُّ حَرْفٍ مَبْنِيٌّ",
+            "options": [
+              {
+                "label": "TIDAK (Huruf seluruhnya Mabni)",
+                "value": false
+              },
+              {
+                "label": "YA (Huruf ikut mu'rab)",
+                "value": true
+              }
+            ],
+            "correct": false,
+            "explanation": "Kaidah Nahwu mutlak: Seluruh huruf mabni dan tidak punya kedudukan I'rab.",
+            "whyModal": "Hanya Isim dan Fi'il Mudhari' yang bisa berstatus I'rab."
+          },
+          {
+            "id": "q23_8",
+            "type": "mcq",
+            "prompt": "Pasangan status I'rab manakah yang menjadi pembeda khusus antara Isim dan Fi'il?",
+            "arabic": "الْخَفْضُ لِلْأَسْمَاءِ وَالْجَزْمُ لِلْأَفْعَالِ",
+            "translation": "Khafadh untuk isim dan Jazm untuk fi'il",
+            "text_ar": "الْخَفْضُ وَالْجَزْمُ",
+            "sentence": "الْخَفْضُ وَالْجَزْمُ",
+            "options": [
+              {
+                "label": "Khafadh khusus Isim, Jazm khusus Fi'il",
+                "value": "correct"
+              },
+              {
+                "label": "Rafa' khusus Isim, Nashab khusus Fi'il",
+                "value": "wrong1"
+              },
+              {
+                "label": "Semua status sama saja",
+                "value": "wrong2"
+              }
+            ],
+            "correct": "correct",
+            "explanation": "Rafa' dan Nashab adalah status sekutu. Pembeda khususnya: Khafadh hanya milik Isim, dan Jazm hanya milik Fi'il.",
+            "whyModal": "Ini adalah kaidah emas dalam Matan Al-Ajurrumiyyah."
+          },
+          {
+            "id": "q23_9",
+            "type": "harakat_switcher",
+            "prompt": "Fi'il Mudhari' يَضْرِبُ dimasuki amil jazm لَمْ. Pilih bentuk harakat akhirnya:",
+            "arabic": "لَمْ يَضْرِب",
+            "translation": "Dia tidak memukul...",
+            "text_ar": "لَمْ يَضْرِب",
+            "sentence": "لَمْ يَضْرِب",
+            "options": [
+              {
+                "label": "لَمْ يَضْرِبْ (Sukun - Majzum)",
+                "value": "sukun"
+              },
+              {
+                "label": "لَمْ يَضْرِبِ (Kasrah)",
+                "value": "kasrah"
+              },
+              {
+                "label": "لَمْ يَضْرِبُ (Dhommah)",
+                "value": "dhommah"
+              }
+            ],
+            "correct": "sukun",
+            "explanation": "Amil jazm لَمْ menjazmkan kata kerja mudhari shahih akhir dengan sukun.",
+            "whyModal": "Jazm adalah hak istimewa kata kerja."
+          },
+          {
+            "id": "q23_10",
+            "type": "binary",
+            "prompt": "Apakah kata benda الْبَيْتُ bisa dimasuki amil لَمْ sehingga menjadi لَمْ الْبَيْتُ?",
+            "arabic": "هَلْ يَدْخُلُ الْجَزْمُ عَلَى الْأَسْمَاءِ؟",
+            "translation": "Apakah jazm bisa masuk ke isim?",
+            "text_ar": "هَلْ يَدْخُلُ الْجَزْمُ عَلَى الْأَسْمَاءِ؟",
+            "sentence": "هَلْ يَدْخُلُ الْجَزْمُ عَلَى الْأَسْمَاءِ؟",
+            "options": [
+              {
+                "label": "MUSTAHIL (Isim sama sekali tidak menerima amil jazm)",
+                "value": false
+              },
+              {
+                "label": "BISA",
+                "value": true
+              }
+            ],
+            "correct": false,
+            "explanation": "Mustahil! Amil jazm hanya berlaku khusus untuk Fi'il. Isim haram menerima jazm.",
+            "whyModal": "Matan: ولا جزم فيها."
+          }
+        ],
+        "title_ar": "إِعْرَابُ الْأَسْمَاءِ وَالْأَفْعَالِ"
+      },
+      {
+        "id": "level_2_4",
+        "code": "2.4",
+        "title": "Level 2.4: Ujian Akhir Bab Al-I'rab",
+        "subtitle": "Ujian akhir bab I'rab",
+        "titleArabic": "تَحَدِّي الْإِعْرَابِ",
+        "xp": 100,
+        "unlocked": false,
+        "theory": {
+          "title": "Ujian Komprehensif Bab I'rab",
+          "matan": "الْإِعْرَابُ هُوَ تَغْيِيرُ أَوَاخِرِ الْكَلِمِ لِاخْتِلَافِ الْعَوَامِلِ الدَّاخِلَةِ عَلَيْهَا لَفْظًا أَوْ تَقْدِيرًا",
+          "translation": "Buktikan pemahamanmu dalam mendeteksi amil dan mengaplikasikan harakat yang tepat!",
+          "points": [
+            {
+              "label": "Perhatikan Amil (الْعَامِلُ)",
+              "arabic": "مَعْرِفَةُ الْعَامِلِ",
+              "desc": "Amil adalah penyebab perubahan harakat akhir suatu kata. Ada dua jenis: (1) Amil Lafdzi — terlihat dan terdengar, seperti huruf jer (فِي، بِـ، إِلَى) atau fi'il yang menuntut fa'il; dan (2) Amil Ma'nawi — tidak terlihat, seperti ibtida' yang me-rafa'-kan mubtada'. Kenali amil sebelum memutuskan harakat akhir kata."
+            },
+            {
+              "label": "Hak I'rab Isim vs Fi'il",
+              "arabic": "فَلِلْأَسْمَاءِ... وَلِلْأَفْعَالِ...",
+              "desc": "Kaidah emas Jurumiyyah: Isim pantang Jazm (tidak akan pernah berakhiran sukun karena i'rab), dan Fi'il pantang Khafadh/Jar (tidak akan pernah dikasrahkan karena amil jer). Gunakan kaidah ini untuk memverifikasi jawaban: jika isim kamu jazm-kan, pasti salah. Jika fi'il kamu jar-kan, pasti salah."
+            }
+          ]
+        },
+        "questions": [
+          {
+            "id": "q24_1",
+            "type": "amil_hunter",
+            "instruction": "BOSS 1: Ketuk amil yang menyebabkan kata 'مُحَمَّدًا' berharakat fathah:",
+            "sentence": "إِنَّ مُحَمَّدًا رَسُولُ اللَّهِ",
+            "translation": "Sesungguhnya Muhammad adalah utusan Allah",
+            "tokens": [
+              {
+                "text": "إِنَّ",
+                "isAmil": true
+              },
+              {
+                "text": "مُحَمَّدًا",
+                "isAmil": false
+              },
+              {
+                "text": "رَسُولُ",
+                "isAmil": false
+              },
+              {
+                "text": "اللَّهِ",
+                "isAmil": false
+              }
+            ],
+            "explanation": "Luar biasa! 'إِنَّ' adalah amil penashab isim (nawasikh) sehingga 'مُحَمَّدًا' dibaca fathatain (nashab). Ini berbeda dari fi'il — 'إِنَّ' langsung menashabkan isim yang menjadi ismnya.",
+            "whyModal": {
+              "title": "Kaidah Inna (إِنَّ وَأَخَوَاتُهَا)",
+              "matan": "إِنَّ وَأَخَوَاتُهَا تَنْصِبُ الِاسْمَ وَتَرْفَعُ الْخَبَرَ",
+              "reason": "Inna wa akhwatuha adalah amil nawasikh yang menashabkan isim setelahnya (ismu inna) dan me-rafa'-kan khabarnya. Maka مُحَمَّدًا = ismu inna (nashab), رَسُولُ = khabar inna (rafa')."
+            },
+            "meaning": "Sesungguhnya Muhammad adalah utusan Allah",
+            "text_ar": "إِنَّ مُحَمَّدًا رَسُولُ اللَّهِ",
+            "arabic": "إِنَّ مُحَمَّدًا رَسُولُ اللَّهِ",
+            "prompt": "BOSS 1: Ketuk amil yang menyebabkan kata 'مُحَمَّدًا' berharakat fathah:",
+            "question": "BOSS 1: Ketuk amil yang menyebabkan kata 'مُحَمَّدًا' berharakat fathah:"
+          },
+          {
+            "id": "q24_2",
+            "type": "harakat_switcher",
+            "instruction": "BOSS 2: Pasang harakat kata 'الْقَلَمَ' setelah kemasukan huruf jer 'بِ':",
+            "sentencePrefix": "كَتَبْتُ بِ",
+            "targetWord": "الْقَلَمِ",
+            "role": "Majrur / Khafadh karena kemasukan huruf jer Ba'",
+            "translation": "Aku menulis dengan pena",
+            "options": [
+              {
+                "harakat": "ُ",
+                "name": "Dhommah (الْقَلَمُ)",
+                "value": "dhommah"
+              },
+              {
+                "harakat": "َ",
+                "name": "Fathah (الْقَلَمَ)",
+                "value": "fathah"
+              },
+              {
+                "harakat": "ِ",
+                "name": "Kasrah (الْقَلَمِ)",
+                "value": "kasrah"
+              }
+            ],
+            "correct": "kasrah",
+            "explanation": "Sempurna! Huruf Ba' (بِـ) adalah huruf jer, sehingga kata 'الْقَلَمِ' wajib berharakat kasrah (Majrur/Khafadh). Ini membuktikan i'rab lafdzan yang nyata pada isim.",
+            "whyModal": {
+              "title": "Amil Jar Ba' (بِـ)",
+              "matan": "وَحُرُوفُ الْخَفْضِ: الْبَاءُ",
+              "reason": "Huruf Ba' (بِـ) adalah salah satu huruf jer yang mewajibkan isim yang dimasukinya berharakat kasrah/majrur. Ini amil lafdzi yang nyata dan kuat."
+            },
+            "meaning": "Aku menulis dengan pena",
+            "prompt": "BOSS 2: Pasang harakat kata 'الْقَلَمَ' setelah kemasukan huruf jer 'بِ':",
+            "question": "BOSS 2: Pasang harakat kata 'الْقَلَمَ' setelah kemasukan huruf jer 'بِ':"
+          },
+          {
+            "id": "q24_3",
+            "type": "amil_hunter",
+            "instruction": "BOSS 3: Ketuk AMIL yang menyebabkan kata تَفْعَلُوا kehilangan huruf Nun-nya:",
+            "prompt": "Ketuk amil penashab fi'il:",
+            "sentence": "لَنْ تَفْعَلُوا ذَٰلِكَ أَبَدًا",
+            "translation": "Kalian tidak akan pernah mampu melakukan hal itu selamanya",
+            "text_ar": "لَنْ تَفْعَلُوا ذَٰلِكَ أَبَدًا",
+            "arabic": "لَنْ تَفْعَلُوا ذَٰلِكَ أَبَدًا",
+            "tokens": [
+              {
+                "text": "لَنْ",
+                "is_correct": true,
+                "feedback": "Luar biasa! لَنْ adalah Amil Nawashib yang menashabkan af'alul khamsah dengan hadfun nun."
+              },
+              {
+                "text": "تَفْعَلُوا",
+                "is_correct": false,
+                "feedback": "تَفْعَلُوا adalah fi'il ma'mul."
+              },
+              {
+                "text": "ذَٰلِكَ",
+                "is_correct": false,
+                "feedback": "ذَٰلِكَ adalah maf'ul bih."
+              },
+              {
+                "text": "أَبَدًا",
+                "is_correct": false,
+                "feedback": "أَبَدًا adalah zharaf zaman."
+              }
+            ],
+            "explanation": "Huruf لَنْ adalah amil nawashib yang mengubah تَفْعَلُونَ menjadi تَفْعَلُوا dengan membuang nun.",
+            "whyModal": "Amil nawashib mempengaruhi fi'il mudhari."
+          },
+          {
+            "id": "q24_4",
+            "type": "harakat_switcher",
+            "prompt": "BOSS 4: Pasang harakat kata الصَّلَاة pada posisi Fa'il (pelaku) yang marfu':",
+            "arabic": "قَامَتِ الصَّلَاة",
+            "translation": "Shalat telah ditegakkan...",
+            "text_ar": "قَامَتِ الصَّلَاة",
+            "sentence": "قَامَتِ الصَّلَاة",
+            "options": [
+              {
+                "label": "الصَّلَاةُ (Dhommah - Rafa')",
+                "value": "dhommah"
+              },
+              {
+                "label": "الصَّلَاةَ (Fathah - Nashab)",
+                "value": "fathah"
+              },
+              {
+                "label": "الصَّلَاةِ (Kasrah - Khafadh)",
+                "value": "kasrah"
+              }
+            ],
+            "correct": "dhommah",
+            "explanation": "Kata الصَّلَاةُ adalah Fa'il dari fi'il قَامَتْ, dan setiap Fa'il adalah Marfu' dengan tanda Dhommah.",
+            "whyModal": "Semua Fa'il wajib marfu'."
+          },
+          {
+            "id": "q24_5",
+            "type": "binary",
+            "prompt": "BOSS 5: Apakah I'rab pada kata الْقَاضِي dalam kalimat جَاءَ الْقَاضِي bersifat Taqdiron karena Tsiqal?",
+            "arabic": "جَاءَ الْقَاضِي",
+            "translation": "Hakim itu telah datang",
+            "text_ar": "جَاءَ الْقَاضِي",
+            "sentence": "جَاءَ الْقَاضِي",
+            "options": [
+              {
+                "label": "BENAR (Taqdiron / Dikira-kirakan karena berat diucapkan)",
+                "value": true
+              },
+              {
+                "label": "SALAH (Lafzhan tampak jelas)",
+                "value": false
+              }
+            ],
+            "correct": true,
+            "explanation": "Benar! Kata bertipe Isim Manqush seperti الْقَاضِي ketika Rafa' tanda dhommahnya dikira-kirakan karena ats-tsiqal.",
+            "whyModal": "Isim Manqush ditaqdirkan pada kondisi rafa' dan jar."
+          },
+          {
+            "id": "q24_6",
+            "type": "mcq",
+            "prompt": "BOSS 6: Di antara 4 jenis I'rab, manakah yang SAMA SEKALI TIDAK PERNAH masuk ke Isim?",
+            "arabic": "أَيُّ نَوْعٍ مِنَ الْإِعْرَابِ مَمْنُوعٌ مِنَ الدُّخُولِ عَلَى الْأَسْمَاءِ؟",
+            "translation": "Jenis i'rab manakah yang dilarang masuk ke isim?",
+            "text_ar": "مَمْنُوعٌ مِنَ الدُّخُولِ عَلَى الْأَسْمَاءِ",
+            "sentence": "مَمْنُوعٌ مِنَ الدُّخُولِ عَلَى الْأَسْمَاءِ",
+            "options": [
+              {
+                "label": "Al-Jazm / Sukun (الْجَزْمُ)",
+                "value": "jazm"
+              },
+              {
+                "label": "Al-Khafadh / Kasrah (الْخَفْضُ)",
+                "value": "khafadh"
+              },
+              {
+                "label": "An-Nashab (النَّصْبُ)",
+                "value": "nashab"
+              }
+            ],
+            "correct": "jazm",
+            "explanation": "Al-Jazm adalah kekhususan bagi Fi'il. Isim tidak pernah mengalami jazm.",
+            "whyModal": "Matan: ولا جزم فيها."
+          },
+          {
+            "id": "q24_7",
+            "type": "amil_hunter",
+            "instruction": "BOSS 7: Ketuk AMIL JAR (huruf yang mengkasrahkan kata setelahnya) pada ayat ini:",
+            "prompt": "Ketuk huruf jar:",
+            "sentence": "سَلَامٌ هِيَ حَتَّىٰ مَطْلَعِ الْفَجْرِ",
+            "translation": "Malam itu penuh kesejahteraan hingga terbit fajar",
+            "text_ar": "سَلَامٌ هِيَ حَتَّىٰ مَطْلَعِ الْفَجْرِ",
+            "arabic": "سَلَامٌ هِيَ حَتَّىٰ مَطْلَعِ الْفَجْرِ",
+            "tokens": [
+              {
+                "text": "سَلَامٌ",
+                "is_correct": false,
+                "feedback": "Khabar muqaddam."
+              },
+              {
+                "text": "هِيَ",
+                "is_correct": false,
+                "feedback": "Mubtada' muakhkhar."
+              },
+              {
+                "text": "حَتَّىٰ",
+                "is_correct": true,
+                "feedback": "Tepat sekali! حَتَّىٰ berfungsi sebagai huruf jar yang mengkasrahkan مَطْلَعِ."
+              },
+              {
+                "text": "مَطْلَعِ",
+                "is_correct": false,
+                "feedback": "مَطْلَعِ adalah isim majrur."
+              },
+              {
+                "text": "الْفَجْرِ",
+                "is_correct": false,
+                "feedback": "الْفَجْرِ adalah mudhaf ilaih."
+              }
+            ],
+            "explanation": "حَتَّىٰ masuk pada isim dan berkedudukan sebagai huruf jar ghayah sehingga مَطْلَعِ berharakat kasrah.",
+            "whyModal": "Hatta termasuk huruf jar."
+          },
+          {
+            "id": "q24_8",
+            "type": "harakat_switcher",
+            "prompt": "BOSS 8: Pilih harakat yang tepat untuk kata الْحَقّ sebagai Maf'ul Bih (Objek):",
+            "arabic": "قُلْنَا الْحَقّ",
+            "translation": "Kami telah mengatakan kebenaran...",
+            "text_ar": "قُلْنَا الْحَقّ",
+            "sentence": "قُلْنَا الْحَقّ",
+            "options": [
+              {
+                "label": "الْحَقَّ (Fathah - Manshub)",
+                "value": "fathah"
+              },
+              {
+                "label": "الْحَقُّ (Dhommah - Marfu')",
+                "value": "dhommah"
+              },
+              {
+                "label": "الْحَقِّ (Kasrah - Majrur)",
+                "value": "kasrah"
+              }
+            ],
+            "correct": "fathah",
+            "explanation": "Kata الْحَقَّ adalah maf'ul bih dari kata kerja قُلْنَا. Setiap maf'ul bih berstatus Nashab bertanda Fathah.",
+            "whyModal": "Objek maf'ul bih selalu manshub."
+          },
+          {
+            "id": "q24_9",
+            "type": "binary",
+            "prompt": "BOSS 9: Apakah kata benda yang menjadi Mudhaf Ilaih selalu wajib berstatus KHAFADH / JAR?",
+            "arabic": "كِتَابُ اللَّهِ ، بَيْتُ زَيْدٍ",
+            "translation": "Kitabullah, rumah Zaid...",
+            "text_ar": "كِتَابُ اللَّهِ",
+            "sentence": "كِتَابُ اللَّهِ",
+            "options": [
+              {
+                "label": "BENAR (Mudhaf Ilaih SELALU Majrur/Khafadh)",
+                "value": true
+              },
+              {
+                "label": "SALAH (Bisa Marfu')",
+                "value": false
+              }
+            ],
+            "correct": true,
+            "explanation": "Benar! Semua mudhaf ilaih tanpa kecuali hukumnya adalah Majrur/Khafadh.",
+            "whyModal": "Khafadh bil idhafah adalah salah satu penyebab isim majrur."
+          },
+          {
+            "id": "q24_10",
+            "type": "mcq",
+            "prompt": "BOSS 10: Dalam kalimat لَمْ يَلِدْ, mengapa kata يَلِدْ berharakat sukun?",
+            "arabic": "لَمْ يَلِدْ",
+            "translation": "Dia tidak beranak...",
+            "text_ar": "لَمْ يَلِدْ",
+            "sentence": "لَمْ يَلِدْ",
+            "options": [
+              {
+                "label": "Karena berstatus JAZM akibat kemasukan amil لَمْ",
+                "value": "jazm"
+              },
+              {
+                "label": "Karena berstatus Khafadh",
+                "value": "khafadh"
+              },
+              {
+                "label": "Karena kata benda mufrad",
+                "value": "noun"
+              }
+            ],
+            "correct": "jazm",
+            "explanation": "يَلِدْ adalah Fi'il Mudhari' yang dijazmkan oleh amil jazm لَمْ dengan tanda sukun.",
+            "whyModal": "Lam adalah amil jazm paling masyhur."
+          }
+        ],
+        "title_ar": "تَحَدِّي الْإِعْرَابِ",
+        "is_boss": true
+      }
+    ]
+  }
+}

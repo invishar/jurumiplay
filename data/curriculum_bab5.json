@@ -1,0 +1,1926 @@
+{
+  "chapter": {
+    "id": "bab_05",
+    "number": 5,
+    "title_ar": "بَابُ الْأَفْعَالِ",
+    "title_id": "Al-Af'al",
+    "description": "Pembagian fi'il dan hukum i'rabnya dalam bahasa Arab.",
+    "matan_full": "وَالأَفْعَالُ ثَلاَثَةٌ: مَاضٍ وَمُضَارِعٌ وَأَمْرٌ، نَحْوُ: ضَرَبَ، وَيَضْرِبُ، وَاضْرِبْ. فَالْمَاضِي: مَفْتُوحُ الْآخِرِ أَبَدًا. وَالأَمْرُ: مَجْزُومٌ أَبَدًا. وَالْمُضَارِعُ: مَا كَانَ فِي أَوَّلِهِ إِحْدَى الزَّوَائِدِ الْأَرْبَعِ الَّتِي يَجْمَعُهَا قَوْلُكَ «أَنَيْتُ»، وَهُوَ مَرْفُوعٌ أَبَدًا، حَتَّى يَدْخُلَ عَلَيْهِ نَاصِبٌ أَوْ جَازِمٌ. فَالنَّوَاصِبُ عَشَرَةٌ، وَهِيَ: أَنْ، وَلَنْ، وَإِذَنْ، وَكَيْ، وَلَامُ كَيْ، وَلَامُ الْجُحُودِ، وَحَتَّى، وَالْجَوَابُ بِالْفَاءِ وَالْوَاوِ، وَأَوْ. وَالْجَوَازِمُ ثَمَانِيَةَ عَشَرَ، وَهِيَ: لَمْ، وَلَمَّا، وَأَلَمْ، وَأَلَمَّا، وَلَامُ الْأَمْرِ وَالدُّعَاءِ، وَ«لَا» فِي النَّهْيِ وَالدُّعَاءِ، وَإِنْ، وَمَا، وَمَنْ، وَمَهْمَا، وَإِذْمَا، وَأَيٌّ، وَمَتَى، وَأَيَّانَ، وَأَيْنَ، وَأَنَّى، وَحَيْثُمَا، وَكَيْفَمَا، وَإِذًا فِي الشِّعْرِ خَاصَّةً.",
+    "qawaidCard": {
+      "title": "Kaidah: Al-Af'al",
+      "matanSnippet": "اَلْأَفْعَالُ ثَلَاثَةٌ: مَاضٍ، وَمُضَارِعٌ، وَأَمْرٌ، نَحْوُ: ضَرَبَ، وَيَضْرِبُ، وَاضْرِبْ",
+      "formula": "Madhi (Mabni Fathah) | Mudhari' (Mu'rab: Rafa'/Nashab/Jazm) | Amr (Mabni Sukun/Hazf)",
+      "points": [
+        "Fi'il ada 3: Madhi, Mudhari', Amr",
+        "Madhi: mabni fathah",
+        "Mudhari': mu'rab (rafa'/nashab/jazm)",
+        "Amr: mabni sukun",
+        "Mudhari' rafa' jika tidak didahului amil nashab/jazm"
+      ],
+      "keyTakeaways": [
+        "Fi'il ada 3: Madhi, Mudhari', Amr",
+        "Madhi: mabni fathah",
+        "Mudhari': mu'rab (rafa'/nashab/jazm)",
+        "Amr: mabni sukun",
+        "Mudhari' rafa' jika tidak didahului amil nashab/jazm"
+      ]
+    },
+    "levels": [
+      {
+        "id": "level_5_1",
+        "code": "5.1",
+        "title": "Fi'il Madhi — Kata Kerja Lampau",
+        "subtitle": "Karakteristik, Ciri Khas, dan Bentuk Bina' Fi'il Madhi",
+        "titleArabic": "الْفِعْلُ الْمَاضِي",
+        "type": "mcq",
+        "xp": 70,
+        "unlocked": true,
+        "is_boss": false,
+        "theory": {
+          "title": "Fi'il Madhi (Kata Kerja Lampau)",
+          "matan": "فَالْمَاضِي مَفْتُوحُ الْآخِرِ أَبَدًا",
+          "translation": "Adapun fi'il madhi, maka huruf akhirnya difathahkan selama-lamanya (mabni fathah secara hukum asal).",
+          "points": [
+            {
+              "label": "Definisi Fi'il Madhi",
+              "arabic": "الْفِعْلُ الْمَاضِي",
+              "desc": "Kata kerja yang menunjukkan kejadian atau perbuatan yang telah selesai dilakukan di masa lampau sebelum masa berbicara, contohnya: كَتَبَ (telah menulis), ذَهَبَ (telah pergi)."
+            },
+            {
+              "label": "Tanda Khas Madhi",
+              "arabic": "تَاءُ التَّأْنِيثِ السَّاكِنَةُ",
+              "desc": "Ciri khas paling utama fi'il madhi adalah bisa menerima Ta' Ta'nits Sakinah (ـتْ) seperti: قَامَتْ (dia perempuan telah berdiri) dan Ta' Fa'il (تُ / تَ / تِ) seperti: كَتَبْتُ (aku telah menulis)."
+            },
+            {
+              "label": "Bina' Fathah (Hukum Asal)",
+              "arabic": "مَبْنِيٌّ عَلَى الْفَتْحِ",
+              "desc": "Fi'il madhi asalnya selalu mabni fathah (zhahirah pada huruf shahih seperti ضَرَبَ, atau muqaddarah seperti دَعَا dan رَمَى), termasuk saat bersambung dengan Alif Tatsniyah (ضَرَبَا) dan Ta' Ta'nits (ضَرَبَتْ)."
+            },
+            {
+              "label": "Bina' Dhommah & Sukun",
+              "arabic": "مَبْنِيٌّ عَلَى الضَّمِّ وَالسُّكُونِ",
+              "desc": "Mabni dhommah jika bersambung Wawu Jama'ah: ضَرَبُوا. Mabni sukun jika bersambung Dhamir Rafa' Mutaharrik: ضَرَبْتُ، ضَرَبْنَا، ضَرَبْنَ."
+            }
+          ]
+        },
+        "questions": [
+          {
+            "id": "q5_1_1",
+            "type": "mcq",
+            "question": "Kata ذَهَبَ termasuk fi'il...",
+            "prompt": "Kata ذَهَبَ termasuk fi'il...",
+            "arabic": "ذَهَبَ زَيْدٌ إِلَى الْمَسْجِدِ",
+            "translation": "Zaid telah pergi ke masjid",
+            "meaning": "Zaid telah pergi ke masjid",
+            "options": [
+              {
+                "label": "Madhi (lampau)",
+                "value": "madhi"
+              },
+              {
+                "label": "Mudhari' (kini/akan)",
+                "value": "mudhari"
+              },
+              {
+                "label": "Amr (perintah)",
+                "value": "amr"
+              },
+              {
+                "label": "Isim",
+                "value": "isim"
+              }
+            ],
+            "correct": "madhi",
+            "explanation": "ذَهَبَ artinya 'telah pergi' — fi'il madhi, mabni fathah.",
+            "whyModal": {
+              "title": "Pengertian Fi'il Madhi",
+              "matan": "الأَفْعَالُ ثَلَاثَةٌ: مَاضٍ، وَمُضَارِعٌ، وَأَمْرٌ، نَحْوُ: ضَرَبَ",
+              "reason": "Kata ذَهَبَ menunjukkan perbuatan yang telah selesai dilakukan di masa lampau, sehingga termasuk fi'il madhi."
+            }
+          },
+          {
+            "id": "q5_1_2",
+            "type": "mcq",
+            "question": "Manakah tanda yang menjadi ciri khas penentu fi'il madhi menurut Matan Al-Ajurrumiyyah?",
+            "prompt": "Manakah tanda yang menjadi ciri khas penentu fi'il madhi menurut Matan Al-Ajurrumiyyah?",
+            "arabic": "وَتَاءِ التَّأْنِيثِ السَّاكِنَةِ",
+            "translation": "Dan ta' ta'nits yang berharakat sukun",
+            "meaning": "Dan ta' ta'nits yang berharakat sukun",
+            "options": [
+              {
+                "label": "Ta' Ta'nits Sakinah (تْ)",
+                "value": "taa_tanits"
+              },
+              {
+                "label": "Huruf Sin (سَـ)",
+                "value": "sin"
+              },
+              {
+                "label": "Huruf Sawfa (سَوْفَ)",
+                "value": "sawfa"
+              },
+              {
+                "label": "Tanwin di akhir kata",
+                "value": "tanwin"
+              }
+            ],
+            "correct": "taa_tanits",
+            "explanation": "Ta' Ta'nits Sakinah (ـتْ) seperti pada ذَهَبَتْ dan قَامَتْ adalah ciri khas fi'il madhi.",
+            "whyModal": {
+              "title": "Ciri Khas Fi'il Madhi",
+              "matan": "وَالْفِعْلُ يُعْرَفُ بِقَدْ، وَالسِّينِ، وَسَوْفَ، وَتَاءِ التَّأْنِيثِ السَّاكِنَةِ",
+              "reason": "Di antara 4 tanda fi'il, Ta' Ta'nits Sakinah hanya bisa masuk ke fi'il madhi."
+            }
+          },
+          {
+            "id": "q5_1_3",
+            "type": "mcq",
+            "question": "Menurut Matan Al-Ajurrumiyyah, hukum asal harakat akhir fi'il madhi adalah...",
+            "prompt": "Menurut Matan Al-Ajurrumiyyah, hukum asal harakat akhir fi'il madhi adalah...",
+            "arabic": "فَالْمَاضِي: مَفْتُوحُ الْآخِرِ أَبَدًا",
+            "translation": "Maka fi'il madhi itu difathahkan akhirnya selamanya",
+            "meaning": "Maka fi'il madhi itu difathahkan akhirnya selamanya",
+            "options": [
+              {
+                "label": "Mabni Fathah",
+                "value": "mabni_fathah"
+              },
+              {
+                "label": "Mabni Dhommah",
+                "value": "mabni_dhommah"
+              },
+              {
+                "label": "Mabni Sukun",
+                "value": "mabni_sukun"
+              },
+              {
+                "label": "Mu'rab dengan Kasrah",
+                "value": "murab_kasrah"
+              }
+            ],
+            "correct": "mabni_fathah",
+            "explanation": "Matan: «فَالْمَاضِي مَفْتُوحُ الآخِرِ أَبَدًا» — fi'il madhi hukum asalnya mabni fathah.",
+            "whyModal": {
+              "title": "Bina' Fi'il Madhi",
+              "matan": "فَالْمَاضِي مَفْتُوحُ الْآخِرِ أَبَدًا",
+              "reason": "Fi'il madhi asalnya selalu mabni di atas harakat fathah lahir (seperti كَتَبَ) atau taqdiri (seperti دَعَا)."
+            }
+          },
+          {
+            "id": "q5_1_4",
+            "type": "mcq",
+            "question": "Perhatikan kata خَرَجَتْ. Mengapa fi'il madhi ini tetap dihukumi mabni fathah?",
+            "prompt": "Perhatikan kata خَرَجَتْ. Mengapa fi'il madhi ini tetap dihukumi mabni fathah?",
+            "arabic": "خَرَجَتْ عَائِشَةُ مِنَ الْفَصْلِ",
+            "translation": "Aisyah telah keluar dari kelas",
+            "meaning": "Aisyah telah keluar dari kelas",
+            "options": [
+              {
+                "label": "Karena huruf terakhir aslinya (jim) tetap berharakat fathah",
+                "value": "jim_fathah"
+              },
+              {
+                "label": "Karena bersambung dengan dhamir wawu jama'ah",
+                "value": "wawu_jamaah"
+              },
+              {
+                "label": "Karena didahului amil nashab",
+                "value": "amil_nashab"
+              },
+              {
+                "label": "Karena disukunkan oleh huruf ta'",
+                "value": "disukunkan_ta"
+              }
+            ],
+            "correct": "jim_fathah",
+            "explanation": "Huruf asli terakhir fi'il خَرَجَ adalah huruf jim yang berharakat fathah (خَرَجَـ), sedangkan ta' sukun (ـتْ) adalah huruf tambahan penanda muannats.",
+            "whyModal": {
+              "title": "Bina' Madhi dengan Ta' Ta'nits",
+              "matan": "فَالْمَاضِي مَفْتُوحُ الْآخِرِ أَبَدًا",
+              "reason": "Ta' ta'nits sakinah adalah huruf sukun tambahan, huruf asli fi'il tetap berharakat fathah."
+            }
+          },
+          {
+            "id": "q5_1_5",
+            "type": "mcq",
+            "question": "Pada kata كَتَبُوا, mengapa huruf ba' berharakat dhommah?",
+            "prompt": "Pada kata كَتَبُوا, mengapa huruf ba' berharakat dhommah?",
+            "arabic": "الطُّلَّابُ كَتَبُوا الدَّرْسَ",
+            "translation": "Para siswa telah menulis pelajaran",
+            "meaning": "Para siswa telah menulis pelajaran",
+            "options": [
+              {
+                "label": "Mabni dhommah karena bersambung dengan Wawu Jama'ah",
+                "value": "wawu_jamaah"
+              },
+              {
+                "label": "Mabni sukun karena pelakunya jamak",
+                "value": "pelaku_jamak"
+              },
+              {
+                "label": "Mu'rab rafa' dengan dhommah",
+                "value": "murab_rafa"
+              },
+              {
+                "label": "Kemasukan amil rafa'",
+                "value": "amil_rafa"
+              }
+            ],
+            "correct": "wawu_jamaah",
+            "explanation": "Fi'il madhi menjadi mabni dhommah ketika bersambung dengan Wawu Jama'ah (كَتَبُوا).",
+            "whyModal": {
+              "title": "Madhi Mabni Dhommah",
+              "matan": "وَيُبْنَى عَلَى الضَّمِّ إِذَا اتَّصَلَتْ بِهِ وَاوُ الْجَمَاعَةِ",
+              "reason": "Wawu Jama'ah menuntut huruf sebelumnya berharakat dhommah agar serasi bunyinya."
+            }
+          },
+          {
+            "id": "q5_1_6",
+            "type": "mcq",
+            "question": "Pada kalimat ضَرَبْتُ, fi'il madhi menjadi mabni di atas harakat apa?",
+            "prompt": "Pada kalimat ضَرَبْتُ, fi'il madhi menjadi mabni di atas harakat apa?",
+            "arabic": "ضَرَبْتُ الْكُرَةَ",
+            "translation": "Aku telah memukul bola",
+            "meaning": "Aku telah memukul bola",
+            "options": [
+              {
+                "label": "Mabni sukun karena bersambung dhamir rafa' mutaharrik",
+                "value": "mabni_sukun"
+              },
+              {
+                "label": "Mabni dhommah karena huruf tu berharakat dhommah",
+                "value": "mabni_dhommah"
+              },
+              {
+                "label": "Mabni fathah secara hukum asal",
+                "value": "mabni_fathah"
+              },
+              {
+                "label": "Mu'rab majzum dengan sukun",
+                "value": "murab_majzum"
+              }
+            ],
+            "correct": "mabni_sukun",
+            "explanation": "Huruf asli terakhir fi'il adalah ba' (ضَرَبْـ) yang disukunkan karena bersambung dhamir rafa' mutaharrik (تُ).",
+            "whyModal": {
+              "title": "Madhi Mabni Sukun",
+              "matan": "وَيُبْنَى عَلَى السُّكُونِ إِذَا اتَّصَلَ بِهِ ضَمِيرُ رَفْعٍ مُتَحَرِّكٌ",
+              "reason": "Bersambung dengan Ta' Fa'il (تُ / تَ / تِ) menyebabkan huruf akhir fi'il madhi disukunkan."
+            }
+          },
+          {
+            "id": "q5_1_7",
+            "type": "mcq",
+            "question": "Manakah di antara kelompok kata berikut yang semuanya merupakan Fi'il Madhi?",
+            "prompt": "Manakah di antara kelompok kata berikut yang semuanya merupakan Fi'il Madhi?",
+            "arabic": "عَلِمَ — سَمِعَ — حَفِظَ",
+            "translation": "Telah mengetahui — telah mendengar — telah menghafal",
+            "meaning": "Telah mengetahui — telah mendengar — telah menghafal",
+            "options": [
+              {
+                "label": "عَلِمَ، سَمِعَ، حَفِظَ",
+                "value": "alima_samia_hafizha"
+              },
+              {
+                "label": "يَعْلَمُ، يَسْمَعُ، يَحْفَظُ",
+                "value": "yalamu_yasmau_yahfazhu"
+              },
+              {
+                "label": "اِعْلَمْ، اِسْمَعْ، اِحْفَظْ",
+                "value": "ilam_isma_ihfazh"
+              },
+              {
+                "label": "عَالِمٌ، سَامِعٌ، حَافِظٌ",
+                "value": "alim_sami_hafizh"
+              }
+            ],
+            "correct": "alima_samia_hafizha",
+            "explanation": "عَلِمَ, سَمِعَ, dan حَفِظَ semuanya adalah fi'il madhi berharakat fathah di akhirnya.",
+            "whyModal": {
+              "title": "Bentuk Fi'il Madhi Mujarrad",
+              "matan": "نَحْوُ: ضَرَبَ",
+              "reason": "Semua kata ini menunjukkan perbuatan lampau dan memiliki wazan madhi (فَعِلَ)."
+            }
+          },
+          {
+            "id": "q5_1_8",
+            "type": "mcq",
+            "question": "Harakat akhir asli dari fi'il madhi قَرَأْنَا adalah sukun pada huruf hamzah (قَرَأْ-). Hal ini karena...",
+            "prompt": "Harakat akhir asli dari fi'il madhi قَرَأْنَا adalah sukun pada huruf hamzah (قَرَأْ-). Hal ini karena...",
+            "arabic": "قَرَأْنَا الْقُرْآنَ الْكَرِيمَ",
+            "translation": "Kami telah membaca Al-Qur'an yang mulia",
+            "meaning": "Kami telah membaca Al-Qur'an yang mulia",
+            "options": [
+              {
+                "label": "Bersambung dengan dhamir 'Na' fa'ilin (نَا)",
+                "value": "na_failin"
+              },
+              {
+                "label": "Didahului oleh huruf jazm",
+                "value": "huruf_jazm"
+              },
+              {
+                "label": "Termasuk af'alul khamsah",
+                "value": "afalul_khamsah"
+              },
+              {
+                "label": "Menjadi isim mabni",
+                "value": "isim_mabni"
+              }
+            ],
+            "correct": "na_failin",
+            "explanation": "Ketika fi'il madhi bersambung dengan dhamir 'Na' Fa'ilin (نَا), huruf akhirnya dibina' sukun.",
+            "whyModal": {
+              "title": "Madhi Bersambung Nun/Na Fa'ilin",
+              "matan": "ضَمِيرُ رَفْعٍ مُتَحَرِّكٌ نَحْوُ: ضَرَبْنَا",
+              "reason": "Dhamir 'Na' bertindak sebagai fa'il (subjek), menuntut fi'il madhi sebelumnya mabni sukun."
+            }
+          },
+          {
+            "id": "q5_1_9",
+            "type": "mcq",
+            "question": "Manakah kalimat yang mengandung fi'il madhi bersambung Alif Tatsniyah (dua orang pelaku)?",
+            "prompt": "Manakah kalimat yang mengandung fi'il madhi bersambung Alif Tatsniyah (dua orang pelaku)?",
+            "arabic": "الرَّجُلَانِ ذَهَبَا إِلَى السُّوقِ",
+            "translation": "Dua lelaki itu telah pergi ke pasar",
+            "meaning": "Dua lelaki itu telah pergi ke pasar",
+            "options": [
+              {
+                "label": "الرَّجُلَانِ ذَهَبَا",
+                "value": "zahabaa"
+              },
+              {
+                "label": "الرَّجُلَانِ يَذْهَبَانِ",
+                "value": "yazhabani"
+              },
+              {
+                "label": "اِذْهَبَا يَا رَجُلَانِ",
+                "value": "izhabaa"
+              },
+              {
+                "label": "الرِّجَالُ ذَهَبُوا",
+                "value": "zahabuu"
+              }
+            ],
+            "correct": "zahabaa",
+            "explanation": "ذَهَبَا adalah fi'il madhi yang bersambung dengan Alif Tatsniyah (Alif dua orang), tetap mabni fathah.",
+            "whyModal": {
+              "title": "Madhi dengan Alif Tatsniyah",
+              "matan": "فَالْمَاضِي مَفْتُوحُ الْآخِرِ أَبَدًا",
+              "reason": "Ketika bersambung alif tatsniyah (ذَهَبَا), huruf ba' tetap berharakat fathah."
+            }
+          },
+          {
+            "id": "q5_1_10",
+            "type": "mcq",
+            "question": "Apakah fi'il madhi bisa berubah harakat akhirnya karena pengaruh amil jazm atau amil nashab?",
+            "prompt": "Apakah fi'il madhi bisa berubah harakat akhirnya karena pengaruh amil jazm atau amil nashab?",
+            "arabic": "فَالْمَاضِي مَفْتُوحُ الْآخِرِ أَبَدًا",
+            "translation": "Maka fi'il madhi difathahkan akhirnya selamanya",
+            "meaning": "Maka fi'il madhi difathahkan akhirnya selamanya",
+            "options": [
+              {
+                "label": "Tidak bisa, karena fi'il madhi selalu mabni (bukan mu'rab)",
+                "value": "tidak_bisa_mabni"
+              },
+              {
+                "label": "Bisa, jika dimasuki huruf jazm lam (لَمْ)",
+                "value": "bisa_lam"
+              },
+              {
+                "label": "Bisa, jika menjadi khabar inna",
+                "value": "bisa_inna"
+              },
+              {
+                "label": "Bisa, harakatnya berubah menjadi kasrah",
+                "value": "bisa_kasrah"
+              }
+            ],
+            "correct": "tidak_bisa_mabni",
+            "explanation": "Fi'il madhi selamanya mabni, harakat akhirnya tidak dapat dipengaruhi amil nashab maupun jazm.",
+            "whyModal": {
+              "title": "Kemabnian Fi'il Madhi",
+              "matan": "فَالْمَاضِي مَفْتُوحُ الْآخِرِ أَبَدًا",
+              "reason": "Seluruh fi'il madhi berstatus mabni, tidak menerima hukum i'rab mu'rab."
+            }
+          }
+        ]
+      },
+      {
+        "id": "level_5_2",
+        "code": "5.2",
+        "title": "Fi'il Mudhari' — Kata Kerja Kini/Akan",
+        "subtitle": "Huruf Mudhara'ah, Makna Waktu, dan Hukum I'rab Rafa'",
+        "titleArabic": "الْفِعْلُ الْمُضَارِعُ",
+        "type": "mcq",
+        "xp": 70,
+        "unlocked": false,
+        "is_boss": false,
+        "theory": {
+          "title": "Fi'il Mudhari' (Kata Kerja Kini/Akan)",
+          "matan": "وَالْمُضَارِعُ: مَا كَانَ فِي أَوَّلِهِ إِحْدَى الزَّوَائِدِ الأَرْبَعِ الَّتِي يَجْمَعُهَا قَوْلُكَ «أَنَيْتُ»، وَهُوَ مَرْفُوعٌ أَبَدًا",
+          "translation": "Mudhari' adalah kata kerja yang di awalnya terdapat salah satu dari empat huruf tambahan yang terangkum dalam ucapanmu «أَنَيْتُ», dan ia dirafa'kan selamanya.",
+          "points": [
+            {
+              "label": "Empat Huruf Mudhara'ah",
+              "arabic": "حُرُوفُ الْمُضَارَعَةِ: أَنَيْتُ",
+              "desc": "Setiap fi'il mudhari' diawali salah satu huruf: Hamzah (أ) untuk 'saya' (أَكْتُبُ), Nun (ن) untuk 'kami' (نَكْتُبُ), Ya' (ي) untuk 'dia lk/mereka' (يَكْتُبُ), Ta' (ت) untuk 'kamu lk/dia pr' (تَكْتُبُ)."
+            },
+            {
+              "label": "Dimensi Waktu",
+              "arabic": "الْحَالُ وَالِاسْتِقْبَالُ",
+              "desc": "Mudhari' menunjukkan perbuatan yang sedang berlangsung (kini / al-hal) atau yang akan terjadi di masa mendatang (al-istiqbal)."
+            },
+            {
+              "label": "Hukum Asal: Rafa'",
+              "arabic": "مَرْفُوعٌ أَبَدًا حَتَّى يَدْخُلَ عَلَيْهِ نَاصِبٌ أَوْ جَازِمٌ",
+              "desc": "Fi'il mudhari' berstatus mu'rab dan wajib marfu' selama tidak kemasukan amil penashab (nawashib) atau amil penjazm (jawazim)."
+            },
+            {
+              "label": "Tanda Rafa' Mudhari'",
+              "arabic": "الضَّمَّةُ أَوْ ثُبُوتُ النُّونِ",
+              "desc": "Tanda pokok rafa'-nya adalah dhommah (contoh: يَذْهَبُ). Jika berupa Af'alul Khamsah (contoh: يَكْتُبُونَ، تَفْعَلَانِ), tanda rafa'-nya adalah tetapnya huruf Nun (ثُبُوتُ النُّونِ)."
+            }
+          ]
+        },
+        "questions": [
+          {
+            "id": "q5_2_1",
+            "type": "mcq",
+            "question": "Empat huruf tambahan di awal fi'il mudhari' (huruf mudhara'ah) terkumpul dalam kata...",
+            "prompt": "Empat huruf tambahan di awal fi'il mudhari' (huruf mudhara'ah) terkumpul dalam kata...",
+            "arabic": "أَنَيْتُ (أ - ن - ي - ت)",
+            "translation": "Anaytu (Hamzah, Nun, Ya', Ta')",
+            "meaning": "Anaytu (Hamzah, Nun, Ya', Ta')",
+            "options": [
+              {
+                "label": "أَنَيْتُ (أ، ن، ي، ت)",
+                "value": "anaytu"
+              },
+              {
+                "label": "سَأَلْتُمُونِيهَا",
+                "value": "saaltumuunihaa"
+              },
+              {
+                "label": "قَطْبُ جَدٍّ",
+                "value": "qathbu_jaddin"
+              },
+              {
+                "label": "يَرْمَلُونَ",
+                "value": "yarmaluuna"
+              }
+            ],
+            "correct": "anaytu",
+            "explanation": "Matan Al-Ajurrumiyyah menyatakan huruf mudhara'ah terangkum dalam lafadz أَنَيْتُ (atau نَأْتِي).",
+            "whyModal": {
+              "title": "Huruf Mudhara'ah Empat",
+              "matan": "مَا كَانَ فِي أَوَّلِهِ إِحْدَى الزَّوَائِدِ الأَرْبَعِ الَّتِي يَجْمَعُهَا قَوْلُكَ: أَنَيْتُ",
+              "reason": "Setiap fi'il mudhari' pasti diawali salah satu dari 4 huruf: Hamzah, Nun, Ya', atau Ta'."
+            }
+          },
+          {
+            "id": "q5_2_2",
+            "type": "mcq",
+            "question": "Huruf mudhara'ah 'Hamzah' (أ) pada kata أَكْتُبُ digunakan untuk dhamir pelaku...",
+            "prompt": "Huruf mudhara'ah 'Hamzah' (أ) pada kata أَكْتُبُ digunakan untuk dhamir pelaku...",
+            "arabic": "أَنَا أَكْتُبُ الرِّسَالَةَ",
+            "translation": "Saya sedang menulis surat",
+            "meaning": "Saya sedang menulis surat",
+            "options": [
+              {
+                "label": "Mutakallim wahdah (saya / orang pertama tunggal)",
+                "value": "mutakallim_wahdah"
+              },
+              {
+                "label": "Ghaib (dia laki-laki)",
+                "value": "ghaib"
+              },
+              {
+                "label": "Mukhatab (kamu laki-laki)",
+                "value": "mukhatab"
+              },
+              {
+                "label": "Mutakallim ma'al ghair (kami/kita)",
+                "value": "mutakallim_jamak"
+              }
+            ],
+            "correct": "mutakallim_wahdah",
+            "explanation": "Huruf hamzah di awal fi'il mudhari' digunakan untuk mutakallim tunggal (أَنَا / saya), contoh: أَكْتُبُ.",
+            "whyModal": {
+              "title": "Fungsi Huruf Hamzah Mudhara'ah",
+              "matan": "الْهَمْزَةُ لِلْمُتَكَلِّمِ وَحْدَهُ",
+              "reason": "Hamzah menandakan pembicara tunggal (أَنَا أَفْعَلُ)."
+            }
+          },
+          {
+            "id": "q5_2_3",
+            "type": "mcq",
+            "question": "Bagaimanakah hukum asal I'rab fi'il mudhari' yang tidak kemasukan amil nashab atau jazm?",
+            "prompt": "Bagaimanakah hukum asal I'rab fi'il mudhari' yang tidak kemasukan amil nashab atau jazm?",
+            "arabic": "وَهُوَ مَرْفُوعٌ أَبَدًا، حَتَّى يَدْخُلَ عَلَيْهِ نَاصِبٌ أَوْ جَازِمٌ",
+            "translation": "Dan ia (mudhari') dirafa'kan selamanya, hingga masuk padanya amil nashab atau jazm",
+            "meaning": "Dan ia (mudhari') dirafa'kan selamanya, hingga masuk padanya amil nashab atau jazm",
+            "options": [
+              {
+                "label": "Marfu' (I'rab Rafa')",
+                "value": "marfu"
+              },
+              {
+                "label": "Manshub (I'rab Nashab)",
+                "value": "manshub"
+              },
+              {
+                "label": "Majzum (I'rab Jazm)",
+                "value": "majzum"
+              },
+              {
+                "label": "Mabni Sukun",
+                "value": "mabni_sukun"
+              }
+            ],
+            "correct": "marfu",
+            "explanation": "Sesuai matan, fi'il mudhari' selalu marfu' selama tidak ada amil penashab atau penjazm yang memasukinya.",
+            "whyModal": {
+              "title": "Rafa' pada Fi'il Mudhari'",
+              "matan": "وَهُوَ مَرْفُوعٌ أَبَدًا، حَتَّى يَدْخُلَ عَلَيْهِ نَاصِبٌ أَوْ جَازِمٌ",
+              "reason": "Kekosongan dari amil nashab dan amil jazm adalah amil maknawi yang menjadikannya marfu'."
+            }
+          },
+          {
+            "id": "q5_2_4",
+            "type": "mcq",
+            "question": "Apakah tanda rafa' pokok pada fi'il mudhari' shahih akhir seperti يَذْهَبُ?",
+            "prompt": "Apakah tanda rafa' pokok pada fi'il mudhari' shahih akhir seperti يَذْهَبُ?",
+            "arabic": "يَذْهَبُ الطَّالِبُ إِلَى الْمَدْرَسَةِ",
+            "translation": "Siswa itu sedang/akan pergi ke sekolah",
+            "meaning": "Siswa itu sedang/akan pergi ke sekolah",
+            "options": [
+              {
+                "label": "Dhommah di akhir kata",
+                "value": "dhommah"
+              },
+              {
+                "label": "Fathah di akhir kata",
+                "value": "fathah"
+              },
+              {
+                "label": "Sukun di akhir kata",
+                "value": "sukun"
+              },
+              {
+                "label": "Kasrah di akhir kata",
+                "value": "kasrah"
+              }
+            ],
+            "correct": "dhommah",
+            "explanation": "Tanda pokok rafa' pada fi'il mudhari' shahih akhir adalah dhommah dhahirah (يَذْهَبُ).",
+            "whyModal": {
+              "title": "Tanda Rafa' Fi'il Mudhari'",
+              "matan": "فَأَمَّا الضَّمَّةُ فَتَكُونُ عَلَامَةً لِلرَّفْعِ فِي ... وَالْفِعْلِ الْمُضَارِعِ",
+              "reason": "Fi'il mudhari' yang tidak bersambung dengan apa pun di akhirnya di-rafa'-kan dengan dhommah."
+            }
+          },
+          {
+            "id": "q5_2_5",
+            "type": "mcq",
+            "question": "Bentuk fi'il mudhari' dari kata kerja lampau عَلِمَ (telah tahu) adalah...",
+            "prompt": "Bentuk fi'il mudhari' dari kata kerja lampau عَلِمَ (telah tahu) adalah...",
+            "arabic": "عَلِمَ ➔ يَعْلَمُ",
+            "translation": "Telah mengetahui ➔ Sedang/akan mengetahui",
+            "meaning": "Telah mengetahui ➔ Sedang/akan mengetahui",
+            "options": [
+              {
+                "label": "يَعْلَمُ",
+                "value": "yalamu"
+              },
+              {
+                "label": "اِعْلَمْ",
+                "value": "ilam"
+              },
+              {
+                "label": "عَالِمٌ",
+                "value": "alim"
+              },
+              {
+                "label": "مَعْلُومٌ",
+                "value": "malum"
+              }
+            ],
+            "correct": "yalamu",
+            "explanation": "يَعْلَمُ adalah fi'il mudhari' diawali huruf ya' mudhara'ah dan berharakat dhommah di akhirnya.",
+            "whyModal": {
+              "title": "Perubahan Madhi ke Mudhari'",
+              "matan": "نَحْوُ: ضَرَبَ، وَيَضْرِبُ",
+              "reason": "Bentuk mudhari' diawali huruf mudhara'ah dan menunjukkan waktu sedang/akan datang."
+            }
+          },
+          {
+            "id": "q5_2_6",
+            "type": "mcq",
+            "question": "Kata تَسْمَعُ diawali huruf mudhara'ah 'Ta' (ت). Kata ini dapat bermakna...",
+            "prompt": "Kata تَسْمَعُ diawali huruf mudhara'ah 'Ta' (ت). Kata ini dapat bermakna...",
+            "arabic": "أَنْتَ تَسْمَعُ / هِيَ تَسْمَعُ",
+            "translation": "Kamu (laki-laki) mendengar / Dia (perempuan) mendengar",
+            "meaning": "Kamu (laki-laki) mendengar / Dia (perempuan) mendengar",
+            "options": [
+              {
+                "label": "Kamu (laki-laki) mendengar ATAU dia (perempuan) mendengar",
+                "value": "mukhatab_atau_ghaibah"
+              },
+              {
+                "label": "Saya mendengar saja",
+                "value": "saya_saja"
+              },
+              {
+                "label": "Kami mendengar saja",
+                "value": "kami_saja"
+              },
+              {
+                "label": "Mereka laki-laki mendengar",
+                "value": "mereka_lk"
+              }
+            ],
+            "correct": "mukhatab_atau_ghaibah",
+            "explanation": "Huruf Ta' mudhara'ah digunakan untuk lawan bicara laki-laki (أَنْتَ) atau orang ketiga perempuan tunggal (هِيَ).",
+            "whyModal": {
+              "title": "Fungsi Huruf Ta' Mudhara'ah",
+              "matan": "وَالتَّاءُ لِلْمُخَاطَبِ أَوْ لِلْمُؤَنَّثَةِ الْغَائِبَةِ",
+              "reason": "Ta' memiliki dua fungsi: mukhatab mudzakkar (kamu lk) dan ghaibah muannatsah (dia pr)."
+            }
+          },
+          {
+            "id": "q5_2_7",
+            "type": "mcq",
+            "question": "Huruf 'Nun' (ن) pada kata نَنْصُرُ menunjukkan bahwa pelakunya adalah...",
+            "prompt": "Huruf 'Nun' (ن) pada kata نَنْصُرُ menunjukkan bahwa pelakunya adalah...",
+            "arabic": "نَحْنُ نَنْصُرُ الْمَظْلُومَ",
+            "translation": "Kami menolong orang yang dizalimi",
+            "meaning": "Kami menolong orang yang dizalimi",
+            "options": [
+              {
+                "label": "Kami / Kita (Mutakallim ma'al ghair)",
+                "value": "mutakallim_jamak"
+              },
+              {
+                "label": "Saya sendiri (Mutakallim wahdah)",
+                "value": "mutakallim_tunggal"
+              },
+              {
+                "label": "Dia seorang laki-laki (Ghaib)",
+                "value": "ghaib_tunggal"
+              },
+              {
+                "label": "Kamu perempuan (Mukhatabah)",
+                "value": "mukhatabah"
+              }
+            ],
+            "correct": "mutakallim_jamak",
+            "explanation": "Huruf Nun (ن) mudhara'ah digunakan untuk mutakallim ma'al ghair (kami/kita bersama yang lain).",
+            "whyModal": {
+              "title": "Fungsi Huruf Nun Mudhara'ah",
+              "matan": "وَالنُّونُ لِلْمُتَكَلِّمِ مَعَ غَيْرِهِ",
+              "reason": "Nun menunjukkan orang pertama jamak (نَحْنُ)."
+            }
+          },
+          {
+            "id": "q5_2_8",
+            "type": "mcq",
+            "question": "Manakah tanda rafa' pada fi'il mudhari' Af'alul Khamsah seperti يَكْتُبُونَ?",
+            "prompt": "Manakah tanda rafa' pada fi'il mudhari' Af'alul Khamsah seperti يَكْتُبُونَ?",
+            "arabic": "الْمُؤْمِنُونَ يَصُومُونَ رَمَضَانَ",
+            "translation": "Orang-orang beriman sedang berpuasa Ramadhan",
+            "meaning": "Orang-orang beriman sedang berpuasa Ramadhan",
+            "options": [
+              {
+                "label": "Tetapnya huruf Nun (ثُبُوتُ النُّونِ)",
+                "value": "tsubutun_nun"
+              },
+              {
+                "label": "Harakat Dhommah Muqaddarah",
+                "value": "dhommah_muqaddarah"
+              },
+              {
+                "label": "Huruf Wawu",
+                "value": "wawu"
+              },
+              {
+                "label": "Sukun pada huruf nun",
+                "value": "sukun_nun"
+              }
+            ],
+            "correct": "tsubutun_nun",
+            "explanation": "Af'alul Khamsah (seperti يَصُومُونَ) dirafa'kan dengan tetapnya huruf Nun (ثُبُوتُ النُّونِ).",
+            "whyModal": {
+              "title": "Rafa' Af'alul Khamsah",
+              "matan": "وَأَمَّا النُّونُ فَتَكُونُ عَلَامَةً لِلرَّفْعِ فِي الْفِعْلِ الْمُضَارِعِ إِذَا اتَّصَلَ بِهِ ضَمِيرُ تَثْنِيَةٍ أَوْ ضَمِيرُ جَمْعٍ",
+              "reason": "Nun di akhir af'alul khamsah adalah tanda i'rab rafa' pengganti dhommah."
+            }
+          },
+          {
+            "id": "q5_2_9",
+            "type": "mcq",
+            "question": "Awalan manakah yang HANYA bisa masuk pada Fi'il Mudhari' untuk menunjukkan masa depan?",
+            "prompt": "Awalan manakah yang HANYA bisa masuk pada Fi'il Mudhari' untuk menunjukkan masa depan?",
+            "arabic": "سَيَقُولُ السُّفَهَاءُ / كَلَّا سَوْفَ تَعْلَمُونَ",
+            "translation": "Orang-orang bodoh akan berkata / Sekali-kali kelak kamu akan mengetahui",
+            "meaning": "Orang-orang bodoh akan berkata / Sekali-kali kelak kamu akan mengetahui",
+            "options": [
+              {
+                "label": "Sin (سَـ) dan Sawfa (سَوْفَ)",
+                "value": "sin_sawfa"
+              },
+              {
+                "label": "Alif Lam (الـ) dan Tanwin",
+                "value": "alif_lam"
+              },
+              {
+                "label": "Huruf Qasam (Wawu sumpah)",
+                "value": "wawu_qasam"
+              },
+              {
+                "label": "Ta' Ta'nits Sakinah (تْ)",
+                "value": "taa_tanits"
+              }
+            ],
+            "correct": "sin_sawfa",
+            "explanation": "Sin (سَـ) untuk waktu dekat dan Sawfa (سَوْفَ) untuk masa depan adalah ciri khusus fi'il mudhari'.",
+            "whyModal": {
+              "title": "Ciri Masuknya Sin dan Sawfa",
+              "matan": "وَالسِّينِ، وَسَوْفَ",
+              "reason": "Sin dan Sawfa hanya masuk pada fi'il mudhari', mengubah maknanya khusus untuk masa depan (istiqbal)."
+            }
+          },
+          {
+            "id": "q5_2_10",
+            "type": "mcq",
+            "question": "Di antara kata-kata berikut, manakah yang BUKAN fi'il mudhari' meskipun diawali huruf Ta'?",
+            "prompt": "Di antara kata-kata berikut, manakah yang BUKAN fi'il mudhari' meskipun diawali huruf Ta'?",
+            "arabic": "تَعَلَّمَ حَسَنٌ حِكْمَةً",
+            "translation": "Hasan telah mempelajari suatu hikmah",
+            "meaning": "Hasan telah mempelajari suatu hikmah",
+            "options": [
+              {
+                "label": "تَعَلَّمَ (karena merupakan fi'il madhi)",
+                "value": "taallama"
+              },
+              {
+                "label": "تَتَعَلَّمُ",
+                "value": "tatallamu"
+              },
+              {
+                "label": "تَكْتُبُ",
+                "value": "taktubu"
+              },
+              {
+                "label": "تَفْهَمُ",
+                "value": "tafhamu"
+              }
+            ],
+            "correct": "taallama",
+            "explanation": "تَعَلَّمَ adalah fi'il madhi (telah belajar), buktinya bisa menerima ta' fa'il (تَعَلَّمْتُ). Mudhari'-nya adalah يَتَعَلَّمُ atau تَتَعَلَّمُ.",
+            "whyModal": {
+              "title": "Membedakan Ta' Asli Madhi dan Ta' Mudhara'ah",
+              "matan": "وَالْمَاضِي مَفْتُوحُ الْآخِرِ أَبَدًا",
+              "reason": "Huruf ta' pada تَعَلَّمَ adalah ta' ziyadah pada pola madhi تَفَعَّلَ, bukan huruf mudhara'ah."
+            }
+          }
+        ]
+      },
+      {
+        "id": "level_5_3",
+        "code": "5.3",
+        "title": "Fi'il Amr — Kata Perintah",
+        "subtitle": "Karakteristik Tuntutan Perbuatan dan Ragam Tanda Bina' Fi'il Amr",
+        "titleArabic": "فِعْلُ الْأَمْرِ",
+        "type": "mcq",
+        "xp": 70,
+        "unlocked": false,
+        "is_boss": false,
+        "theory": {
+          "title": "Fi'il Amr (Kata Kerja Perintah)",
+          "matan": "وَالأَمْرُ مَجْزُومٌ أَبَدًا",
+          "translation": "Dan fi'il amr itu dijazmkan selamanya (dibina' di atas apa yang menjazmkan bentuk mudhari'-nya).",
+          "points": [
+            {
+              "label": "Definisi Fi'il Amr",
+              "arabic": "فِعْلُ الْأَمْرِ",
+              "desc": "Kata kerja yang digunakan oleh pembicara untuk menuntut lawan bicara melakukan suatu perbuatan di masa mendatang, contoh: اُكْتُبْ (tulislah!), اِذْهَبْ (pergilah!)."
+            },
+            {
+              "label": "Mabni Sukun (Bentuk Dasar)",
+              "arabic": "مَبْنِيٌّ عَلَى السُّكُونِ",
+              "desc": "Fi'il amr shahih akhir yang tidak bersambung dengan apa pun di akhirnya dihukumi mabni sukun, seperti: اِضْرِبْ، اِقْرَأْ."
+            },
+            {
+              "label": "Mabni Hadf Huruf 'Illat",
+              "arabic": "حَذْفُ حَرْفِ الْعِلَّةِ",
+              "desc": "Jika berasal dari fi'il mu'tal akhir, huruf penyakitnya dibuang: اُدْعُ (asalnya يَدْعُو), اِرْمِ (asalnya يَرْمِي), اِخْشَ (asalnya يَخْشَى)."
+            },
+            {
+              "label": "Mabni Hadf Nun",
+              "arabic": "حَذْفُ النُّونِ",
+              "desc": "Jika bersambung dengan Alif Tatsniyah (اُكْتُبَا), Wawu Jama'ah (اُكْتُبُوا), atau Ya' Mukhatabah (اُكْتُبِي), tanda bina'-nya adalah membuang huruf Nun."
+            }
+          ]
+        },
+        "questions": [
+          {
+            "id": "q5_3_1",
+            "type": "mcq",
+            "question": "Apa definisi Fi'il Amr dalam tata bahasa Arab?",
+            "prompt": "Apa definisi Fi'il Amr dalam tata bahasa Arab?",
+            "arabic": "فِعْلُ الْأَمْرِ",
+            "translation": "Fi'il Amr (Kata Kerja Perintah)",
+            "meaning": "Fi'il Amr (Kata Kerja Perintah)",
+            "options": [
+              {
+                "label": "Kata kerja yang menuntut terjadinya suatu perbuatan setelah masa berbicara",
+                "value": "tuntutan_perbuatan"
+              },
+              {
+                "label": "Kata kerja yang telah selesai dikerjakan sebelum masa berbicara",
+                "value": "masa_lampau"
+              },
+              {
+                "label": "Kata kerja yang sedang berlangsung saat ini",
+                "value": "sedang_berlangsung"
+              },
+              {
+                "label": "Kata benda yang menunjukkan sifat perintah",
+                "value": "kata_benda"
+              }
+            ],
+            "correct": "tuntutan_perbuatan",
+            "explanation": "Fi'il amr adalah kata kerja yang digunakan untuk menuntut terjadinya suatu perbuatan di masa mendatang.",
+            "whyModal": {
+              "title": "Definisi Fi'il Amr",
+              "matan": "وَأَمْرٌ، نَحْوُ: وَاضْرِبْ",
+              "reason": "Amr mengandung makna thalab al-fi'l (tuntutan pekerjaan)."
+            }
+          },
+          {
+            "id": "q5_3_2",
+            "type": "mcq",
+            "question": "Kata اُكْتُبْ merupakan fi'il amr yang mabni di atas harakat...",
+            "prompt": "Kata اُكْتُبْ merupakan fi'il amr yang mabni di atas harakat...",
+            "arabic": "يَا طَالِبُ، اُكْتُبْ دَرْسَكَ!",
+            "translation": "Wahai siswa, tulislah pelajaranmu!",
+            "meaning": "Wahai siswa, tulislah pelajaranmu!",
+            "options": [
+              {
+                "label": "Mabni Sukun",
+                "value": "mabni_sukun"
+              },
+              {
+                "label": "Mabni Fathah",
+                "value": "mabni_fathah"
+              },
+              {
+                "label": "Mabni Dhommah",
+                "value": "mabni_dhommah"
+              },
+              {
+                "label": "Mabni Kasrah",
+                "value": "mabni_kasrah"
+              }
+            ],
+            "correct": "mabni_sukun",
+            "explanation": "Fi'il amr shahih akhir yang tidak bersambung dengan apa pun di akhirnya dihukumi mabni sukun (اُكْتُبْ).",
+            "whyModal": {
+              "title": "Bina' Sukun pada Fi'il Amr",
+              "matan": "وَالأَمْرُ مَجْزُومٌ أَبَدًا",
+              "reason": "Tanda pokok bina' fi'il amr adalah sukun (sesuai tanda jazm aslinya)."
+            }
+          },
+          {
+            "id": "q5_3_3",
+            "type": "mcq",
+            "question": "Bagaimanakah matan Al-Ajurrumiyyah menyebutkan ketentuan akhir fi'il amr?",
+            "prompt": "Bagaimanakah matan Al-Ajurrumiyyah menyebutkan ketentuan akhir fi'il amr?",
+            "arabic": "وَالأَمْرُ: مَجْزُومٌ أَبَدًا",
+            "translation": "Dan fi'il amr itu dijazmkan selamanya",
+            "meaning": "Dan fi'il amr itu dijazmkan selamanya",
+            "options": [
+              {
+                "label": "وَالأَمْرُ: مَجْزُومٌ أَبَدًا",
+                "value": "majzumun_abadan"
+              },
+              {
+                "label": "وَالأَمْرُ: مَرْفُوعٌ أَبَدًا",
+                "value": "marfuun_abadan"
+              },
+              {
+                "label": "وَالأَمْرُ: مَفْتُوحٌ أَبَدًا",
+                "value": "maftuuhun_abadan"
+              },
+              {
+                "label": "وَالأَمْرُ: مُعْرَبٌ أَبَدًا",
+                "value": "murabun_abadan"
+              }
+            ],
+            "correct": "majzumun_abadan",
+            "explanation": "Matan Al-Ajurrumiyyah menyebutkan: «وَالأَمْرُ مَجْزُومٌ أَبَدًا» (menurut madzhab Kufah amr dijazmkan dari mudhari').",
+            "whyModal": {
+              "title": "Teks Matan tentang Fi'il Amr",
+              "matan": "وَالأَمْرُ مَجْزُومٌ أَبَدًا",
+              "reason": "Ungkapan ini menegaskan fi'il amr selalu dibina' atas apa yang menjadi tanda jazm pada mudhari'-nya."
+            }
+          },
+          {
+            "id": "q5_3_4",
+            "type": "mcq",
+            "question": "Manakah pasangan bentuk Madhi, Mudhari', dan Amr yang benar berikut ini?",
+            "prompt": "Manakah pasangan bentuk Madhi, Mudhari', dan Amr yang benar berikut ini?",
+            "arabic": "ضَرَبَ - يَضْرِبُ - اِضْرِبْ",
+            "translation": "Telah memukul - sedang memukul - pukullah!",
+            "meaning": "Telah memukul - sedang memukul - pukullah!",
+            "options": [
+              {
+                "label": "ضَرَبَ (Madhi) — يَضْرِبُ (Mudhari') — اِضْرِبْ (Amr)",
+                "value": "dharaba_yadhribu_idhrib"
+              },
+              {
+                "label": "يَضْرِبُ (Madhi) — ضَرَبَ (Mudhari') — اِضْرِبْ (Amr)",
+                "value": "terbalik_madhi_mudhari"
+              },
+              {
+                "label": "اِضْرِبْ (Madhi) — ضَرَبَ (Mudhari') — يَضْرِبُ (Amr)",
+                "value": "acak_1"
+              },
+              {
+                "label": "ضَرَبَ (Madhi) — مَضْرُوبٌ (Mudhari') — ضَارِبٌ (Amr)",
+                "value": "keliru_isim"
+              }
+            ],
+            "correct": "dharaba_yadhribu_idhrib",
+            "explanation": "Contoh baku dalam Al-Ajurrumiyyah: ضَرَبَ (Madhi), يَضْرِبُ (Mudhari'), dan اِضْرِبْ (Amr).",
+            "whyModal": {
+              "title": "Contoh Tiga Macam Fi'il",
+              "matan": "نَحْوُ: ضَرَبَ، وَيَضْرِبُ، وَاضْرِبْ",
+              "reason": "Contoh baku ini merangkum ketiga dimensi waktu dan bentuk kata kerja Arab."
+            }
+          },
+          {
+            "id": "q5_3_5",
+            "type": "mcq",
+            "question": "Apakah bentuk fi'il amr dari kata kerja قَرَأَ (telah membaca)?",
+            "prompt": "Apakah bentuk fi'il amr dari kata kerja قَرَأَ (telah membaca)?",
+            "arabic": "اقْرَأْ بِاسْمِ رَبِّكَ الَّذِي خَلَقَ",
+            "translation": "Bacalah dengan (menyebut) nama Tuhanmu yang menciptakan",
+            "meaning": "Bacalah dengan (menyebut) nama Tuhanmu yang menciptakan",
+            "options": [
+              {
+                "label": "اِقْرَأْ",
+                "value": "iqra"
+              },
+              {
+                "label": "يَقْرَأُ",
+                "value": "yaqrau"
+              },
+              {
+                "label": "قَارِئٌ",
+                "value": "qari"
+              },
+              {
+                "label": "قِرَاءَةٌ",
+                "value": "qiraah"
+              }
+            ],
+            "correct": "iqra",
+            "explanation": "اِقْرَأْ adalah fi'il amr (bacalah!), mabni sukun pada huruf hamzah terakhirnya.",
+            "whyModal": {
+              "title": "Bentuk Fi'il Amr",
+              "matan": "وَالأَمْرُ مَجْزُومٌ أَبَدًا",
+              "reason": "Berasal dari mudhari' تَقْرَأُ, dibuang huruf mudhara'ah dan disukunkan akhirnya menjadi اقْرَأْ."
+            }
+          },
+          {
+            "id": "q5_3_6",
+            "type": "mcq",
+            "question": "Pada seruan kepada sekelompok laki-laki: 'ادْخُلُوا', fi'il amr ini mabni dengan tanda...",
+            "prompt": "Pada seruan kepada sekelompok laki-laki: 'ادْخُلُوا', fi'il amr ini mabni dengan tanda...",
+            "arabic": "ادْخُلُوا فِي السِّلْمِ كَافَّةً",
+            "translation": "Masuklah kalian ke dalam Islam secara keseluruhan",
+            "meaning": "Masuklah kalian ke dalam Islam secara keseluruhan",
+            "options": [
+              {
+                "label": "Membuang huruf Nun (حَذْفُ النُّونِ)",
+                "value": "hazfun_nun"
+              },
+              {
+                "label": "Mabni Sukun",
+                "value": "mabni_sukun"
+              },
+              {
+                "label": "Mabni Fathah",
+                "value": "mabni_fathah"
+              },
+              {
+                "label": "Mabni Dhommah",
+                "value": "mabni_dhommah"
+              }
+            ],
+            "correct": "hazfun_nun",
+            "explanation": "Fi'il amr yang bersambung dengan Wawu Jama'ah mabni dengan hadfun nun (membuang nun, asalnya تَدْخُلُونَ).",
+            "whyModal": {
+              "title": "Amr Bersambung Wawu Jama'ah",
+              "matan": "يُبْنَى عَلَى مَا يُجْزَمُ بِهِ مُضَارِعُهُ",
+              "reason": "Karena mudhari'-nya تَدْخُلُونَ dijazmkan dengan buang nun, maka fi'il amr-nya mabni atas hadfun nun."
+            }
+          },
+          {
+            "id": "q5_3_7",
+            "type": "mcq",
+            "question": "Perhatikan kata perintah اُدْعُ (serulah/berdoalah). Mengapa tidak ada huruf wawu di akhirnya?",
+            "prompt": "Perhatikan kata perintah اُدْعُ (serulah/berdoalah). Mengapa tidak ada huruf wawu di akhirnya?",
+            "arabic": "ادْعُ إِلَى سَبِيلِ رَبِّكَ بِالْحِكْمَةِ",
+            "translation": "Serulah (manusia) kepada jalan Tuhanmu dengan hikmah",
+            "meaning": "Serulah (manusia) kepada jalan Tuhanmu dengan hikmah",
+            "options": [
+              {
+                "label": "Mabni dengan membuang huruf 'illat (حَذْفُ حَرْفِ الْعِلَّةِ)",
+                "value": "hazf_huruf_illat"
+              },
+              {
+                "label": "Mabni dhommah karena huruf 'ain berharakat dhommah",
+                "value": "mabni_dhommah"
+              },
+              {
+                "label": "Kemasukan amil nashab",
+                "value": "amil_nashab"
+              },
+              {
+                "label": "Mengikuti wazan isim maf'ul",
+                "value": "isim_maful"
+              }
+            ],
+            "correct": "hazf_huruf_illat",
+            "explanation": "Asal katanya dari fi'il mu'tal akhir يَدْعُو. Ketika dibentuk amr, huruf illat (wawu) dibuang (mabni bi hadzfi harfil 'illati).",
+            "whyModal": {
+              "title": "Amr Mu'tal Akhir",
+              "matan": "حَذْفُ حَرْفِ الْعِلَّةِ",
+              "reason": "Fi'il mu'tal akhir ketika dijazmkan/diamrkan wajib membuang huruf 'illat-nya."
+            }
+          },
+          {
+            "id": "q5_3_8",
+            "type": "mcq",
+            "question": "Manakah fi'il amr yang ditujukan untuk seorang perempuan (bersambung Ya' Mukhatabah)?",
+            "prompt": "Manakah fi'il amr yang ditujukan untuk seorang perempuan (bersambung Ya' Mukhatabah)?",
+            "arabic": "يَا مَرْيَمُ اقْنُتِي لِرَبِّكِ وَاسْجُدِي",
+            "translation": "Wahai Maryam, taatlah kepada Tuhanmu dan sujudlah",
+            "meaning": "Wahai Maryam, taatlah kepada Tuhanmu dan sujudlah",
+            "options": [
+              {
+                "label": "اِسْجُدِي",
+                "value": "isjudii"
+              },
+              {
+                "label": "اُسْجُدْ",
+                "value": "usjud"
+              },
+              {
+                "label": "يَسْجُدُ",
+                "value": "yasjudu"
+              },
+              {
+                "label": "سَجَدَتْ",
+                "value": "sajadat"
+              }
+            ],
+            "correct": "isjudii",
+            "explanation": "اِسْجُدِي adalah fi'il amr untuk perempuan tunggal dengan Ya' Mukhatabah (mabni hadfun nun).",
+            "whyModal": {
+              "title": "Amr dengan Ya' Mukhatabah",
+              "matan": "ضَمِيرُ الْمُؤَنَّثَةِ الْمُخَاطَبَةِ",
+              "reason": "Fi'il amr untuk muannats tunggal memakai akhiran Ya' Mukhatabah (aslinya تَسْجُدِينَ)."
+            }
+          },
+          {
+            "id": "q5_3_9",
+            "type": "mcq",
+            "question": "Manakah perbedaan mendasar antara fi'il amr dan fi'il mudhari'?",
+            "prompt": "Manakah perbedaan mendasar antara fi'il amr dan fi'il mudhari'?",
+            "arabic": "اِعْلَمْ (Amr) vs يَعْلَمُ (Mudhari')",
+            "translation": "Ketahuilah! vs Dia sedang mengetahui",
+            "meaning": "Ketahuilah! vs Dia sedang mengetahui",
+            "options": [
+              {
+                "label": "Amr selalu mabni dan bermakna tuntutan; Mudhari' asalnya mu'rab dan bermakna kabar",
+                "value": "amr_mabni_mudhari_murab"
+              },
+              {
+                "label": "Amr selalu diawali huruf mudhara'ah; Mudhari' tidak diawali apa pun",
+                "value": "terbalik_awalan"
+              },
+              {
+                "label": "Amr selalu berharakat dhommah; Mudhari' selalu kasrah",
+                "value": "harakat_salah"
+              },
+              {
+                "label": "Amr termasuk kelompok isim; Mudhari' kelompok huruf",
+                "value": "bukan_fiil"
+              }
+            ],
+            "correct": "amr_mabni_mudhari_murab",
+            "explanation": "Fi'il amr selalu mabni dan bermakna tuntutan perbuatan, sedangkan fi'il mudhari' asalnya mu'rab dan berupa kalimat berita.",
+            "whyModal": {
+              "title": "Perbedaan Amr dan Mudhari'",
+              "matan": "الأَمْرُ مَجْزُومٌ أَبَدًا وَالْمُضَارِعُ مَرْفُوعٌ أَبَدًا",
+              "reason": "Amr bersifat insya' thalabi dan mabni; mudhari' bersifat khabari dan mu'rab."
+            }
+          },
+          {
+            "id": "q5_3_10",
+            "type": "mcq",
+            "question": "Ketika memerintahkan dua orang: 'اذْهَبَا إِلَى فِرْعَوْنَ', apakah tanda bina' dari kata اذْهَبَا?",
+            "prompt": "Ketika memerintahkan dua orang: 'اذْهَبَا إِلَى فِرْعَوْنَ', apakah tanda bina' dari kata اذْهَبَا?",
+            "arabic": "اذْهَبَا إِلَى فِرْعَوْنَ إِنَّهُ طَغَى",
+            "translation": "Pergilah kamu berdua kepada Fir'aun, sesungguhnya dia telah melampaui batas",
+            "meaning": "Pergilah kamu berdua kepada Fir'aun, sesungguhnya dia telah melampaui batas",
+            "options": [
+              {
+                "label": "Mabni dengan membuang huruf Nun (حَذْفُ النُّونِ)",
+                "value": "hadfun_nun"
+              },
+              {
+                "label": "Mabni atas huruf Alif",
+                "value": "mabni_alif"
+              },
+              {
+                "label": "Mabni Sukun pada huruf ba'",
+                "value": "mabni_sukun"
+              },
+              {
+                "label": "Mu'rab rafa' dengan alif",
+                "value": "murab_alif"
+              }
+            ],
+            "correct": "hadfun_nun",
+            "explanation": "Fi'il amr yang bersambung dengan Alif Tatsniyah (اذْهَبَا) mabni dengan hadfun nun (membuang nun, aslinya تَذْهَبَانِ).",
+            "whyModal": {
+              "title": "Amr dengan Alif Tatsniyah",
+              "matan": "يُبْنَى عَلَى حَذْفِ النُّونِ",
+              "reason": "Karena bentuk mudhari'-nya adalah af'alul khamsah (تَذْهَبَانِ) yang dijazmkan dengan buang nun."
+            }
+          }
+        ]
+      },
+      {
+        "id": "level_5_4",
+        "code": "5.4",
+        "title": "Amil Nashab & Jazm pada Mudhari'",
+        "subtitle": "Pengaruh Amil Nawashib dan Jawazim terhadap Harakat Akhir Fi'il",
+        "titleArabic": "نَوَاصِبُ وَجَوَازِمُ الْمُضَارِعِ",
+        "type": "mcq",
+        "xp": 70,
+        "unlocked": false,
+        "is_boss": false,
+        "theory": {
+          "title": "Amil Nashab & Jazm pada Mudhari'",
+          "matan": "فَالنَّوَاصِبُ عَشَرَةٌ: أَنْ، وَلَنْ، وَإِذَنْ، وَكَيْ... وَالْجَوَازِمُ ثَمَانِيَةَ عَشَرَ: لَمْ، وَلَمَّا...",
+          "translation": "Amil penashab itu ada 10: An, Lan, Idzan, Kay... dan amil penjazm itu ada 18: Lam, Lamma...",
+          "points": [
+            {
+              "label": "Amil Nawashib (Penashab)",
+              "arabic": "النَّوَاصِبُ: أَنْ، لَنْ، كَيْ",
+              "desc": "Huruf yang menashabkan fi'il mudhari': mengubah harakat akhir menjadi Fathah (pada shahih akhir) atau Hadfun Nun (pada af'alul khamsah). Contoh: لَنْ يَذْهَبَ (tidak akan pergi), أَنْ يَكْتُبُوا (untuk menulis)."
+            },
+            {
+              "label": "Makna Penting Nawashib",
+              "arabic": "مَعَانِي النَّوَاصِبِ",
+              "desc": "أَنْ: penjelas/masdariyah ('bahwa/untuk'), لَنْ: penafian masa depan ('tidak akan'), كَيْ: ta'lil tujuan ('agar/supaya')."
+            },
+            {
+              "label": "Amil Jawazim (Penjazm)",
+              "arabic": "الْجَوَازِمُ: لَمْ، لَمَّا، لَا النَّاهِيَةُ",
+              "desc": "Huruf yang menjazmkan fi'il mudhari': mengubah harakat akhir menjadi Sukun (pada shahih akhir), Hadfu Harfil 'Illat (pada mu'tal akhir), atau Hadfun Nun (pada af'alul khamsah)."
+            },
+            {
+              "label": "Makna Penting Jawazim",
+              "arabic": "مَعَانِي الْجَوَازِمِ",
+              "desc": "لَمْ: penafian masa lampau ('tidak/belum'), لَمَّا: belum sampai waktu bicara, لَا نَاهِيَة: larangan keras ('janganlah'), لَامُ الْأَمْرِ: instruksi ('hendaklah')."
+            }
+          ]
+        },
+        "questions": [
+          {
+            "id": "q5_4_1",
+            "type": "mcq",
+            "question": "Huruf أَنْ، لَنْ، dan كَيْ termasuk amil penentu i'rab fi'il mudhari' jenis...",
+            "prompt": "Huruf أَنْ، لَنْ، dan كَيْ termasuk amil penentu i'rab fi'il mudhari' jenis...",
+            "arabic": "فَالنَّوَاصِبُ عَشَرَةٌ: أَنْ، وَلَنْ، وَإِذَنْ، وَكَيْ...",
+            "translation": "Maka amil penashab ada sepuluh: An, Lan, Idzan, Kay...",
+            "meaning": "Maka amil penashab ada sepuluh: An, Lan, Idzan, Kay...",
+            "options": [
+              {
+                "label": "Amil Nawashib (penashab)",
+                "value": "nawashib"
+              },
+              {
+                "label": "Amil Jawazim (penjazm)",
+                "value": "jawazim"
+              },
+              {
+                "label": "Huruf Khafadh (penjer)",
+                "value": "huruf_jer"
+              },
+              {
+                "label": "Amil Rafa'",
+                "value": "amil_rafa"
+              }
+            ],
+            "correct": "nawashib",
+            "explanation": "أَنْ، لَنْ، dan كَيْ adalah bagian dari amil nawashib yang bertugas me-nashab-kan fi'il mudhari'.",
+            "whyModal": {
+              "title": "Amil Nawashib",
+              "matan": "فَالنَّوَاصِبُ عَشَرَةٌ: أَنْ، وَلَنْ، وَإِذَنْ، وَكَيْ",
+              "reason": "Nawashib adalah huruf-huruf yang masuk pada fi'il mudhari' dan menjadikannya manshub."
+            }
+          },
+          {
+            "id": "q5_4_2",
+            "type": "mcq",
+            "question": "Perhatikan kalimat: لَنْ يَخْرُجَ زَيْدٌ. Mengapa kata يَخْرُجَ berharakat akhir fathah?",
+            "prompt": "Perhatikan kalimat: لَنْ يَخْرُجَ زَيْدٌ. Mengapa kata يَخْرُجَ berharakat akhir fathah?",
+            "arabic": "لَنْ يَخْرُجَ زَيْدٌ الْيَوْمَ",
+            "translation": "Zaid tidak akan keluar hari ini",
+            "meaning": "Zaid tidak akan keluar hari ini",
+            "options": [
+              {
+                "label": "Karena kemasukan amil nashab 'لَنْ'",
+                "value": "lan_nashab"
+              },
+              {
+                "label": "Karena didahului huruf jazm",
+                "value": "huruf_jazm"
+              },
+              {
+                "label": "Karena kedudukannya sebagai maf'ul bih",
+                "value": "maful_bih"
+              },
+              {
+                "label": "Karena merupakan fi'il madhi",
+                "value": "fiil_madhi"
+              }
+            ],
+            "correct": "lan_nashab",
+            "explanation": "Huruf 'لَنْ' adalah amil penashab yang menashabkan fi'il mudhari' shahih dengan harakat fathah.",
+            "whyModal": {
+              "title": "I'rab Manshub dengan Lan",
+              "matan": "حَتَّى يَدْخُلَ عَلَيْهِ نَاصِبٌ",
+              "reason": "Huruf 'lan' mengubah status fi'il mudhari' dari marfu' menjadi manshub bil-fathah."
+            }
+          },
+          {
+            "id": "q5_4_3",
+            "type": "mcq",
+            "question": "Apakah harakat akhir fi'il mudhari' يَكْتُبُ jika didahului huruf penjazm 'لَمْ'?",
+            "prompt": "Apakah harakat akhir fi'il mudhari' يَكْتُبُ jika didahului huruf penjazm 'لَمْ'?",
+            "arabic": "لَمْ يَكْتُبْ عَلِيٌّ وَاجِبَهُ",
+            "translation": "Ali tidak menulis tugasnya",
+            "meaning": "Ali tidak menulis tugasnya",
+            "options": [
+              {
+                "label": "Sukun (لَمْ يَكْتُبْ)",
+                "value": "sukun"
+              },
+              {
+                "label": "Fathah (لَمْ يَكْتُبَ)",
+                "value": "fathah"
+              },
+              {
+                "label": "Dhommah (لَمْ يَكْتُبُ)",
+                "value": "dhommah"
+              },
+              {
+                "label": "Kasrah (لَمْ يَكْتُبِ)",
+                "value": "kasrah"
+              }
+            ],
+            "correct": "sukun",
+            "explanation": "Huruf 'لَمْ' adalah amil jazm, sehingga me-jazm-kan fi'il mudhari' shahihul akhir dengan tanda sukun.",
+            "whyModal": {
+              "title": "Jazm Fi'il Shahih Akhir",
+              "matan": "وَالْجَوَازِمُ ثَمَانِيَةَ عَشَرَ، وَهِيَ: لَمْ",
+              "reason": "Lam adalah amil jazm yang mematikan (mensukunkan) huruf terakhir fi'il mudhari' shahih."
+            }
+          },
+          {
+            "id": "q5_4_4",
+            "type": "mcq",
+            "question": "Manakah fungsi makna dari huruf penashab 'لَنْ' pada fi'il mudhari'?",
+            "prompt": "Manakah fungsi makna dari huruf penashab 'لَنْ' pada fi'il mudhari'?",
+            "arabic": "لَنْ تَنَالُوا الْبِرَّ حَتَّى تُنْفِقُوا",
+            "translation": "Kamu sekali-kali tidak akan memperoleh kebajikan sebelum kamu menginfakkan...",
+            "meaning": "Kamu sekali-kali tidak akan memperoleh kebajikan sebelum kamu menginfakkan...",
+            "options": [
+              {
+                "label": "Menafikan perbuatan di masa depan (tidak akan)",
+                "value": "nafi_istiqbal"
+              },
+              {
+                "label": "Memerintahkan perbuatan (lakukanlah)",
+                "value": "perintah"
+              },
+              {
+                "label": "Menafikan perbuatan di masa lampau (belum pernah)",
+                "value": "lampau"
+              },
+              {
+                "label": "Menyatakan keraguan (mungkin)",
+                "value": "ragu"
+              }
+            ],
+            "correct": "nafi_istiqbal",
+            "explanation": "Huruf 'لَنْ' berfungsi sebagai harf nafyin wa nashbin wa istiqbal (menafikan perbuatan di masa mendatang).",
+            "whyModal": {
+              "title": "Fungsi Huruf Lan",
+              "matan": "حَرْفُ نَفْيٍ وَنَصْبٍ وَاسْتِقْبَالٍ",
+              "reason": "Lan mengalihkan makna fi'il mudhari' khusus kepada penafian masa depan."
+            }
+          },
+          {
+            "id": "q5_4_5",
+            "type": "mcq",
+            "question": "Perhatikan firman Allah: لَمْ يَلِدْ وَلَمْ يُولَدْ. I'rab kedua fi'il tersebut adalah...",
+            "prompt": "Perhatikan firman Allah: لَمْ يَلِدْ وَلَمْ يُولَدْ. I'rab kedua fi'il tersebut adalah...",
+            "arabic": "لَمْ يَلِدْ وَلَمْ يُولَدْ",
+            "translation": "Dia tidak beranak dan tidak pula diperanakkan",
+            "meaning": "Dia tidak beranak dan tidak pula diperanakkan",
+            "options": [
+              {
+                "label": "Fi'il mudhari' majzum dengan tanda sukun",
+                "value": "mudhari_majzum_sukun"
+              },
+              {
+                "label": "Fi'il madhi mabni fathah",
+                "value": "madhi_mabni_fathah"
+              },
+              {
+                "label": "Fi'il mudhari' manshub dengan tanda fathah",
+                "value": "mudhari_manshub_fathah"
+              },
+              {
+                "label": "Fi'il amr mabni sukun",
+                "value": "amr_mabni_sukun"
+              }
+            ],
+            "correct": "mudhari_majzum_sukun",
+            "explanation": "يَلِدْ dan يُولَدْ adalah fi'il mudhari' yang dijazmkan oleh amil jazm 'لَمْ' dengan tanda sukun.",
+            "whyModal": {
+              "title": "I'rab Majzum pada Surah Al-Ikhlas",
+              "matan": "وَالْجَوَازِمُ ثَمَانِيَةَ عَشَرَ، وَهِيَ: لَمْ",
+              "reason": "Kedua kata tersebut adalah fi'il mudhari' yang didahului huruf jazm lam."
+            }
+          },
+          {
+            "id": "q5_4_6",
+            "type": "mcq",
+            "question": "Jika amil nashab 'أَنْ' masuk pada af'alul khamsah يَفْعَلُونَ, maka bentuknya berubah menjadi...",
+            "prompt": "Jika amil nashab 'أَنْ' masuk pada af'alul khamsah يَفْعَلُونَ, maka bentuknya berubah menjadi...",
+            "arabic": "يُرِيدُونَ أَنْ يَفْعَلُوا",
+            "translation": "Mereka ingin untuk melakukan",
+            "meaning": "Mereka ingin untuk melakukan",
+            "options": [
+              {
+                "label": "أَنْ يَفْعَلُوا (membuang nun)",
+                "value": "an_yafaluu"
+              },
+              {
+                "label": "أَنْ يَفْعَلُونَ (nun tetap)",
+                "value": "an_yafaluuna"
+              },
+              {
+                "label": "أَنْ يَفْعَلُنَّ (tasydid nun)",
+                "value": "an_yafahunna"
+              },
+              {
+                "label": "أَنْ تَفْعَلَ (mufrad)",
+                "value": "an_tafala"
+              }
+            ],
+            "correct": "an_yafaluu",
+            "explanation": "Tanda nashab pada Af'alul Khamsah adalah hadfun nun (membuang huruf nun).",
+            "whyModal": {
+              "title": "Nashab Af'alul Khamsah",
+              "matan": "وَأَمَّا حَذْفُ النُّونِ فَيَكُونُ عَلَامَةً لِلنَّصْبِ فِي الْأَفْعَالِ الْخَمْسَةِ",
+              "reason": "Huruf nun dihilangkan ketika didahului amil nashab."
+            }
+          },
+          {
+            "id": "q5_4_7",
+            "type": "mcq",
+            "question": "Apakah makna dari amil nashab 'كَيْ' dalam kalimat: جِئْتُ كَيْ أَتَعَلَّمَ?",
+            "prompt": "Apakah makna dari amil nashab 'كَيْ' dalam kalimat: جِئْتُ كَيْ أَتَعَلَّمَ?",
+            "arabic": "جِئْتُ كَيْ أَتَعَلَّمَ",
+            "translation": "Aku datang supaya/agar aku belajar",
+            "meaning": "Aku datang supaya/agar aku belajar",
+            "options": [
+              {
+                "label": "Ta'lil (menyatakan alasan / tujuan 'agar')",
+                "value": "talil"
+              },
+              {
+                "label": "Nafyi (peniadaan / tidak)",
+                "value": "nafyi"
+              },
+              {
+                "label": "Syarat (jika / jikalau)",
+                "value": "syarat"
+              },
+              {
+                "label": "Nahyi (larangan / jangan)",
+                "value": "nahyi"
+              }
+            ],
+            "correct": "talil",
+            "explanation": "'كَيْ' adalah harf mashdari wa nashb yang berfaedah ta'lil (menyatakan alasan/tujuan: 'agar/supaya').",
+            "whyModal": {
+              "title": "Makna Kay Masdariyah",
+              "matan": "كَيْ الْمَصْدَرِيَّةُ التَّعْلِيلِيَّةُ",
+              "reason": "Kay digunakan untuk menerangkan sebab/tujuan dilakukannya perbuatan sebelumnya."
+            }
+          },
+          {
+            "id": "q5_4_8",
+            "type": "mcq",
+            "question": "Perhatikan larangan: لَا تَكْذِبْ! Huruf 'لَا' pada kalimat ini adalah...",
+            "prompt": "Perhatikan larangan: لَا تَكْذِبْ! Huruf 'لَا' pada kalimat ini adalah...",
+            "arabic": "لَا تَكْذِبْ فِي كَلَامِكَ",
+            "translation": "Janganlah kamu berdusta dalam perkataanmu!",
+            "meaning": "Janganlah kamu berdusta dalam perkataanmu!",
+            "options": [
+              {
+                "label": "Laa Nahiyah (larangan) yang menjazmkan fi'il",
+                "value": "laa_nahiyah"
+              },
+              {
+                "label": "Laa Nafi (peniadaan biasa) yang membiarkan fi'il rafa'",
+                "value": "laa_nafi"
+              },
+              {
+                "label": "Laa li Nafyil Jinsi yang menashabkan isim",
+                "value": "laa_jinsi"
+              },
+              {
+                "label": "Huruf 'Athaf penyambung",
+                "value": "laa_athaf"
+              }
+            ],
+            "correct": "laa_nahiyah",
+            "explanation": "'لَا' nahiyah bermakna larangan (jangan) dan termasuk amil jazm yang mensukunkan fi'il mudhari' (تَكْذِبْ).",
+            "whyModal": {
+              "title": "Laa Nahiyah Penjazm",
+              "matan": "وَ«لَا» فِي النَّهْيِ وَالدُّعَاءِ",
+              "reason": "Laa nahiyah menuntut lawan bicara meninggalkan suatu perbuatan dan menjazmkan fi'il setelahnya."
+            }
+          },
+          {
+            "id": "q5_4_9",
+            "type": "mcq",
+            "question": "Apa pengaruh amil jazm 'لَمْ' jika masuk pada fi'il mudhari' mu'tal akhir seperti يَدْعُو?",
+            "prompt": "Apa pengaruh amil jazm 'لَمْ' jika masuk pada fi'il mudhari' mu'tal akhir seperti يَدْعُو?",
+            "arabic": "لَمْ يَدْعُ إِلَّا اللهَ",
+            "translation": "Dia tidak berdoa kecuali kepada Allah",
+            "meaning": "Dia tidak berdoa kecuali kepada Allah",
+            "options": [
+              {
+                "label": "Membuang huruf 'illat (menjadi: لَمْ يَدْعُ)",
+                "value": "hazf_illat"
+              },
+              {
+                "label": "Memberi tanda sukun di atas wawu (لَمْ يَدْعُوْ)",
+                "value": "sukun_wawu"
+              },
+              {
+                "label": "Memberi harakat fathah (لَمْ يَدْعُوَ)",
+                "value": "fathah_wawu"
+              },
+              {
+                "label": "Membuang seluruh fi'il",
+                "value": "buang_fiil"
+              }
+            ],
+            "correct": "hazf_illat",
+            "explanation": "Tanda jazm pada fi'il mudhari' mu'tal akhir adalah membuang huruf illat (حَذْفُ حَرْفِ الْعِلَّةِ).",
+            "whyModal": {
+              "title": "Jazm Fi'il Mu'tal Akhir",
+              "matan": "حَذْفُ الْآخِرِ فِي الْفِعْلِ الْمُضَارِعِ الْمُعْتَلِّ الْآخِرِ",
+              "reason": "Huruf illat di akhir (alif/wawu/ya') wajib dibuang saat kemasukan amil jazm."
+            }
+          },
+          {
+            "id": "q5_4_10",
+            "type": "mcq",
+            "question": "Perbedaan antara amil nawashib dan amil jawazim yang paling tepat adalah...",
+            "prompt": "Perbedaan antara amil nawashib dan amil jawazim yang paling tepat adalah...",
+            "arabic": "النَّوَاصِبُ تَنْصِبُ وَالْجَوَازِمُ تَجْزِمُ",
+            "translation": "Amil penashab menashabkan dan amil penjazm menjazmkan",
+            "meaning": "Amil penashab menashabkan dan amil penjazm menjazmkan",
+            "options": [
+              {
+                "label": "Nawashib mengubah harakat mudhari' menjadi fathah/hadf nun, Jawazim menjadi sukun/hadf",
+                "value": "beda_harakat_efek"
+              },
+              {
+                "label": "Nawashib masuk pada isim, sedangkan Jawazim masuk pada fi'il",
+                "value": "masuk_isim"
+              },
+              {
+                "label": "Nawashib membuat fi'il mabni, sedangkan Jawazim membuat fi'il mu'rab",
+                "value": "mabni_murab"
+              },
+              {
+                "label": "Nawashib hanya 2 huruf, sedangkan Jawazim hanya 1 huruf",
+                "value": "jumlah_huruf"
+              }
+            ],
+            "correct": "beda_harakat_efek",
+            "explanation": "Nawashib menuntut status nashab (fathah/hadf nun), sedangkan Jawazim menuntut status jazm (sukun/hadf).",
+            "whyModal": {
+              "title": "Efek Nawashib dan Jawazim",
+              "matan": "حَتَّى يَدْخُلَ عَلَيْهِ نَاصِبٌ أَوْ جَازِمٌ",
+              "reason": "Nawashib memfathahkan fi'il mudhari', Jawazim mensukunkannya atau membuang huruf akhirnya."
+            }
+          }
+        ]
+      },
+      {
+        "id": "level_5_5",
+        "code": "5.5",
+        "title": "Boss Stage: Ujian Al-Af'al",
+        "subtitle": "Tantangan Terakhir: Evaluasi Komprehensif Madhi, Mudhari', Amr, Nawashib & Jawazim",
+        "titleArabic": "امْتِحَانُ بَابِ الْأَفْعَالِ",
+        "type": "mcq",
+        "xp": 120,
+        "unlocked": false,
+        "is_boss": true,
+        "theory": {
+          "title": "Boss Stage: Ujian Al-Af'al",
+          "matan": "اَلأَفْعَالُ ثَلَاثَةٌ: مَاضٍ وَمُضَارِعٌ وَأَمْرٌ، نَحْوُ: ضَرَبَ وَيَضْرِبُ وَاضْرِبْ. فَالْمَاضِي مَفْتُوحُ الْآخِرِ أَبَدًا، وَالْأَمْرُ مَجْزُومٌ أَبَدًا، وَالْمُضَارِعُ مَا كَانَ فِي أَوَّلِهِ إِحْدَى الزَّوَائِدِ الْأَرْبَعِ...",
+          "translation": "Fi'il itu ada tiga: Madhi, Mudhari', dan Amr, contohnya: ضَرَبَ, يَضْرِبُ, dan اضْرِبْ. Madhi difathahkan akhirnya selamanya, Amr dijazmkan selamanya, dan Mudhari' di awalnya salah satu dari empat huruf tambahan...",
+          "points": [
+            {
+              "label": "Tiga Dimensi Fi'il",
+              "arabic": "الْمَاضِي وَالْمُضَارِعُ وَالأَمْرُ",
+              "desc": "Madhi (lampau, asalnya mabni fathah), Mudhari' (kini/akan, asalnya mu'rab marfu'), Amr (tuntutan perintah, asalnya mabni sukun)."
+            },
+            {
+              "label": "Kunci Nawashib & Jawazim",
+              "arabic": "النَّوَاصِبُ وَالْجَوَازِمُ",
+              "desc": "Nawashib (10 amil) menashabkan mudhari' (fathah/hadf nun); Jawazim (18 amil) menjazmkan mudhari' (sukun/hadf illat/hadf nun)."
+            },
+            {
+              "label": "Strategi Ujian Boss",
+              "arabic": "تَحْلِيلُ الْجُمَلِ الْعَرَبِيَّةِ",
+              "desc": "Perhatikan huruf awal (tanda mudhari'), huruf akhir (harakat dan dhamir yang bersambung), serta amil yang mendahului kata kerja."
+            }
+          ]
+        },
+        "questions": [
+          {
+            "id": "q5_5_1",
+            "type": "mcq",
+            "question": "Dalam ayat إِذَا جَاءَ نَصْرُ اللَّهِ وَالْفَتْحُ, kata جَاءَ adalah jenis fi'il...",
+            "prompt": "Dalam ayat إِذَا جَاءَ نَصْرُ اللَّهِ وَالْفَتْحُ, kata جَاءَ adalah jenis fi'il...",
+            "arabic": "إِذَا جَاءَ نَصْرُ اللَّهِ وَالْفَتْحُ",
+            "translation": "Apabila telah datang pertolongan Allah dan kemenangan",
+            "meaning": "Apabila telah datang pertolongan Allah dan kemenangan",
+            "options": [
+              {
+                "label": "Fi'il Madhi, mabni fathah",
+                "value": "madhi_fathah"
+              },
+              {
+                "label": "Fi'il Mudhari', marfu' dhommah",
+                "value": "mudhari_dhommah"
+              },
+              {
+                "label": "Fi'il Amr, mabni sukun",
+                "value": "amr_sukun"
+              },
+              {
+                "label": "Isim Mufrad manshub",
+                "value": "isim_mufrad"
+              }
+            ],
+            "correct": "madhi_fathah",
+            "explanation": "جَاءَ adalah fi'il madhi yang menunjukkan kejadian lampau dan berstatus mabni fathah.",
+            "whyModal": {
+              "title": "Identifikasi Madhi dalam Ayat",
+              "matan": "فَالْمَاضِي مَفْتُوحُ الْآخِرِ أَبَدًا",
+              "reason": "جَاءَ adalah kata kerja lampau berharakat fathah di akhirnya."
+            }
+          },
+          {
+            "id": "q5_5_2",
+            "type": "mcq",
+            "question": "Dalam ayat قُلْ هُوَ اللَّهُ أَحَدٌ, kata قُلْ termasuk jenis fi'il...",
+            "prompt": "Dalam ayat قُلْ هُوَ اللَّهُ أَحَدٌ, kata قُلْ termasuk jenis fi'il...",
+            "arabic": "قُلْ هُوَ اللَّهُ أَحَدٌ",
+            "translation": "Katakanlah: Dialah Allah, Yang Maha Esa",
+            "meaning": "Katakanlah: Dialah Allah, Yang Maha Esa",
+            "options": [
+              {
+                "label": "Fi'il Amr, mabni sukun",
+                "value": "amr_sukun"
+              },
+              {
+                "label": "Fi'il Madhi, mabni sukun",
+                "value": "madhi_sukun"
+              },
+              {
+                "label": "Fi'il Mudhari' majzum",
+                "value": "mudhari_majzum"
+              },
+              {
+                "label": "Huruf thalab",
+                "value": "huruf_thalab"
+              }
+            ],
+            "correct": "amr_sukun",
+            "explanation": "قُلْ adalah fi'il amr (perintah: 'katakanlah!'), dihukumi mabni di atas sukun.",
+            "whyModal": {
+              "title": "Identifikasi Amr dalam Ayat",
+              "matan": "وَالأَمْرُ مَجْزُومٌ أَبَدًا",
+              "reason": "قُلْ adalah bentuk perintah (amr) dari قَالَ - يَقُولُ, berharakat sukun di akhir."
+            }
+          },
+          {
+            "id": "q5_5_3",
+            "type": "mcq",
+            "question": "Tentukan fi'il mudhari' marfu' dalam ayat: إِيَّاكَ نَعْبُدُ وَإِيَّاكَ نَسْتَعِينُ!",
+            "prompt": "Tentukan fi'il mudhari' marfu' dalam ayat: إِيَّاكَ نَعْبُدُ وَإِيَّاكَ نَسْتَعِينُ!",
+            "arabic": "إِيَّاكَ نَعْبُدُ وَإِيَّاكَ نَسْتَعِينُ",
+            "translation": "Hanya kepada-Mu kami menyembah dan hanya kepada-Mu kami memohon pertolongan",
+            "meaning": "Hanya kepada-Mu kami menyembah dan hanya kepada-Mu kami memohon pertolongan",
+            "options": [
+              {
+                "label": "نَعْبُدُ dan نَسْتَعِينُ (keduanya fi'il mudhari' marfu')",
+                "value": "nabudu_nastainu"
+              },
+              {
+                "label": "إِيَّاكَ (keduanya fi'il mudhari')",
+                "value": "iyyaka"
+              },
+              {
+                "label": "Hanya نَعْبُدُ saja yang fi'il",
+                "value": "nabudu_saja"
+              },
+              {
+                "label": "Tidak ada fi'il dalam ayat ini",
+                "value": "tidak_ada_fiil"
+              }
+            ],
+            "correct": "nabudu_nastainu",
+            "explanation": "نَعْبُدُ dan نَسْتَعِينُ adalah fi'il mudhari' marfu' dengan dhommah karena tidak didahului amil nashab/jazm.",
+            "whyModal": {
+              "title": "Fi'il Mudhari' Marfu' Bebas Amil",
+              "matan": "وَهُوَ مَرْفُوعٌ أَبَدًا، حَتَّى يَدْخُلَ عَلَيْهِ نَاصِبٌ أَوْ جَازِمٌ",
+              "reason": "Kedua kata ini diawali huruf mudhara'ah nun dan berharakat dhommah di akhirnya."
+            }
+          },
+          {
+            "id": "q5_5_4",
+            "type": "mcq",
+            "question": "Perhatikan firman Allah: وَلَنْ تَفْعَلُوا فَاتَّقُوا النَّارَ. Mengapa kata تَفْعَلُوا tidak berakhiran huruf nun?",
+            "prompt": "Perhatikan firman Allah: وَلَنْ تَفْعَلُوا فَاتَّقُوا النَّارَ. Mengapa kata تَفْعَلُوا tidak berakhiran huruf nun?",
+            "arabic": "فَإِنْ لَمْ تَفْعَلُوا وَلَنْ تَفْعَلُوا",
+            "translation": "Maka jika kamu tidak membuatnya dan sekali-kali kamu tidak akan dapat membuatnya...",
+            "meaning": "Maka jika kamu tidak membuatnya dan sekali-kali kamu tidak akan dapat membuatnya...",
+            "options": [
+              {
+                "label": "Karena dinashabkan oleh 'لَنْ' dengan membuang nun",
+                "value": "manshub_hadfun_nun"
+              },
+              {
+                "label": "Karena dirafa'kan dengan wawu jama'ah",
+                "value": "marfu_wawu"
+              },
+              {
+                "label": "Karena berstatus fi'il amr mabni",
+                "value": "amr_mabni"
+              },
+              {
+                "label": "Karena isim mamnu' minas sharf",
+                "value": "mamnu_sharf"
+              }
+            ],
+            "correct": "manshub_hadfun_nun",
+            "explanation": "تَفْعَلُوا adalah fi'il mudhari' (af'alul khamsah) yang dinashabkan oleh 'لَنْ' dengan membuang nun (aslinya تَفْعَلُونَ).",
+            "whyModal": {
+              "title": "Nashab Af'alul Khamsah dengan Lan",
+              "matan": "حَذْفُ النُّونِ فِي الْأَفْعَالِ الْخَمْسَةِ",
+              "reason": "Amil penashab 'lan' menyebabkan huruf nun pada af'alul khamsah dibuang."
+            }
+          },
+          {
+            "id": "q5_5_5",
+            "type": "mcq",
+            "question": "Manakah kalimat yang di dalamnya terdapat ketiga jenis fi'il sekaligus: Madhi, Mudhari', dan Amr?",
+            "prompt": "Manakah kalimat yang di dalamnya terdapat ketiga jenis fi'il sekaligus: Madhi, Mudhari', dan Amr?",
+            "arabic": "عَلِمْتُ الْحَقَّ، فَأَنَا أَتَّبِعُهُ، فَاتَّبِعْهُ أَنْتَ أَيْضًا!",
+            "translation": "Aku telah mengetahui kebenaran, maka aku mengikutinya, maka ikutilah ia olehmu juga!",
+            "meaning": "Aku telah mengetahui kebenaran, maka aku mengikutinya, maka ikutilah ia olehmu juga!",
+            "options": [
+              {
+                "label": "عَلِمْتُ (Madhi) — أَتَّبِعُ (Mudhari') — اِتَّبِعْ (Amr)",
+                "value": "ketiga_fiil_lengkap"
+              },
+              {
+                "label": "كَتَبَ زَيْدٌ رِسَالَةً جَمِيلَةً",
+                "value": "hanya_madhi"
+              },
+              {
+                "label": "يَذْهَبُ وَيَرْجِعُ فِي الصَّبَاحِ",
+                "value": "hanya_mudhari"
+              },
+              {
+                "label": "اُسْكُتْ وَاسْتَمِعْ إِلَى النَّصِيحَةِ",
+                "value": "hanya_amr"
+              }
+            ],
+            "correct": "ketiga_fiil_lengkap",
+            "explanation": "Kalimat tersebut memuat ketiga jenis fi'il: عَلِمْتُ (madhi), أَتَّبِعُ (mudhari'), dan اِتَّبِعْ (amr).",
+            "whyModal": {
+              "title": "Tiga Jenis Fi'il Lengkap",
+              "matan": "الأَفْعَالُ ثَلَاثَةٌ: مَاضٍ، وَمُضَارِعٌ، وَأَمْرٌ",
+              "reason": "Masing-masing kata kerja mewakili pembagian tiga fi'il dalam tata bahasa Arab."
+            }
+          },
+          {
+            "id": "q5_5_6",
+            "type": "mcq",
+            "question": "Pada ayat فَاصْبِرْ إِنَّ وَعْدَ اللَّهِ حَقٌّ, kata اصْبِرْ dihukumi...",
+            "prompt": "Pada ayat فَاصْبِرْ إِنَّ وَعْدَ اللَّهِ حَقٌّ, kata اصْبِرْ dihukumi...",
+            "arabic": "فَاصْبِرْ إِنَّ وَعْدَ اللَّهِ حَقٌّ",
+            "translation": "Maka bersabarlah kamu, sesungguhnya janji Allah itu benar",
+            "meaning": "Maka bersabarlah kamu, sesungguhnya janji Allah itu benar",
+            "options": [
+              {
+                "label": "Mabni sukun karena fi'il amr shahihul akhir",
+                "value": "mabni_sukun_amr"
+              },
+              {
+                "label": "Majzum sukun karena amil jazm fa'",
+                "value": "majzum_fa"
+              },
+              {
+                "label": "Mabni fathah karena fi'il madhi",
+                "value": "mabni_fathah_madhi"
+              },
+              {
+                "label": "Mu'rab marfu' dengan dhommah",
+                "value": "murab_marfu"
+              }
+            ],
+            "correct": "mabni_sukun_amr",
+            "explanation": "اصْبِرْ adalah fi'il amr shahih akhir yang tidak bersambung dengan apa pun, sehingga mabni di atas sukun.",
+            "whyModal": {
+              "title": "Bina' Fi'il Amr pada Ayat",
+              "matan": "وَالأَمْرُ مَجْزُومٌ أَبَدًا",
+              "reason": "Kata اصْبِرْ adalah fi'il amr mufrod mudzakkar yang dihukumi mabni sukun."
+            }
+          },
+          {
+            "id": "q5_5_7",
+            "type": "mcq",
+            "question": "Perhatikan kalimat: الطُّلَّابُ لَمْ يَحْضُرُوا. Kata يَحْضُرُوا di-i'rab sebagai...",
+            "prompt": "Perhatikan kalimat: الطُّلَّابُ لَمْ يَحْضُرُوا. Kata يَحْضُرُوا di-i'rab sebagai...",
+            "arabic": "الطُّلَّابُ لَمْ يَحْضُرُوا الْيَوْمَ",
+            "translation": "Para siswa tidak hadir hari ini",
+            "meaning": "Para siswa tidak hadir hari ini",
+            "options": [
+              {
+                "label": "Fi'il mudhari' majzum dengan hadfun nun",
+                "value": "majzum_hadfun_nun"
+              },
+              {
+                "label": "Fi'il madhi mabni dhommah",
+                "value": "madhi_mabni_dhommah"
+              },
+              {
+                "label": "Fi'il amr mabni hadfun nun",
+                "value": "amr_mabni_hadfun_nun"
+              },
+              {
+                "label": "Fi'il mudhari' marfu' dengan wawu",
+                "value": "mudhari_marfu_wawu"
+              }
+            ],
+            "correct": "majzum_hadfun_nun",
+            "explanation": "Didahului amil jazm 'لَمْ', fi'il mudhari' يَحْضُرُوا dijazmkan dengan tanda hadfun nun (aslinya يَحْضُرُونَ).",
+            "whyModal": {
+              "title": "Jazm Af'alul Khamsah dengan Lam",
+              "matan": "وَأَمَّا الْحَذْفُ فَيَكُونُ عَلَامَةً لِلْجَزْمِ فِي ... الْأَفْعَالِ الْخَمْسَةِ",
+              "reason": "Amil 'lam' menjazmkan af'alul khamsah dengan membuang huruf nun."
+            }
+          },
+          {
+            "id": "q5_5_8",
+            "type": "mcq",
+            "question": "Manakah fi'il madhi yang mabni di atas dhommah pada pilihan berikut?",
+            "prompt": "Manakah fi'il madhi yang mabni di atas dhommah pada pilihan berikut?",
+            "arabic": "آمَنُوا وَعَمِلُوا الصَّالِحَاتِ",
+            "translation": "Mereka telah beriman dan telah mengerjakan kebajikan",
+            "meaning": "Mereka telah beriman dan telah mengerjakan kebajikan",
+            "options": [
+              {
+                "label": "آمَنُوا (karena bersambung dengan Wawu Jama'ah)",
+                "value": "aamanuu"
+              },
+              {
+                "label": "آمَنَ (mufrad)",
+                "value": "aamana"
+              },
+              {
+                "label": "آمَنْتُ (mutakallim)",
+                "value": "aamantu"
+              },
+              {
+                "label": "آمَنَّا (kami)",
+                "value": "aamannaa"
+              }
+            ],
+            "correct": "aamanuu",
+            "explanation": "آمَنُوا adalah fi'il madhi yang bersambung dengan Wawu Jama'ah, sehingga mabni di atas dhommah.",
+            "whyModal": {
+              "title": "Madhi Mabni Dhommah",
+              "matan": "وَيُبْنَى عَلَى الضَّمِّ إِذَا اتَّصَلَتْ بِهِ وَاوُ الْجَمَاعَةِ",
+              "reason": "Huruf nun berharakat dhommah (آمَنُـ) karena disandingkan dengan Wawu Jama'ah."
+            }
+          },
+          {
+            "id": "q5_5_9",
+            "type": "mcq",
+            "question": "Dalam firman Allah: كَلَّا لَمَّا يَقْضِ مَا أَمَرَهُ, kata يَقْضِ dijazmkan dengan tanda apa?",
+            "prompt": "Dalam firman Allah: كَلَّا لَمَّا يَقْضِ مَا أَمَرَهُ, kata يَقْضِ dijazmkan dengan tanda apa?",
+            "arabic": "كَلَّا لَمَّا يَقْضِ مَا أَمَرَهُ",
+            "translation": "Sekali-kali tidak! Manusia itu belum melaksanakan apa yang Dia perintahkan",
+            "meaning": "Sekali-kali tidak! Manusia itu belum melaksanakan apa yang Dia perintahkan",
+            "options": [
+              {
+                "label": "Membuang huruf 'illat Ya' (حَذْفُ حَرْفِ الْعِلَّةِ)",
+                "value": "hazf_huruf_illat_ya"
+              },
+              {
+                "label": "Sukun pada huruf dhad",
+                "value": "sukun_dhad"
+              },
+              {
+                "label": "Kasrah sebagai tanda pokok jazm",
+                "value": "kasrah_tanda_jazm"
+              },
+              {
+                "label": "Membuang nun af'alul khamsah",
+                "value": "buang_nun"
+              }
+            ],
+            "correct": "hazf_huruf_illat_ya",
+            "explanation": "Asal katanya adalah يَقْضِي (mu'tal akhir ya'). Ketika dijazmkan oleh amil 'لَمَّا', huruf illat dibuang (يَقْضِ).",
+            "whyModal": {
+              "title": "Jazm Fi'il Mu'tal Akhir dengan Lamma",
+              "matan": "حَذْفُ حَرْفِ الْعِلَّةِ",
+              "reason": "Kasrah pada huruf dhad adalah harakat penunjuk bahwa huruf illat yang dibuang adalah Ya'."
+            }
+          },
+          {
+            "id": "q5_5_10",
+            "type": "mcq",
+            "question": "Manakah ringkasan hukum asal ketiga fi'il yang paling tepat menurut Matan Al-Ajurrumiyyah?",
+            "prompt": "Manakah ringkasan hukum asal ketiga fi'il yang paling tepat menurut Matan Al-Ajurrumiyyah?",
+            "arabic": "الْمَاضِي مَفْتُوحُ الْآخِرِ، وَالْأَمْرُ مَجْزُومٌ، وَالْمُضَارِعُ مَرْفُوعٌ",
+            "translation": "Madhi difathahkan, Amr disukunkan, dan Mudhari' dirafa'kan",
+            "meaning": "Madhi difathahkan, Amr disukunkan, dan Mudhari' dirafa'kan",
+            "options": [
+              {
+                "label": "Madhi: mabni fathah; Amr: mabni sukun/majzum; Mudhari': asalnya marfu'",
+                "value": "ringkasan_tepat"
+              },
+              {
+                "label": "Ketiga fi'il semuanya berstatus mu'rab mengikuti amil",
+                "value": "semua_murab"
+              },
+              {
+                "label": "Ketiga fi'il semuanya mabni sukun tanpa kecuali",
+                "value": "semua_mabni_sukun"
+              },
+              {
+                "label": "Madhi marfu', Mudhari' manshub, Amr majrur",
+                "value": "campuran_ngawur"
+              }
+            ],
+            "correct": "ringkasan_tepat",
+            "explanation": "Inti kaidah Bab Al-Af'al: Madhi mabni fathah, Amr mabni sukun (majzum abadan), dan Mudhari' asalnya mu'rab marfu' sampai masuk amil.",
+            "whyModal": {
+              "title": "Kesimpulan Kaidah Bab Al-Af'al",
+              "matan": "فَالْمَاضِي مَفْتُوحُ الآخِرِ أَبَدًا، وَالأَمْرُ مَجْزُومٌ أَبَدًا، وَالْمُضَارِعُ مَرْفُوعٌ أَبَدًا حَتَّى يَدْخُلَ عَلَيْهِ نَاصِبٌ أَوْ جَازِمٌ",
+              "reason": "Rumus pamungkas yang menyatukan hukum bina' dan i'rab ketiga jenis fi'il."
+            }
+          }
+        ]
+      }
+    ]
+  }
+}
