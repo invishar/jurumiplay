@@ -151,10 +151,90 @@
 </head>
 <body class="min-h-screen text-slate-800 font-sans select-none overflow-x-hidden bg-slate-900 sm:bg-slate-950 flex flex-col items-center justify-start antialiased">
 
-  <!-- Mobile Container for Clean App Feel -->
-  <div id="app" class="w-full max-w-[440px] flex flex-col bg-[#F8FAFC] relative sm:border sm:border-slate-800">
-    
-    <!-- Compact Mobile-First Header Bar (Height ~50px) -->
+  <!-- Mobile Container Shell -->
+  <div id="app" class="w-full max-w-[440px] min-h-screen flex flex-col bg-[#F8FAFC] relative sm:border sm:border-slate-800 sm:shadow-2xl overflow-x-hidden">
+
+    <!-- Halaman Pembuka (Welcome Screen) -->
+    <div id="screen-welcome" class="fixed inset-0 z-40 flex flex-col justify-between p-6 text-white max-w-[440px] mx-auto overflow-y-auto hidden" style="background-color: #062c19; background-image: radial-gradient(circle at 50% 20%, #0d4d2c 0%, #062c19 55%, #02140a 100%), url(&quot;data:image/svg+xml,%3Csvg width='40' height='40' viewBox='0 0 40 40' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='%2310b981' fill-opacity='0.07' fill-rule='evenodd'%3E%3Cpath d='M20 0l5.88 14.12L40 20l-14.12 5.88L20 40l-5.88-14.12L0 20l14.12-5.88L20 0zm0 6.5l-3.9 9.6L6.5 20l9.6 3.9L20 33.5l3.9-9.6L33.5 20l-9.6-3.9L20 6.5z'/%3E%3C/g%3E%3C/svg%3E&quot;);">
+      
+      <!-- Top Decorative & Brand Emblem -->
+      <div class="pt-6 sm:pt-8 flex flex-col items-center text-center space-y-4">
+        <!-- Emblem Icon -->
+        <div class="w-20 h-20 rounded-3xl bg-emerald-500/10 border border-emerald-400/30 flex items-center justify-center shadow-xl shadow-emerald-950/60 backdrop-blur-md relative group">
+          <div class="absolute inset-0 rounded-3xl bg-emerald-400/10 animate-pulse"></div>
+          <i data-lucide="book-open" class="w-10 h-10 text-emerald-300 stroke-[2.2] relative z-10"></i>
+        </div>
+
+        <!-- Typography requested by Bos ADz Wira -->
+        <div>
+          <h1 class="text-4xl sm:text-5xl font-black tracking-tight text-white drop-shadow-md">
+            Jurumi<span class="text-emerald-400">play</span>
+          </h1>
+          <p class="text-base sm:text-lg text-emerald-100/90 font-medium tracking-wide mt-2">
+            Belajar kitab jurumiyah
+          </p>
+          <div class="mt-3 inline-flex items-center space-x-1.5 px-4 py-1.5 rounded-full bg-emerald-500/20 border border-emerald-400/30 text-emerald-300 text-xs font-extrabold uppercase tracking-widest shadow-xs">
+            <span>✨</span>
+            <span>Dengan Mudah</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Center Feature Pillars -->
+      <div class="my-6 space-y-2.5 max-w-xs mx-auto w-full">
+        <div class="flex items-center space-x-3 p-3 rounded-2xl bg-white/5 border border-white/10 backdrop-blur-xs">
+          <div class="w-9 h-9 rounded-xl bg-emerald-500/20 text-emerald-300 flex items-center justify-center shrink-0">
+            <i data-lucide="scroll-text" class="w-5 h-5"></i>
+          </div>
+          <div class="text-left">
+            <p class="text-xs font-bold text-white">Matan Al-Jurumiyyah</p>
+            <p class="text-[11px] text-emerald-200/70">Teks Arab asli & penjelasan terjemah</p>
+          </div>
+        </div>
+
+        <div class="flex items-center space-x-3 p-3 rounded-2xl bg-white/5 border border-white/10 backdrop-blur-xs">
+          <div class="w-9 h-9 rounded-xl bg-amber-500/20 text-amber-300 flex items-center justify-center shrink-0">
+            <i data-lucide="star" class="w-5 h-5 fill-amber-400/50"></i>
+          </div>
+          <div class="text-left">
+            <p class="text-xs font-bold text-white">Kuis Gamifikasi Santai</p>
+            <p class="text-[11px] text-emerald-200/70">Koleksi ⭐ bintang tanpa sistem nyawa</p>
+          </div>
+        </div>
+
+        <div class="flex items-center space-x-3 p-3 rounded-2xl bg-white/5 border border-white/10 backdrop-blur-xs">
+          <div class="w-9 h-9 rounded-xl bg-emerald-500/20 text-emerald-300 flex items-center justify-center shrink-0">
+            <i data-lucide="swords" class="w-5 h-5"></i>
+          </div>
+          <div class="text-left">
+            <p class="text-xs font-bold text-white">Boss Ayat Scanner</p>
+            <p class="text-[11px] text-emerald-200/70">Uji kemampuan analisis ayat tiap bab</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Action Buttons requested by Bos ADz Wira -->
+      <div class="pb-6 sm:pb-8 space-y-3 max-w-xs mx-auto w-full">
+        <!-- Button 1: Coba Sekarang -->
+        <button onclick="handleWelcomeCobaSekarang()" id="btn-welcome-coba" class="w-full py-4 bg-emerald-500 hover:bg-emerald-400 text-slate-950 font-black rounded-2xl text-base shadow-xl shadow-emerald-950/40 touch-btn transition flex items-center justify-center space-x-2 active:scale-95">
+          <span>Coba Sekarang</span>
+          <i data-lucide="arrow-right" class="w-5 h-5 stroke-[2.5]"></i>
+        </button>
+
+        <!-- Button 2: Daftar Dulu -->
+        <button onclick="handleWelcomeDaftarDulu()" id="btn-welcome-daftar" class="w-full py-3.5 bg-white/10 hover:bg-white/15 text-white border border-white/20 font-bold rounded-2xl text-sm touch-btn transition flex items-center justify-center space-x-2 active:scale-95 backdrop-blur-xs">
+          <i data-lucide="user-plus" class="w-4 h-4"></i>
+          <span>Daftar Dulu</span>
+        </button>
+
+        <p class="text-[11px] text-emerald-200/60 text-center pt-1 font-medium">
+          Coba Bab 1 langsung gratis &middot; Daftar untuk simpan progres
+        </p>
+      </div>
+
+    </div>
+
+    <!-- Top Persistent App Header -->
     <header class="sticky top-0 z-30 bg-white/95 backdrop-blur-md border-b border-slate-200/90 px-3.5 py-2 flex flex-col shadow-2xs shrink-0">
       <div class="flex items-center justify-between">
         <!-- Logo Compact -->
@@ -260,6 +340,7 @@
 
         <!-- Auth Form Tabs (Register / Login) -->
         <div id="view-santri-forms">
+          <div id="santri-auth-context-banner" class="hidden mb-3 p-3 bg-emerald-50 border border-emerald-200 rounded-2xl text-xs text-emerald-900 leading-snug"></div>
           <div class="flex border-b border-slate-200 mb-4 text-xs font-bold">
             <button id="tab-btn-register" onclick="switchAuthTab('register')" class="flex-1 py-2 text-emerald-600 border-b-2 border-emerald-600">
               Daftar Santri

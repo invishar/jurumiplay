@@ -128,9 +128,21 @@ class UserState {
   }
 
   save() {
-    localStorage.setItem(this.storageKey, JSON.stringify(this.data));
-    this.updateStatsUI();
-    this.syncToServer();
+    try {
+      localStorage.setItem(this.storageKey, JSON.stringify(this.data));
+    } catch (e) {
+      console.error('Failed saving to localStorage', e);
+    }
+    try {
+      this.updateStatsUI();
+    } catch (e) {}
+    try {
+      this.syncRemote();
+    } catch (e) {}
+  }
+
+  syncToServer() {
+    return this.syncRemote();
   }
 
   addStars(amount) {
@@ -245,6 +257,8 @@ class UserState {
         current_chapter: this.data.selectedChapter || 'bab_01',
         current_level: (this.data.unlockedLevels && this.data.unlockedLevels.length) ? this.data.unlockedLevels[this.data.unlockedLevels.length - 1] : 'level_1_1',
         total_xp: this.data.xp || 0,
+        total_bintang: this.data.stars || 0,
+        stars: this.data.stars || 0,
         completed_levels: Object.keys(this.data.completedLevels || {}),
         level_scores: this.data.completedLevels || {},
         boss_passed: !!(this.data.completedLevels && (this.data.completedLevels['level_1_5'] || this.data.completedLevels['level_2_4'] || this.data.completedLevels['level_3_5'] || this.data.completedLevels['level_4_5'] || this.data.completedLevels['level_5_5'])),
@@ -751,8 +765,29 @@ class JurumiRouter {
 
   switchChapter(chapterId) {
     sound.playClick();
+
+    // Gating khusus Bab 2 ke atas bagi santri tamu (wajib login santri)
+    if (chapterId !== 'bab_01') {
+      const isBossBab1Passed = !!(state.data.completedLevels && state.data.completedLevels['level_1_5']);
+      const santri = typeof getLoggedInSantri === 'function' ? getLoggedInSantri() : null;
+
+      // 1. Cek apakah Boss Bab 1 sudah lulus
+      if (!isBossBab1Passed) {
+        sound.playWrong();
+        const req = state.getChapterRequirement(chapterId);
+        this.openLockedChapterModal(chapterId, req);
+        return;
+      }
+
+      // 2. Jika Boss Bab 1 sudah lulus, tapi user belum login (tamu) -> WAJIB LOGIN!
+      if (!santri) {
+        sound.playWrong();
+        this.openBab2AuthRequiredModal(chapterId);
+        return;
+      }
+    }
+
     const isUnlocked = state.isChapterUnlocked(chapterId);
-    
     if (!isUnlocked) {
       sound.playWrong();
       const req = state.getChapterRequirement(chapterId);
@@ -767,6 +802,52 @@ class JurumiRouter {
     state.data.selectedChapter = ch.id;
     state.save();
     this.navigate('home');
+  }
+
+  // Modal Khusus Gating Bab 2 (Wajib Login Santri)
+  openBab2AuthRequiredModal(chapterId) {
+    const ch = this.chapters.find(c => c.id === chapterId);
+    const title = ch ? ch.title : 'Bab 2: Al-I\'rab';
+
+    const contentHtml = `
+      <div class="text-center py-2 space-y-4">
+        <div class="w-16 h-16 rounded-3xl bg-emerald-50 border border-emerald-200 text-emerald-600 flex items-center justify-center mx-auto text-3xl shadow-xs">
+          🏆
+        </div>
+        <div>
+          <span class="text-xs font-extrabold text-emerald-700 bg-emerald-100/70 border border-emerald-200 px-3 py-1 rounded-full uppercase tracking-wider">
+            Bab 1 Selesai!
+          </span>
+          <h3 class="text-lg font-extrabold text-slate-800 mt-2">Daftar Akun untuk Membuka ${title}</h3>
+          <p class="text-xs sm:text-sm text-slate-600 mt-1 leading-relaxed">
+            Alhamdulillah kamu telah menuntaskan Bab 1! Untuk melanjutkan ke <strong>${title}</strong> dan bab seterusnya, silakan daftar atau masuk akun santri terlebih dahulu agar seluruh bintang dan riwayat belajarmu tersimpan aman di database.
+          </p>
+        </div>
+
+        <div class="p-3.5 bg-amber-50 border border-amber-200 rounded-2xl text-left space-y-1.5">
+          <div class="flex items-center space-x-2 text-amber-800 font-bold text-xs">
+            <i data-lucide="shield-check" class="w-4 h-4 text-amber-600"></i>
+            <span>Keuntungan Akun Santri:</span>
+          </div>
+          <ul class="text-xs text-amber-900 space-y-1 list-disc list-inside">
+            <li>Akses penuh ke Bab 2: Al-I'rab & bab lanjutan</li>
+            <li>Penyimpanan riwayat belajar otomatis di database</li>
+            <li>Dapat dilanjutkan di perangkat HP/Laptop mana saja</li>
+          </ul>
+        </div>
+
+        <div class="space-y-2 pt-1">
+          <button onclick="closeModal(); openSantriAuthModal('register', 'bab2_gate');" class="w-full py-3.5 bg-emerald-600 hover:bg-emerald-500 text-white rounded-2xl font-extrabold text-sm shadow-sm touch-btn transition flex items-center justify-center space-x-2 active:scale-95" style="min-height:48px">
+            <span>Daftar / Masuk Akun Santri ➔</span>
+          </button>
+          <button onclick="closeModal()" class="w-full py-3 bg-slate-100 hover:bg-slate-200 text-slate-700 rounded-2xl font-bold text-sm touch-btn transition" style="min-height:44px">
+            Kembali ke Bab 1
+          </button>
+        </div>
+      </div>
+    `;
+    openModal(contentHtml);
+    if (window.lucide) window.lucide.createIcons();
   }
 
   // Modal Peringatan Bab Terkunci
@@ -1524,6 +1605,7 @@ class JurumiRouter {
     const sIdx = this.bossSectionIndex || 0;
     const section = sections[sIdx] || sections[0];
     const tIdx = this.bossTokenIndex || 0;
+    const curTokens = section ? (section.tokens || []) : [];
     const token = section && section.tokens ? section.tokens[tIdx] : null;
     
     const target = String(token ? (token.type || token.category || '') : '').trim().toLowerCase();
@@ -1531,10 +1613,13 @@ class JurumiRouter {
     
     const dalil = token ? (token.dalil || null) : null;
     const explanation = token ? (token.explanation || '') : '';
-    this.handleAnswerResult(isCorrect, explanation, dalil, true);
+
+    // Apakah ini token terakhir dari section terakhir ujian boss?
+    const isLastBossToken = (sIdx === sections.length - 1 && tIdx >= curTokens.length - 1);
+    this.handleAnswerResult(isCorrect, explanation, dalil, true, isLastBossToken);
   }
 
-  handleAnswerResult(isCorrect, explanation, dalil = null, isBoss = false) {
+  handleAnswerResult(isCorrect, explanation, dalil = null, isBoss = false, isLastToken = false) {
     const feedbackBox = document.getElementById('feedback-box');
     const actionButtons = document.getElementById('action-buttons') || document.getElementById('chip-grid') || document.getElementById('harakat-options') || document.getElementById('mcq-options');
 
@@ -1549,6 +1634,9 @@ class JurumiRouter {
     if (isBossLevel && isCorrect) {
       this.bossCorrectCount = (this.bossCorrectCount || 0) + 1;
     }
+
+    const nextBtnText = isLastToken ? 'Lihat Hasil Ujian Boss ➔' : 'Lanjut Soal Berikutnya ➔';
+    const nextBtnWrongText = isLastToken ? 'Lihat Hasil Ujian Boss ➔' : 'Mengerti & Lanjut ➔';
 
     if (isCorrect) {
       sound.playCorrect();
@@ -1566,8 +1654,8 @@ class JurumiRouter {
             ` : ''}
           </div>
           <p class="text-sm text-slate-600 leading-relaxed">${explanation}</p>
-          <button onclick="router.nextStep(${isBoss})" class="mt-3 w-full py-3 bg-emerald-600 hover:bg-emerald-500 text-white rounded-xl font-bold text-sm touch-btn transition" style="min-height:48px">
-            Lanjut Soal Berikutnya ➔
+          <button onclick="router.nextStep(${isBoss})" class="mt-3 w-full py-3.5 bg-emerald-600 hover:bg-emerald-500 text-white rounded-xl font-extrabold text-sm touch-btn transition flex items-center justify-center space-x-1.5 shadow-sm" style="min-height:48px">
+            <span>${nextBtnText}</span>
           </button>
         </div>
       `;
@@ -1587,8 +1675,8 @@ class JurumiRouter {
             ` : ''}
           </div>
           <p class="text-sm text-slate-600 leading-relaxed">${explanation}</p>
-          <button onclick="router.nextStep(${isBoss})" class="mt-3 w-full py-3 bg-slate-700 hover:bg-slate-600 text-white rounded-xl font-bold text-sm touch-btn transition" style="min-height:48px">
-            Mengerti & Lanjut ➔
+          <button onclick="router.nextStep(${isBoss})" class="mt-3 w-full py-3.5 bg-slate-700 hover:bg-slate-600 text-white rounded-xl font-extrabold text-sm touch-btn transition flex items-center justify-center space-x-1.5 shadow-sm" style="min-height:48px">
+            <span>${nextBtnWrongText}</span>
           </button>
         </div>
       `;
@@ -1615,10 +1703,14 @@ class JurumiRouter {
         this.bossTokenIndex = 0;
         this.bossSectionIndex = (this.bossSectionIndex || 0) + 1;
         if (this.bossSectionIndex >= sections.length) {
+          // Kunci indeks agar tidak overflow / me-reset ke section 0
+          this.bossSectionIndex = sections.length - 1;
+          this.bossTokenIndex = curTokens.length - 1;
+
           const correct = this.bossCorrectCount || 0;
           let total = 0;
           sections.forEach(s => { total += (s.tokens || []).length; });
-          if (total === 0) total = 10;
+          if (total === 0) total = 20;
           if (correct >= 7) {
             this.renderCelebration(document.getElementById('main-view'));
           } else {
@@ -1718,20 +1810,34 @@ class JurumiRouter {
   }
 
   renderCelebration(container) {
-    sound.playVictory();
-    if (window.confetti) {
-      window.confetti({
-        particleCount: 80,
-        spread: 60,
-        origin: { y: 0.6 }
-      });
-    }
+    try {
+      sound.playVictory();
+    } catch(e) {}
+    try {
+      if (window.confetti) {
+        window.confetti({
+          particleCount: 80,
+          spread: 60,
+          origin: { y: 0.6 }
+        });
+      }
+    } catch(e) {}
 
     const lvl = this.currentLevel;
     const isBossLvl = lvl && (lvl.is_boss || ['level_1_5', 'level_2_4', 'level_3_5', 'level_4_5', 'level_5_5'].includes(lvl.id));
     const starsEarned = isBossLvl ? 5 : 3;
-    state.addStars(starsEarned);
-    state.completeLevel(lvl.id, 100);
+
+    // PASTIKAN LEVEL TUNTAS DITETAPKAN PERTAMA KALI SEBELUM OPERASI LAIN
+    try {
+      state.completeLevel(lvl.id, 100);
+    } catch(e) {
+      console.error('Error completing level:', e);
+    }
+    try {
+      state.addStars(starsEarned);
+    } catch(e) {
+      console.error('Error adding stars:', e);
+    }
 
     const currentIndex = this.curriculum.levels.findIndex(l => l.id === lvl.id);
     let nextLvl = null;
@@ -1758,9 +1864,13 @@ class JurumiRouter {
     const babSelesaiId = lvl.id.split('_')[1]; // e.g. '1', '2', '3'
 
     // Periksa apakah masih ada bab berikutnya (untuk dead-end prevention)
-    const allChapterIds = this.chapters.map(ch => ch.id);
     const currentChapterIdx = this.chapters.findIndex(ch => ch.data?.levels?.find(l => l.id === lvl.id));
     const nextChapter = currentChapterIdx >= 0 && currentChapterIdx + 1 < this.chapters.length ? this.chapters[currentChapterIdx + 1] : null;
+
+    // Status santri / login untuk gating Bab 2
+    const santri = typeof getLoggedInSantri === 'function' ? getLoggedInSantri() : null;
+    const isGuest = !santri;
+    const isBossBab1 = (lvl.id === 'level_1_5');
 
     // Quote motivasi berdasarkan pencapaian
     const motivasiQuotes = [
@@ -1821,18 +1931,33 @@ class JurumiRouter {
 
         <!-- Action Buttons -->
         <div class="w-full max-w-xs space-y-2.5 pt-1">
-          ${nextLvl && !nextUnlockedChapterName ? `
-            <button onclick="router.navigate('lesson', { levelId: '${nextLvl.id}' })" class="w-full py-4 bg-emerald-600 hover:bg-emerald-500 text-white rounded-2xl font-extrabold text-sm sm:text-base shadow-sm touch-btn transition flex items-center justify-center space-x-2 active:scale-95" style="min-height:52px">
-              <span>Lanjut ke Level Berikutnya</span>
-              <i data-lucide="arrow-right" class="w-5 h-5"></i>
+          ${(isBossBab1 && isGuest) ? `
+            <div class="p-3 bg-amber-50 border border-amber-200 rounded-2xl text-left space-y-1.5 mb-2 shadow-2xs">
+              <div class="flex items-center space-x-1.5 text-amber-900 font-extrabold text-xs">
+                <span>🏆</span>
+                <span>Bab 1 Selesai! Buka Bab 2 Sekarang</span>
+              </div>
+              <p class="text-xs text-amber-800 leading-snug">
+                Daftar atau masuk akun santri untuk membuka <strong>Bab 2: Al-I'rab</strong> dan menyimpan seluruh <strong>${state.data.stars || 0} ⭐ bintang</strong> belajarmu ke database.
+              </p>
+            </div>
+            <button onclick="openSantriAuthModal('register', 'bab2_gate')" class="w-full py-4 bg-emerald-600 hover:bg-emerald-500 text-white rounded-2xl font-extrabold text-sm sm:text-base shadow-sm touch-btn transition flex items-center justify-center space-x-2 active:scale-95" style="min-height:52px">
+              <span>Daftar / Masuk Akun untuk Buka Bab 2 ➔</span>
             </button>
-          ` : ''}
-          ${nextChapter && (nextUnlockedChapterName || isLastLevelEver) ? `
-            <button onclick="router.navigate('home', { chapterId: '${nextChapter.id}' })" class="w-full py-4 bg-emerald-600 hover:bg-emerald-500 text-white rounded-2xl font-extrabold text-sm sm:text-base shadow-sm touch-btn transition flex items-center justify-center space-x-2 active:scale-95" style="min-height:52px">
-              <span>Mulai ${nextChapter.title}</span>
-              <i data-lucide="book-open" class="w-5 h-5"></i>
-            </button>
-          ` : ''}
+          ` : `
+            ${nextLvl && !nextUnlockedChapterName ? `
+              <button onclick="router.navigate('lesson', { levelId: '${nextLvl.id}' })" class="w-full py-4 bg-emerald-600 hover:bg-emerald-500 text-white rounded-2xl font-extrabold text-sm sm:text-base shadow-sm touch-btn transition flex items-center justify-center space-x-2 active:scale-95" style="min-height:52px">
+                <span>Lanjut ke Level Berikutnya</span>
+                <i data-lucide="arrow-right" class="w-5 h-5"></i>
+              </button>
+            ` : ''}
+            ${nextChapter && (nextUnlockedChapterName || isLastLevelEver) ? `
+              <button onclick="router.navigate('home', { chapterId: '${nextChapter.id}' })" class="w-full py-4 bg-emerald-600 hover:bg-emerald-500 text-white rounded-2xl font-extrabold text-sm sm:text-base shadow-sm touch-btn transition flex items-center justify-center space-x-2 active:scale-95" style="min-height:52px">
+                <span>Mulai ${nextChapter.title}</span>
+                <i data-lucide="book-open" class="w-5 h-5"></i>
+              </button>
+            ` : ''}
+          `}
           <button onclick="router.navigate('home')" class="w-full py-3.5 bg-slate-100 hover:bg-slate-200 text-slate-700 rounded-2xl font-bold text-sm touch-btn transition" style="min-height:48px">
             Kembali ke Peta Modul
           </button>
@@ -2045,8 +2170,8 @@ window.addEventListener('DOMContentLoaded', () => {
   window.state = state;
   window.router = router;
   router.init();
-  // Tampilkan layar sambutan untuk pengguna baru
-  showOnboardingIfNeeded();
+  // Tampilkan halaman pembuka jika santri belum login
+  checkWelcomeScreen();
   updateSantriHeaderUI();
 });
 
@@ -2074,13 +2199,45 @@ function updateSantriHeaderUI() {
   }
 }
 
-function openSantriAuthModal() {
+function openSantriAuthModal(defaultTab = 'register', source = '') {
   const santri = getLoggedInSantri();
   const modal = document.getElementById('santri-auth-modal');
   const viewProfile = document.getElementById('view-santri-profile');
   const viewForms = document.getElementById('view-santri-forms');
   const alertEl = document.getElementById('auth-alert');
+  const bannerEl = document.getElementById('santri-auth-context-banner');
   if (alertEl) alertEl.classList.add('hidden');
+
+  window._authSource = source;
+
+  if (bannerEl) {
+    if (source === 'bab2_gate') {
+      bannerEl.innerHTML = `
+        <div class="flex items-start space-x-2">
+          <span class="text-base shrink-0">🏆</span>
+          <div>
+            <strong class="font-extrabold text-emerald-950">Bab 1 Telah Tuntas!</strong>
+            <p class="text-emerald-900 mt-0.5 leading-snug">Daftar atau masuk akun santri untuk membuka <strong>Bab 2: Al-I'rab</strong>. Seluruh perolehan ${state.data.stars || 0} ⭐ bintangmu akan langsung tersimpan aman di database.</p>
+          </div>
+        </div>
+      `;
+      bannerEl.classList.remove('hidden');
+    } else if (source === 'welcome') {
+      bannerEl.innerHTML = `
+        <div class="flex items-start space-x-2">
+          <span class="text-base shrink-0">✨</span>
+          <div>
+            <strong class="font-extrabold text-emerald-950">Daftar Akun Santri</strong>
+            <p class="text-emerald-900 mt-0.5 leading-snug">Buat akun untuk menyimpan seluruh riwayat, skor kuis, dan bintang belajarmu ke database.</p>
+          </div>
+        </div>
+      `;
+      bannerEl.classList.remove('hidden');
+    } else {
+      bannerEl.classList.add('hidden');
+      bannerEl.innerHTML = '';
+    }
+  }
 
   if (santri) {
     viewProfile.classList.remove('hidden');
@@ -2095,7 +2252,7 @@ function openSantriAuthModal() {
   } else {
     viewProfile.classList.add('hidden');
     viewForms.classList.remove('hidden');
-    switchAuthTab('register');
+    switchAuthTab(defaultTab || 'register');
   }
 
   modal.classList.remove('hidden');
@@ -2151,7 +2308,8 @@ async function handleSantriRegister(e) {
         password,
         current_chapter: state.data.selectedChapter || 'bab_01',
         completed_levels: Object.keys(state.data.completedLevels || {}),
-        level_scores: state.data.completedLevels || {}
+        level_scores: state.data.completedLevels || {},
+        total_bintang: state.data.stars || 0
       })
     });
     const result = await res.json();
@@ -2159,7 +2317,24 @@ async function handleSantriRegister(e) {
       localStorage.setItem('jurumiplay_santri', JSON.stringify(result.user));
       updateSantriHeaderUI();
       closeSantriAuthModal();
-      alert('Alhamdulillah! Akun berhasil didaftarkan. Progres belajarmu tersimpan di database.');
+
+      // Dismiss welcome screen jika masih ada
+      const welcomeEl = document.getElementById('screen-welcome');
+      if (welcomeEl) welcomeEl.classList.add('hidden');
+
+      // Sinkronkan data lokal ke database
+      try {
+        state.syncRemote();
+      } catch (errSync) {}
+
+      // Jika mendaftar dari gating Bab 2, otomatis buka Bab 2!
+      if (window._authSource === 'bab2_gate') {
+        window._authSource = null;
+        alert('Alhamdulillah! Akun berhasil didaftarkan. Bab 2: Al-I\'rab kini telah terbuka!');
+        router.switchChapter('bab_02');
+      } else {
+        alert('Alhamdulillah! Akun berhasil didaftarkan. Progres belajarmu tersimpan di database.');
+      }
     } else {
       alertEl.textContent = result.error || 'Gagal mendaftar. Silakan coba lagi.';
       alertEl.className = 'mb-3 p-2.5 rounded-xl text-xs font-medium bg-rose-50 text-rose-700 border border-rose-200 block';
@@ -2193,12 +2368,32 @@ async function handleSantriLogin(e) {
     if (result.success && result.user) {
       localStorage.setItem('jurumiplay_santri', JSON.stringify(result.user));
       updateSantriHeaderUI();
+
+      // Gabungkan bintang jika di remote lebih besar
       if (result.user.total_bintang > (state.data.stars || 0)) {
         state.data.stars = result.user.total_bintang;
         state.save();
       }
+
+      // Sinkronkan progres lokal saat ini ke server
+      try {
+        state.syncRemote();
+      } catch(e) {}
+
       closeSantriAuthModal();
-      alert('Selamat datang kembali, ' + result.user.nama + '! Progresmu telah dimuat.');
+
+      // Dismiss welcome screen jika masih ada
+      const welcomeEl = document.getElementById('screen-welcome');
+      if (welcomeEl) welcomeEl.classList.add('hidden');
+
+      // Jika login dari gating Bab 2, otomatis buka Bab 2!
+      if (window._authSource === 'bab2_gate') {
+        window._authSource = null;
+        alert('Selamat datang kembali, ' + result.user.nama + '! Bab 2: Al-I\'rab kini telah terbuka!');
+        router.switchChapter('bab_02');
+      } else {
+        alert('Selamat datang kembali, ' + result.user.nama + '! Progresmu telah dimuat.');
+      }
     } else {
       alertEl.textContent = result.error || 'Email/No HP atau password salah.';
       alertEl.className = 'mb-3 p-2.5 rounded-xl text-xs font-medium bg-rose-50 text-rose-700 border border-rose-200 block';
@@ -2218,4 +2413,47 @@ function logoutSantri() {
     updateSantriHeaderUI();
     closeSantriAuthModal();
   }
+}
+
+// ==========================================
+// Welcome Screen (Halaman Pembuka)
+// ==========================================
+function checkWelcomeScreen() {
+  const santri = getLoggedInSantri();
+  const seenWelcome = localStorage.getItem('jurumiplay_welcome_seen');
+  const welcomeEl = document.getElementById('screen-welcome');
+  if (!welcomeEl) return;
+
+  // Jika santri sudah login ATAU user sudah pernah klik "Coba Sekarang", sembunyikan
+  if (santri || seenWelcome === 'true') {
+    welcomeEl.classList.add('hidden');
+  } else {
+    welcomeEl.classList.remove('hidden');
+    if (window.lucide) window.lucide.createIcons();
+  }
+}
+
+function handleWelcomeCobaSekarang() {
+  localStorage.setItem('jurumiplay_welcome_seen', 'true');
+  const welcomeEl = document.getElementById('screen-welcome');
+  if (welcomeEl) {
+    welcomeEl.classList.add('opacity-0', 'transition-opacity', 'duration-300');
+    setTimeout(() => {
+      welcomeEl.classList.add('hidden');
+      welcomeEl.classList.remove('opacity-0', 'transition-opacity', 'duration-300');
+    }, 300);
+  }
+  // Mulai Bab 1
+  if (window.router) {
+    router.switchChapter('bab_01');
+  }
+}
+
+function handleWelcomeDaftarDulu() {
+  localStorage.setItem('jurumiplay_welcome_seen', 'true');
+  const welcomeEl = document.getElementById('screen-welcome');
+  if (welcomeEl) {
+    welcomeEl.classList.add('hidden');
+  }
+  openSantriAuthModal('register', 'welcome');
 }
