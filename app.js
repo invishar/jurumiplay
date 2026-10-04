@@ -234,10 +234,13 @@ class UserState {
     this.save();
   }
 
-  async syncToServer() {
+  async syncRemote() {
     try {
-      const studentName = localStorage.getItem('jurumi_student_name') || this.data.studentName || 'Santri Tamu';
+      const santri = typeof getLoggedInSantri === 'function' ? getLoggedInSantri() : null;
+      const studentName = santri ? santri.nama : (localStorage.getItem('jurumi_student_name') || 'Santri Baru');
       const payload = {
+        user_id: santri ? santri.id : null,
+        email: santri ? santri.email : null,
         student_name: studentName,
         current_chapter: this.data.selectedChapter || 'bab_01',
         current_level: (this.data.unlockedLevels && this.data.unlockedLevels.length) ? this.data.unlockedLevels[this.data.unlockedLevels.length - 1] : 'level_1_1',
@@ -2044,4 +2047,175 @@ window.addEventListener('DOMContentLoaded', () => {
   router.init();
   // Tampilkan layar sambutan untuk pengguna baru
   showOnboardingIfNeeded();
+  updateSantriHeaderUI();
 });
+
+// ==========================================
+// SANTRI AUTH & DATABASE PROGRESS SYNC
+// ==========================================
+function getLoggedInSantri() {
+  try {
+    const raw = localStorage.getItem('jurumiplay_santri');
+    return raw ? JSON.parse(raw) : null;
+  } catch (e) {
+    return null;
+  }
+}
+
+function updateSantriHeaderUI() {
+  const santri = getLoggedInSantri();
+  const label = document.getElementById('stat-santri-name');
+  if (!label) return;
+  if (santri && santri.nama) {
+    const firstName = santri.nama.split(' ')[0];
+    label.textContent = firstName;
+  } else {
+    label.textContent = 'Santri';
+  }
+}
+
+function openSantriAuthModal() {
+  const santri = getLoggedInSantri();
+  const modal = document.getElementById('santri-auth-modal');
+  const viewProfile = document.getElementById('view-santri-profile');
+  const viewForms = document.getElementById('view-santri-forms');
+  const alertEl = document.getElementById('auth-alert');
+  if (alertEl) alertEl.classList.add('hidden');
+
+  if (santri) {
+    viewProfile.classList.remove('hidden');
+    viewForms.classList.add('hidden');
+    document.getElementById('profile-display-name').textContent = santri.nama || 'Santri';
+    document.getElementById('profile-display-email').textContent = santri.email || '';
+    document.getElementById('profile-display-phone').textContent = santri.no_hp || '';
+    
+    const currChap = state.data.selectedChapter ? state.data.selectedChapter.replace('bab_0', 'Bab ').replace('bab_', 'Bab ') : 'Bab 1';
+    document.getElementById('profile-display-progress').textContent = `${currChap} · Level ${state.data.currentLevel || 1}`;
+    document.getElementById('profile-display-stars').textContent = `${state.data.stars || 0} Bintang`;
+  } else {
+    viewProfile.classList.add('hidden');
+    viewForms.classList.remove('hidden');
+    switchAuthTab('register');
+  }
+
+  modal.classList.remove('hidden');
+  if (window.lucide) window.lucide.createIcons();
+}
+
+function closeSantriAuthModal() {
+  const modal = document.getElementById('santri-auth-modal');
+  if (modal) modal.classList.add('hidden');
+}
+
+function switchAuthTab(tab) {
+  const tabReg = document.getElementById('tab-btn-register');
+  const tabLog = document.getElementById('tab-btn-login');
+  const formReg = document.getElementById('form-register');
+  const formLog = document.getElementById('form-login');
+  const alertEl = document.getElementById('auth-alert');
+  if (alertEl) alertEl.classList.add('hidden');
+
+  if (tab === 'register') {
+    tabReg.className = 'flex-1 py-2 text-emerald-600 border-b-2 border-emerald-600';
+    tabLog.className = 'flex-1 py-2 text-slate-400 hover:text-slate-600';
+    formReg.classList.remove('hidden');
+    formLog.classList.add('hidden');
+  } else {
+    tabLog.className = 'flex-1 py-2 text-emerald-600 border-b-2 border-emerald-600';
+    tabReg.className = 'flex-1 py-2 text-slate-400 hover:text-slate-600';
+    formLog.classList.remove('hidden');
+    formReg.classList.add('hidden');
+  }
+}
+
+async function handleSantriRegister(e) {
+  e.preventDefault();
+  const alertEl = document.getElementById('auth-alert');
+  const btn = document.getElementById('btn-submit-reg');
+  btn.disabled = true;
+  btn.textContent = 'Mendaftarkan...';
+
+  const nama = document.getElementById('reg-nama').value.trim();
+  const email = document.getElementById('reg-email').value.trim();
+  const no_hp = document.getElementById('reg-phone').value.trim();
+  const password = document.getElementById('reg-pass').value;
+
+  try {
+    const res = await fetch('/api/register', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({
+        nama,
+        email,
+        no_hp,
+        password,
+        current_chapter: state.data.selectedChapter || 'bab_01',
+        completed_levels: Object.keys(state.data.completedLevels || {}),
+        level_scores: state.data.completedLevels || {}
+      })
+    });
+    const result = await res.json();
+    if (result.success && result.user) {
+      localStorage.setItem('jurumiplay_santri', JSON.stringify(result.user));
+      updateSantriHeaderUI();
+      closeSantriAuthModal();
+      alert('Alhamdulillah! Akun berhasil didaftarkan. Progres belajarmu tersimpan di database.');
+    } else {
+      alertEl.textContent = result.error || 'Gagal mendaftar. Silakan coba lagi.';
+      alertEl.className = 'mb-3 p-2.5 rounded-xl text-xs font-medium bg-rose-50 text-rose-700 border border-rose-200 block';
+    }
+  } catch (err) {
+    alertEl.textContent = 'Gagal menghubungi server database.';
+    alertEl.className = 'mb-3 p-2.5 rounded-xl text-xs font-medium bg-rose-50 text-rose-700 border border-rose-200 block';
+  } finally {
+    btn.disabled = false;
+    btn.textContent = 'Daftar & Simpan Progres';
+  }
+}
+
+async function handleSantriLogin(e) {
+  e.preventDefault();
+  const alertEl = document.getElementById('auth-alert');
+  const btn = document.getElementById('btn-submit-login');
+  btn.disabled = true;
+  btn.textContent = 'Memeriksa...';
+
+  const identifier = document.getElementById('login-identifier').value.trim();
+  const password = document.getElementById('login-pass').value;
+
+  try {
+    const res = await fetch('/api/login', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ identifier, password })
+    });
+    const result = await res.json();
+    if (result.success && result.user) {
+      localStorage.setItem('jurumiplay_santri', JSON.stringify(result.user));
+      updateSantriHeaderUI();
+      if (result.user.total_bintang > (state.data.stars || 0)) {
+        state.data.stars = result.user.total_bintang;
+        state.save();
+      }
+      closeSantriAuthModal();
+      alert('Selamat datang kembali, ' + result.user.nama + '! Progresmu telah dimuat.');
+    } else {
+      alertEl.textContent = result.error || 'Email/No HP atau password salah.';
+      alertEl.className = 'mb-3 p-2.5 rounded-xl text-xs font-medium bg-rose-50 text-rose-700 border border-rose-200 block';
+    }
+  } catch (err) {
+    alertEl.textContent = 'Gagal menghubungi server database.';
+    alertEl.className = 'mb-3 p-2.5 rounded-xl text-xs font-medium bg-rose-50 text-rose-700 border border-rose-200 block';
+  } finally {
+    btn.disabled = false;
+    btn.textContent = 'Masuk Akun';
+  }
+}
+
+function logoutSantri() {
+  if (confirm('Yakin ingin keluar dari akun santri?')) {
+    localStorage.removeItem('jurumiplay_santri');
+    updateSantriHeaderUI();
+    closeSantriAuthModal();
+  }
+}
