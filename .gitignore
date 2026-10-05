@@ -8,4 +8,9 @@ state.db
 # Misc
 .DS_Store
 .env
+config.php
+api.php
+panel.php
+migrate.php
+.htaccess
 node_modules/

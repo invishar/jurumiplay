@@ -935,14 +935,18 @@ class JurumiRouter {
     if (bottomNav) {
       if (viewName === 'lesson') {
         bottomNav.classList.add('hidden');
+        bottomNav.style.display = 'none';
         if (appHeader) appHeader.classList.add('hidden');
         main.classList.remove('pb-20');
-        main.classList.add('pb-4');
+        main.classList.remove('pb-4');
+        main.classList.add('pb-12');
       } else {
         bottomNav.classList.remove('hidden');
+        bottomNav.style.display = '';
         if (appHeader) appHeader.classList.remove('hidden');
-        main.classList.add('pb-20');
+        main.classList.add('pb-28');
         main.classList.remove('pb-4');
+        main.classList.remove('pb-12');
       }
     }
 
@@ -951,9 +955,9 @@ class JurumiRouter {
       const btn = document.getElementById(`nav-btn-${tab}`);
       if (btn) {
         if (tab === viewName) {
-          btn.className = "flex flex-col items-center justify-center py-1.5 px-4 rounded-xl text-emerald-600 bg-emerald-50/80 font-bold focus:outline-none touch-btn min-w-[64px] min-h-[44px]";
+          btn.className = "flex flex-col items-center justify-center py-1.5 px-3 rounded-xl text-emerald-600 bg-emerald-50/80 font-bold focus:outline-none touch-btn min-w-[58px] min-h-[44px]";
         } else {
-          btn.className = "flex flex-col items-center justify-center py-1.5 px-4 rounded-xl hover:text-slate-800 text-slate-500 font-medium transition focus:outline-none touch-btn min-w-[64px] min-h-[44px]";
+          btn.className = "flex flex-col items-center justify-center py-1.5 px-3 rounded-xl hover:text-slate-800 text-slate-500 font-medium transition focus:outline-none touch-btn min-w-[58px] min-h-[44px]";
         }
       }
     });
@@ -1364,6 +1368,9 @@ class JurumiRouter {
   }
 
   renderQuestion(container) {
+    if (container) {
+      container.scrollTop = 0;
+    }
     if (state.data.hearts <= 0) {
       this.renderGameOver(container);
       return;
@@ -1411,7 +1418,7 @@ class JurumiRouter {
     const gameContentHtml = renderer.render(currentQ, this);
 
     container.innerHTML = `
-      <div class="px-4 pt-4 pb-8 sm:px-6 flex flex-col flex-1 w-full max-w-[440px] mx-auto min-h-screen">
+      <div class="px-4 pt-3 pb-32 sm:px-6 flex flex-col flex-1 w-full max-w-[440px] mx-auto" style="padding-bottom: max(7.5rem, env(safe-area-inset-bottom, 2rem) + 4.5rem);">
         <!-- Progress Bar & Exit Button -->
         <div class="flex items-center space-x-3 mb-4 pt-1">
           <button onclick="router.navigate('home')" class="p-2 -ml-1 text-slate-400 hover:text-slate-600 hover:bg-slate-100 rounded-xl transition touch-btn" title="Keluar ke Menu">
@@ -1654,7 +1661,7 @@ class JurumiRouter {
             ` : ''}
           </div>
           <p class="text-sm text-slate-600 leading-relaxed">${explanation}</p>
-          <button onclick="router.nextStep(${isBoss})" class="mt-3 w-full py-3.5 bg-emerald-600 hover:bg-emerald-500 text-white rounded-xl font-extrabold text-sm touch-btn transition flex items-center justify-center space-x-1.5 shadow-sm" style="min-height:48px">
+          <button onclick="router.nextStep(${isBoss})" class="mt-3.5 w-full py-4 bg-emerald-600 hover:bg-emerald-500 active:scale-[0.98] text-white rounded-2xl font-extrabold text-base touch-btn transition flex items-center justify-center space-x-2 shadow-lg shadow-emerald-600/25" style="min-height:52px">
             <span>${nextBtnText}</span>
           </button>
         </div>
@@ -1675,7 +1682,7 @@ class JurumiRouter {
             ` : ''}
           </div>
           <p class="text-sm text-slate-600 leading-relaxed">${explanation}</p>
-          <button onclick="router.nextStep(${isBoss})" class="mt-3 w-full py-3.5 bg-slate-700 hover:bg-slate-600 text-white rounded-xl font-extrabold text-sm touch-btn transition flex items-center justify-center space-x-1.5 shadow-sm" style="min-height:48px">
+          <button onclick="router.nextStep(${isBoss})" class="mt-3.5 w-full py-4 bg-slate-800 hover:bg-slate-700 active:scale-[0.98] text-white rounded-2xl font-extrabold text-base touch-btn transition flex items-center justify-center space-x-2 shadow-lg shadow-slate-800/25" style="min-height:52px">
             <span>${nextBtnWrongText}</span>
           </button>
         </div>
@@ -1685,6 +1692,13 @@ class JurumiRouter {
     if (window.lucide) {
       window.lucide.createIcons();
     }
+
+    // Auto-scroll ke feedback box agar tombol aksi "Lanjut" selalu terlihat jelas dan tidak tertutup di mobile
+    setTimeout(() => {
+      if (feedbackBox) {
+        feedbackBox.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+      }
+    }, 80);
   }
 
   nextStep(isBoss) {
@@ -2457,3 +2471,107 @@ function handleWelcomeDaftarDulu() {
   }
   openSantriAuthModal('register', 'welcome');
 }
+
+// ==========================================
+// KOTAK MASUKAN & SARAN / IDE APLIKASI
+// ==========================================
+window.openFeedbackModal = function() {
+  const modal = document.getElementById('feedback-modal');
+  if (!modal) return;
+
+  const santri = getLoggedInSantri();
+  const nameInput = document.getElementById('feedback-sender');
+  const contactInput = document.getElementById('feedback-contact');
+  const msgInput = document.getElementById('feedback-message');
+  const alertBox = document.getElementById('feedback-alert');
+
+  if (alertBox) {
+    alertBox.className = 'hidden text-xs p-3 rounded-xl font-medium';
+    alertBox.textContent = '';
+  }
+
+  if (santri) {
+    if (nameInput && !nameInput.value) nameInput.value = santri.nama || '';
+    if (contactInput && !contactInput.value) contactInput.value = santri.no_hp || santri.email || '';
+  }
+
+  if (msgInput) msgInput.value = '';
+
+  modal.classList.remove('hidden');
+  if (window.lucide) window.lucide.createIcons();
+};
+
+window.closeFeedbackModal = function() {
+  const modal = document.getElementById('feedback-modal');
+  if (modal) modal.classList.add('hidden');
+};
+
+window.submitFeedback = async function(event) {
+  event.preventDefault();
+
+  const sender = (document.getElementById('feedback-sender')?.value || '').trim();
+  const contact = (document.getElementById('feedback-contact')?.value || '').trim();
+  const message = (document.getElementById('feedback-message')?.value || '').trim();
+  const alertBox = document.getElementById('feedback-alert');
+  const submitBtn = document.getElementById('btn-submit-feedback');
+
+  if (!message) {
+    if (alertBox) {
+      alertBox.className = 'text-xs p-3 rounded-xl font-medium bg-rose-50 text-rose-700 border border-rose-200 mb-2';
+      alertBox.textContent = 'Mohon tuliskan masukan atau ide Anda.';
+    }
+    return;
+  }
+
+  const santri = getLoggedInSantri();
+  const payload = {
+    nama: sender || (santri ? santri.nama : 'Santri'),
+    kontak: contact || (santri ? (santri.no_hp || santri.email) : ''),
+    no_hp: contact && /^[0-9+]+$/.test(contact) ? contact : (santri?.no_hp || ''),
+    email: contact && contact.includes('@') ? contact : (santri?.email || ''),
+    pesan: message,
+    user_id: santri ? santri.id : null
+  };
+
+  if (submitBtn) {
+    submitBtn.disabled = true;
+    submitBtn.innerHTML = '<span>Mengirim...</span>';
+  }
+
+  try {
+    const res = await fetch('/api/feedback', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify(payload)
+    });
+
+    const result = await res.json();
+    if (result.success) {
+      if (alertBox) {
+        alertBox.className = 'text-xs p-3 rounded-xl font-semibold bg-emerald-50 text-emerald-800 border border-emerald-200 mb-2';
+        alertBox.textContent = '✨ Jazakallahu khair! Masukan kamu sudah kami terima dan akan dibaca oleh admin.';
+      }
+      setTimeout(() => {
+        closeFeedbackModal();
+        if (alertBox) alertBox.className = 'hidden';
+      }, 2200);
+    } else {
+      throw new Error(result.error || 'Gagal mengirim masukan.');
+    }
+  } catch (err) {
+    console.error('Error submitting feedback:', err);
+    if (alertBox) {
+      alertBox.className = 'text-xs p-3 rounded-xl font-medium bg-rose-50 text-rose-700 border border-rose-200 mb-2';
+      alertBox.textContent = err.message || 'Terjadi gangguan koneksi. Silakan coba lagi.';
+    }
+  } finally {
+    if (submitBtn) {
+      submitBtn.disabled = false;
+      submitBtn.innerHTML = `<span>Kirim Masukan</span>
+        <svg xmlns="http://www.w3.org/2000/svg" class="w-3.5 h-3.5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+          <line x1="22" y1="2" x2="11" y2="13"></line>
+          <polygon points="22 2 15 22 11 13 2 9 22 2"></polygon>
+        </svg>`;
+    }
+  }
+};
