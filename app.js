@@ -926,6 +926,9 @@ class JurumiRouter {
       window.location.href = '/dashboard';
       return;
     }
+    if (window.triggerAnalyticsPing) {
+      window.triggerAnalyticsPing(viewName, params);
+    }
     closeModal();
     const main = document.getElementById('main-view');
     main.innerHTML = '';
@@ -2575,3 +2578,80 @@ window.submitFeedback = async function(event) {
     }
   }
 };
+
+// ==========================================
+// REALTIME ANALYTICS & VISITOR TRACKING
+// ==========================================
+(function initAnalytics() {
+  let sessionToken = sessionStorage.getItem('jurumiplay_session_token');
+  if (!sessionToken) {
+    sessionToken = 's_' + Math.random().toString(36).substring(2, 12) + Date.now().toString(36);
+    sessionStorage.setItem('jurumiplay_session_token', sessionToken);
+  }
+
+  let lastReportedView = 'Beranda';
+
+  function formatViewName(viewName, params) {
+    if (!viewName || viewName === 'home') return 'Beranda';
+    if (viewName === 'qawaid') return 'Kaidah / Qawaid';
+    if (viewName === 'matan') return 'Matan Jurumiyyah';
+    if (viewName === 'lesson') {
+      const bab = (typeof state !== 'undefined' && state.data && state.data.selectedChapter) ? state.data.selectedChapter.replace('bab_0', 'Bab ').replace('bab_', 'Bab ') : 'Bab 1';
+      const lvl = (params && params.levelId) ? params.levelId.replace('level_', 'Lv ').replace('_', '.') : 'Kuis';
+      return `${bab} - ${lvl}`;
+    }
+    return viewName;
+  }
+
+  function sendPing(customView, params) {
+    if (document.hidden) return;
+
+    if (customView) {
+      lastReportedView = formatViewName(customView, params);
+    }
+
+    const santri = typeof getLoggedInSantri === 'function' ? getLoggedInSantri() : null;
+    const payload = {
+      session_token: sessionToken,
+      user_id: santri ? santri.id : null,
+      student_name: santri ? (santri.nama || null) : null,
+      view: lastReportedView
+    };
+
+    fetch('/api/ping', {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json'
+      },
+      body: JSON.stringify(payload)
+    }).then(res => res.json())
+      .then(data => {
+        if (data && data.session_token) {
+          sessionToken = data.session_token;
+          sessionStorage.setItem('jurumiplay_session_token', sessionToken);
+        }
+      })
+      .catch(() => {});
+  }
+
+  // Ping on initialization
+  if (document.readyState === 'complete' || document.readyState === 'interactive') {
+    setTimeout(() => sendPing(), 800);
+  } else {
+    window.addEventListener('DOMContentLoaded', () => setTimeout(() => sendPing(), 800));
+  }
+
+  // Ping every 90 seconds while tab active
+  setInterval(() => sendPing(), 90000);
+
+  // Ping when returning to tab
+  document.addEventListener('visibilitychange', () => {
+    if (!document.hidden) {
+      sendPing();
+    }
+  });
+
+  window.triggerAnalyticsPing = function(viewName, params) {
+    sendPing(viewName, params);
+  };
+})();
