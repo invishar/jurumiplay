@@ -1,0 +1,2260 @@
+{
+  "chapter": {
+    "id": "bab_07",
+    "number": 7,
+    "title_ar": "بَابُ الْفَاعِلِ",
+    "title_id": "Bab 7: Al-Fa'il",
+    "description": "Pembahasan mendalam rukun Fa'il (pelaku), pembagian isim zhahir dan isim mudhmar (dhamir), serta hukum keselarasan fi'il-fa'il.",
+    "matan_full": "الْفَاعِلُ هُوَ: الِاسْمُ الْمَرْفُوعُ الْمَذْكُورُ قَبْلَهُ فِعْلُهُ. وَهُوَ عَلَى قِسْمَيْنِ: ظَاهِرٍ، وَمُضْمَرٍ. فَالظَّاهِرُ نَحْوُ قَوْلِكَ: قَامَ زَيْدٌ، وَيَقُومُ زَيْدٌ، وَقَامَ الزَّيْدَانِ، وَيَقُومُ الزَّيْدَانِ، وَقَامَ الزَّيْدُونَ، وَيَقُومُ الزَّيْدُونَ، وَقَامَ الرِّجَالُ، وَيَقُومُ الرِّجَالُ، وَقَامَتْ هِنْدٌ، وَتَقُومُ هِنْدٌ، وَقَامَتِ الْهِنْدَانِ، وَتَقُومُ الْهِنْدَانِ، وَقَامَتِ الْهِنْدَاتُ، وَتَقُومُ الْهِنْدَاتُ، وَقَامَتِ الْهُنُودُ، وَتَقُومُ الْهُنُودُ، وَقَامَ أَخُوكَ، وَيَقُومُ أَخُوكَ، وَقَامَ غُلَامِي، وَيَقُومُ غُلَامِي، وَمَا أَشْبَهَ ذَلِكَ. وَالْمُضْمَرُ اثْنَا عَشَرَ، نَحْوُ قَوْلِكَ: ضَرَبْتُ، وَضَرَبْنَا، وَضَرَبْتَ، وَضَرَبْتِ، وَضَرَبْتُمَا، وَضَرَبْتُمْ، وَضَرَبْتُنَّ، وَضَرَبَ، وَضَرَبَتْ، وَضَرَبَا، وَضَرَبُوا، وَضَرَبْنَ.",
+    "qawaidCard": {
+      "title": "Kaidah Bab Al-Fa'il",
+      "matanSnippet": "الْفَاعِلُ هُوَ: الِاسْمُ الْمَرْفُوعُ الْمَذْكُورُ قَبْلَهُ فِعْلُهُ. وَهُوَ عَلَى قِسْمَيْنِ: ظَاهِرٍ، وَمُضْمَرٍ",
+      "formula": "Jumlah Fi'liyyah = Fi'il (Kata Kerja) + Fa'il (Pelaku Wajib Marfu' & Wajib Setelah Fi'il)",
+      "points": [
+        "Fa'il adalah isim marfu' yang didahului oleh fi'ilnya (tidak boleh mendahului fi'il).",
+        "Fa'il terbagi dua: Isim Zhahir (nampak jelas) dan Isim Mudhmar (kata ganti/dhamir).",
+        "Dhamir fa'il ada 12 (mutakallim: tu, na; mukhathab: ta, ti, tuma, tum, tunna; ghaib: huwa, hiya, alif mutsanna, wawu jamak, nun niswah).",
+        "Kaidah Emas: Fi'il tetap dalam bentuk mufrad (tunggal) meskipun fa'il isim zhahirnya berbentuk mutsanna atau jamak."
+      ],
+      "keyTakeaways": [
+        "Fa'il wajib berada setelah fi'il.",
+        "Fa'il terbagi menjadi zhahir dan mudhmar.",
+        "Dhamir fa'il berjumlah 12 bentuk.",
+        "Fi'il tetap mufrad bila fa'il zhahir berupa tasniyah/jamak.",
+        "Jika pelaku diletakkan di depan fi'il, ia menjadi Mubtada', bukan fa'il."
+      ]
+    },
+    "levels": [
+      {
+        "id": "level_7_1",
+        "code": "7.1",
+        "title": "Rukun Fa'il: Hakikat Pelaku",
+        "subtitle": "Syarat Mutlak Posisi Fa'il Setelah Fi'il",
+        "titleArabic": "حَقِيقَةُ الْفَاعِلِ وَشَرْطُهُ",
+        "type": "mcq",
+        "xp": 70,
+        "unlocked": true,
+        "is_boss": false,
+        "theory": {
+          "title": "Definisi Fa'il Menurut Matan",
+          "matan": "الْفَاعِلُ هُوَ: الِاسْمُ الْمَرْفُوعُ الْمَذْكُورُ قَبْلَهُ فِعْلُهُ.",
+          "translation": "Fa'il adalah isim yang dirafa'kan yang disebutkan kata kerjanya (fi'il) sebelum dirinya.",
+          "points": [
+            {
+              "label": "Isim Marfu'",
+              "arabic": "الِاسْمُ الْمَرْفُوعُ",
+              "desc": "Fa'il selalu berkedudukan marfu', baik bertanda dhammah, alif, wawu, maupun marfu' secara mahell (dhamir mabni)."
+            },
+            {
+              "label": "Didahului Fi'il",
+              "arabic": "الْمَذْكُورُ قَبْلَهُ فِعْلُهُ",
+              "desc": "Fa'il mutlak harus terletak setelah kata kerjanya. Jika terletak di depan kata kerja, statusnya beralih menjadi Mubtada'."
+            }
+          ]
+        },
+        "questions": [
+          {
+            "id": "q7_1_1",
+            "type": "mcq",
+            "question": "Apakah definisi Fa'il menurut kaidah Matan Al-Ajurrumiyyah?",
+            "prompt": "Apakah definisi Fa'il menurut kaidah Matan Al-Ajurrumiyyah?",
+            "arabic": "الْفَاعِلُ هُوَ: الِاسْمُ الْمَرْفُوعُ الْمَذْكُورُ قَبْلَهُ فِعْلُهُ",
+            "translation": "Fa'il adalah isim marfu' yang disebutkan fi'il sebelum dirinya",
+            "meaning": "Fa'il adalah isim marfu' yang disebutkan fi'il sebelum dirinya",
+            "options": [
+              {
+                "label": "Isim marfu' yang didahului oleh fi'ilnya",
+                "value": "definisi_tepat"
+              },
+              {
+                "label": "Isim manshub yang menjadi objek perbuatan",
+                "value": "maful"
+              },
+              {
+                "label": "Isim marfu' yang mengawali kalimat",
+                "value": "mubtada"
+              },
+              {
+                "label": "Kata sifat yang mengikuti kata sebelumnya",
+                "value": "naat"
+              }
+            ],
+            "correct": "definisi_tepat",
+            "explanation": "Teks matan: 'الْفَاعِلُ هُوَ الِاسْمُ الْمَرْفُوعُ الْمَذْكُورُ قَبْلَهُ فِعْلُهُ'.",
+            "whyModal": {
+              "title": "Definisi Fa'il",
+              "matan": "الْفَاعِلُ هُوَ: الِاسْمُ الْمَرْفُوعُ الْمَذْكُورُ قَبْلَهُ فِعْلُهُ",
+              "reason": "Fa'il adalah pelaku yang marfu' dan posisinya wajib setelah kata kerja."
+            }
+          },
+          {
+            "id": "q7_1_2",
+            "type": "mcq",
+            "question": "Jika kita mengatakan زَيْدٌ قَامَ (Zaid berdiri), apakah kata زَيْدٌ di awal kalimat berkedudukan sebagai Fa'il?",
+            "prompt": "Jika kita mengatakan زَيْدٌ قَامَ (Zaid berdiri), apakah kata زَيْدٌ di awal kalimat berkedudukan sebagai Fa'il?",
+            "arabic": "زَيْدٌ قَامَ",
+            "translation": "Zaid telah berdiri",
+            "meaning": "Zaid telah berdiri",
+            "options": [
+              {
+                "label": "Bukan, Zaid adalah Mubtada' karena mendahului fi'il",
+                "value": "mubtada_bukan_fail"
+              },
+              {
+                "label": "Ya, tetap fa'il karena ia yang berdiri",
+                "value": "tetap_fail"
+              },
+              {
+                "label": "Bukan, Zaid adalah Maf'ul bih",
+                "value": "maful"
+              },
+              {
+                "label": "Bukan, Zaid adalah Khabar",
+                "value": "khabar"
+              }
+            ],
+            "correct": "mubtada_bukan_fail",
+            "explanation": "Menurut madzhab Bashrah (acuan Ajurrumiyyah), Fa'il tidak boleh mendahului fi'il. Jika di depan, ia menjadi Mubtada', dan fa'il dari قَامَ adalah dhamir mustatir (هُوَ).",
+            "whyModal": {
+              "title": "Syarat Posisi Fa'il",
+              "matan": "الْمَذْكُورُ قَبْلَهُ فِعْلُهُ",
+              "reason": "Jika isim mendahului fi'il, ia menjadi Mubtada' dan kalimatnya adalah jumlah ismiyyah."
+            }
+          },
+          {
+            "id": "q7_1_3",
+            "type": "mcq",
+            "question": "Fa'il terbagi menjadi dua bagian besar menurut matan, yaitu...",
+            "prompt": "Fa'il terbagi menjadi dua bagian besar menurut matan, yaitu...",
+            "arabic": "وَهُوَ عَلَى قِسْمَيْنِ: ظَاهِرٍ، وَمُضْمَرٍ",
+            "translation": "Dan ia terbagi dua bagian: isim zhahir dan isim mudhmar",
+            "meaning": "Dan ia terbagi dua bagian: isim zhahir dan isim mudhmar",
+            "options": [
+              {
+                "label": "Zhahir (nampak jelas) dan Mudhmar (kata ganti/dhamir)",
+                "value": "zhahir_mudhmar"
+              },
+              {
+                "label": "Mu'rab dan Mabni",
+                "value": "murab_mabni"
+              },
+              {
+                "label": "Madhi dan Mudhari'",
+                "value": "madhi_mudhari"
+              },
+              {
+                "label": "Marfu' dan Manshub",
+                "value": "marfu_manshub"
+              }
+            ],
+            "correct": "zhahir_mudhmar",
+            "explanation": "Matan menyatakan: 'وَهُوَ عَلَى قِسْمَيْنِ: ظَاهِرٍ، وَمُضْمَرٍ'.",
+            "whyModal": {
+              "title": "Pembagian Fa'il",
+              "matan": "وَهُوَ عَلَى قِسْمَيْنِ: ظَاهِرٍ، وَمُضْمَرٍ",
+              "reason": "Fa'il ada yang berupa kata benda nyata (zhahir) dan kata ganti (mudhmar)."
+            }
+          },
+          {
+            "id": "q7_1_4",
+            "type": "mcq",
+            "question": "Pada kalimat كَتَبَ التِّلْمِيذُ الدَّرْسَ, manakah kata yang berkedudukan sebagai Fa'il?",
+            "prompt": "Pada kalimat كَتَبَ التِّلْمِيذُ الدَّرْسَ, manakah kata yang berkedudukan sebagai Fa'il?",
+            "arabic": "كَتَبَ التِّلْمِيذُ الدَّرْسَ",
+            "translation": "Murid itu telah menulis pelajaran",
+            "meaning": "Murid itu telah menulis pelajaran",
+            "options": [
+              {
+                "label": "التِّلْمِيذُ",
+                "value": "al_tilmidz"
+              },
+              {
+                "label": "كَتَبَ",
+                "value": "kataba"
+              },
+              {
+                "label": "الدَّرْسَ",
+                "value": "ad_darsa"
+              },
+              {
+                "label": "Dhamir mustatir",
+                "value": "mustatir"
+              }
+            ],
+            "correct": "al_tilmidz",
+            "explanation": "التِّلْمِيذُ adalah isim marfu' bertanda dhammah yang melakukan perbuatan menulis setelah fi'il كَتَبَ.",
+            "whyModal": {
+              "title": "Identifikasi Fa'il",
+              "matan": "الْفَاعِلُ هُوَ الِاسْمُ الْمَرْفُوعُ الْمَذْكُورُ قَبْلَهُ فِعْلُهُ",
+              "reason": "At-Tilmidzu adalah pelaku yang disebutkan setelah fi'il kataba."
+            }
+          },
+          {
+            "id": "q7_1_5",
+            "type": "mcq",
+            "question": "Apakah hukum i'rab dari Fa'il secara mutlak?",
+            "prompt": "Apakah hukum i'rab dari Fa'il secara mutlak?",
+            "arabic": "حُكْمُ إِعْرَابِ الْفَاعِلِ",
+            "translation": "Hukum i'rab dari Fa'il",
+            "meaning": "Hukum i'rab dari Fa'il",
+            "options": [
+              {
+                "label": "Wajib Marfu'",
+                "value": "marfu"
+              },
+              {
+                "label": "Wajib Manshub",
+                "value": "manshub"
+              },
+              {
+                "label": "Wajib Majrur",
+                "value": "majrur"
+              },
+              {
+                "label": "Boleh marfu' atau manshub",
+                "value": "boleh_keduanya"
+              }
+            ],
+            "correct": "marfu",
+            "explanation": "Fa'il termasuk dalam bab Marfu'atil Asma', sehingga hukumnya wajib marfu' tanpa terkecuali.",
+            "whyModal": {
+              "title": "I'rab Fa'il",
+              "matan": "الْفَاعِلُ هُوَ: الِاسْمُ الْمَرْفُوعُ",
+              "reason": "Fa'il secara ijma' ulama nahwu berhukum wajib marfu'."
+            }
+          },
+          {
+            "id": "q7_1_6",
+            "type": "mcq",
+            "question": "Dapatkah sebuah kalimat fi'liyyah yang sempurna berdiri tanpa adanya Fa'il?",
+            "prompt": "Dapatkah sebuah kalimat fi'liyyah yang sempurna berdiri tanpa adanya Fa'il?",
+            "arabic": "لَا فِعْلَ بِدُونِ فَاعِلٍ",
+            "translation": "Tidak ada perbuatan tanpa pelaku",
+            "meaning": "Tidak ada perbuatan tanpa pelaku",
+            "options": [
+              {
+                "label": "Tidak bisa, setiap fi'il wajib memiliki fa'il",
+                "value": "wajib_ada_fail"
+              },
+              {
+                "label": "Bisa, asalkan ada maf'ul bih",
+                "value": "bisa_ada_maful"
+              },
+              {
+                "label": "Bisa, jika fi'ilnya panjang",
+                "value": "bisa_panjang"
+              },
+              {
+                "label": "Bebas sesuai selera penulis",
+                "value": "bebas"
+              }
+            ],
+            "correct": "wajib_ada_fail",
+            "explanation": "Setiap fi'il (kata kerja) secara akal dan kaidah nahwu mutlak membutuhkan fa'il (pelaku), baik nampak (zhahir), bersambung (muttashil), atau tersembunyi (mustatir).",
+            "whyModal": {
+              "title": "Kewajiban Adanya Fa'il",
+              "matan": "لِكُلِّ فِعْلٍ فَاعِلٌ",
+              "reason": "Tidak mungkin ada pekerjaan tanpa adanya subjek yang mengerjakan."
+            }
+          },
+          {
+            "id": "q7_1_7",
+            "type": "mcq",
+            "question": "Pada kalimat قَامَتْ عَائِشَةُ, mengapa fi'il قَامَتْ diberi tambahan huruf Ta' sukun di akhirnya?",
+            "prompt": "Pada kalimat قَامَتْ عَائِشَةُ, mengapa fi'il قَامَتْ diberi tambahan huruf Ta' sukun di akhirnya?",
+            "arabic": "قَامَتْ عَائِشَةُ",
+            "translation": "Aisyah telah berdiri",
+            "meaning": "Aisyah telah berdiri",
+            "options": [
+              {
+                "label": "Ta' Ta'nits Sakinah untuk menyesuaikan fa'il muannats",
+                "value": "ta_tanits"
+              },
+              {
+                "label": "Ta' dhamir fa'il",
+                "value": "ta_dhamir"
+              },
+              {
+                "label": "Huruf asli dari fi'il",
+                "value": "huruf_asli"
+              },
+              {
+                "label": "Tanda i'rab rafa'",
+                "value": "tanda_rafa"
+              }
+            ],
+            "correct": "ta_tanits",
+            "explanation": "Huruf Ta' berharakat sukun tersebut adalah Ta' Ta'nits Sakinah, tanda pembeda bahwa subjek pelakunya (عَائِشَةُ) berjenis muannats (perempuan).",
+            "whyModal": {
+              "title": "Ta' Ta'nits pada Fi'il",
+              "matan": "وَقَامَتْ هِنْدٌ، وَتَقُومُ هِنْدٌ",
+              "reason": "Ta' sakinah ditambahkan pada fi'il madhi jika fa'ilnya muannats."
+            }
+          },
+          {
+            "id": "q7_1_8",
+            "type": "mcq",
+            "question": "Pada kalimat يَذْهَبُ أَحْمَدُ إِلَى الْمَسْجِدِ, manakah amil (penyebab) yang merofa'kan kata أَحْمَدُ?",
+            "prompt": "Pada kalimat يَذْهَبُ أَحْمَدُ إِلَى الْمَسْجِدِ, manakah amil (penyebab) yang merofa'kan kata أَحْمَدُ?",
+            "arabic": "يَذْهَبُ أَحْمَدُ",
+            "translation": "Ahmad pergi",
+            "meaning": "Ahmad pergi",
+            "options": [
+              {
+                "label": "Fi'il يَذْهَبُ yang mendahuluinya",
+                "value": "fiil_yadzhabu"
+              },
+              {
+                "label": "Huruf jar إِلَى",
+                "value": "huruf_jar"
+              },
+              {
+                "label": "Amil ma'nawi ibtida'",
+                "value": "amil_ibtida"
+              },
+              {
+                "label": "Kata الْمَسْجِدِ",
+                "value": "al_masjid"
+              }
+            ],
+            "correct": "fiil_yadzhabu",
+            "explanation": "Amil yang merofa'kan fa'il adalah fi'il yang terletak sebelum fa'il tersebut.",
+            "whyModal": {
+              "title": "Amil Fa'il",
+              "matan": "الْمَذْكُورُ قَبْلَهُ فِعْلُهُ",
+              "reason": "Fi'il adalah amil lafzhi yang mewajibkan fa'il dibaca rafa'."
+            }
+          },
+          {
+            "id": "q7_1_9",
+            "type": "mcq",
+            "question": "Jenis kalimat yang diawali dengan kata kerja dan diikuti oleh pelakunya disebut...",
+            "prompt": "Jenis kalimat yang diawali dengan kata kerja dan diikuti oleh pelakunya disebut...",
+            "arabic": "الْجُمْلَةُ الْفِعْلِيَّةُ",
+            "translation": "Kalimat verbal (Jumlah Fi'liyyah)",
+            "meaning": "Kalimat verbal (Jumlah Fi'liyyah)",
+            "options": [
+              {
+                "label": "Jumlah Fi'liyyah",
+                "value": "jumlah_filiyyah"
+              },
+              {
+                "label": "Jumlah Ismiyyah",
+                "value": "jumlah_ismiyyah"
+              },
+              {
+                "label": "Jumlah Syarthiyyah",
+                "value": "syarthiyyah"
+              },
+              {
+                "label": "Syibhul Jumlah",
+                "value": "syibhul_jumlah"
+              }
+            ],
+            "correct": "jumlah_filiyyah",
+            "explanation": "Jumlah Fi'liyyah adalah kalimat yang tersusun dari struktur dasar Fi'il (kata kerja) dan Fa'il (pelaku).",
+            "whyModal": {
+              "title": "Konsep Jumlah Fi'liyyah",
+              "matan": "الْفَاعِلُ... الْمَذْكُورُ قَبْلَهُ فِعْلُهُ",
+              "reason": "Kalimat yang diawali fi'il dan fa'il adalah jumlah fi'liyyah."
+            }
+          },
+          {
+            "id": "q7_1_10",
+            "type": "mcq",
+            "question": "Jika seorang santri membaca جَاءَ زَيْدًا dengan fathah pada Zaid, bagaimanakah koreksi yang tepat?",
+            "prompt": "Jika seorang santri membaca جَاءَ زَيْدًا dengan fathah pada Zaid, bagaimanakah koreksi yang tepat?",
+            "arabic": "جَاءَ زَيْدٌ (بِالضَّمِّ)",
+            "translation": "Zaid datang (dengan dhommah)",
+            "meaning": "Zaid datang (dengan dhommah)",
+            "options": [
+              {
+                "label": "Salah, wajib dibaca جَاءَ زَيْدٌ (dhommah) karena fa'il wajib marfu'",
+                "value": "wajib_dhommah"
+              },
+              {
+                "label": "Boleh karena Zaid adalah nama orang",
+                "value": "boleh_nama"
+              },
+              {
+                "label": "Wajib dibaca kasrah: جَاءَ زَيْدٍ",
+                "value": "kasrah"
+              },
+              {
+                "label": "Boleh jika di akhir kalimat sukun",
+                "value": "sukun"
+              }
+            ],
+            "correct": "wajib_dhommah",
+            "explanation": "Zaid adalah fa'il dari jaa'a, dan isim mufrad ketika menjadi fa'il wajib marfu' dengan dhammah (tanwin).",
+            "whyModal": {
+              "title": "Koreksi I'rab Fa'il",
+              "matan": "الْفَاعِلُ هُوَ الِاسْمُ الْمَرْفُوعُ",
+              "reason": "Fa'il tidak boleh dibaca fathah atau kasrah, melainkan wajib rafa'."
+            }
+          }
+        ]
+      },
+      {
+        "id": "level_7_2",
+        "code": "7.2",
+        "title": "Fa'il Isim Zhahir",
+        "subtitle": "Katalog Lengkap Pelaku Nyata Sesuai Matan",
+        "titleArabic": "الْفَاعِلُ الظَّاهِرُ وَأَنْوَاعُهُ",
+        "type": "mcq",
+        "xp": 70,
+        "unlocked": false,
+        "is_boss": false,
+        "theory": {
+          "title": "Contoh-Contoh Fa'il Isim Zhahir Matan",
+          "matan": "فَالظَّاهِرُ نَحْوُ قَوْلِكَ: قَامَ زَيْدٌ، وَيَقُومُ زَيْدٌ، وَقَامَ الزَّيْدَانِ، وَيَقُومُ الزَّيْدَانِ، وَقَامَ الزَّيْدُونَ، وَيَقُومُ الزَّيْدُونَ، وَقَامَ الرِّجَالُ، وَيَقُومُ الرِّجَالُ، وَقَامَتْ هِنْدٌ، وَتَقُومُ هِنْدٌ... وَقَامَ أَخُوكَ، وَيَقُومُ أَخُوكَ، وَقَامَ غُلَامِي.",
+          "translation": "Maka fa'il isim zhahir contoh perkataanmu: Qama Zaidun, Yaqumu Zaidun, Qamaz Zaidani, Yaqumuz Zaidani, Qamaz Zaiduna, Yaqumuz Zaiduna, Qamar Rijalu, Yaqumur Rijalu, Qamat Hindun, Taqumu Hindun... Qama Akhuka, Yaqumu Akhuka, Qama Ghulami.",
+          "points": [
+            {
+              "label": "Isim Zhahir",
+              "arabic": "مَا دَلَّ عَلَى مُسَمَّاهُ بِلَا قَرِينَةٍ",
+              "desc": "Kata benda nyata yang menunjukkan maknanya secara langsung tanpa butuh indikator pembicara, lawan bicara, atau pihak ketiga."
+            },
+            {
+              "label": "Variasi Waktu Fi'il",
+              "arabic": "الْمَاضِي وَالْمُضَارِعُ",
+              "desc": "Mushannif mencontohkan setiap variasi fa'il dipasangkan dengan fi'il madhi (قَامَ) dan fi'il mudhari' (يَقُومُ)."
+            }
+          ]
+        },
+        "questions": [
+          {
+            "id": "q7_2_1",
+            "type": "mcq",
+            "question": "Kata الزَّيْدَانِ pada kalimat قَامَ الزَّيْدَانِ dirafa'kan dengan tanda apa?",
+            "prompt": "Kata الزَّيْدَانِ pada kalimat قَامَ الزَّيْدَانِ dirafa'kan dengan tanda apa?",
+            "arabic": "قَامَ الزَّيْدَانِ",
+            "translation": "Dua Zaid telah berdiri",
+            "meaning": "Dua Zaid telah berdiri",
+            "options": [
+              {
+                "label": "Alif karena isim mutsanna",
+                "value": "alif"
+              },
+              {
+                "label": "Dhammah",
+                "value": "dhammah"
+              },
+              {
+                "label": "Kasrah pada huruf nun",
+                "value": "kasrah"
+              },
+              {
+                "label": "Wawu",
+                "value": "wawu"
+              }
+            ],
+            "correct": "alif",
+            "explanation": "الزَّيْدَانِ adalah fa'il berbentuk isim mutsanna (tatsniyah), tanda rafa'nya adalah huruf Alif.",
+            "whyModal": {
+              "title": "Fa'il Isim Mutsanna",
+              "matan": "وَقَامَ الزَّيْدَانِ، وَيَقُومُ الزَّيْدَانِ",
+              "reason": "Mutsanna dirafa'kan dengan Alif."
+            }
+          },
+          {
+            "id": "q7_2_2",
+            "type": "mcq",
+            "question": "Kata الزَّيْدُونَ pada kalimat يَقُومُ الزَّيْدُونَ dirafa'kan dengan tanda apa?",
+            "prompt": "Kata الزَّيْدُونَ pada kalimat يَقُومُ الزَّيْدُونَ dirafa'kan dengan tanda apa?",
+            "arabic": "يَقُومُ الزَّيْدُونَ",
+            "translation": "Para Zaid sedang berdiri",
+            "meaning": "Para Zaid sedang berdiri",
+            "options": [
+              {
+                "label": "Wawu karena Jamak Mudzakkar Salim",
+                "value": "wawu"
+              },
+              {
+                "label": "Fathah pada huruf nun",
+                "value": "fathah"
+              },
+              {
+                "label": "Dhammah",
+                "value": "dhammah"
+              },
+              {
+                "label": "Alif",
+                "value": "alif"
+              }
+            ],
+            "correct": "wawu",
+            "explanation": "الزَّيْدُونَ adalah Jamak Mudzakkar Salim, tanda rafa'nya adalah huruf Wawu.",
+            "whyModal": {
+              "title": "Fa'il Jamak Mudzakkar Salim",
+              "matan": "وَقَامَ الزَّيْدُونَ، وَيَقُومُ الزَّيْدُونَ",
+              "reason": "Jamak mudzakkar salim dirafa'kan dengan Wawu."
+            }
+          },
+          {
+            "id": "q7_2_3",
+            "type": "mcq",
+            "question": "Kata الرِّجَالُ pada kalimat قَامَ الرِّجَالُ dirafa'kan dengan tanda apa?",
+            "prompt": "Kata الرِّجَالُ pada kalimat قَامَ الرِّجَالُ dirafa'kan dengan tanda apa?",
+            "arabic": "قَامَ الرِّجَالُ",
+            "translation": "Para lelaki itu telah berdiri",
+            "meaning": "Para lelaki itu telah berdiri",
+            "options": [
+              {
+                "label": "Dhammah karena Jamak Taksir",
+                "value": "dhammah"
+              },
+              {
+                "label": "Wawu",
+                "value": "wawu"
+              },
+              {
+                "label": "Alif",
+                "value": "alif"
+              },
+              {
+                "label": "Fathah",
+                "value": "fathah"
+              }
+            ],
+            "correct": "dhammah",
+            "explanation": "الرِّجَالُ adalah jamak taksir dari رَجُلٌ, dan jamak taksir tanda rafa'nya adalah dhammah zhahirah.",
+            "whyModal": {
+              "title": "Fa'il Jamak Taksir",
+              "matan": "وَقَامَ الرِّجَالُ، وَيَقُومُ الرِّجَالُ",
+              "reason": "Jamak taksir dirafa'kan dengan dhammah."
+            }
+          },
+          {
+            "id": "q7_2_4",
+            "type": "mcq",
+            "question": "Kata الْهِنْدَاتُ pada kalimat قَامَتِ الْهِنْدَاتُ dirafa'kan dengan tanda apa?",
+            "prompt": "Kata الْهِنْدَاتُ pada kalimat قَامَتِ الْهِنْدَاتُ dirafa'kan dengan tanda apa?",
+            "arabic": "قَامَتِ الْهِنْدَاتُ",
+            "translation": "Para Hindun (wanita) telah berdiri",
+            "meaning": "Para Hindun (wanita) telah berdiri",
+            "options": [
+              {
+                "label": "Dhammah karena Jamak Muannats Salim",
+                "value": "dhammah"
+              },
+              {
+                "label": "Alif",
+                "value": "alif"
+              },
+              {
+                "label": "Kasrah",
+                "value": "kasrah"
+              },
+              {
+                "label": "Wawu",
+                "value": "wawu"
+              }
+            ],
+            "correct": "dhammah",
+            "explanation": "الْهِنْدَاتُ adalah Jamak Muannats Salim yang bertanda rafa' dhammah zhahirah pada huruf Ta'.",
+            "whyModal": {
+              "title": "Fa'il Jamak Muannats Salim",
+              "matan": "وَقَامَتِ الْهِنْدَاتُ، وَتَقُومُ الْهِنْدَاتُ",
+              "reason": "Jamak muannats salim dirafa'kan dengan dhammah."
+            }
+          },
+          {
+            "id": "q7_2_5",
+            "type": "mcq",
+            "question": "Kata أَخُوكَ pada kalimat قَامَ أَخُوكَ dirafa'kan dengan tanda apa?",
+            "prompt": "Kata أَخُوكَ pada kalimat قَامَ أَخُوكَ dirafa'kan dengan tanda apa?",
+            "arabic": "قَامَ أَخُوكَ",
+            "translation": "Saudaramu telah berdiri",
+            "meaning": "Saudaramu telah berdiri",
+            "options": [
+              {
+                "label": "Wawu karena termasuk Asma'ul Khamsah",
+                "value": "wawu"
+              },
+              {
+                "label": "Dhammah",
+                "value": "dhammah"
+              },
+              {
+                "label": "Alif",
+                "value": "alif"
+              },
+              {
+                "label": "Fathah pada huruf Kaf",
+                "value": "fathah"
+              }
+            ],
+            "correct": "wawu",
+            "explanation": "أَخُو adalah salah satu dari Asma'ul Khamsah, dirafa'kan dengan huruf Wawu (kaf adalah dhamir mudhaf ilaih).",
+            "whyModal": {
+              "title": "Fa'il Asma'ul Khamsah",
+              "matan": "وَقَامَ أَخُوكَ، وَيَقُومُ أَخُوكَ",
+              "reason": "Asma'ul Khamsah dirafa'kan dengan Wawu."
+            }
+          },
+          {
+            "id": "q7_2_6",
+            "type": "mcq",
+            "question": "Kata غُلَامِي pada kalimat قَامَ غُلَامِي dirafa'kan dengan apa?",
+            "prompt": "Kata غُلَامِي pada kalimat قَامَ غُلَامِي dirafa'kan dengan apa?",
+            "arabic": "قَامَ غُلَامِي",
+            "translation": "Pelayanku telah berdiri",
+            "meaning": "Pelayanku telah berdiri",
+            "options": [
+              {
+                "label": "Dhammah muqaddarah karena terhalang harakat munasabah Ya' Mutakallim",
+                "value": "muqaddarah_munasabah"
+              },
+              {
+                "label": "Kasrah zhahirah",
+                "value": "kasrah"
+              },
+              {
+                "label": "Ya'",
+                "value": "ya"
+              },
+              {
+                "label": "Sukun",
+                "value": "sukun"
+              }
+            ],
+            "correct": "muqaddarah_munasabah",
+            "explanation": "Isim yang bersambung dengan Ya' Mutakallim (غُلَامِي) dirafa'kan dengan dhammah muqaddarah karena tempatnya sibuk dengan kasrah munasabah.",
+            "whyModal": {
+              "title": "Fa'il Mudhaf ke Ya' Mutakallim",
+              "matan": "وَقَامَ غُلَامِي، وَيَقُومُ غُلَامِي",
+              "reason": "Dhammah diandaikan karena huruf mim wajib dikasrah agar selaras dengan ya'."
+            }
+          },
+          {
+            "id": "q7_2_7",
+            "type": "mcq",
+            "question": "Pada kalimat تَقُومُ هِنْدٌ, mengapa huruf awal fi'il mudhari' menggunakan Ta' (تَقُومُ)?",
+            "prompt": "Pada kalimat تَقُومُ هِنْدٌ, mengapa huruf awal fi'il mudhari' menggunakan Ta' (تَقُومُ)?",
+            "arabic": "تَقُومُ هِنْدٌ",
+            "translation": "Hindun sedang berdiri",
+            "meaning": "Hindun sedang berdiri",
+            "options": [
+              {
+                "label": "Huruf mudhara'ah Ta' menunjukkan pelaku orang ketiga muannats",
+                "value": "ta_mudharaah"
+              },
+              {
+                "label": "Karena tanda i'rab rafa'",
+                "value": "tanda_rafa"
+              },
+              {
+                "label": "Karena huruf asli fi'il",
+                "value": "asli"
+              },
+              {
+                "label": "Karena amil nawashib",
+                "value": "nawashib"
+              }
+            ],
+            "correct": "ta_mudharaah",
+            "explanation": "Fi'il mudhari' diawali huruf Ta' mudhara'ah ketika fa'ilnya adalah isim ghaibah muannats (seperti هِنْدٌ).",
+            "whyModal": {
+              "title": "Muthabaqah Mudhari' Muannats",
+              "matan": "وَتَقُومُ هِنْدٌ",
+              "reason": "Ta' mudhara'ah menandakan keselarasan gender muannats."
+            }
+          },
+          {
+            "id": "q7_2_8",
+            "type": "mcq",
+            "question": "Kata الْهُنُودُ pada kalimat قَامَتِ الْهُنُودُ adalah bentuk jamak apa?",
+            "prompt": "Kata الْهُنُودُ pada kalimat قَامَتِ الْهُنُودُ adalah bentuk jamak apa?",
+            "arabic": "قَامَتِ الْهُنُودُ",
+            "translation": "Para wanita Hindun telah berdiri",
+            "meaning": "Para wanita Hindun telah berdiri",
+            "options": [
+              {
+                "label": "Jamak Taksir dari nama Hindun",
+                "value": "jamak_taksir"
+              },
+              {
+                "label": "Jamak Mudzakkar Salim",
+                "value": "jamak_mudzakkar"
+              },
+              {
+                "label": "Jamak Muannats Salim",
+                "value": "jamak_muannats"
+              },
+              {
+                "label": "Isim Mutsanna",
+                "value": "mutsanna"
+              }
+            ],
+            "correct": "jamak_taksir",
+            "explanation": "الْهُنُودُ adalah Jamak Taksir bagi isim muannats هِنْدٌ, tanda rafa'nya adalah dhammah zhahirah.",
+            "whyModal": {
+              "title": "Jamak Taksir Muannats",
+              "matan": "وَقَامَتِ الْهُنُودُ، وَتَقُومُ الْهُنُودُ",
+              "reason": "Al-Hunudu adalah jamak taksir yang marfu' dengan dhammah."
+            }
+          },
+          {
+            "id": "q7_2_9",
+            "type": "mcq",
+            "question": "Mengapa penulis matan membawakan pasangan contoh QAMA dan YAQUUMU untuk setiap jenis fa'il?",
+            "prompt": "Mengapa penulis matan membawakan pasangan contoh QAMA dan YAQUUMU untuk setiap jenis fa'il?",
+            "arabic": "قَامَ زَيْدٌ وَيَقُومُ زَيْدٌ",
+            "translation": "Qama Zaidun dan Yaqumu Zaidun",
+            "meaning": "Qama Zaidun dan Yaqumu Zaidun",
+            "options": [
+              {
+                "label": "Untuk membuktikan bahwa fa'il berlaku sama baik pada Fi'il Madhi maupun Mudhari'",
+                "value": "madhi_mudhari_sama"
+              },
+              {
+                "label": "Hanya sebagai pelengkap tulisan",
+                "value": "pelengkap"
+              },
+              {
+                "label": "Karena fa'il hanya boleh menggunakan kata berdiri (qama)",
+                "value": "hanya_qama"
+              },
+              {
+                "label": "Untuk membedakan i'rab rafa' dan nashab",
+                "value": "beda_irab"
+              }
+            ],
+            "correct": "madhi_mudhari_sama",
+            "explanation": "Ibnu Ajurrum menunjukkan secara sistematis bahwa kaidah fa'il berlaku identik baik setelah fi'il madhi maupun fi'il mudhari'.",
+            "whyModal": {
+              "title": "Metode Pembelajaran Matan",
+              "matan": "قَامَ زَيْدٌ، وَيَقُومُ زَيْدٌ",
+              "reason": "Sistematika matan menunjukkan konsistensi hukum fa'il pada dua masa kata kerja."
+            }
+          },
+          {
+            "id": "q7_2_10",
+            "type": "mcq",
+            "question": "Manakah di bawah ini contoh kalimat yang fa'il isim zhahir-nya bertanda Wawu?",
+            "prompt": "Manakah di bawah ini contoh kalimat yang fa'il isim zhahir-nya bertanda Wawu?",
+            "arabic": "فَاعِلٌ ظَاهِرٌ بِالْوَاوِ",
+            "translation": "Fa'il zhahir dengan Wawu",
+            "meaning": "Fa'il zhahir dengan Wawu",
+            "options": [
+              {
+                "label": "صَامَ الْمُسْلِمُونَ",
+                "value": "shoma_muslimun"
+              },
+              {
+                "label": "صَامَ الْمُسْلِمَانِ",
+                "value": "shoma_muslimani"
+              },
+              {
+                "label": "صَامَ الْمُسْلِمُ",
+                "value": "shoma_muslim"
+              },
+              {
+                "label": "صُمْتُ",
+                "value": "shumtu"
+              }
+            ],
+            "correct": "shoma_muslimun",
+            "explanation": "الْمُسْلِمُونَ adalah fa'il isim zhahir jamak mudzakkar salim yang dirafa'kan dengan Wawu.",
+            "whyModal": {
+              "title": "Aplikasi Fa'il Wawu",
+              "matan": "وَقَامَ الزَّيْدُونَ",
+              "reason": "Al-Muslimuna adalah fa'il zhahir marfu' bertanda Wawu."
+            }
+          }
+        ]
+      },
+      {
+        "id": "level_7_3",
+        "code": "7.3",
+        "title": "Kaidah Ketetapan Fi'il",
+        "subtitle": "Kaidah Emas: Fi'il Wajib Mufrad Saat Fa'il Mutsanna atau Jamak",
+        "titleArabic": "إِفْرَادُ الْفِعْلِ مَعَ تَثْنِيَةِ الْفَاعِلِ وَجَمْعِهِ",
+        "type": "mcq",
+        "xp": 70,
+        "unlocked": false,
+        "is_boss": false,
+        "theory": {
+          "title": "Hukum Bentuk Fi'il Menghadapi Fa'il Zhahir",
+          "matan": "قَامَ الزَّيْدَانِ، وَقَامَ الزَّيْدُونَ (وَلَمْ يَقُلْ: قَامَا الزَّيْدَانِ، وَلَا قَامُوا الزَّيْدُونَ)",
+          "translation": "Mushannif mencontohkan: Qama az-Zaidani (bukan Qamaa) dan Qama az-Zaiduna (bukan Qaamuu).",
+          "points": [
+            {
+              "label": "Kaidah Afsah (Paling Fashih)",
+              "arabic": "يَجِبُ إِفْرَادُ الْفِعْلِ إِذَا كَانَ الْفَاعِلُ اسْمًا ظَاهِرًا",
+              "desc": "Fi'il wajib tetap dalam bentuk tunggal (mufrad) apabila fa'ilnya berupa isim zhahir, baik fa'ilnya berbilang satu, dua, maupun jamak."
+            },
+            {
+              "label": "Bahasa Akaluuni Al-Baraghit",
+              "arabic": "لُغَةُ أَكَلُونِي الْبَرَاغِيثُ",
+              "desc": "Menambahkan wawu jamak atau alif tasniyah pada fi'il saat fa'il zhahir disebut (seperti قَامُوا الزَّيْدُونَ) adalah dialek langka yang tidak dipakai dalam bahasa fushha standar."
+            }
+          ]
+        },
+        "questions": [
+          {
+            "id": "q7_3_1",
+            "type": "mcq",
+            "question": "Jika Fa'il isim zhahir berbentuk jamak (misal: الزَّيْدُونَ), bagaimanakah bentuk fi'il yang paling fashih di depannya?",
+            "prompt": "Jika Fa'il isim zhahir berbentuk jamak (misal: الزَّيْدُونَ), bagaimanakah bentuk fi'il yang paling fashih di depannya?",
+            "arabic": "قَامَ الزَّيْدُونَ أَمْ قَامُوا الزَّيْدُونَ؟",
+            "translation": "Qama az-Zaiduna atau Qaamuu az-Zaiduna?",
+            "meaning": "Qama az-Zaiduna atau Qaamuu az-Zaiduna?",
+            "options": [
+              {
+                "label": "Fi'il wajib tetap mufrad: قَامَ الزَّيْدُونَ",
+                "value": "tetap_mufrad"
+              },
+              {
+                "label": "Fi'il wajib dijamakkan: قَامُوا الزَّيْدُونَ",
+                "value": "wajib_jamak"
+              },
+              {
+                "label": "Fi'il boleh dibuang",
+                "value": "dibuang"
+              },
+              {
+                "label": "Fi'il harus berbentuk isim fa'il",
+                "value": "isim_fail"
+              }
+            ],
+            "correct": "tetap_mufrad",
+            "explanation": "Dalam bahasa Arab fushha standar, fi'il wajib tetap dalam bentuk mufrad (قَامَ) jika fa'il isim zhahirnya disebutkan setelahnya.",
+            "whyModal": {
+              "title": "Kaidah Ifradul Fi'il",
+              "matan": "وَقَامَ الزَّيْدُونَ (وَلَمْ يَقُلْ قَامُوا)",
+              "reason": "Fi'il tidak boleh diberi tanda jamak jika fa'il zhahir sudah nampak."
+            }
+          },
+          {
+            "id": "q7_3_2",
+            "type": "mcq",
+            "question": "Manakah susunan kalimat yang BENAR menurut kaidah bahasa Arab fushha?",
+            "prompt": "Manakah susunan kalimat yang BENAR menurut kaidah bahasa Arab fushha?",
+            "arabic": "حَضَرَ الْمُعَلِّمُونَ أَمْ حَضَرُوا الْمُعَلِّمُونَ؟",
+            "translation": "Hadhara al-mu'allimuna atau Hadharuu al-mu'allimuna?",
+            "meaning": "Hadhara al-mu'allimuna atau Hadharuu al-mu'allimuna?",
+            "options": [
+              {
+                "label": "حَضَرَ الْمُعَلِّمُونَ",
+                "value": "hadhara_muallimun"
+              },
+              {
+                "label": "حَضَرُوا الْمُعَلِّمُونَ",
+                "value": "hadharu_muallimun"
+              },
+              {
+                "label": "حَضَرْنَ الْمُعَلِّمُونَ",
+                "value": "hadharna"
+              },
+              {
+                "label": "حَضَرَا الْمُعَلِّمُونَ",
+                "value": "hadhara_mutsanna"
+              }
+            ],
+            "correct": "hadhara_muallimun",
+            "explanation": "Fi'il حَضَرَ tetap mufrad karena fa'il isim zhahirnya (الْمُعَلِّمُونَ) berada setelahnya.",
+            "whyModal": {
+              "title": "Kaidah Fi'il Mufrad",
+              "matan": "وَقَامَ الزَّيْدُونَ، وَيَقُومُ الزَّيْدُونَ",
+              "reason": "Fi'il mufrad mengiringi fa'il jamak zhahir."
+            }
+          },
+          {
+            "id": "q7_3_3",
+            "type": "mcq",
+            "question": "Jika dua orang siswa belajar, manakah kalimat fushha yang tepat?",
+            "prompt": "Jika dua orang siswa belajar, manakah kalimat fushha yang tepat?",
+            "arabic": "دَرَسَ الطَّالِبَانِ أَمْ دَرَسَا الطَّالِبَانِ؟",
+            "translation": "Darasa at-Thalibani atau Darasaa at-Thalibani?",
+            "meaning": "Darasa at-Thalibani atau Darasaa at-Thalibani?",
+            "options": [
+              {
+                "label": "دَرَسَ الطَّالِبَانِ",
+                "value": "darasa_thalibani"
+              },
+              {
+                "label": "دَرَسَا الطَّالِبَانِ",
+                "value": "darasaa_thalibani"
+              },
+              {
+                "label": "دَرَسُوا الطَّالِبَانِ",
+                "value": "darasu_thalibani"
+              },
+              {
+                "label": "دَرَسْنَ الطَّالِبَانِ",
+                "value": "darasna_thalibani"
+              }
+            ],
+            "correct": "darasa_thalibani",
+            "explanation": "Fi'il دَرَسَ tetap mufrad (tanpa alif tatsniyah) di depan fa'il zhahir mutsanna الطَّالِبَانِ.",
+            "whyModal": {
+              "title": "Fi'il Menghadapi Mutsanna",
+              "matan": "وَقَامَ الزَّيْدَانِ",
+              "reason": "Fi'il tidak ditambahi alif tasniyah jika fa'il zhahir disebutkan."
+            }
+          },
+          {
+            "id": "q7_3_4",
+            "type": "mcq",
+            "question": "Mengapa kalimat قَامُوا الزَّيْدُونَ dinilai bermasalah dalam bahasa standar?",
+            "prompt": "Mengapa kalimat قَامُوا الزَّيْدُونَ dinilai bermasalah dalam bahasa standar?",
+            "arabic": "قَامُوا الزَّيْدُونَ",
+            "translation": "Mereka berdiri para Zaid",
+            "meaning": "Mereka berdiri para Zaid",
+            "options": [
+              {
+                "label": "Karena terjadi penumpukan dua fa'il (wawu jama'ah dan az-Zaidun)",
+                "value": "dobel_fail"
+              },
+              {
+                "label": "Karena kata Zaid tidak boleh dijamakkan",
+                "value": "zaid_tidak_jamak"
+              },
+              {
+                "label": "Karena fi'il madhi tidak punya bentuk jamak",
+                "value": "madhi_tidak_jamak"
+              },
+              {
+                "label": "Karena harakatnya salah",
+                "value": "salah_harakat"
+              }
+            ],
+            "correct": "dobel_fail",
+            "explanation": "Wawu pada قَامُوا sudah berfungsi sebagai dhamir fa'il, sehingga menyebut الزَّيْدُونَ setelahnya menimbulkan tumpang tindih dua fa'il dalam satu fi'il.",
+            "whyModal": {
+              "title": "Pencegahan Dobel Fa'il",
+              "matan": "لَا يَجْتَمِعُ فَاعِلَانِ لِفِعْلٍ وَاحِدٍ",
+              "reason": "Satu fi'il tidak boleh memiliki dua fa'il secara bersamaan."
+            }
+          },
+          {
+            "id": "q7_3_5",
+            "type": "mcq",
+            "question": "Jika kalimat dibalik menjadi jumlah ismiyyah: الزَّيْدُونَ ..., bagaimanakah kelanjutan fi'ilnya?",
+            "prompt": "Jika kalimat dibalik menjadi jumlah ismiyyah: الزَّيْدُونَ ..., bagaimanakah kelanjutan fi'ilnya?",
+            "arabic": "الزَّيْدُونَ قَامُوا",
+            "translation": "Para Zaid, mereka telah berdiri",
+            "meaning": "Para Zaid, mereka telah berdiri",
+            "options": [
+              {
+                "label": "الزَّيْدُونَ قَامُوا (wajib memakai wawu jamak)",
+                "value": "zaiduna_qomu"
+              },
+              {
+                "label": "الزَّيْدُونَ قَامَ (tetap mufrad)",
+                "value": "zaiduna_qoma"
+              },
+              {
+                "label": "الزَّيْدُونَ قَامَا",
+                "value": "zaiduna_qomaa"
+              },
+              {
+                "label": "الزَّيْدُونَ يَقُومُ",
+                "value": "zaiduna_yaqumu"
+              }
+            ],
+            "correct": "zaiduna_qomu",
+            "explanation": "Ketika isim jamak berada di depan, ia menjadi Mubtada'. Maka fi'il sebagai khabar jumlah wajib memiliki dhamir penghubung (rabith) yang sesuai bilangannya: قَامُوا.",
+            "whyModal": {
+              "title": "Keselarasan Khabar Jumlah",
+              "matan": "الزَّيْدُونَ قَامُوا",
+              "reason": "Khabar jumlah wajib memiliki dhamir yang cocok dengan mubtada'."
+            }
+          },
+          {
+            "id": "q7_3_6",
+            "type": "mcq",
+            "question": "Bagaimanakah keselarasan fi'il jika fa'ilnya adalah isim mutsanna dalam jumlah ismiyyah: الطَّالِبَانِ ...?",
+            "prompt": "Bagaimanakah keselarasan fi'il jika fa'ilnya adalah isim mutsanna dalam jumlah ismiyyah: الطَّالِبَانِ ...?",
+            "arabic": "الطَّالِبَانِ نَجَحَا",
+            "translation": "Kedua siswa itu, keduanya telah lulus",
+            "meaning": "Kedua siswa itu, keduanya telah lulus",
+            "options": [
+              {
+                "label": "الطَّالِبَانِ نَجَحَا (memakai alif mutsanna)",
+                "value": "najahaa"
+              },
+              {
+                "label": "الطَّالِبَانِ نَجَحَ (tanpa alif)",
+                "value": "najaha"
+              },
+              {
+                "label": "الطَّالِبَانِ نَجَحُوا",
+                "value": "najahu"
+              },
+              {
+                "label": "الطَّالِبَانِ نَجَحْنَ",
+                "value": "najahna"
+              }
+            ],
+            "correct": "najahaa",
+            "explanation": "Dalam struktur jumlah ismiyyah, fi'il sesudah mubtada' mutsanna wajib menyertakan alif mutsanna (نَجَحَا) sebagai dhamir fa'ilnya.",
+            "whyModal": {
+              "title": "Dhamir Mutsanna pada Fi'il",
+              "matan": "الزَّيْدَانِ قَامَا",
+              "reason": "Fi'il yang menjadi khabar mubtada' mutsanna wajib bersambung dengan alif tasniyah."
+            }
+          },
+          {
+            "id": "q7_3_7",
+            "type": "mcq",
+            "question": "Pada ayat وَقَالَ نِسْوَةٌ فِي الْمَدِينَةِ, mengapa fi'il قَالَ berbentuk mudzakkar padahal نِسْوَةٌ adalah muannats?",
+            "prompt": "Pada ayat وَقَالَ نِسْوَةٌ فِي الْمَدِينَةِ, mengapa fi'il قَالَ berbentuk mudzakkar padahal نِسْوَةٌ adalah muannats?",
+            "arabic": "وَقَالَ نِسْوَةٌ فِي الْمَدِينَةِ",
+            "translation": "Dan berkatalah para wanita di kota",
+            "meaning": "Dan berkatalah para wanita di kota",
+            "options": [
+              {
+                "label": "Boleh mudzakkar karena fa'ilnya adalah jamak taksir (muannats majazi)",
+                "value": "jamak_taksir_boleh"
+              },
+              {
+                "label": "Karena salah tulis",
+                "value": "salah_tulis"
+              },
+              {
+                "label": "Karena huruf wau membatalkan muannats",
+                "value": "wau_batal"
+              },
+              {
+                "label": "Karena kata madinah adalah mudzakkar",
+                "value": "madinah"
+              }
+            ],
+            "correct": "jamak_taksir_boleh",
+            "explanation": "Pada jamak taksir (seperti نِسْوَةٌ), hukum memasang ta' ta'nits pada fi'il adalah jaiz (boleh dipakai: قَالَتْ, boleh ditinggalkan: قَالَ dengan takwil jam'un).",
+            "whyModal": {
+              "title": "Hukum Ta'nits pada Jamak Taksir",
+              "matan": "وَقَامَتِ الْهُنُودُ (أَوْ قَامَ الْهُنُودُ)",
+              "reason": "Jamak taksir memberi kelonggaran penggunaan bentuk mudzakkar atau muannats pada fi'il."
+            }
+          },
+          {
+            "id": "q7_3_8",
+            "type": "mcq",
+            "question": "Manakah bentuk yang BENAR ketika beberapa siswi masuk kelas?",
+            "prompt": "Manakah bentuk yang BENAR ketika beberapa siswi masuk kelas?",
+            "arabic": "دَخَلَتِ الطَّالِبَاتُ",
+            "translation": "Para siswi telah masuk",
+            "meaning": "Para siswi telah masuk",
+            "options": [
+              {
+                "label": "دَخَلَتِ الطَّالِبَاتُ",
+                "value": "dakhalat_thalibat"
+              },
+              {
+                "label": "دَخَلْنَ الطَّالِبَاتُ",
+                "value": "dakhalna_thalibat"
+              },
+              {
+                "label": "دَخَلُوا الطَّالِبَاتُ",
+                "value": "dakhalu_thalibat"
+              },
+              {
+                "label": "دَخَلَتَا الطَّالِبَاتُ",
+                "value": "dakhalata_thalibat"
+              }
+            ],
+            "correct": "dakhalat_thalibat",
+            "explanation": "Fi'il tetap mufrad muannats (دَخَلَتْ) di hadapan fa'il zhahir jamak muannats salim (الطَّالِبَاتُ).",
+            "whyModal": {
+              "title": "Fi'il Menghadapi Jamak Muannats",
+              "matan": "وَقَامَتِ الْهِنْدَاتُ",
+              "reason": "Fi'il cukup diberi ta' ta'nits sakinah tanpa nun niswah."
+            }
+          },
+          {
+            "id": "q7_3_9",
+            "type": "mcq",
+            "question": "Apa nama dialek bahasa Arab yang tetap memasang tanda jamak pada fi'il di hadapan fa'il zhahir (misal: قَامُوا الزَّيْدُونَ)?",
+            "prompt": "Apa nama dialek bahasa Arab yang tetap memasang tanda jamak pada fi'il di hadapan fa'il zhahir (misal: قَامُوا الزَّيْدُونَ)?",
+            "arabic": "لُغَةُ تَعَاقُبِ الضَّمَائِرِ",
+            "translation": "Dialek pergantian dhamir",
+            "meaning": "Dialek pergantian dhamir",
+            "options": [
+              {
+                "label": "Lughah Akaluuni Al-Baraghit",
+                "value": "akaluuni_baraghit"
+              },
+              {
+                "label": "Lughah Quraisy",
+                "value": "quraisy"
+              },
+              {
+                "label": "Lughah Mudhar",
+                "value": "mudhar"
+              },
+              {
+                "label": "Lughah Fushha 'Ulya",
+                "value": "fushha_ulya"
+              }
+            ],
+            "correct": "akaluuni_baraghit",
+            "explanation": "Dalam kitab syarah nahwu, fenomena ini diistilahkan sebagai 'Lughah Akaluuni Al-Baraghit' (kutu-kutu itu memakan aku), sebuah dialek kabilah tertentu yang jarang dipakai.",
+            "whyModal": {
+              "title": "Dialek Langka Nahwu",
+              "matan": "لُغَةُ أَكَلُونِي الْبَرَاغِيثُ",
+              "reason": "Istilah masyhur para pakar nahwu untuk kaidah pemasangan tanda jamak pada fi'il."
+            }
+          },
+          {
+            "id": "q7_3_10",
+            "type": "mcq",
+            "question": "Kesimpulan kaidah emas: Berapakah jumlah fi'il yang boleh dipasangkan dengan satu fa'il isim zhahir?",
+            "prompt": "Kesimpulan kaidah emas: Berapakah jumlah fi'il yang boleh dipasangkan dengan satu fa'il isim zhahir?",
+            "arabic": "ضَابِطُ الْفِعْلِ مَعَ الْفَاعِلِ الظَّاهِرِ",
+            "translation": "Kaidah ketetapan fi'il bersama fa'il zhahir",
+            "meaning": "Kaidah ketetapan fi'il bersama fa'il zhahir",
+            "options": [
+              {
+                "label": "Fi'il selalu tunggal (mufrad) dan menyesuaikan gender mudzakkar/muannats",
+                "value": "mufrad_sesuai_gender"
+              },
+              {
+                "label": "Fi'il harus selalu jamak",
+                "value": "selalu_jamak"
+              },
+              {
+                "label": "Fi'il harus selalu tasniyah",
+                "value": "selalu_tasniyah"
+              },
+              {
+                "label": "Fi'il bebas tanpa aturan",
+                "value": "bebas"
+              }
+            ],
+            "correct": "mufrad_sesuai_gender",
+            "explanation": "Kaidah baku: fi'il wajib mufrad, tetapi wajib/boleh menyesuaikan gender mudzakkar atau muannats sesuai jenis fa'ilnya.",
+            "whyModal": {
+              "title": "Kesimpulan Kaidah Emas",
+              "matan": "قَامَ زَيْدٌ، وَقَامَ الزَّيْدَانِ، وَقَامَ الزَّيْدُونَ، وَقَامَتْ هِنْدٌ",
+              "reason": "Bentuk bilangan fi'il selalu satu (mufrad) sementara gendernya menyesuaikan."
+            }
+          }
+        ]
+      },
+      {
+        "id": "level_7_4",
+        "code": "7.4",
+        "title": "Fa'il Isim Dhamir Muttashil",
+        "subtitle": "Katalog 12 Kata Ganti Pelaku yang Menempel",
+        "titleArabic": "الْفَاعِلُ الْمُضْمَرُ الْمُتَّصِلُ (اثْنَا عَشَرَ)",
+        "type": "mcq",
+        "xp": 70,
+        "unlocked": false,
+        "is_boss": false,
+        "theory": {
+          "title": "12 Dhamir Fa'il Matan",
+          "matan": "وَالْمُضْمَرُ اثْنَا عَشَرَ، نَحْوُ قَوْلِكَ: ضَرَبْتُ، وَضَرَبْنَا، وَضَرَبْتَ، وَضَرَبْتِ، وَضَرَبْتُمَا، وَضَرَبْتُمْ، وَضَرَبْتُنَّ، وَضَرَبَ، وَضَرَبَتْ، وَضَرَبَا، وَضَرَبُوا، وَضَرَبْنَ.",
+          "translation": "Dan fa'il mudhmar ada 12, contoh ucapanmu: Dhorabtu (aku memukul), Dhorabnaa (kami), Dhorabta (kamu lk), Dhorabti (kamu pr), Dhorabtumaa (kalian berdua), Dhorabtum (kalian lk), Dhorabtunna (kalian pr), Dhoraba (dia lk), Dhorabat (dia pr), Dhorabaa (mereka berdua lk), Dhorabuu (mereka lk), Dhorabna (mereka pr).",
+          "points": [
+            {
+              "label": "Mutakallim (Pembicara)",
+              "arabic": "ضَرَبْتُ (أَنَا) ، ضَرَبْنَا (نَحْنُ)",
+              "desc": "2 bentuk: Tu (tunggal pembicara) dan Na (jamak/mengagungkan diri)."
+            },
+            {
+              "label": "Mukhathab (Lawan Bicara)",
+              "arabic": "ضَرَبْتَ، ضَرَبْتِ، ضَرَبْتُمَا، ضَرَبْتُمْ، ضَرَبْتُنَّ",
+              "desc": "5 bentuk: Ta (laki-laki), Ti (perempuan), Tuma (dua orang), Tum (kalian lelaki), Tunna (kalian perempuan)."
+            },
+            {
+              "label": "Ghaib (Pihak Ketiga)",
+              "arabic": "ضَرَبَ، ضَرَبَتْ، ضَرَبَا، ضَرَبُوا، ضَرَبْنَ",
+              "desc": "5 bentuk: Huwa (mustatir), Hiya (mustatir), Alif Tasniyah, Wawu Jama'ah, Nun Niswah."
+            }
+          ]
+        },
+        "questions": [
+          {
+            "id": "q7_4_1",
+            "type": "mcq",
+            "question": "Ada berapakah jumlah Fa'il Mudhmar (kata ganti) menurut teks Matan Al-Ajurrumiyyah?",
+            "prompt": "Ada berapakah jumlah Fa'il Mudhmar (kata ganti) menurut teks Matan Al-Ajurrumiyyah?",
+            "arabic": "وَالْمُضْمَرُ اثْنَا عَشَرَ",
+            "translation": "Dan fa'il yang berupa dhamir itu ada dua belas",
+            "meaning": "Dan fa'il yang berupa dhamir itu ada dua belas",
+            "options": [
+              {
+                "label": "12 Bentuk",
+                "value": "12"
+              },
+              {
+                "label": "10 Bentuk",
+                "value": "10"
+              },
+              {
+                "label": "14 Bentuk",
+                "value": "14"
+              },
+              {
+                "label": "7 Bentuk",
+                "value": "7"
+              }
+            ],
+            "correct": "12",
+            "explanation": "Matan secara eksplisit menyebutkan: 'وَالْمُضْمَرُ اثْنَا عَشَرَ' (Dan fa'il mudhmar ada 12 macam).",
+            "whyModal": {
+              "title": "Jumlah Fa'il Mudhmar",
+              "matan": "وَالْمُضْمَرُ اثْنَا عَشَرَ",
+              "reason": "Dhamir fa'il berjumlah tepat 12 bentuk."
+            }
+          },
+          {
+            "id": "q7_4_2",
+            "type": "mcq",
+            "question": "Pada kata ضَرَبْتُ, manakah bagian yang berkedudukan sebagai Fa'il?",
+            "prompt": "Pada kata ضَرَبْتُ, manakah bagian yang berkedudukan sebagai Fa'il?",
+            "arabic": "ضَرَبْتُ",
+            "translation": "Aku telah memukul",
+            "meaning": "Aku telah memukul",
+            "options": [
+              {
+                "label": "Huruf Ta' berharakat dhommah (تُ) dhamir mutakallim",
+                "value": "ta_tu"
+              },
+              {
+                "label": "Huruf Dhad",
+                "value": "dhad"
+              },
+              {
+                "label": "Huruf Ra'",
+                "value": "ra"
+              },
+              {
+                "label": "Dhamir mustatir",
+                "value": "mustatir"
+              }
+            ],
+            "correct": "ta_tu",
+            "explanation": "Ta' (تُ) adalah dhamir bariz muttashil mabni 'ala dhommi fi mahalli raf'in fa'il (kata ganti orang pertama tunggal).",
+            "whyModal": {
+              "title": "Ta' Fa'il Mutakallim",
+              "matan": "نَحْوُ قَوْلِكَ: ضَرَبْتُ",
+              "reason": "Huruf Tu adalah dhamir muttashil yang menjadi pelaku."
+            }
+          },
+          {
+            "id": "q7_4_3",
+            "type": "mcq",
+            "question": "Kata ضَرَبْنَا menunjukkan pelaku perbuatan yaitu...",
+            "prompt": "Kata ضَرَبْنَا menunjukkan pelaku perbuatan yaitu...",
+            "arabic": "ضَرَبْنَا",
+            "translation": "Kami/Kita telah memukul",
+            "meaning": "Kami/Kita telah memukul",
+            "options": [
+              {
+                "label": "Kami / Kita (Mutakallim ma'al ghair / mu'azhzham nafsah)",
+                "value": "kami_mutakallim"
+              },
+              {
+                "label": "Saya seorang diri",
+                "value": "saya"
+              },
+              {
+                "label": "Kalian berdua",
+                "value": "kalian_berdua"
+              },
+              {
+                "label": "Mereka semua",
+                "value": "mereka"
+              }
+            ],
+            "correct": "kami_mutakallim",
+            "explanation": "Dhamir نَا pada fi'il madhi yang didahului sukun (ضَرَبْنَا) adalah dhamir fa'il untuk 'kami' (mutakallim ma'al ghair).",
+            "whyModal": {
+              "title": "Na Fa'il",
+              "matan": "وَضَرَبْنَا",
+              "reason": "Naa adalah dhamir muttashil untuk mutakallim jamak."
+            }
+          },
+          {
+            "id": "q7_4_4",
+            "type": "mcq",
+            "question": "Dhamir apakah yang menjadi fa'il pada kata ضَرَبْتَ?",
+            "prompt": "Dhamir apakah yang menjadi fa'il pada kata ضَرَبْتَ?",
+            "arabic": "ضَرَبْتَ",
+            "translation": "Kamu (laki-laki) telah memukul",
+            "meaning": "Kamu (laki-laki) telah memukul",
+            "options": [
+              {
+                "label": "Ta' berharakat fathah untuk kamu seorang laki-laki (mukhathab)",
+                "value": "ta_fathah"
+              },
+              {
+                "label": "Ta' berharakat kasrah",
+                "value": "ta_kasrah"
+              },
+              {
+                "label": "Dhamir ana",
+                "value": "ana"
+              },
+              {
+                "label": "Dhamir nahnu",
+                "value": "nahnu"
+              }
+            ],
+            "correct": "ta_fathah",
+            "explanation": "Ta' berharakat fathah (تَ) adalah dhamir untuk orang kedua tunggal laki-laki (kamu seorang laki-laki).",
+            "whyModal": {
+              "title": "Ta' Mukhathab",
+              "matan": "وَضَرَبْتَ",
+              "reason": "Ta' maftuhah adalah dhamir lawan bicara laki-laki."
+            }
+          },
+          {
+            "id": "q7_4_5",
+            "type": "mcq",
+            "question": "Dhamir apakah yang menjadi fa'il pada kata ضَرَبْتِ?",
+            "prompt": "Dhamir apakah yang menjadi fa'il pada kata ضَرَبْتِ?",
+            "arabic": "ضَرَبْتِ",
+            "translation": "Kamu (perempuan) telah memukul",
+            "meaning": "Kamu (perempuan) telah memukul",
+            "options": [
+              {
+                "label": "Ta' berharakat kasrah untuk kamu seorang wanita (mukhathabah)",
+                "value": "ta_kasrah"
+              },
+              {
+                "label": "Ta' berharakat dhommah",
+                "value": "ta_dhommah"
+              },
+              {
+                "label": "Ya' mukhathabah",
+                "value": "ya"
+              },
+              {
+                "label": "Dhamir mustatir",
+                "value": "mustatir"
+              }
+            ],
+            "correct": "ta_kasrah",
+            "explanation": "Ta' berharakat kasrah (تِ) adalah dhamir fa'il untuk kamu seorang wanita.",
+            "whyModal": {
+              "title": "Ta' Mukhathabah",
+              "matan": "وَضَرَبْتِ",
+              "reason": "Ta' maksurah adalah dhamir lawan bicara perempuan."
+            }
+          },
+          {
+            "id": "q7_4_6",
+            "type": "mcq",
+            "question": "Kata ضَرَبْتُمَا digunakan untuk pelaku...",
+            "prompt": "Kata ضَرَبْتُمَا digunakan untuk pelaku...",
+            "arabic": "ضَرَبْتُمَا",
+            "translation": "Kalian berdua telah memukul",
+            "meaning": "Kalian berdua telah memukul",
+            "options": [
+              {
+                "label": "Kalian berdua (laki-laki maupun perempuan)",
+                "value": "kalian_berdua"
+              },
+              {
+                "label": "Kalian semua laki-laki",
+                "value": "kalian_lk"
+              },
+              {
+                "label": "Kalian semua wanita",
+                "value": "kalian_pr"
+              },
+              {
+                "label": "Mereka berdua",
+                "value": "mereka_berdua"
+              }
+            ],
+            "correct": "kalian_berdua",
+            "explanation": "Dhamir تُمَا dipakai untuk dua orang lawan bicara (mukhathab mutsanna), baik keduanya laki-laki maupun perempuan.",
+            "whyModal": {
+              "title": "Tuma Mutsanna",
+              "matan": "وَضَرَبْتُمَا",
+              "reason": "Tuma adalah dhamir mukhathab tatsniyah."
+            }
+          },
+          {
+            "id": "q7_4_7",
+            "type": "mcq",
+            "question": "Pada kata ضَرَبُوا, manakah huruf yang berkedudukan sebagai Fa'il?",
+            "prompt": "Pada kata ضَرَبُوا, manakah huruf yang berkedudukan sebagai Fa'il?",
+            "arabic": "ضَرَبُوا",
+            "translation": "Mereka (banyak lelaki) telah memukul",
+            "meaning": "Mereka (banyak lelaki) telah memukul",
+            "options": [
+              {
+                "label": "Wawu Jama'ah (الْوَاوُ)",
+                "value": "wawu_jamaah"
+              },
+              {
+                "label": "Alif Fariqah",
+                "value": "alif_fariqah"
+              },
+              {
+                "label": "Huruf Ba'",
+                "value": "ba"
+              },
+              {
+                "label": "Dhamir mustatir",
+                "value": "mustatir"
+              }
+            ],
+            "correct": "wawu_jamaah",
+            "explanation": "Wawu pada ضَرَبُوا adalah Wawu Jama'ah, berstatus dhamir muttashil mabni fi mahalli raf'in fa'il. Alif setelahnya hanya pembeda (fariqah).",
+            "whyModal": {
+              "title": "Wawu Jama'ah sebagai Fa'il",
+              "matan": "وَضَرَبُوا",
+              "reason": "Wawu jama'ah adalah fa'il untuk jamak ghaibin mudzakkar."
+            }
+          },
+          {
+            "id": "q7_4_8",
+            "type": "mcq",
+            "question": "Kata ضَرَبْنَ memiliki fa'il berupa...",
+            "prompt": "Kata ضَرَبْنَ memiliki fa'il berupa...",
+            "arabic": "ضَرَبْنَ",
+            "translation": "Mereka (para wanita) telah memukul",
+            "meaning": "Mereka (para wanita) telah memukul",
+            "options": [
+              {
+                "label": "Nun Niswah (نُونُ النِّسْوَةِ)",
+                "value": "nun_niswah"
+              },
+              {
+                "label": "Ta' Ta'nits",
+                "value": "ta_tanits"
+              },
+              {
+                "label": "Dhamir mustatir hiya",
+                "value": "mustatir_hiya"
+              },
+              {
+                "label": "Alif mutsanna",
+                "value": "alif"
+              }
+            ],
+            "correct": "nun_niswah",
+            "explanation": "Huruf Nun berharakat fathah (نَ) adalah Nun Niswah, kata ganti jamak wanita pihak ketiga (ghaibat), berkedudukan sebagai fa'il.",
+            "whyModal": {
+              "title": "Nun Niswah Fa'il",
+              "matan": "وَضَرَبْنَ",
+              "reason": "Nun niswah adalah dhamir fa'il jamak muannats."
+            }
+          },
+          {
+            "id": "q7_4_9",
+            "type": "mcq",
+            "question": "Pada kata ضَرَبَا, huruf apakah yang berkedudukan sebagai Fa'il?",
+            "prompt": "Pada kata ضَرَبَا, huruf apakah yang berkedudukan sebagai Fa'il?",
+            "arabic": "ضَرَبَا",
+            "translation": "Mereka berdua (lelaki) telah memukul",
+            "meaning": "Mereka berdua (lelaki) telah memukul",
+            "options": [
+              {
+                "label": "Alif Tatsniyah (أَلِفُ الِاثْنَيْنِ)",
+                "value": "alif_itsnain"
+              },
+              {
+                "label": "Huruf Ba'",
+                "value": "ba"
+              },
+              {
+                "label": "Dhamir mustatir",
+                "value": "mustatir"
+              },
+              {
+                "label": "Wawu",
+                "value": "wawu"
+              }
+            ],
+            "correct": "alif_itsnain",
+            "explanation": "Alif di akhir kata ضَرَبَا adalah Alif Itsnain (alif mutsanna) yang menjadi dhamir muttashil marfu' sebagai fa'il.",
+            "whyModal": {
+              "title": "Alif Tasniyah Fa'il",
+              "matan": "وَضَرَبَا",
+              "reason": "Alif itsnain adalah dhamir muttashil dua pelaku."
+            }
+          },
+          {
+            "id": "q7_4_10",
+            "type": "mcq",
+            "question": "Bagaimanakah status hukum bina' (mabni) bagi seluruh isim dhamir fa'il?",
+            "prompt": "Bagaimanakah status hukum bina' (mabni) bagi seluruh isim dhamir fa'il?",
+            "arabic": "الضَّمَائِرُ كُلُّهَا مَبْنِيَّةٌ",
+            "translation": "Semua dhamir berstatus mabni",
+            "meaning": "Semua dhamir berstatus mabni",
+            "options": [
+              {
+                "label": "Mabni pada harakat asalnya, menempati posisi rafa' (fi mahalli raf'in)",
+                "value": "mabni_fi_mahalli_raf"
+              },
+              {
+                "label": "Mu'rab dengan harakat yang berubah-ubah",
+                "value": "murab"
+              },
+              {
+                "label": "Mabni jazm",
+                "value": "mabni_jazm"
+              },
+              {
+                "label": "Tidak berkedudukan i'rab sama sekali",
+                "value": "tidak_berirab"
+              }
+            ],
+            "correct": "mabni_fi_mahalli_raf",
+            "explanation": "Seluruh dhamir bersifat mabni (paten harakatnya), dan ketika menjadi fa'il, ia menempati posisi i'rab rafa' (mabni fi mahalli raf'in).",
+            "whyModal": {
+              "title": "I'rab Mahalli Dhamir",
+              "matan": "وَالْمُضْمَرُ... مَبْنِيٌّ فِي مَحَلِّ رَفْعٍ",
+              "reason": "Dhamir tidak berharakat i'rab melainkan mabni fi mahalli raf'in."
+            }
+          }
+        ]
+      },
+      {
+        "id": "level_7_5",
+        "code": "7.5",
+        "title": "Fa'il Dhamir Mustatir",
+        "subtitle": "Mengendus Jejak Pelaku Tersembunyi (Wujuban vs Jawazan)",
+        "titleArabic": "الْفَاعِلُ الضَّمِيرُ الْمُسْتَتِرُ",
+        "type": "mcq",
+        "xp": 70,
+        "unlocked": false,
+        "is_boss": false,
+        "theory": {
+          "title": "Konsep Dhamir Tersembunyi (Mustatir)",
+          "matan": "ضَرَبَ (فَاعِلُهُ ضَمِيرٌ مُسْتَتِرٌ فِيهِ جَوَازًا تَقْدِيرُهُ هُوَ)، وَضَرَبَتْ (تَقْدِيرُهُ هِيَ)",
+          "translation": "Dhoraba (fa'ilnya dhamir tersembunyi berstatus jawazan takdirnya Huwa), dan Dhorabat (takdirnya Hiya).",
+          "points": [
+            {
+              "label": "Mustatir Jawazan (Boleh Ditampakkan)",
+              "arabic": "هُوَ / هِيَ",
+              "desc": "Pada fi'il madhi (ضَرَبَ / ضَرَبَتْ) dan mudhari' orang ketiga (يَضْرِبُ / تَضْرِبُ), fa'ilnya tersembunyi secara jawazan (bisa digantikan oleh isim zhahir)."
+            },
+            {
+              "label": "Mustatir Wujuban (Wajib Sembunyi)",
+              "arabic": "أَنَا / نَحْنُ / أَنْتَ",
+              "desc": "Pada fi'il mudhari' diawali Hamzah (أَضْرِبُ = ana), Nun (نَضْرِبُ = nahnu), Ta' mukhathab (تَضْرِبُ = anta), dan fi'il amr (اضْرِبْ = anta), fa'ilnya wajib tersembunyi dan tidak boleh diganti isim zhahir."
+            }
+          ]
+        },
+        "questions": [
+          {
+            "id": "q7_4_1",
+            "type": "mcq",
+            "question": "Pada kalimat مُحَمَّدٌ قَامَ, di manakah Fa'il dari fi'il قَامَ?",
+            "prompt": "Pada kalimat مُحَمَّدٌ قَامَ, di manakah Fa'il dari fi'il قَامَ?",
+            "arabic": "مُحَمَّدٌ قَامَ",
+            "translation": "Muhammad telah berdiri",
+            "meaning": "Muhammad telah berdiri",
+            "options": [
+              {
+                "label": "Dhamir mustatir (tersembunyi) takdirnya هُوَ yang kembali ke Muhammad",
+                "value": "mustatir_huwa"
+              },
+              {
+                "label": "Kata Muhammad di depan",
+                "value": "muhammad_depan"
+              },
+              {
+                "label": "Huruf Mim pada qama",
+                "value": "mim"
+              },
+              {
+                "label": "Tidak ada fa'il sama sekali",
+                "value": "tidak_ada"
+              }
+            ],
+            "correct": "mustatir_huwa",
+            "explanation": "Muhammad di depan adalah Mubtada'. Fa'il dari قَامَ adalah dhamir mustatir jawazan takdirnya هُوَ yang merujuk kembali kepada Muhammad.",
+            "whyModal": {
+              "title": "Fa'il Mustatir Huwa",
+              "matan": "ضَرَبَ (أَيْ: هُوَ)",
+              "reason": "Fa'il tersimpan di dalam fi'il madhi mufrad mudzakkar."
+            }
+          },
+          {
+            "id": "q7_5_2",
+            "type": "mcq",
+            "question": "Pada kalimat هِنْدٌ ذَهَبَتْ, apakah Ta' sukun pada ذَهَبَتْ adalah fa'ilnya?",
+            "prompt": "Pada kalimat هِنْدٌ ذَهَبَتْ, apakah Ta' sukun pada ذَهَبَتْ adalah fa'ilnya?",
+            "arabic": "هِنْدٌ ذَهَبَتْ",
+            "translation": "Hindun telah pergi",
+            "meaning": "Hindun telah pergi",
+            "options": [
+              {
+                "label": "Bukan, Ta' adalah tanda muannats, sedangkan fa'ilnya dhamir mustatir هِيَ",
+                "value": "bukan_mustatir_hiya"
+              },
+              {
+                "label": "Ya, Ta' sukun adalah fa'ilnya",
+                "value": "ya_ta"
+              },
+              {
+                "label": "Fa'ilnya adalah Hindun di depan",
+                "value": "hindun_depan"
+              },
+              {
+                "label": "Fa'ilnya huruf dzal",
+                "value": "dzal"
+              }
+            ],
+            "correct": "bukan_mustatir_hiya",
+            "explanation": "Ta' sukun adalah huruf tanda ta'nits (huruf pembeda gender), bukan dhamir. Fa'ilnya adalah dhamir mustatir jawazan takdirnya هِيَ.",
+            "whyModal": {
+              "title": "Ta' Sakinah Bukan Fa'il",
+              "matan": "وَضَرَبَتْ: التَّاءُ حَرْفُ تَأْنِيثٍ، وَالْفَاعِلُ مُسْتَتِرٌ تَقْدِيرُهُ هِيَ",
+              "reason": "Ta' sakinah berstatus huruf, bukan isim dhamir."
+            }
+          },
+          {
+            "id": "q7_5_3",
+            "type": "mcq",
+            "question": "Pada fi'il amr tunggal seperti اقْرَأْ (Bacalah!), bagaimanakah status Fa'ilnya?",
+            "prompt": "Pada fi'il amr tunggal seperti اقْرَأْ (Bacalah!), bagaimanakah status Fa'ilnya?",
+            "arabic": "اقْرَأْ كِتَابَكَ",
+            "translation": "Bacalah kitabmu!",
+            "meaning": "Bacalah kitabmu!",
+            "options": [
+              {
+                "label": "Dhamir mustatir wujuban (wajib sembunyi) takdirnya أَنْتَ",
+                "value": "mustatir_wujub_anta"
+              },
+              {
+                "label": "Dhamir mustatir jawazan takdirnya huwa",
+                "value": "jawazan_huwa"
+              },
+              {
+                "label": "Kata kitaabaka",
+                "value": "kitabaka"
+              },
+              {
+                "label": "Huruf hamzah",
+                "value": "hamzah"
+              }
+            ],
+            "correct": "mustatir_wujub_anta",
+            "explanation": "Pada fi'il amr mufrad mudzakkar (seperti اقْرَأْ), fa'ilnya wajib disembunyikan (mustatir wujuban) dengan taksiran أَنْتَ.",
+            "whyModal": {
+              "title": "Fa'il Fi'il Amr",
+              "matan": "فِي فِعْلِ الْأَمْرِ لِلْوَاحِدِ: مُسْتَتِرٌ وُجُوبًا تَقْدِيرُهُ أَنْتَ",
+              "reason": "Pelaku perintah orang kedua tunggal wajib tersembunyi."
+            }
+          },
+          {
+            "id": "q7_5_4",
+            "type": "mcq",
+            "question": "Pada fi'il mudhari' أَكْتُبُ (Saya sedang menulis), fa'ilnya tersembunyi dengan taksiran...",
+            "prompt": "Pada fi'il mudhari' أَكْتُبُ (Saya sedang menulis), fa'ilnya tersembunyi dengan taksiran...",
+            "arabic": "أَكْتُبُ الرِّسَالَةَ",
+            "translation": "Saya sedang menulis surat",
+            "meaning": "Saya sedang menulis surat",
+            "options": [
+              {
+                "label": "أَنَا (mustatir wujuban)",
+                "value": "ana_wujub"
+              },
+              {
+                "label": "نَحْنُ",
+                "value": "nahnu"
+              },
+              {
+                "label": "هُوَ",
+                "value": "huwa"
+              },
+              {
+                "label": "أَنْتَ",
+                "value": "anta"
+              }
+            ],
+            "correct": "ana_wujub",
+            "explanation": "Fi'il mudhari' yang diawali hamzah mutakallim (أَكْتُبُ) fa'ilnya wajib tersembunyi dengan takdir أَنَا (saya).",
+            "whyModal": {
+              "title": "Fa'il Hamzah Mutakallim",
+              "matan": "أَكْتُبُ: فَاعِلُهُ مُسْتَتِرٌ وُجُوبًا تَقْدِيرُهُ أَنَا",
+              "reason": "Dhamir ana tersimpan wajib di dalam fi'il mudhari' yang diawali hamzah."
+            }
+          },
+          {
+            "id": "q7_5_5",
+            "type": "mcq",
+            "question": "Pada fi'il mudhari' نَنْصُرُ (Kami menolong), fa'ilnya tersembunyi dengan taksiran...",
+            "prompt": "Pada fi'il mudhari' نَنْصُرُ (Kami menolong), fa'ilnya tersembunyi dengan taksiran...",
+            "arabic": "نَنْصُرُ الْمَظْلُومَ",
+            "translation": "Kami menolong orang yang dizhalimi",
+            "meaning": "Kami menolong orang yang dizhalimi",
+            "options": [
+              {
+                "label": "نَحْنُ (mustatir wujuban)",
+                "value": "nahnu_wujub"
+              },
+              {
+                "label": "أَنَا",
+                "value": "ana"
+              },
+              {
+                "label": "هُمْ",
+                "value": "hum"
+              },
+              {
+                "label": "أَنْتُمْ",
+                "value": "antum"
+              }
+            ],
+            "correct": "nahnu_wujub",
+            "explanation": "Fi'il mudhari' yang diawali Nun (نَنْصُرُ) fa'ilnya tersembunyi wajib dengan takdir نَحْنُ (kami/kita).",
+            "whyModal": {
+              "title": "Fa'il Nun Mutakallim Jamak",
+              "matan": "نَنْصُرُ: فَاعِلُهُ مُسْتَتِرٌ وُجُوبًا تَقْدِيرُهُ نَحْنُ",
+              "reason": "Dhamir nahnu tersimpan secara wajib di dalam fi'il mudhari' bernun."
+            }
+          },
+          {
+            "id": "q7_5_6",
+            "type": "mcq",
+            "question": "Apakah perbedaan antara Mustatir Wujuban dan Mustatir Jawazan?",
+            "prompt": "Apakah perbedaan antara Mustatir Wujuban dan Mustatir Jawazan?",
+            "arabic": "الْفَرْقُ بَيْنَ الْوُجُوبِ وَالْجَوَازِ",
+            "translation": "Perbedaan antara wajib dan boleh sembunyi",
+            "meaning": "Perbedaan antara wajib dan boleh sembunyi",
+            "options": [
+              {
+                "label": "Jawazan bisa digantikan isim zhahir, sedangkan wujuban tidak boleh digantikan isim zhahir",
+                "value": "beda_zhahir"
+              },
+              {
+                "label": "Wujuban harakatnya dhommah, jawazan kasrah",
+                "value": "beda_harakat"
+              },
+              {
+                "label": "Wujuban hanya untuk fi'il madhi",
+                "value": "hanya_madhi"
+              },
+              {
+                "label": "Jawazan tidak punya makna",
+                "value": "tidak_makna"
+              }
+            ],
+            "correct": "beda_zhahir",
+            "explanation": "Dhamir mustatir jawazan (seperti huwa/hiya) posisinya bisa ditempati oleh isim zhahir (misal: يَقُومُ زَيْدٌ), sedangkan wujuban (seperti ana/nahnu/anta) mutlak tidak bisa diganti isim zhahir.",
+            "whyModal": {
+              "title": "Kaidah Mustatir Wujub vs Jawaz",
+              "matan": "مَا لَا يَحُلُّ مَحَلَّهُ الظَّاهِرُ فَهُوَ وَاجِبُ الِاسْتِتَارِ",
+              "reason": "Bila tempat dhamir mustahil digantikan isim zhahir, ia mustatir wujuban."
+            }
+          },
+          {
+            "id": "q7_5_7",
+            "type": "mcq",
+            "question": "Pada kalimat زَيْدٌ يَقُومُ, apakah status mustatir dari fa'il fi'il يَقُومُ?",
+            "prompt": "Pada kalimat زَيْدٌ يَقُومُ, apakah status mustatir dari fa'il fi'il يَقُومُ?",
+            "arabic": "زَيْدٌ يَقُومُ",
+            "translation": "Zaid sedang berdiri",
+            "meaning": "Zaid sedang berdiri",
+            "options": [
+              {
+                "label": "Mustatir jawazan takdirnya هُوَ",
+                "value": "jawazan_huwa"
+              },
+              {
+                "label": "Mustatir wujuban takdirnya ana",
+                "value": "wujuban_ana"
+              },
+              {
+                "label": "Bukan mustatir, tapi bariz",
+                "value": "bariz"
+              },
+              {
+                "label": "Fa'ilnya adalah Zaid di depan",
+                "value": "zaid_depan"
+              }
+            ],
+            "correct": "jawazan_huwa",
+            "explanation": "Fa'il dari يَقُومُ adalah dhamir mustatir jawazan takdirnya هُوَ yang kembali ke Zaid.",
+            "whyModal": {
+              "title": "Mustatir Jawazan Huwa",
+              "matan": "يَقُومُ (هُوَ)",
+              "reason": "Dhamir huwa pada mudhari' orang ketiga adalah mustatir jawazan."
+            }
+          },
+          {
+            "id": "q7_5_8",
+            "type": "mcq",
+            "question": "Jika kita mengatakan أَقُولُ الْحَقَّ, di manakah fa'ilnya?",
+            "prompt": "Jika kita mengatakan أَقُولُ الْحَقَّ, di manakah fa'ilnya?",
+            "arabic": "أَقُولُ الْحَقَّ",
+            "translation": "Saya mengatakan kebenaran",
+            "meaning": "Saya mengatakan kebenaran",
+            "options": [
+              {
+                "label": "Dhamir mustatir wujuban takdirnya أَنَا",
+                "value": "mustatir_ana"
+              },
+              {
+                "label": "Kata الْحَقَّ",
+                "value": "al_haqqa"
+              },
+              {
+                "label": "Huruf qaf",
+                "value": "qaf"
+              },
+              {
+                "label": "Dhamir anta",
+                "value": "anta"
+              }
+            ],
+            "correct": "mustatir_ana",
+            "explanation": "أَقُولُ diawali hamzah mutakallim, fa'ilnya wajib tersembunyi takdirnya أَنَا. Kata الْحَقَّ adalah maf'ul bih manshub.",
+            "whyModal": {
+              "title": "Fa'il Ana pada Aqulu",
+              "matan": "أَقُولُ: فَاعِلُهُ مُسْتَتِرٌ فِيهِ وُجُوبًا تَقْدِيرُهُ أَنَا",
+              "reason": "Ana adalah fa'il tersimpan wajib di dalam kata aqulu."
+            }
+          },
+          {
+            "id": "q7_5_9",
+            "type": "mcq",
+            "question": "Pada perintah قُمْ لِلصَّلَاةِ (Berdirilah untuk shalat!), fa'ilnya adalah...",
+            "prompt": "Pada perintah قُمْ لِلصَّلَاةِ (Berdirilah untuk shalat!), fa'ilnya adalah...",
+            "arabic": "قُمْ لِلصَّلَاةِ",
+            "translation": "Berdirilah untuk shalat!",
+            "meaning": "Berdirilah untuk shalat!",
+            "options": [
+              {
+                "label": "Dhamir mustatir wujuban takdirnya أَنْتَ",
+                "value": "mustatir_anta"
+              },
+              {
+                "label": "لِلصَّلَاةِ",
+                "value": "lish_sholah"
+              },
+              {
+                "label": "Dhamir huwa",
+                "value": "huwa"
+              },
+              {
+                "label": "Huruf Mim sukun",
+                "value": "mim"
+              }
+            ],
+            "correct": "mustatir_anta",
+            "explanation": "قُمْ adalah fi'il amr untuk satu orang laki-laki, fa'ilnya wajib tersembunyi dengan taksiran أَنْتَ (kamu).",
+            "whyModal": {
+              "title": "Fa'il Fi'il Amr Tunggal",
+              "matan": "قُمْ: فَاعِلُهُ ضَمِيرٌ مُسْتَتِرٌ وُجُوبًا تَقْدِيرُهُ أَنْتَ",
+              "reason": "Fi'il amr lil wahid pelakunya selalu mustatir wujuban anta."
+            }
+          },
+          {
+            "id": "q7_5_10",
+            "type": "mcq",
+            "question": "Manakah di antara dhamir berikut yang memiliki status Mustatir Wujuban?",
+            "prompt": "Manakah di antara dhamir berikut yang memiliki status Mustatir Wujuban?",
+            "arabic": "الضَّمَائِرُ الْوَاجِبَةُ الِاسْتِتَارِ",
+            "translation": "Dhamir-dhamir yang wajib tersembunyi",
+            "meaning": "Dhamir-dhamir yang wajib tersembunyi",
+            "options": [
+              {
+                "label": "أَنَا، نَحْنُ، أَنْتَ (dalam fi'il yang bersesuaian)",
+                "value": "ana_nahnu_anta"
+              },
+              {
+                "label": "هُوَ dan هِيَ",
+                "value": "huwa_hiya"
+              },
+              {
+                "label": "هُمْ dan هُنَّ",
+                "value": "hum_hunna"
+              },
+              {
+                "label": "هُمَا",
+                "value": "huma"
+              }
+            ],
+            "correct": "ana_nahnu_anta",
+            "explanation": "Tiga dhamir yang wajib tersembunyi (wujuban) adalah Ana, Nahnu, dan Anta.",
+            "whyModal": {
+              "title": "Kelompok Mustatir Wujub",
+              "matan": "وَاجِبُ الِاسْتِتَارِ فِي أَرْبَعَةِ مَوَاضِعَ",
+              "reason": "Ana, nahnu, dan anta tidak dapat digantikan posisinya oleh isim zhahir."
+            }
+          }
+        ]
+      },
+      {
+        "id": "level_7_6",
+        "code": "7.6",
+        "title": "Ujian Komprehensif Al-Fa'il",
+        "subtitle": "Tantangan Boss: Analisis Tarkib Ayat & Deteksi Pelaku",
+        "titleArabic": "اخْتِبَارُ زَعِيمِ الْفَاعِلِ",
+        "type": "mcq",
+        "xp": 100,
+        "unlocked": false,
+        "is_boss": true,
+        "theory": {
+          "title": "Rangkuman Ujian Boss Al-Fa'il",
+          "matan": "الْفَاعِلُ هُوَ: الِاسْمُ الْمَرْفُوعُ الْمَذْكُورُ قَبْلَهُ فِعْلُهُ. وَهُوَ عَلَى قِسْمَيْنِ: ظَاهِرٍ، وَمُضْمَرٍ.",
+          "translation": "Ujian komprehensif penentu kelulusan Bab Al-Fa'il: analisis struktur fa'il zhahir, dhamir muttashil, mustatir, dan kaidah ketetapan fi'il.",
+          "points": [
+            {
+              "label": "Deteksi Posisi",
+              "arabic": "الْفِعْلُ أَوَّلًا ثُمَّ الْفَاعِلُ",
+              "desc": "Pastikan pelaku berada setelah fi'il. Jika di depan, ia adalah Mubtada'."
+            },
+            {
+              "label": "Tanda I'rab Pelaku",
+              "arabic": "عَلَامَاتُ الرَّفْعِ",
+              "desc": "Cocokkan bentuk isim (mufrad=dhommah, mutsanna=alif, jamak mudzakkar=wawu, asmaul khamsah=wawu)."
+            },
+            {
+              "label": "Bentuk Dhamir",
+              "arabic": "الْمُضْمَرُ اثْنَا عَشَرَ",
+              "desc": "Kuasai 12 bentuk dhamir bariz dan mustatir."
+            }
+          ]
+        },
+        "questions": [
+          {
+            "id": "q7_6_1",
+            "type": "mcq",
+            "question": "Pada firman Allah: إِذَا جَاءَ نَصْرُ اللَّهِ وَالْفَتْحُ, manakah kata yang berkedudukan sebagai Fa'il?",
+            "prompt": "Pada firman Allah: إِذَا جَاءَ نَصْرُ اللَّهِ وَالْفَتْحُ, manakah kata yang berkedudukan sebagai Fa'il?",
+            "arabic": "إِذَا جَاءَ نَصْرُ اللَّهِ",
+            "translation": "Apabila telah datang pertolongan Allah",
+            "meaning": "Apabila telah datang pertolongan Allah",
+            "options": [
+              {
+                "label": "نَصْرُ (marfu' dengan dhammah)",
+                "value": "nashru"
+              },
+              {
+                "label": "Lafazh Jalalah اللَّهِ (mudhaf ilaih)",
+                "value": "allah"
+              },
+              {
+                "label": "الْفَتْحُ (ma'thuf)",
+                "value": "al_fathu"
+              },
+              {
+                "label": "جَاءَ (fi'il madhi)",
+                "value": "jaa_a"
+              }
+            ],
+            "correct": "nashru",
+            "explanation": "نَصْرُ adalah isim marfu' bertanda dhammah yang menjadi fa'il dari fi'il madhi جَاءَ. Lafazh Allah adalah mudhaf ilaih majrur.",
+            "whyModal": {
+              "title": "I'rab Nashrullah",
+              "matan": "نَصْرُ: فَاعِلُ جَاءَ مَرْفُوعٌ بِالضَّمَّةِ",
+              "reason": "Nashru adalah fa'il yang disebutkan setelah fi'il jaa'a."
+            }
+          },
+          {
+            "id": "q7_6_2",
+            "type": "mcq",
+            "question": "Pada ayat: وَرَأَيْتَ النَّاسَ يَدْخُلُونَ فِي دِينِ اللَّهِ, manakah Fa'il dari fi'il رَأَيْتَ?",
+            "prompt": "Pada ayat: وَرَأَيْتَ النَّاسَ يَدْخُلُونَ فِي دِينِ اللَّهِ, manakah Fa'il dari fi'il رَأَيْتَ?",
+            "arabic": "وَرَأَيْتَ النَّاسَ",
+            "translation": "Dan engkau melihat manusia",
+            "meaning": "Dan engkau melihat manusia",
+            "options": [
+              {
+                "label": "Huruf Ta' maftuhah (تَ) dhamir mukhathab",
+                "value": "ta_fathah"
+              },
+              {
+                "label": "النَّاسَ",
+                "value": "an_nasa"
+              },
+              {
+                "label": "Dhamir mustatir",
+                "value": "mustatir"
+              },
+              {
+                "label": "Huruf Wau",
+                "value": "wau"
+              }
+            ],
+            "correct": "ta_fathah",
+            "explanation": "Ta' maftuhah (تَ) pada رَأَيْتَ adalah dhamir muttashil yang berkedudukan sebagai fa'il. Adapun النَّاسَ adalah maf'ul bih manshub.",
+            "whyModal": {
+              "title": "Ta' Mukhathab Fa'il",
+              "matan": "وَضَرَبْتَ: التَّاءُ ضَمِيرُ الْفَاعِلِ",
+              "reason": "Ta' maftuhah adalah dhamir pelaku (engkau melihat)."
+            }
+          },
+          {
+            "id": "q7_6_3",
+            "type": "mcq",
+            "question": "Pada ayat yang sama: يَدْخُلُونَ فِي دِينِ اللَّهِ, manakah Fa'il dari fi'il يَدْخُلُونَ?",
+            "prompt": "Pada ayat yang sama: يَدْخُلُونَ فِي دِينِ اللَّهِ, manakah Fa'il dari fi'il يَدْخُلُونَ?",
+            "arabic": "يَدْخُلُونَ فِي دِينِ اللَّهِ",
+            "translation": "Mereka masuk ke dalam agama Allah",
+            "meaning": "Mereka masuk ke dalam agama Allah",
+            "options": [
+              {
+                "label": "Wawu Jama'ah di dalam fi'il",
+                "value": "wawu_jamaah"
+              },
+              {
+                "label": "Huruf Nun di akhir",
+                "value": "nun"
+              },
+              {
+                "label": "Kata an-Naas yang di depan",
+                "value": "an_naas"
+              },
+              {
+                "label": "Dhamir mustatir",
+                "value": "mustatir"
+              }
+            ],
+            "correct": "wawu_jamaah",
+            "explanation": "Wawu pada يَدْخُلُونَ adalah Wawu Jama'ah berstatus fa'il marfu' fi mahalli raf'in (Nun di akhir adalah tanda rafa' fi'il mudhari').",
+            "whyModal": {
+              "title": "Wawu Jama'ah Fa'il Mudhari'",
+              "matan": "وَضَرَبُوا... وَالْوَاوُ ضَمِيرُ الْفَاعِلِ",
+              "reason": "Wawu adalah kata ganti pelaku mereka."
+            }
+          },
+          {
+            "id": "q7_6_4",
+            "type": "mcq",
+            "question": "Pada firman Allah: وَقَالَ رَجُلٌ مُؤْمِنٌ, kata رَجُلٌ berkedudukan sebagai...",
+            "prompt": "Pada firman Allah: وَقَالَ رَجُلٌ مُؤْمِنٌ, kata رَجُلٌ berkedudukan sebagai...",
+            "arabic": "وَقَالَ رَجُلٌ مُؤْمِنٌ",
+            "translation": "Dan berkatalah seorang laki-laki yang beriman",
+            "meaning": "Dan berkatalah seorang laki-laki yang beriman",
+            "options": [
+              {
+                "label": "Fa'il marfu' dengan dhammah",
+                "value": "fail_dhammah"
+              },
+              {
+                "label": "Maf'ul bih manshub",
+                "value": "maful"
+              },
+              {
+                "label": "Mubtada'",
+                "value": "mubtada"
+              },
+              {
+                "label": "Na'at",
+                "value": "naat"
+              }
+            ],
+            "correct": "fail_dhammah",
+            "explanation": "رَجُلٌ adalah fa'il isim zhahir mufrad dari fi'il قَالَ, marfu' bertanda dhammah (dan مُؤْمِنٌ adalah na'at-nya).",
+            "whyModal": {
+              "title": "Fa'il Isim Mufrad",
+              "matan": "الْفَاعِلُ هُوَ الِاسْمُ الْمَرْفُوعُ الْمَذْكُورُ قَبْلَهُ فِعْلُهُ",
+              "reason": "Rajulun adalah fa'il dari qaala."
+            }
+          },
+          {
+            "id": "q7_6_5",
+            "type": "mcq",
+            "question": "Manakah susunan yang BENAR jika kita ingin membuat kalimat: 'Para dokter (jamak) telah memeriksa pasien'?",
+            "prompt": "Manakah susunan yang BENAR jika kita ingin membuat kalimat: 'Para dokter (jamak) telah memeriksa pasien'?",
+            "arabic": "فَحَصَ الْأَطِبَّاءُ الْمَرِيضَ",
+            "translation": "Para dokter telah memeriksa pasien",
+            "meaning": "Para dokter telah memeriksa pasien",
+            "options": [
+              {
+                "label": "فَحَصَ الْأَطِبَّاءُ الْمَرِيضَ (fi'il mufrad)",
+                "value": "fahasan_atibba"
+              },
+              {
+                "label": "فَحَصُوا الْأَطِبَّاءُ الْمَرِيضَ",
+                "value": "fahasu_atibba"
+              },
+              {
+                "label": "فَحَصَ الْأَطِبَّاءَ الْمَرِيضُ",
+                "value": "salah_harakat"
+              },
+              {
+                "label": "فَحَصَا الْأَطِبَّاءُ الْمَرِيضَ",
+                "value": "fahasat_mutsanna"
+              }
+            ],
+            "correct": "fahasan_atibba",
+            "explanation": "Fi'il فَحَصَ wajib tetap dalam bentuk mufrad di depan fa'il isim zhahir jamak taksir الْأَطِبَّاءُ.",
+            "whyModal": {
+              "title": "Aplikasi Kaidah Ifradul Fi'il",
+              "matan": "وَقَامَ الرِّجَالُ (بِإِفْرَادِ الْفِعْلِ)",
+              "reason": "Fi'il tetap mufrad di hadapan fa'il jamak zhahir."
+            }
+          },
+          {
+            "id": "q7_6_6",
+            "type": "mcq",
+            "question": "Pada ayat: قَالَ رَجُلَانِ مِنَ الَّذِينَ يَخَافُونَ, kata رَجُلَانِ marfu' dengan tanda apa?",
+            "prompt": "Pada ayat: قَالَ رَجُلَانِ مِنَ الَّذِينَ يَخَافُونَ, kata رَجُلَانِ marfu' dengan tanda apa?",
+            "arabic": "قَالَ رَجُلَانِ",
+            "translation": "Berkatalah dua orang laki-laki",
+            "meaning": "Berkatalah dua orang laki-laki",
+            "options": [
+              {
+                "label": "Alif karena isim tatsniyah",
+                "value": "alif_mutsanna"
+              },
+              {
+                "label": "Dhammah",
+                "value": "dhammah"
+              },
+              {
+                "label": "Kasrah pada huruf nun",
+                "value": "kasrah"
+              },
+              {
+                "label": "Wawu",
+                "value": "wawu"
+              }
+            ],
+            "correct": "alif_mutsanna",
+            "explanation": "رَجُلَانِ adalah fa'il isim tatsniyah (mutsanna) dari fi'il قَالَ, tanda rafa'nya adalah huruf Alif.",
+            "whyModal": {
+              "title": "Fa'il Tatsniyah dalam Al-Qur'an",
+              "matan": "وَقَامَ الزَّيْدَانِ",
+              "reason": "Rajulaani marfu' dengan Alif sebagai pelaku dua orang."
+            }
+          },
+          {
+            "id": "q7_6_7",
+            "type": "mcq",
+            "question": "Jika kalimat: الطُّلَّابُ كَتَبُوا dibalik menjadi jumlah fi'liyyah yang diawali fi'il, bagaimanakah bentuknya yang fashih?",
+            "prompt": "Jika kalimat: الطُّلَّابُ كَتَبُوا dibalik menjadi jumlah fi'liyyah yang diawali fi'il, bagaimanakah bentuknya yang fashih?",
+            "arabic": "كَتَبَ الطُّلَّابُ",
+            "translation": "Para siswa telah menulis",
+            "meaning": "Para siswa telah menulis",
+            "options": [
+              {
+                "label": "كَتَبَ الطُّلَّابُ (fi'il mufrad)",
+                "value": "kataba_thullab"
+              },
+              {
+                "label": "كَتَبُوا الطُّلَّابُ (mempertahankan wawu)",
+                "value": "katabu_thullab"
+              },
+              {
+                "label": "كَتَبَا الطُّلَّابُ",
+                "value": "kataba_mutsanna"
+              },
+              {
+                "label": "كَتَبْنَ الطُّلَّابُ",
+                "value": "katabna_thullab"
+              }
+            ],
+            "correct": "kataba_thullab",
+            "explanation": "Ketika fi'il dipindah ke depan, wawu jama'ah wajib dihilangkan dan fi'il kembali ke bentuk mufrad: كَتَبَ الطُّلَّابُ.",
+            "whyModal": {
+              "title": "Transformasi Jumlah Ismiyyah ke Fi'liyyah",
+              "matan": "قَامَ الزَّيْدُونَ (بِلَا وَاوٍ)",
+              "reason": "Wawu dilepas saat fa'il zhahir diletakkan sesudah fi'il."
+            }
+          },
+          {
+            "id": "q7_6_8",
+            "type": "mcq",
+            "question": "Pada kalimat حَضَرَ أَبُوكَ وَأَخُوكَ, manakah kata yang berkedudukan sebagai Fa'il asli?",
+            "prompt": "Pada kalimat حَضَرَ أَبُوكَ وَأَخُوكَ, manakah kata yang berkedudukan sebagai Fa'il asli?",
+            "arabic": "حَضَرَ أَبُوكَ وَأَخُوكَ",
+            "translation": "Telah hadir ayahmu dan saudaramu",
+            "meaning": "Telah hadir ayahmu dan saudaramu",
+            "options": [
+              {
+                "label": "أَبُوكَ (fa'il marfu' dengan wawu)",
+                "value": "abuka"
+              },
+              {
+                "label": "أَخُوكَ (ma'thuf)",
+                "value": "akhuka"
+              },
+              {
+                "label": "Keduanya fa'il berbarengan",
+                "value": "keduanya"
+              },
+              {
+                "label": "Dhamir mustatir",
+                "value": "mustatir"
+              }
+            ],
+            "correct": "abuka",
+            "explanation": "أَبُوكَ adalah fa'il asli yang langsung jatuh setelah fi'il حَضَرَ, sedangkan أَخُوكَ adalah ma'thuf yang ikut marfu' karena huruf 'athaf Wawu.",
+            "whyModal": {
+              "title": "Fa'il Asli vs Ma'thuf",
+              "matan": "وَقَامَ أَخُوكَ",
+              "reason": "Abuka adalah fa'il langsung dari fi'il hadhara."
+            }
+          },
+          {
+            "id": "q7_6_9",
+            "type": "mcq",
+            "question": "Pada firman Allah: فَتَبَسَّمَ ضَاحِكًا مِنْ قَوْلِهَا, di manakah Fa'il dari fi'il فَتَبَسَّمَ?",
+            "prompt": "Pada firman Allah: فَتَبَسَّمَ ضَاحِكًا مِنْ قَوْلِهَا, di manakah Fa'il dari fi'il فَتَبَسَّمَ?",
+            "arabic": "فَتَبَسَّمَ ضَاحِكًا",
+            "translation": "Maka dia tersenyum seraya tertawa",
+            "meaning": "Maka dia tersenyum seraya tertawa",
+            "options": [
+              {
+                "label": "Dhamir mustatir jawazan takdirnya هُوَ (Nabi Sulaiman)",
+                "value": "mustatir_sulaiman"
+              },
+              {
+                "label": "ضَاحِكًا (hal)",
+                "value": "dhahikan"
+              },
+              {
+                "label": "قَوْلِهَا",
+                "value": "qouliha"
+              },
+              {
+                "label": "Huruf Fa' di awal",
+                "value": "fa"
+              }
+            ],
+            "correct": "mustatir_sulaiman",
+            "explanation": "Fa'il dari فَتَبَسَّمَ adalah dhamir mustatir jawazan takdirnya هُوَ yang merujuk pada Nabi Sulaiman 'alaihissalam (ضَاحِكًا adalah Hal manshub).",
+            "whyModal": {
+              "title": "Fa'il Mustatir dalam Kisah Al-Qur'an",
+              "matan": "ضَرَبَ (أَيْ: هُوَ)",
+              "reason": "Dhamir huwa merujuk pada tokoh yang telah dipahami dalam konteks."
+            }
+          },
+          {
+            "id": "q7_6_10",
+            "type": "mcq",
+            "question": "Berapakah target kelulusan bintang untuk membuka Bab 8 (Na'ibul Fa'il)?",
+            "prompt": "Berapakah target kelulusan bintang untuk membuka Bab 8 (Na'ibul Fa'il)?",
+            "arabic": "مِعْيَارُ انْتِقَالِ الْمَرْحَلَةِ",
+            "translation": "Standar perpindahan bab",
+            "meaning": "Standar perpindahan bab",
+            "options": [
+              {
+                "label": "Meraih minimal skor 7/10 pada Boss Battle 7.6 tanpa penalti nyawa",
+                "value": "skor_7_10"
+              },
+              {
+                "label": "Harus membayar koin",
+                "value": "bayar_koin"
+              },
+              {
+                "label": "Harus menunggu jeda 24 jam",
+                "value": "tunggu_24j"
+              },
+              {
+                "label": "Hanya dengan membaca teori tanpa kuis",
+                "value": "tanpa_kuis"
+              }
+            ],
+            "correct": "skor_7_10",
+            "explanation": "Sesuai sistem gamifikasi JurumiPlay: skor min 7/10 pada Boss stage membuka bab berikutnya dengan bintang capaian dan retry bebas hukuman.",
+            "whyModal": {
+              "title": "Gamifikasi JurumiPlay",
+              "matan": "شَرْطُ الْفَوْزِ: سَبْعَةٌ مِنْ عَشَرَةٍ",
+              "reason": "Standar kelulusan non-punitif membuka Bab 8 Na'ibul Fa'il."
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

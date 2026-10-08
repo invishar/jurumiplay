@@ -1,0 +1,1880 @@
+{
+  "chapter": {
+    "id": "bab_08",
+    "number": 8,
+    "title_ar": "بَابُ الْمَفْعُولِ الَّذِي لَمْ يُسَمَّ فَاعِلُهُ",
+    "title_id": "Bab 8: Na'ibul Fa'il",
+    "description": "Kaidah pembentukan kalimat pasif (mabni majhul), perubahan vokal fi'il madhi & mudhari', serta pengangkatan objek menjadi Na'ibul Fa'il marfu'.",
+    "matan_full": "وَهُوَ الِاسْمُ الْمَرْفُوعُ الَّذِي لَمْ يُذْكَرْ مَعَهُ فَاعِلُهُ. فَإِنْ كَانَ الْفِعْلُ مَاضِيًا ضُمَّ أَوَّلُهُ وَكُسِرَ مَا قَبْلَ آخِرِهِ، وَإِنْ كَانَ مُضَارِعًا ضُمَّ أَوَّلُهُ وَفُتِحَ مَا قَبْلَ آخِرِهِ. وَهُوَ عَلَى قِسْمَيْنِ: ظَاهِرٍ، وَمُضْمَرٍ؛ فَالظَّاهِرُ نَحْوُ قَوْلِكَ: ضُرِبَ زَيْدٌ، وَيُضْرَبُ زَيْدٌ، وَأُكْرِمَ عَمْرٌو، وَيُكْرَمُ عَمْرٌو. وَالْمُضْمَرُ اثْنَا عَشَرَ، نَحْوُ قَوْلِكَ: ضُرِبْتُ، وَضُرِبْنَا، وَضَرِبْتَ، وَضُرِبْتِ، وَضُرِبْتُمَا، وَضُرِبْتُمْ، وَضُرِبْتُنَّ، وَضُرِبَ، وَضُرِبَتْ، وَضُرِبَا، وَضُرِبُوا، وَضُرِبْنَ.",
+    "qawaidCard": {
+      "title": "Kaidah Bab Na'ibul Fa'il",
+      "matanSnippet": "وَهُوَ الِاسْمُ الْمَرْفُوعُ الَّذِي لَمْ يُذْكَرْ مَعَهُ فَاعِلُهُ... فَإِنْ كَانَ مَاضِيًا ضُمَّ أَوَّلُهُ وَكُسِرَ مَا قَبْلَ آخِرِهِ",
+      "formula": "Kalimat Pasif = Fi'il Majhul + Na'ibul Fa'il (Asalnya Maf'ul Bih Manshub Berubah Jadi Marfu')",
+      "points": [
+        "Na'ibul Fa'il adalah isim marfu' yang tidak disebutkan pelaku aslinya (fa'ilnya dibuang).",
+        "Rumus Fi'il Madhi Majhul: Huruf pertama didhommahkan dan huruf sebelum akhir dikasrahkan (ضُمَّ أَوَّلُهُ وَكُسِرَ مَا قَبْلَ آخِرِهِ). Contoh: ضَرَبَ -> ضُرِبَ.",
+        "Rumus Fi'il Mudhari' Majhul: Huruf pertama didhommahkan dan huruf sebelum akhir difathahkan (ضُمَّ أَوَّلُهُ وَفُتِحَ مَا قَبْلَ آخِرِهِ). Contoh: يَضْرِبُ -> يُضْرَبُ.",
+        "Na'ibul fa'il terbagi dua: Isim Zhahir (ضُرِبَ زَيْدٌ) dan Isim Mudhmar 12 bentuk (ضُرِبْتُ s/d ضُرِبْنَ)."
+      ],
+      "keyTakeaways": [
+        "Objek (maf'ul bih) naik pangkat menjadi na'ibul fa'il berharakat rafa'.",
+        "Madhi majhul: Dhommah awal + Kasrah sebelum akhir.",
+        "Mudhari' majhul: Dhommah awal + Fathah sebelum akhir.",
+        "Fa'il asli mutlak tidak boleh disebutkan bersama na'ibul fa'il.",
+        "Na'ibul fa'il mudhmar ada 12 macam sebagaimana fa'il."
+      ]
+    },
+    "levels": [
+      {
+        "id": "level_8_1",
+        "code": "8.1",
+        "title": "Konsep Na'ibul Fa'il",
+        "subtitle": "Kenaikan Pangkat Objek Menjadi Pengganti Pelaku",
+        "titleArabic": "حَقِيقَةُ نَائِبِ الْفَاعِلِ",
+        "type": "mcq",
+        "xp": 70,
+        "unlocked": true,
+        "is_boss": false,
+        "theory": {
+          "title": "Definisi Na'ibul Fa'il Menurut Matan",
+          "matan": "وَهُوَ الِاسْمُ الْمَرْفُوعُ الَّذِي لَمْ يُذْكَرْ مَعَهُ فَاعِلُهُ.",
+          "translation": "Dan ia adalah isim yang dirafa'kan yang tidak disebutkan fa'ilnya (pelakunya) bersama dirinya.",
+          "points": [
+            {
+              "label": "Asal Mula Na'ibul Fa'il",
+              "arabic": "الْمَفْعُولُ بِهِ يَصِيرُ نَائِبَ فَاعِلٍ",
+              "desc": "Semula berupa objek penderita (maf'ul bih manshub). Ketika pelaku sengaja dihilangkan, objek ini mengambil alih seluruh hak istimewa fa'il, termasuk status marfu'."
+            },
+            {
+              "label": "Tujuan Menghilangkan Fa'il",
+              "arabic": "أَغْرَاضُ حَذْفِ الْفَاعِلِ",
+              "desc": "Bisa karena sudah sangat dikenal (al-'ilmu bihi, misal penciptaan manusia oleh Allah), tidak diketahui pelakunya (al-jahlu bihi, misal pencuri), atau untuk memuliakan/meringkas."
+            }
+          ]
+        },
+        "questions": [
+          {
+            "id": "q8_1_1",
+            "type": "mcq",
+            "question": "Apakah definisi Na'ibul Fa'il menurut redaksi Matan Al-Ajurrumiyyah?",
+            "prompt": "Apakah definisi Na'ibul Fa'il menurut redaksi Matan Al-Ajurrumiyyah?",
+            "arabic": "وَهُوَ الِاسْمُ الْمَرْفُوعُ الَّذِي لَمْ يُذْكَرْ مَعَهُ فَاعِلُهُ",
+            "translation": "Isim marfu' yang tidak disebutkan bersamanya fa'ilnya",
+            "meaning": "Isim marfu' yang tidak disebutkan bersamanya fa'ilnya",
+            "options": [
+              {
+                "label": "Isim marfu' yang tidak disebutkan bersamanya pelakunya",
+                "value": "definisi_tepat"
+              },
+              {
+                "label": "Isim manshub yang menjadi keterangan waktu",
+                "value": "zhorof"
+              },
+              {
+                "label": "Isim marfu' yang mengawali kalimat",
+                "value": "mubtada"
+              },
+              {
+                "label": "Kata sifat yang mengikuti kata sebelumnya",
+                "value": "naat"
+              }
+            ],
+            "correct": "definisi_tepat",
+            "explanation": "Teks matan: 'وَهُوَ الِاسْمُ الْمَرْفُوعُ الَّذِي لَمْ يُذْكَرْ مَعَهُ فَاعِلُهُ' (Isim marfu' yang tidak disebut bersamanya fa'ilnya).",
+            "whyModal": {
+              "title": "Definisi Na'ibul Fa'il",
+              "matan": "وَهُوَ الِاسْمُ الْمَرْفُوعُ الَّذِي لَمْ يُذْكَرْ مَعَهُ فَاعِلُهُ",
+              "reason": "Na'ibul fa'il menggantikan posisi fa'il yang dibuang."
+            }
+          },
+          {
+            "id": "q8_1_2",
+            "type": "mcq",
+            "question": "Sebelum kalimat dipasifkan, kata yang menjadi Na'ibul Fa'il semula berkedudukan sebagai apa?",
+            "prompt": "Sebelum kalimat dipasifkan, kata yang menjadi Na'ibul Fa'il semula berkedudukan sebagai apa?",
+            "arabic": "أَصْلُ نَائِبِ الْفَاعِلِ",
+            "translation": "Asal mula Na'ibul Fa'il",
+            "meaning": "Asal mula Na'ibul Fa'il",
+            "options": [
+              {
+                "label": "Maf'ul Bih yang berstatus manshub",
+                "value": "maful_bih_manshub"
+              },
+              {
+                "label": "Mubtada' yang marfu'",
+                "value": "mubtada"
+              },
+              {
+                "label": "Khabar yang marfu'",
+                "value": "khabar"
+              },
+              {
+                "label": "Mudhaf ilaih yang majrur",
+                "value": "mudhaf_ilaih"
+              }
+            ],
+            "correct": "maful_bih_manshub",
+            "explanation": "Na'ibul fa'il asalnya adalah objek penderita (Maf'ul Bih) yang manshub, lalu naik jabatan menjadi pengganti fa'il yang marfu'.",
+            "whyModal": {
+              "title": "Asal Na'ibul Fa'il",
+              "matan": "الْمَفْعُولُ الَّذِي لَمْ يُسَمَّ فَاعِلُهُ",
+              "reason": "Mushannif menyebutnya 'al-maf'ul' karena asalnya memang objek kalimat."
+            }
+          },
+          {
+            "id": "q8_1_3",
+            "type": "mcq",
+            "question": "Jika kalimat aktif: ضَرَبَ زَيْدٌ عَمْرًا (Zaid memukul 'Amr) diubah menjadi pasif, bagaimanakah bentuknya?",
+            "prompt": "Jika kalimat aktif: ضَرَبَ زَيْدٌ عَمْرًا (Zaid memukul 'Amr) diubah menjadi pasif, bagaimanakah bentuknya?",
+            "arabic": "ضَرَبَ زَيْدٌ عَمْرًا -> ضُرِبَ عَمْرٌو",
+            "translation": "Zaid memukul 'Amr -> 'Amr dipukul",
+            "meaning": "Zaid memukul 'Amr -> 'Amr dipukul",
+            "options": [
+              {
+                "label": "ضُرِبَ عَمْرٌو (Amr marfu' bertanda dhommah)",
+                "value": "dhuriba_amrun"
+              },
+              {
+                "label": "ضُرِبَ عَمْرًا (Amr tetap fathah)",
+                "value": "dhuriba_amran"
+              },
+              {
+                "label": "ضَرَبَ عَمْرٌو",
+                "value": "dharaba_amrun"
+              },
+              {
+                "label": "ضُرِبَ زَيْدٌ عَمْرٌو",
+                "value": "dhuriba_zaid_amr"
+              }
+            ],
+            "correct": "dhuriba_amrun",
+            "explanation": "Pelaku (Zaid) dibuang, fi'il diubah ke pasif (ضُرِبَ), dan objek (عَمْرًا) berubah menjadi na'ibul fa'il marfu' (عَمْرٌو).",
+            "whyModal": {
+              "title": "Perubahan ke Kalimat Pasif",
+              "matan": "ضُرِبَ زَيْدٌ",
+              "reason": "'Amr naik menggantikan fa'il dan berharakat rafa'."
+            }
+          },
+          {
+            "id": "q8_1_4",
+            "type": "mcq",
+            "question": "Bolehkah pelaku asli (fa'il) tetap disebutkan bersama Na'ibul Fa'il (misal dengan kata 'oleh Zaid')?",
+            "prompt": "Bolehkah pelaku asli (fa'il) tetap disebutkan bersama Na'ibul Fa'il (misal dengan kata 'oleh Zaid')?",
+            "arabic": "شَرْطُ حَذْفِ الْفَاعِلِ",
+            "translation": "Syarat pembuangan fa'il",
+            "meaning": "Syarat pembuangan fa'il",
+            "options": [
+              {
+                "label": "Tidak boleh, fa'il asli mutlak harus dihapus dari struktur kalimat",
+                "value": "wajib_dihapus"
+              },
+              {
+                "label": "Boleh dengan huruf jar min",
+                "value": "boleh_min"
+              },
+              {
+                "label": "Boleh sesuka hati",
+                "value": "bebas"
+              },
+              {
+                "label": "Wajib disebutkan di akhir",
+                "value": "wajib_akhir"
+              }
+            ],
+            "correct": "wajib_dihapus",
+            "explanation": "Kaidah na'ibul fa'il mensyaratkan: 'الَّذِي لَمْ يُذْكَرْ مَعَهُ فَاعِلُهُ' (yang TIDAK DISEBUT fa'ilnya). Maka pelaku asli wajib dibuang.",
+            "whyModal": {
+              "title": "Kemutlakan Hapus Fa'il",
+              "matan": "لَمْ يُذْكَرْ مَعَهُ فَاعِلُهُ",
+              "reason": "Menyebut pelaku asli merusak konsep dasar na'ibul fa'il."
+            }
+          },
+          {
+            "id": "q8_1_5",
+            "type": "mcq",
+            "question": "Pada ayat خُلِقَ الْإِنْسَانُ ضَعِيفًا, manakah kata yang berkedudukan sebagai Na'ibul Fa'il?",
+            "prompt": "Pada ayat خُلِقَ الْإِنْسَانُ ضَعِيفًا, manakah kata yang berkedudukan sebagai Na'ibul Fa'il?",
+            "arabic": "خُلِقَ الْإِنْسَانُ ضَعِيفًا",
+            "translation": "Manusia diciptakan dalam keadaan lemah",
+            "meaning": "Manusia diciptakan dalam keadaan lemah",
+            "options": [
+              {
+                "label": "الْإِنْسَانُ (marfu' dengan dhammah)",
+                "value": "al_insan"
+              },
+              {
+                "label": "خُلِقَ (fi'il majhul)",
+                "value": "khuliqo"
+              },
+              {
+                "label": "ضَعِيفًا (hal)",
+                "value": "dhoifan"
+              },
+              {
+                "label": "Dhamir mustatir",
+                "value": "mustatir"
+              }
+            ],
+            "correct": "al_insan",
+            "explanation": "الْإِنْسَانُ adalah isim marfu' pengganti fa'il (Na'ibul Fa'il) setelah fi'il madhi majhul خُلِقَ.",
+            "whyModal": {
+              "title": "Na'ibul Fa'il dalam Al-Qur'an",
+              "matan": "الِاسْمُ الْمَرْفُوعُ الَّذِي لَمْ يُذْكَرْ مَعَهُ فَاعِلُهُ",
+              "reason": "Al-Insanu adalah objek yang menjadi na'ibul fa'il marfu'."
+            }
+          },
+          {
+            "id": "q8_1_6",
+            "type": "mcq",
+            "question": "Mengapa pada ayat خُلِقَ الْإِنْسَانُ fa'il aslinya (yaitu Allah Sang Pencipta) tidak disebutkan secara lafazh?",
+            "prompt": "Mengapa pada ayat خُلِقَ الْإِنْسَانُ fa'il aslinya (yaitu Allah Sang Pencipta) tidak disebutkan secara lafazh?",
+            "arabic": "الْعِلْمُ بِالْفَاعِلِ",
+            "translation": "Karena pelaku sudah sangat diketahui (Allah)",
+            "meaning": "Karena pelaku sudah sangat diketahui (Allah)",
+            "options": [
+              {
+                "label": "Karena fa'ilnya sudah sangat dimaklumi (Al-'ilmu bihi), tidak ada pencipta selain Allah",
+                "value": "sudah_diketahui"
+              },
+              {
+                "label": "Karena tidak diketahui siapa penciptanya",
+                "value": "tidak_tahu"
+              },
+              {
+                "label": "Karena takut kepada pencipta",
+                "value": "takut"
+              },
+              {
+                "label": "Karena lupa menyebut",
+                "value": "lupa"
+              }
+            ],
+            "correct": "sudah_diketahui",
+            "explanation": "Salah satu alasan utama balaghah pembuangan fa'il adalah karena pelakunya sudah sangat jelas dan maklum bagi semua orang (Allah Ta'ala).",
+            "whyModal": {
+              "title": "Tujuan Balaghah Hapus Fa'il",
+              "matan": "حَذْفُ الْفَاعِلِ لِلْعِلْمِ بِهِ",
+              "reason": "Fa'il dibuang karena sudah pasti diketahui siapa pelakunya."
+            }
+          },
+          {
+            "id": "q8_1_7",
+            "type": "mcq",
+            "question": "Pada kalimat سُرِقَ الْمَالُ (Harta itu telah dicuri), alasan pembuangan fa'il kemungkinan besar adalah...",
+            "prompt": "Pada kalimat سُرِقَ الْمَالُ (Harta itu telah dicuri), alasan pembuangan fa'il kemungkinan besar adalah...",
+            "arabic": "سُرِقَ الْمَالُ",
+            "translation": "Harta itu telah dicuri",
+            "meaning": "Harta itu telah dicuri",
+            "options": [
+              {
+                "label": "Ketidaktahuan terhadap siapa pencurinya (Al-Jahlu bihi)",
+                "value": "jahlu_bihi"
+              },
+              {
+                "label": "Memuliakan pencuri",
+                "value": "memuliakan"
+              },
+              {
+                "label": "Karena harta adalah fa'il",
+                "value": "harta_fail"
+              },
+              {
+                "label": "Karena fi'il madhi tidak butuh pelaku",
+                "value": "tidak_butuh"
+              }
+            ],
+            "correct": "jahlu_bihi",
+            "explanation": "Ketika pencurinya tidak diketahui identitasnya, pembicara membuang fa'il dan menggunakan pola kalimat pasif (Al-Jahlu bil fa'il).",
+            "whyModal": {
+              "title": "Hapus Fa'il karena Tidak Tahu",
+              "matan": "حَذْفُ الْفَاعِلِ لِلْجَهْلِ بِهِ",
+              "reason": "Al-Jahlu bihi adalah alasan klasik penggunaan fi'il majhul."
+            }
+          },
+          {
+            "id": "q8_1_8",
+            "type": "mcq",
+            "question": "Kata kerja pasif dalam istilah ilmu Nahwu disebut fi'il...",
+            "prompt": "Kata kerja pasif dalam istilah ilmu Nahwu disebut fi'il...",
+            "arabic": "الْفِعْلُ الْمَبْنِيُّ لِلْمَجْهُولِ",
+            "translation": "Fi'il yang dibangun untuk majhul (pasif)",
+            "meaning": "Fi'il yang dibangun untuk majhul (pasif)",
+            "options": [
+              {
+                "label": "Fi'il Mabni Majhul (أَوْ لِمَا لَمْ يُسَمَّ فَاعِلُهُ)",
+                "value": "mabni_majhul"
+              },
+              {
+                "label": "Fi'il Mabni Ma'lum",
+                "value": "mabni_malum"
+              },
+              {
+                "label": "Fi'il Lazim",
+                "value": "lazim"
+              },
+              {
+                "label": "Fi'il Mu'tall",
+                "value": "mutall"
+              }
+            ],
+            "correct": "mabni_majhul",
+            "explanation": "Fi'il yang fa'ilnya tidak disebutkan dinamai Fi'il Mabni Majhul atau Mabni lima lam yusamma fa'iluh.",
+            "whyModal": {
+              "title": "Istilah Fi'il Pasif",
+              "matan": "فَإِنْ كَانَ الْفِعْلُ مَاضِيًا ضُمَّ أَوَّلُهُ...",
+              "reason": "Fi'il majhul adalah istilah baku untuk kata kerja pasif."
+            }
+          },
+          {
+            "id": "q8_1_9",
+            "type": "mcq",
+            "question": "Hukum keselarasan gender antara fi'il pasif dan na'ibul fa'il adalah...",
+            "prompt": "Hukum keselarasan gender antara fi'il pasif dan na'ibul fa'il adalah...",
+            "arabic": "تَأْنِيثُ الْفِعْلِ مَعَ نَائِبِ الْفَاعِلِ",
+            "translation": "Memuannatskan fi'il bersama na'ibul fa'il",
+            "meaning": "Memuannatskan fi'il bersama na'ibul fa'il",
+            "options": [
+              {
+                "label": "Sama persis seperti kaidah fa'il (wajib muannats jika na'ibul fa'il muannats haqiqi)",
+                "value": "sama_seperti_fail"
+              },
+              {
+                "label": "Tidak perlu selaras gender",
+                "value": "tidak_perlu"
+              },
+              {
+                "label": "Fi'il majhul selalu mudzakkar",
+                "value": "selalu_mudzakkar"
+              },
+              {
+                "label": "Hanya selaras pada jamak",
+                "value": "hanya_jamak"
+              }
+            ],
+            "correct": "sama_seperti_fail",
+            "explanation": "Na'ibul fa'il menggantikan posisi fa'il secara penuh, sehingga jika na'ibul fa'il-nya muannats, fi'il majhul wajib diberi ta' ta'nits (contoh: ضُرِبَتْ هِنْدٌ).",
+            "whyModal": {
+              "title": "Keselarasan Gender Na'ibul Fa'il",
+              "matan": "نَائِبُ الْفَاعِلِ يَقُومُ مَقَامَ الْفَاعِلِ فِي أَحْكَامِهِ",
+              "reason": "Na'ibul fa'il mewarisi seluruh hukum gramatikal fa'il."
+            }
+          },
+          {
+            "id": "q8_1_10",
+            "type": "mcq",
+            "question": "Manakah di bawah ini contoh kalimat pasif dengan na'ibul fa'il muannats?",
+            "prompt": "Manakah di bawah ini contoh kalimat pasif dengan na'ibul fa'il muannats?",
+            "arabic": "فِعْلٌ مَجْهُولٌ مَعَ نَائِبِ فَاعِلٍ مُؤَنَّثٍ",
+            "translation": "Fi'il majhul bersama na'ibul fa'il muannats",
+            "meaning": "Fi'il majhul bersama na'ibul fa'il muannats",
+            "options": [
+              {
+                "label": "قُرِئَتِ الرِّسَالَةُ",
+                "value": "quriat_risalah"
+              },
+              {
+                "label": "قَرَأَ مُحَمَّدٌ الرِّسَالَةَ",
+                "value": "qara_muhammad"
+              },
+              {
+                "label": "قُرِئَ الْكِتَابُ",
+                "value": "quria_kitab"
+              },
+              {
+                "label": "يَقْرَأُ التِّلْمِيذُ",
+                "value": "yaqrau"
+              }
+            ],
+            "correct": "quriat_risalah",
+            "explanation": "قُرِئَتِ الرِّسَالَةُ memakai fi'il majhul bertanda ta' ta'nits (قُرِئَتْ) karena na'ibul fa'il-nya (الرِّسَالَةُ) adalah isim muannats.",
+            "whyModal": {
+              "title": "Aplikasi Na'ibul Fa'il Muannats",
+              "matan": "وَضُرِبَتْ هِنْدٌ",
+              "reason": "Quri'at ar-risalatu adalah kalimat pasif dengan na'ibul fa'il muannats."
+            }
+          }
+        ]
+      },
+      {
+        "id": "level_8_2",
+        "code": "8.2",
+        "title": "Transformasi Fi'il Madhi Majhul",
+        "subtitle": "Rumus: Dhumma Awwaluhu wa Kusira Ma Qabla Akhirih",
+        "titleArabic": "صِيغَةُ الْمَاضِي الْمَجْهُولِ",
+        "type": "mcq",
+        "xp": 70,
+        "unlocked": false,
+        "is_boss": false,
+        "theory": {
+          "title": "Rumus Pasif Fi'il Madhi",
+          "matan": "فَإِنْ كَانَ الْفِعْلُ مَاضِيًا ضُمَّ أَوَّلُهُ وَكُسِرَ مَا قَبْلَ آخِرِهِ.",
+          "translation": "Maka jika kata kerjanya berupa fi'il madhi, didhommahkan huruf pertamanya dan dikasrahkan huruf sebelum akhirnya.",
+          "points": [
+            {
+              "label": "Huruf Pertama",
+              "arabic": "ضُمَّ أَوَّلُهُ",
+              "desc": "Huruf awal wajib diberi harakat dhammah (atau huruf berharakat sebelum sukun pertama pada pola tsulasi mazid)."
+            },
+            {
+              "label": "Huruf Sebelum Akhir",
+              "arabic": "كُسِرَ مَا قَبْلَ آخِرِهِ",
+              "desc": "Huruf kedua terakhir wajib diberi harakat kasrah (contoh: فَتَحَ -> فُتِحَ, كَتَبَ -> كُتِبَ, نَصَرَ -> نُصِرَ)."
+            }
+          ]
+        },
+        "questions": [
+          {
+            "id": "q8_2_1",
+            "type": "mcq",
+            "question": "Bagaimanakah rumus mempasifkan Fi'il Madhi menurut Matan Al-Ajurrumiyyah?",
+            "prompt": "Bagaimanakah rumus mempasifkan Fi'il Madhi menurut Matan Al-Ajurrumiyyah?",
+            "arabic": "ضُمَّ أَوَّلُهُ وَكُسِرَ مَا قَبْلَ آخِرِهِ",
+            "translation": "Didhommahkan awalnya dan dikasrahkan sebelum akhirnya",
+            "meaning": "Didhommahkan awalnya dan dikasrahkan sebelum akhirnya",
+            "options": [
+              {
+                "label": "Didhommahkan awalnya dan dikasrahkan sebelum akhirnya",
+                "value": "dhommah_awal_kasrah_akhir"
+              },
+              {
+                "label": "Didhommahkan awalnya dan difathahkan sebelum akhirnya",
+                "value": "dhommah_fathah"
+              },
+              {
+                "label": "Difathahkan awalnya dan disukun sebelum akhirnya",
+                "value": "fathah_sukun"
+              },
+              {
+                "label": "Dikasrahkan awalnya dan didhommahkan sebelum akhirnya",
+                "value": "kasrah_dhommah"
+              }
+            ],
+            "correct": "dhommah_awal_kasrah_akhir",
+            "explanation": "Matan menyatakan dengan lugas: 'فَإِنْ كَانَ الْفِعْلُ مَاضِيًا ضُمَّ أَوَّلُهُ وَكُسِرَ مَا قَبْلَ آخِرِهِ'.",
+            "whyModal": {
+              "title": "Rumus Madhi Majhul",
+              "matan": "ضُمَّ أَوَّلُهُ وَكُسِرَ مَا قَبْلَ آخِرِهِ",
+              "reason": "Vokal 'u - i' adalah ciri khas fi'il madhi majhul."
+            }
+          },
+          {
+            "id": "q8_2_2",
+            "type": "mcq",
+            "question": "Bentuk pasif (majhul) dari kata kerja كَتَبَ (dia telah menulis) adalah...",
+            "prompt": "Bentuk pasif (majhul) dari kata kerja كَتَبَ (dia telah menulis) adalah...",
+            "arabic": "كَتَبَ -> كُتِبَ",
+            "translation": "Kataba -> Kutiba",
+            "meaning": "Kataba -> Kutiba",
+            "options": [
+              {
+                "label": "كُتِبَ (Kutiba)",
+                "value": "kutiba"
+              },
+              {
+                "label": "يُكْتَبُ (Yuktabu)",
+                "value": "yuktabu"
+              },
+              {
+                "label": "كِتَابٌ (Kitabun)",
+                "value": "kitab"
+              },
+              {
+                "label": "كَاتِبٌ (Katibun)",
+                "value": "katib"
+              }
+            ],
+            "correct": "kutiba",
+            "explanation": "Awal didhommahkan (ku), sebelum akhir dikasrahkan (ti) -> كُتِبَ (telah ditulis).",
+            "whyModal": {
+              "title": "Aplikasi Rumus Kutiba",
+              "matan": "ضُمَّ أَوَّلُهُ وَكُسِرَ مَا قَبْلَ آخِرِهِ",
+              "reason": "Kataba menjadi Kutiba dengan dhommah awal dan kasrah sebelum akhir."
+            }
+          },
+          {
+            "id": "q8_2_3",
+            "type": "mcq",
+            "question": "Bentuk pasif dari fi'il madhi نَصَرَ (dia telah menolong) adalah...",
+            "prompt": "Bentuk pasif dari fi'il madhi نَصَرَ (dia telah menolong) adalah...",
+            "arabic": "نَصَرَ -> نُصِرَ",
+            "translation": "Nashara -> Nushira",
+            "meaning": "Nashara -> Nushira",
+            "options": [
+              {
+                "label": "نُصِرَ (Nushira)",
+                "value": "nushira"
+              },
+              {
+                "label": "يُنْصَرُ (Yunsharu)",
+                "value": "yunsharu"
+              },
+              {
+                "label": "نَاصِرٌ (Nashirun)",
+                "value": "nashir"
+              },
+              {
+                "label": "مَنْصُورٌ (Manshurun)",
+                "value": "manshur"
+              }
+            ],
+            "correct": "nushira",
+            "explanation": "Awal didhommahkan (nu), sebelum akhir dikasrahkan (shi) -> نُصِرَ (telah ditolong).",
+            "whyModal": {
+              "title": "Aplikasi Nushira",
+              "matan": "ضُمَّ أَوَّلُهُ وَكُسِرَ مَا قَبْلَ آخِرِهِ",
+              "reason": "Nashara menjadi nushira."
+            }
+          },
+          {
+            "id": "q8_2_4",
+            "type": "mcq",
+            "question": "Contoh fi'il madhi majhul yang dibawakan langsung dalam teks Matan Al-Ajurrumiyyah adalah...",
+            "prompt": "Contoh fi'il madhi majhul yang dibawakan langsung dalam teks Matan Al-Ajurrumiyyah adalah...",
+            "arabic": "ضُرِبَ زَيْدٌ وَأُكْرِمَ عَمْرٌو",
+            "translation": "Dhuriba Zaidun dan Ukrima 'Amrun",
+            "meaning": "Dhuriba Zaidun dan Ukrima 'Amrun",
+            "options": [
+              {
+                "label": "ضُرِبَ dan أُكْرِمَ",
+                "value": "dhuriba_ukrima"
+              },
+              {
+                "label": "قَامَ dan ذَهَبَ",
+                "value": "qama_dzahaba"
+              },
+              {
+                "label": "يُضْرَبُ dan يُكْرَمُ",
+                "value": "mudhari"
+              },
+              {
+                "label": "انْطَلَقَ dan اسْتَخْرَجَ",
+                "value": "lain"
+              }
+            ],
+            "correct": "dhuriba_ukrima",
+            "explanation": "Ibnu Ajurrum mencontohkan fi'il madhi tsulatsi mujarrad: ضُرِبَ زَيْدٌ, dan tsulatsi mazid: أُكْرِمَ عَمْرٌو.",
+            "whyModal": {
+              "title": "Contoh Matan Madhi Majhul",
+              "matan": "فَالظَّاهِرُ نَحْوُ قَوْلِكَ: ضُرِبَ زَيْدٌ... وَأُكْرِمَ عَمْرٌو",
+              "reason": "Dhuriba dan ukrima adalah dua model fi'il madhi pasif dalam matan."
+            }
+          },
+          {
+            "id": "q8_2_5",
+            "type": "mcq",
+            "question": "Bentuk pasif dari fi'il madhi mazid أَكْرَمَ (dia telah memuliakan) adalah...",
+            "prompt": "Bentuk pasif dari fi'il madhi mazid أَكْرَمَ (dia telah memuliakan) adalah...",
+            "arabic": "أَكْرَمَ -> أُكْرِمَ",
+            "translation": "Akrama -> Ukrima",
+            "meaning": "Akrama -> Ukrima",
+            "options": [
+              {
+                "label": "أُكْرِمَ (Ukrima)",
+                "value": "ukrima"
+              },
+              {
+                "label": "يُكْرَمُ (Yukramu)",
+                "value": "yukramu"
+              },
+              {
+                "label": "إِكْرَامٌ (Ikramun)",
+                "value": "ikram"
+              },
+              {
+                "label": "كَرُمَ (Karuma)",
+                "value": "karuma"
+              }
+            ],
+            "correct": "ukrima",
+            "explanation": "Huruf hamzah pertama didhommahkan (u), huruf ra' sebelum akhir dikasrahkan (ri) -> أُكْرِمَ (telah dimuliakan).",
+            "whyModal": {
+              "title": "Madhi Mazid Majhul",
+              "matan": "وَأُكْرِمَ عَمْرٌو",
+              "reason": "Akrama menjadi ukrima."
+            }
+          },
+          {
+            "id": "q8_2_6",
+            "type": "mcq",
+            "question": "Bentuk pasif dari fi'il madhi ajwaf قَالَ (dia telah berkata) menurut kaidah yang paling masyhur adalah...",
+            "prompt": "Bentuk pasif dari fi'il madhi ajwaf قَالَ (dia telah berkata) menurut kaidah yang paling masyhur adalah...",
+            "arabic": "قَالَ -> قِيلَ",
+            "translation": "Qaala -> Qiila",
+            "meaning": "Qaala -> Qiila",
+            "options": [
+              {
+                "label": "قِيلَ (Qiila)",
+                "value": "qiila"
+              },
+              {
+                "label": "قُولَ (Quula)",
+                "value": "quula"
+              },
+              {
+                "label": "يُقَالُ (Yuqaalu)",
+                "value": "yuqalu"
+              },
+              {
+                "label": "مَقُولٌ (Maquulun)",
+                "value": "maqul"
+              }
+            ],
+            "correct": "qiila",
+            "explanation": "Pada fi'il ajwaf (berhuruf tengah illat) seperti قَالَ dan بَاعَ, bentuk pasifnya mengalami kasrah murni: قِيلَ (dikatakan) dan ب your -> ب your? بِيْعَ (dijual).",
+            "whyModal": {
+              "title": "Madhi Ajwaf Majhul",
+              "matan": "وَإِذَا قِيلَ لَهُمْ لَا تُفْسِدُوا",
+              "reason": "Qaala berubah menjadi qiila dalam bentuk pasif."
+            }
+          },
+          {
+            "id": "q8_2_7",
+            "type": "mcq",
+            "question": "Bentuk pasif dari fi'il madhi فَتَحَ (dia telah membuka) adalah...",
+            "prompt": "Bentuk pasif dari fi'il madhi فَتَحَ (dia telah membuka) adalah...",
+            "arabic": "فَتَحَ -> فُتِحَ",
+            "translation": "Fataha -> Futiha",
+            "meaning": "Fataha -> Futiha",
+            "options": [
+              {
+                "label": "فُتِحَ (Futiha)",
+                "value": "futiha"
+              },
+              {
+                "label": "يُفْتَحُ (Yuftahu)",
+                "value": "yuftahu"
+              },
+              {
+                "label": "فَتْحٌ (Fathun)",
+                "value": "fath"
+              },
+              {
+                "label": "مَفْتُوحٌ (Maftuhun)",
+                "value": "maftuh"
+              }
+            ],
+            "correct": "futiha",
+            "explanation": "Awal didhommahkan (fu), sebelum akhir dikasrahkan (ti) -> فُتِحَ (telah dibuka).",
+            "whyModal": {
+              "title": "Penerapan Futiha",
+              "matan": "ضُمَّ أَوَّلُهُ وَكُسِرَ مَا قَبْلَ آخِرِهِ",
+              "reason": "Fataha menjadi futiha."
+            }
+          },
+          {
+            "id": "q8_2_8",
+            "type": "mcq",
+            "question": "Pada kalimat فُتِحَتْ أَبْوَابُ السَّمَاءِ, mengapa fi'il فُتِحَتْ diberi huruf Ta' sukun?",
+            "prompt": "Pada kalimat فُتِحَتْ أَبْوَابُ السَّمَاءِ, mengapa fi'il فُتِحَتْ diberi huruf Ta' sukun?",
+            "arabic": "فُتِحَتْ أَبْوَابُ السَّمَاءِ",
+            "translation": "Pintu-pintu langit telah dibuka",
+            "meaning": "Pintu-pintu langit telah dibuka",
+            "options": [
+              {
+                "label": "Karena na'ibul fa'ilnya (أَبْوَابُ) adalah jamak taksir untuk benda (muannats majazi)",
+                "value": "naibul_fail_muannats"
+              },
+              {
+                "label": "Karena fi'il madhi majhul selalu bertanda Ta'",
+                "value": "selalu_ta"
+              },
+              {
+                "label": "Karena ta' adalah na'ibul fa'il",
+                "value": "ta_naibul_fail"
+              },
+              {
+                "label": "Karena langit itu biru",
+                "value": "langit_biru"
+              }
+            ],
+            "correct": "naibul_fail_muannats",
+            "explanation": "أَبْوَابُ adalah jamak taksir tidak berakal yang dihukumi muannats (kullu jam'in muannats), sehingga fi'il majhul diberi ta' ta'nits.",
+            "whyModal": {
+              "title": "Ta'nits Majhul Jamak Taksir",
+              "matan": "فُتِحَتْ أَبْوَابُ",
+              "reason": "Ta' ta'nits disematkan karena na'ibul fa'ilnya jamak taksir muannats."
+            }
+          },
+          {
+            "id": "q8_2_9",
+            "type": "mcq",
+            "question": "Bentuk pasif dari fi'il madhi عَلِمَ (dia telah mengetahui) adalah...",
+            "prompt": "Bentuk pasif dari fi'il madhi عَلِمَ (dia telah mengetahui) adalah...",
+            "arabic": "عَلِمَ -> عُلِمَ",
+            "translation": "'Alima -> 'Ulima",
+            "meaning": "'Alima -> 'Ulima",
+            "options": [
+              {
+                "label": "عُلِمَ ('Ulima)",
+                "value": "ulima"
+              },
+              {
+                "label": "يُعْلَمُ (Yu'lamu)",
+                "value": "yulamu"
+              },
+              {
+                "label": "عِلْمٌ ('Ilmun)",
+                "value": "ilmun"
+              },
+              {
+                "label": "عَالِمٌ ('Aalimun)",
+                "value": "aalim"
+              }
+            ],
+            "correct": "ulima",
+            "explanation": "'Ain didhommahkan (u), lam sebelum akhir tetap kasrah (li) -> عُلِمَ (telah diketahui).",
+            "whyModal": {
+              "title": "Majhul Fi'il Berkasrah Tengah",
+              "matan": "ضُمَّ أَوَّلُهُ وَكُسِرَ مَا قَبْلَ آخِرِهِ",
+              "reason": "'Alima menjadi 'ulima."
+            }
+          },
+          {
+            "id": "q8_2_10",
+            "type": "mcq",
+            "question": "Apakah harakat huruf terakhir pada fi'il madhi majhul berubah saat dipasifkan?",
+            "prompt": "Apakah harakat huruf terakhir pada fi'il madhi majhul berubah saat dipasifkan?",
+            "arabic": "آخِرُ الْفِعْلِ الْمَاضِي الْمَجْهُولِ",
+            "translation": "Akhir fi'il madhi majhul",
+            "meaning": "Akhir fi'il madhi majhul",
+            "options": [
+              {
+                "label": "Tidak berubah, tetap mabni fathah asalnya (contoh: ضُرِبَ tetap berakhiran ba' fathah)",
+                "value": "tetap_fathah"
+              },
+              {
+                "label": "Berubah menjadi dhommah",
+                "value": "jadi_dhommah"
+              },
+              {
+                "label": "Berubah menjadi sukun",
+                "value": "jadi_sukun"
+              },
+              {
+                "label": "Berubah menjadi kasrah",
+                "value": "jadi_kasrah"
+              }
+            ],
+            "correct": "tetap_fathah",
+            "explanation": "Hukum bina' akhir fi'il madhi tidak terpengaruh; ia tetap mabni di atas fathah selama tidak bersambung dengan wawu jamak atau dhamir rafa' mutaharrik.",
+            "whyModal": {
+              "title": "Bina' Akhir Fi'il Madhi",
+              "matan": "فَالْمَاضِي مَفْتُوحُ الْآخِرِ أَبَدًا",
+              "reason": "Akhir fi'il madhi tetap mabni fathah meski dalam bentuk pasif."
+            }
+          }
+        ]
+      },
+      {
+        "id": "level_8_3",
+        "code": "8.3",
+        "title": "Transformasi Fi'il Mudhari' Majhul",
+        "subtitle": "Rumus: Dhumma Awwaluhu wa Futiha Ma Qabla Akhirih",
+        "titleArabic": "صِيغَةُ الْمُضَارِعِ الْمَجْهُولِ",
+        "type": "mcq",
+        "xp": 70,
+        "unlocked": false,
+        "is_boss": false,
+        "theory": {
+          "title": "Rumus Pasif Fi'il Mudhari'",
+          "matan": "وَإِنْ كَانَ مُضَارِعًا ضُمَّ أَوَّلُهُ وَفُتِحَ مَا قَبْلَ آخِرِهِ.",
+          "translation": "Dan jika kata kerjanya berupa fi'il mudhari', didhommahkan huruf awalnya dan difathahkan huruf sebelum akhirnya.",
+          "points": [
+            {
+              "label": "Huruf Mudhara'ah",
+              "arabic": "ضُمَّ أَوَّلُهُ",
+              "desc": "Huruf pertama (huruf mudhara'ah: ya, ta, hamzah, nun) wajib didhommahkan (contoh: يَ -> يُ)."
+            },
+            {
+              "label": "Huruf Sebelum Akhir",
+              "arabic": "فُتِحَ مَا قَبْلَ آخِرِهِ",
+              "desc": "Huruf kedua terakhir wajib difathahkan (contoh: يَضْرِبُ -> يُضْرَبُ, يَكْتُبُ -> يُكْتَبُ, يَنْصُرُ -> يُنْصَرُ)."
+            }
+          ]
+        },
+        "questions": [
+          {
+            "id": "q8_3_1",
+            "type": "mcq",
+            "question": "Bagaimanakah rumus mempasifkan Fi'il Mudhari' menurut teks Matan Al-Ajurrumiyyah?",
+            "prompt": "Bagaimanakah rumus mempasifkan Fi'il Mudhari' menurut teks Matan Al-Ajurrumiyyah?",
+            "arabic": "ضُمَّ أَوَّلُهُ وَفُتِحَ مَا قَبْلَ آخِرِهِ",
+            "translation": "Didhommahkan awalnya dan difathahkan sebelum akhirnya",
+            "meaning": "Didhommahkan awalnya dan difathahkan sebelum akhirnya",
+            "options": [
+              {
+                "label": "Didhommahkan awalnya dan difathahkan sebelum akhirnya",
+                "value": "dhommah_fathah"
+              },
+              {
+                "label": "Didhommahkan awalnya dan dikasrahkan sebelum akhirnya",
+                "value": "dhommah_kasrah"
+              },
+              {
+                "label": "Difathahkan awalnya dan disukun sebelum akhirnya",
+                "value": "fathah_sukun"
+              },
+              {
+                "label": "Dikasrahkan awalnya dan difathahkan akhirnya",
+                "value": "kasrah_fathah"
+              }
+            ],
+            "correct": "dhommah_fathah",
+            "explanation": "Matan menyatakan: 'وَإِنْ كَانَ مُضَارِعًا ضُمَّ أَوَّلُهُ وَفُتِحَ مَا قَبْلَ آخِرِهِ'.",
+            "whyModal": {
+              "title": "Rumus Mudhari' Majhul",
+              "matan": "ضُمَّ أَوَّلُهُ وَفُتِحَ مَا قَبْلَ آخِرِهِ",
+              "reason": "Vokal 'u - a' adalah rumus mutlak fi'il mudhari' pasif."
+            }
+          },
+          {
+            "id": "q8_3_2",
+            "type": "mcq",
+            "question": "Bentuk pasif dari fi'il mudhari' يَضْرِبُ (dia sedang memukul) adalah...",
+            "prompt": "Bentuk pasif dari fi'il mudhari' يَضْرِبُ (dia sedang memukul) adalah...",
+            "arabic": "يَضْرِبُ -> يُضْرَبُ",
+            "translation": "Yadhribu -> Yudhrabu",
+            "meaning": "Yadhribu -> Yudhrabu",
+            "options": [
+              {
+                "label": "يُضْرَبُ (Yudhrabu)",
+                "value": "yudhrabu"
+              },
+              {
+                "label": "ضُرِبَ (Dhuriba)",
+                "value": "dhuriba"
+              },
+              {
+                "label": "يَضْرَبُ (Yadhrabu)",
+                "value": "yadhrabu"
+              },
+              {
+                "label": "مَضْرُوبٌ (Madhruubun)",
+                "value": "madhrub"
+              }
+            ],
+            "correct": "yudhrabu",
+            "explanation": "Awal didhommahkan (yu), huruf ra' sebelum akhir difathahkan (ra) -> يُضْرَبُ (sedang/akan dipukul).",
+            "whyModal": {
+              "title": "Aplikasi Yudhrabu",
+              "matan": "وَيُضْرَبُ زَيْدٌ",
+              "reason": "Yadhribu menjadi yudhrabu."
+            }
+          },
+          {
+            "id": "q8_3_3",
+            "type": "mcq",
+            "question": "Bentuk pasif dari fi'il mudhari' يَكْتُبُ (dia sedang menulis) adalah...",
+            "prompt": "Bentuk pasif dari fi'il mudhari' يَكْتُبُ (dia sedang menulis) adalah...",
+            "arabic": "يَكْتُبُ -> يُكْتَبُ",
+            "translation": "Yaktubu -> Yuktabu",
+            "meaning": "Yaktubu -> Yuktabu",
+            "options": [
+              {
+                "label": "يُكْتَبُ (Yuktabu)",
+                "value": "yuktabu"
+              },
+              {
+                "label": "كُتِبَ (Kutiba)",
+                "value": "kutiba"
+              },
+              {
+                "label": "يَكْتَبُ (Yaktabu)",
+                "value": "yaktabu"
+              },
+              {
+                "label": "كِتَابَةٌ (Kitabatun)",
+                "value": "kitabah"
+              }
+            ],
+            "correct": "yuktabu",
+            "explanation": "Awal didhommahkan (yu), ta' sebelum akhir difathahkan (ta) -> يُكْتَبُ (sedang/akan ditulis).",
+            "whyModal": {
+              "title": "Aplikasi Yuktabu",
+              "matan": "ضُمَّ أَوَّلُهُ وَفُتِحَ مَا قَبْلَ آخِرِهِ",
+              "reason": "Yaktubu menjadi yuktabu."
+            }
+          },
+          {
+            "id": "q8_3_4",
+            "type": "mcq",
+            "question": "Bentuk pasif dari fi'il mudhari' mazid يُكْرِمُ (dia memuliakan) adalah...",
+            "prompt": "Bentuk pasif dari fi'il mudhari' mazid يُكْرِمُ (dia memuliakan) adalah...",
+            "arabic": "يُكْرِمُ -> يُكْرَمُ",
+            "translation": "Yukrimu -> Yukramu",
+            "meaning": "Yukrimu -> Yukramu",
+            "options": [
+              {
+                "label": "يُكْرَمُ (Yukramu)",
+                "value": "yukramu"
+              },
+              {
+                "label": "أُكْرِمَ (Ukrima)",
+                "value": "ukrima"
+              },
+              {
+                "label": "يَكْرُمُ (Yakrumu)",
+                "value": "yakrumu"
+              },
+              {
+                "label": "مُكْرَمٌ (Mukramun)",
+                "value": "mukram"
+              }
+            ],
+            "correct": "yukramu",
+            "explanation": "Huruf ya' awal sudah dhommah, huruf ra' sebelum akhir diubah dari kasrah menjadi fathah -> يُكْرَمُ (sedang dimuliakan).",
+            "whyModal": {
+              "title": "Contoh Matan Yukramu",
+              "matan": "وَيُكْرَمُ عَمْرٌو",
+              "reason": "Yukrimu menjadi yukramu."
+            }
+          },
+          {
+            "id": "q8_3_5",
+            "type": "mcq",
+            "question": "Bentuk pasif dari fi'il mudhari' ajwaf يَقُولُ (dia berkata) adalah...",
+            "prompt": "Bentuk pasif dari fi'il mudhari' ajwaf يَقُولُ (dia berkata) adalah...",
+            "arabic": "يَقُولُ -> يُقَالُ",
+            "translation": "Yaqulu -> Yuqaalu",
+            "meaning": "Yaqulu -> Yuqaalu",
+            "options": [
+              {
+                "label": "يُقَالُ (Yuqaalu)",
+                "value": "yuqalu"
+              },
+              {
+                "label": "قِيلَ (Qiila)",
+                "value": "qiila"
+              },
+              {
+                "label": "يَقُولُ (Yaqulu)",
+                "value": "yaqulu"
+              },
+              {
+                "label": "يُقْوَلُ (Yuqwalu)",
+                "value": "yuqwalu"
+              }
+            ],
+            "correct": "yuqalu",
+            "explanation": "Huruf ya' didhommahkan dan huruf wawu berubah menjadi alif karena pengaruh fathah sebelumnya -> يُقَالُ (dikatakan).",
+            "whyModal": {
+              "title": "Mudhari' Ajwaf Majhul",
+              "matan": "يُقَالُ: فِعْلٌ مُضَارِعٌ مَبْنِيٌّ لِلْمَجْهُولِ",
+              "reason": "Wawu berganti alif akibat fathah sebelum akhir."
+            }
+          },
+          {
+            "id": "q8_3_6",
+            "type": "mcq",
+            "question": "Bentuk pasif dari fi'il mudhari' يَبِيعُ (dia menjual) adalah...",
+            "prompt": "Bentuk pasif dari fi'il mudhari' يَبِيعُ (dia menjual) adalah...",
+            "arabic": "يَبِيعُ -> يُبَاعُ",
+            "translation": "Yabi'u -> Yubaa'u",
+            "meaning": "Yabi'u -> Yubaa'u",
+            "options": [
+              {
+                "label": "يُبَاعُ (Yubaa'u)",
+                "value": "yubaau"
+              },
+              {
+                "label": "بِيْعَ (Bii'a)",
+                "value": "biia"
+              },
+              {
+                "label": "يَبَاعُ (Yabaa'u)",
+                "value": "yabaau"
+              },
+              {
+                "label": "مَبِيعٌ (Mabii'un)",
+                "value": "mabiun"
+              }
+            ],
+            "correct": "yubaau",
+            "explanation": "Huruf ya' awal didhommahkan dan huruf ya' tengah berganti menjadi alif karena difathahkan -> يُبَاعُ (dijual).",
+            "whyModal": {
+              "title": "Mudhari' Yubaa'u",
+              "matan": "يُبَاعُ: مَبْنِيٌّ لِلْمَجْهُولِ",
+              "reason": "Yabi'u berubah menjadi yubaa'u."
+            }
+          },
+          {
+            "id": "q8_3_7",
+            "type": "mcq",
+            "question": "Pada kalimat يُفْتَحُ الْبَابُ, kata الْبَابُ berstatus i'rab...",
+            "prompt": "Pada kalimat يُفْتَحُ الْبَابُ, kata الْبَابُ berstatus i'rab...",
+            "arabic": "يُفْتَحُ الْبَابُ",
+            "translation": "Pintu itu sedang dibuka",
+            "meaning": "Pintu itu sedang dibuka",
+            "options": [
+              {
+                "label": "Na'ibul Fa'il marfu' dengan dhammah",
+                "value": "naibul_fail_dhammah"
+              },
+              {
+                "label": "Maf'ul bih manshub",
+                "value": "maful"
+              },
+              {
+                "label": "Fa'il marfu'",
+                "value": "fail"
+              },
+              {
+                "label": "Mubtada'",
+                "value": "mubtada"
+              }
+            ],
+            "correct": "naibul_fail_dhammah",
+            "explanation": "الْبَابُ jatuh setelah fi'il mudhari' majhul يُفْتَحُ, maka ia adalah Na'ibul Fa'il marfu' bertanda dhammah.",
+            "whyModal": {
+              "title": "Na'ibul Fa'il Mudhari' Majhul",
+              "matan": "وَيُضْرَبُ زَيْدٌ",
+              "reason": "Al-Babu adalah na'ibul fa'il setelah fi'il mudhari' majhul."
+            }
+          },
+          {
+            "id": "q8_3_8",
+            "type": "mcq",
+            "question": "Bagaimanakah cara membedakan antara Madhi Majhul dan Mudhari' Majhul dalam sekali lihat?",
+            "prompt": "Bagaimanakah cara membedakan antara Madhi Majhul dan Mudhari' Majhul dalam sekali lihat?",
+            "arabic": "الْفَرْقُ بَيْنَ الْمَاضِي وَالْمُضَارِعِ الْمَجْهُولَيْنِ",
+            "translation": "Perbedaan antara madhi dan mudhari' majhul",
+            "meaning": "Perbedaan antara madhi dan mudhari' majhul",
+            "options": [
+              {
+                "label": "Madhi sebelum akhirnya KASRAH (ضُرِبَ), sedangkan Mudhari' sebelum akhirnya FATHAH (يُضْرَبُ)",
+                "value": "kasrah_vs_fathah"
+              },
+              {
+                "label": "Madhi diawali huruf ya', mudhari' huruf alif",
+                "value": "salah_huruf"
+              },
+              {
+                "label": "Madhi berharakat sukun di awal",
+                "value": "sukun_awal"
+              },
+              {
+                "label": "Tidak ada perbedaan",
+                "value": "tidak_beda"
+              }
+            ],
+            "correct": "kasrah_vs_fathah",
+            "explanation": "Kedua fi'il sama-sama didhommahkan awalnya (ضُمَّ أَوَّلُهُ), tetapi perbedaannya terletak pada huruf sebelum akhir: madhi dikasrah (u-i), mudhari' difathah (u-a).",
+            "whyModal": {
+              "title": "Perbedaan Madhi vs Mudhari' Majhul",
+              "matan": "الْمَاضِي كُسِرَ مَا قَبْلَ آخِرِهِ، وَالْمُضَارِعُ فُتِحَ مَا قَبْلَ آخِرِهِ",
+              "reason": "Kunci pembeda ada pada vokal huruf kedua terakhir."
+            }
+          },
+          {
+            "id": "q8_3_9",
+            "type": "mcq",
+            "question": "Bentuk pasif dari fi'il mudhari' يَعْبُدُ (dia menyembah) adalah...",
+            "prompt": "Bentuk pasif dari fi'il mudhari' يَعْبُدُ (dia menyembah) adalah...",
+            "arabic": "يَعْبُدُ -> يُعْبَدُ",
+            "translation": "Ya'budu -> Yu'badu",
+            "meaning": "Ya'budu -> Yu'badu",
+            "options": [
+              {
+                "label": "يُعْبَدُ (Yu'badu)",
+                "value": "yubadu"
+              },
+              {
+                "label": "عُبِدَ ('Ubida)",
+                "value": "ubida"
+              },
+              {
+                "label": "يَعْبَدُ (Ya'badu)",
+                "value": "yabadu"
+              },
+              {
+                "label": "عِبَادَةٌ ('Ibadatun)",
+                "value": "ibadah"
+              }
+            ],
+            "correct": "yubadu",
+            "explanation": "Awal didhommahkan (yu), ba' sebelum akhir difathahkan (ba) -> يُعْبَدُ (disembah). Contoh: اللَّهُ يُعْبَدُ.",
+            "whyModal": {
+              "title": "Aplikasi Yu'badu",
+              "matan": "ضُمَّ أَوَّلُهُ وَفُتِحَ مَا قَبْلَ آخِرِهِ",
+              "reason": "Ya'budu menjadi yu'badu."
+            }
+          },
+          {
+            "id": "q8_3_10",
+            "type": "mcq",
+            "question": "Jika kemasukan amil nawashib (misal: لَنْ), bagaimanakah i'rab dari fi'il mudhari' majhul: لَنْ يُضْرَبَ زَيْدٌ?",
+            "prompt": "Jika kemasukan amil nawashib (misal: لَنْ), bagaimanakah i'rab dari fi'il mudhari' majhul: لَنْ يُضْرَبَ زَيْدٌ?",
+            "arabic": "لَنْ يُضْرَبَ زَيْدٌ",
+            "translation": "Zaid tidak akan dipukul",
+            "meaning": "Zaid tidak akan dipukul",
+            "options": [
+              {
+                "label": "Fi'il mudhari' majhul manshub dengan fathah, dan Zaid tetap na'ibul fa'il marfu'",
+                "value": "fiil_manshub_fail_marfu"
+              },
+              {
+                "label": "Zaid ikut menjadi manshub",
+                "value": "zaid_manshub"
+              },
+              {
+                "label": "Fi'il majhul batal menjadi majhul",
+                "value": "batal_majhul"
+              },
+              {
+                "label": "Zaid menjadi fa'il aktif",
+                "value": "jadi_aktif"
+              }
+            ],
+            "correct": "fiil_manshub_fail_marfu",
+            "explanation": "Amil nawashib menashabkan fi'ilnya (يُضْرَبَ), namun fungsi kepasifannya tetap berjalan dan na'ibul fa'il-nya (زَيْدٌ) tetap marfu' dengan dhammah.",
+            "whyModal": {
+              "title": "Pengaruh Amil pada Majhul",
+              "matan": "لَنْ يُضْرَبَ: مَنْصُوبٌ بِلَنْ، وَزَيْدٌ نَائِبُ فَاعِلٍ مَرْفُوعٌ",
+              "reason": "Amil luar hanya mengubah akhir fi'il tanpa membatalkan na'ibul fa'il."
+            }
+          }
+        ]
+      },
+      {
+        "id": "level_8_4",
+        "code": "8.4",
+        "title": "Na'ibul Fa'il Zhahir vs Mudhmar",
+        "subtitle": "Katalog Lengkap 12 Kata Ganti Pasif",
+        "titleArabic": "أَقْسَامُ نَائِبِ الْفَاعِلِ (ظَاهِرٌ وَمُضْمَرٌ)",
+        "type": "mcq",
+        "xp": 70,
+        "unlocked": false,
+        "is_boss": false,
+        "theory": {
+          "title": "Pembagian Na'ibul Fa'il Matan",
+          "matan": "وَهُوَ عَلَى قِسْمَيْنِ: ظَاهِرٍ، وَمُضْمَرٍ؛ فَالظَّاهِرُ نَحْوُ قَوْلِكَ: ضُرِبَ زَيْدٌ، وَيُضْرَبُ زَيْدٌ، وَأُكْرِمَ عَمْرٌو، وَيُكْرَمُ عَمْرٌو. وَالْمُضْمَرُ اثْنَا عَشَرَ، نَحْوُ قَوْلِكَ: ضُرِبْتُ، وَضُرِبْنَا، وَضُرِبْتَ، وَضُرِبْتِ، وَضُرِبْتُمَا، وَضُرِبْتُمْ، وَضُرِبْتُنَّ، وَضُرِبَ، وَضُرِبَتْ، وَضُرِبَا، وَضُرِبُوا، وَضُرِبْنَ.",
+          "translation": "Dan ia terbagi dua: Zhahir dan Mudhmar. Yang zhahir contoh ucapanmu: Dhuriba Zaidun, Yudhrabu Zaidun, Ukrima 'Amrun, Yukramu 'Amrun. Dan yang mudhmar ada 12: Dhuribtu, Dhuribna, Dhuribta, Dhuribti, Dhuribtuma, Dhuribtum, Dhuribtunna, Dhuriba, Dhuribat, Dhuriba, Dhuribu, Dhuribna.",
+          "points": [
+            {
+              "label": "Zhahir",
+              "arabic": "ضُرِبَ زَيْدٌ",
+              "desc": "Bentuk nama atau kata benda nyata yang nampak jelas."
+            },
+            {
+              "label": "Mudhmar 12",
+              "arabic": "الْمُضْمَرُ اثْنَا عَشَرَ",
+              "desc": "12 dhamir marfu' muttashil dan mustatir yang menempati posisi Na'ibul Fa'il."
+            }
+          ]
+        },
+        "questions": [
+          {
+            "id": "q8_4_1",
+            "type": "mcq",
+            "question": "Ada berapakah jumlah Na'ibul Fa'il Mudhmar (kata ganti) menurut Matan Al-Ajurrumiyyah?",
+            "prompt": "Ada berapakah jumlah Na'ibul Fa'il Mudhmar (kata ganti) menurut Matan Al-Ajurrumiyyah?",
+            "arabic": "وَالْمُضْمَرُ اثْنَا عَشَرَ",
+            "translation": "Dan yang mudhmar itu ada dua belas",
+            "meaning": "Dan yang mudhmar itu ada dua belas",
+            "options": [
+              {
+                "label": "12 Bentuk",
+                "value": "12"
+              },
+              {
+                "label": "10 Bentuk",
+                "value": "10"
+              },
+              {
+                "label": "7 Bentuk",
+                "value": "7"
+              },
+              {
+                "label": "14 Bentuk",
+                "value": "14"
+              }
+            ],
+            "correct": "12",
+            "explanation": "Persis seperti bab fa'il, na'ibul fa'il mudhmar juga berjumlah 12 bentuk: 'وَالْمُضْمَرُ اثْنَا عَشَرَ'.",
+            "whyModal": {
+              "title": "Jumlah Na'ibul Fa'il Mudhmar",
+              "matan": "وَالْمُضْمَرُ اثْنَا عَشَرَ",
+              "reason": "Dhamir pasif berjumlah tepat 12 bentuk."
+            }
+          },
+          {
+            "id": "q8_4_2",
+            "type": "mcq",
+            "question": "Makna dari kata ضُرِبْتُ dalam konteks kalimat pasif adalah...",
+            "prompt": "Makna dari kata ضُرِبْتُ dalam konteks kalimat pasif adalah...",
+            "arabic": "ضُرِبْتُ",
+            "translation": "Aku telah dipukul",
+            "meaning": "Aku telah dipukul",
+            "options": [
+              {
+                "label": "Aku telah dipukul (Ta' dhommah adalah na'ibul fa'il)",
+                "value": "aku_dipukul"
+              },
+              {
+                "label": "Aku telah memukul (fa'il aktif)",
+                "value": "aku_memukul"
+              },
+              {
+                "label": "Dia telah memukulku",
+                "value": "dia_memukulku"
+              },
+              {
+                "label": "Kami telah memukul",
+                "value": "kami_memukul"
+              }
+            ],
+            "correct": "aku_dipukul",
+            "explanation": "Karena fi'ilnya majhul (ضُرِبَ), maka huruf Ta' (تُ) bermakna penderita yang dipukul (Na'ibul Fa'il): 'Aku telah dipukul'.",
+            "whyModal": {
+              "title": "Makna Dhuribtu",
+              "matan": "نَحْوُ قَوْلِكَ: ضُرِبْتُ",
+              "reason": "Dhuribtu bermakna pasif orang pertama."
+            }
+          },
+          {
+            "id": "q8_4_3",
+            "type": "mcq",
+            "question": "Kata ضُرِبْنَا bermakna...",
+            "prompt": "Kata ضُرِبْنَا bermakna...",
+            "arabic": "ضُرِبْنَا",
+            "translation": "Kami telah dipukul",
+            "meaning": "Kami telah dipukul",
+            "options": [
+              {
+                "label": "Kami telah dipukul",
+                "value": "kami_dipukul"
+              },
+              {
+                "label": "Kami telah memukul",
+                "value": "kami_memukul"
+              },
+              {
+                "label": "Kalian telah dipukul",
+                "value": "kalian_dipukul"
+              },
+              {
+                "label": "Mereka telah memukul",
+                "value": "mereka_memukul"
+              }
+            ],
+            "correct": "kami_dipukul",
+            "explanation": "Dhamir نَا pada fi'il majhul ضُرِبْنَا berkedudukan sebagai Na'ibul Fa'il mutakallim jamak: 'Kami telah dipukul'.",
+            "whyModal": {
+              "title": "Makna Dhuribnaa",
+              "matan": "وَضُرِبْنَا",
+              "reason": "Naa adalah na'ibul fa'il jamak pembicara."
+            }
+          },
+          {
+            "id": "q8_4_4",
+            "type": "mcq",
+            "question": "Pada kata ضُرِبْتَ, kedudukan huruf Ta' (تَ) adalah...",
+            "prompt": "Pada kata ضُرِبْتَ, kedudukan huruf Ta' (تَ) adalah...",
+            "arabic": "ضُرِبْتَ",
+            "translation": "Kamu (laki-laki) telah dipukul",
+            "meaning": "Kamu (laki-laki) telah dipukul",
+            "options": [
+              {
+                "label": "Dhamir muttashil mabni fi mahalli raf'in Na'ibul Fa'il",
+                "value": "naibul_fail_mabni"
+              },
+              {
+                "label": "Dhamir manshub maf'ul bih",
+                "value": "maful_manshub"
+              },
+              {
+                "label": "Huruf ta'nits",
+                "value": "tanits"
+              },
+              {
+                "label": "Tanda i'rab nashab",
+                "value": "nashab"
+              }
+            ],
+            "correct": "naibul_fail_mabni",
+            "explanation": "Ta' maftuhah adalah dhamir mukhathab tunggal laki-laki yang menjadi Na'ibul Fa'il di dalam fi'il majhul.",
+            "whyModal": {
+              "title": "I'rab Ta' Mukhathab Pasif",
+              "matan": "وَضُرِبْتَ: التَّاءُ نَائِبُ فَاعِلٍ",
+              "reason": "Ta' maftuhah menempati posisi marfu' sebagai na'ibul fa'il."
+            }
+          },
+          {
+            "id": "q8_4_5",
+            "type": "mcq",
+            "question": "Pada kata ضُرِبُوا, manakah yang berkedudukan sebagai Na'ibul Fa'il?",
+            "prompt": "Pada kata ضُرِبُوا, manakah yang berkedudukan sebagai Na'ibul Fa'il?",
+            "arabic": "ضُرِبُوا",
+            "translation": "Mereka (para lelaki) telah dipukul",
+            "meaning": "Mereka (para lelaki) telah dipukul",
+            "options": [
+              {
+                "label": "Wawu Jama'ah",
+                "value": "wawu_jamaah"
+              },
+              {
+                "label": "Alif fariqah",
+                "value": "alif"
+              },
+              {
+                "label": "Dhamir mustatir",
+                "value": "mustatir"
+              },
+              {
+                "label": "Huruf Ba'",
+                "value": "ba"
+              }
+            ],
+            "correct": "wawu_jamaah",
+            "explanation": "Wawu Jama'ah pada fi'il majhul ضُرِبُوا adalah dhamir muttashil yang menjadi Na'ibul Fa'il: 'Mereka telah dipukul'.",
+            "whyModal": {
+              "title": "Wawu Jama'ah Pasif",
+              "matan": "وَضُرِبُوا",
+              "reason": "Wawu adalah na'ibul fa'il jamak mudzakkar."
+            }
+          },
+          {
+            "id": "q8_4_6",
+            "type": "mcq",
+            "question": "Kata ضُرِبْنَ memiliki Na'ibul Fa'il berupa...",
+            "prompt": "Kata ضُرِبْنَ memiliki Na'ibul Fa'il berupa...",
+            "arabic": "ضُرِبْنَ",
+            "translation": "Mereka (para wanita) telah dipukul",
+            "meaning": "Mereka (para wanita) telah dipukul",
+            "options": [
+              {
+                "label": "Nun Niswah",
+                "value": "nun_niswah"
+              },
+              {
+                "label": "Ta' ta'nits",
+                "value": "ta_tanits"
+              },
+              {
+                "label": "Dhamir hiya",
+                "value": "hiya"
+              },
+              {
+                "label": "Dhamir mustatir",
+                "value": "mustatir"
+              }
+            ],
+            "correct": "nun_niswah",
+            "explanation": "Nun Niswah (نَ) pada ضُرِبْنَ adalah dhamir muttashil yang berkedudukan sebagai Na'ibul Fa'il untuk para wanita.",
+            "whyModal": {
+              "title": "Nun Niswah Pasif",
+              "matan": "وَضُرِبْنَ",
+              "reason": "Nun niswah adalah na'ibul fa'il jamak muannats."
+            }
+          },
+          {
+            "id": "q8_4_7",
+            "type": "mcq",
+            "question": "Pada kalimat زَيْدٌ ضُرِبَ, di manakah Na'ibul Fa'il dari fi'il ضُرِبَ?",
+            "prompt": "Pada kalimat زَيْدٌ ضُرِبَ, di manakah Na'ibul Fa'il dari fi'il ضُرِبَ?",
+            "arabic": "زَيْدٌ ضُرِبَ",
+            "translation": "Zaid telah dipukul",
+            "meaning": "Zaid telah dipukul",
+            "options": [
+              {
+                "label": "Dhamir mustatir jawazan takdirnya هُوَ yang merujuk ke Zaid",
+                "value": "mustatir_huwa"
+              },
+              {
+                "label": "Kata Zaid di depan",
+                "value": "zaid_depan"
+              },
+              {
+                "label": "Huruf Dhad",
+                "value": "dhad"
+              },
+              {
+                "label": "Tidak ada na'ibul fa'il",
+                "value": "tidak_ada"
+              }
+            ],
+            "correct": "mustatir_huwa",
+            "explanation": "Zaid di depan adalah Mubtada'. Na'ibul Fa'il dari ضُرِبَ adalah dhamir mustatir takdirnya هُوَ (dia laki-laki).",
+            "whyModal": {
+              "title": "Na'ibul Fa'il Mustatir",
+              "matan": "وَضُرِبَ (أَيْ: هُوَ)",
+              "reason": "Dhamir mustatir jawazan huwa adalah pengganti pelaku."
+            }
+          },
+          {
+            "id": "q8_4_8",
+            "type": "mcq",
+            "question": "Kata أُكْرِمْتُمْ bermakna...",
+            "prompt": "Kata أُكْرِمْتُمْ bermakna...",
+            "arabic": "أُكْرِمْتُمْ",
+            "translation": "Kalian (para lelaki) telah dimuliakan",
+            "meaning": "Kalian (para lelaki) telah dimuliakan",
+            "options": [
+              {
+                "label": "Kalian (para lelaki) telah dimuliakan",
+                "value": "kalian_dimuliakan"
+              },
+              {
+                "label": "Kalian telah memuliakan",
+                "value": "kalian_memuliakan"
+              },
+              {
+                "label": "Mereka telah memuliakan kalian",
+                "value": "mereka_memuliakan"
+              },
+              {
+                "label": "Kami telah dimuliakan",
+                "value": "kami_dimuliakan"
+              }
+            ],
+            "correct": "kalian_dimuliakan",
+            "explanation": "Fi'il majhul أُكْرِمَ bersambung dengan dhamir تُمْ (mukhathabin jamak) sebagai Na'ibul Fa'il: 'Kalian telah dimuliakan'.",
+            "whyModal": {
+              "title": "Aplikasi Mazid Pasif Mudhmar",
+              "matan": "وَأُكْرِمْتُمْ: نَائِبُ الْفَاعِلِ ضَمِيرُ الْمُخَاطَبِينَ",
+              "reason": "Tum adalah na'ibul fa'il jamak lawan bicara."
+            }
+          },
+          {
+            "id": "q8_4_9",
+            "type": "mcq",
+            "question": "Manakah di bawah ini contoh Na'ibul Fa'il berupa Isim Zhahir Mutsanna (dua orang)?",
+            "prompt": "Manakah di bawah ini contoh Na'ibul Fa'il berupa Isim Zhahir Mutsanna (dua orang)?",
+            "arabic": "نَائِبُ فَاعِلٍ ظَاهِرٌ مُثَنًّى",
+            "translation": "Na'ibul fa'il isim zhahir mutsanna",
+            "meaning": "Na'ibul fa'il isim zhahir mutsanna",
+            "options": [
+              {
+                "label": "كُوفِئَ الطَّالِبَانِ",
+                "value": "kufia_thalibani"
+              },
+              {
+                "label": "كُوفِئَ الطُّلَّابُ",
+                "value": "kufia_thullab"
+              },
+              {
+                "label": "كُوفِئَ الطَّالِبُ",
+                "value": "kufia_thalib"
+              },
+              {
+                "label": "كُوفِئُوا",
+                "value": "kufiu"
+              }
+            ],
+            "correct": "kufia_thalibani",
+            "explanation": "الطَّالِبَانِ adalah isim zhahir mutsanna yang berkedudukan sebagai Na'ibul Fa'il marfu' bertanda Alif.",
+            "whyModal": {
+              "title": "Na'ibul Fa'il Mutsanna Zhahir",
+              "matan": "الظَّاهِرُ... مَرْفُوعٌ بِالْأَلِفِ",
+              "reason": "Thalibaani adalah na'ibul fa'il mutsanna bertanda Alif."
+            }
+          },
+          {
+            "id": "q8_4_10",
+            "type": "mcq",
+            "question": "Jika dua orang siswa dipukul, manakah kalimat pasif fushha yang BENAR?",
+            "prompt": "Jika dua orang siswa dipukul, manakah kalimat pasif fushha yang BENAR?",
+            "arabic": "ضُرِبَ التِّلْمِيذَانِ أَمْ ضُرِبَا التِّلْمِيذَانِ؟",
+            "translation": "Dhuriba at-tilmiidzani atau Dhuribaa at-tilmiidzani?",
+            "meaning": "Dhuriba at-tilmiidzani atau Dhuribaa at-tilmiidzani?",
+            "options": [
+              {
+                "label": "ضُرِبَ التِّلْمِيذَانِ (fi'il majhul tetap mufrad)",
+                "value": "dhuriba_mufrad"
+              },
+              {
+                "label": "ضُرِبَا التِّلْمِيذَانِ (memasang alif)",
+                "value": "dhuribaa"
+              },
+              {
+                "label": "ضُرِبُوا التِّلْمِيذَانِ",
+                "value": "dhuribu"
+              },
+              {
+                "label": "ضُرِبْنَ التِّلْمِيذَانِ",
+                "value": "dhuribna"
+              }
+            ],
+            "correct": "dhuriba_mufrad",
+            "explanation": "Sama seperti hukum fa'il, fi'il majhul wajib tetap mufrad (ضُرِبَ) jika na'ibul fa'il isim zhahirnya berada sesudahnya.",
+            "whyModal": {
+              "title": "Ketetapan Fi'il Majhul Mufrad",
+              "matan": "ضُرِبَ الزَّيْدَانِ (بِإِفْرَادِ الْفِعْلِ)",
+              "reason": "Fi'il majhul tetap mufrad di depan na'ibul fa'il zhahir mutsanna."
+            }
+          }
+        ]
+      },
+      {
+        "id": "level_8_5",
+        "code": "8.5",
+        "title": "Ujian Komprehensif Kalimat Pasif",
+        "subtitle": "Tantangan Boss: Analisis Ayat-Ayat Pasif Al-Qur'an",
+        "titleArabic": "اخْتِبَارُ زَعِيمِ نَائِبِ الْفَاعِلِ",
+        "type": "mcq",
+        "xp": 100,
+        "unlocked": false,
+        "is_boss": true,
+        "theory": {
+          "title": "Rangkuman Ujian Boss Na'ibul Fa'il",
+          "matan": "وَهُوَ الِاسْمُ الْمَرْفُوعُ الَّذِي لَمْ يُذْكَرْ مَعَهُ فَاعِلُهُ. فَإِنْ كَانَ الْفِعْلُ مَاضِيًا ضُمَّ أَوَّلُهُ وَكُسِرَ مَا قَبْلَ آخِرِهِ، وَإِنْ كَانَ مُضَارِعًا ضُمَّ أَوَّلُهُ وَفُتِحَ مَا قَبْلَ آخِرِهِ.",
+          "translation": "Tantangan Boss Na'ibul Fa'il: Uji keahlian transformasi aktif ke pasif, analisis harakat fi'il majhul, dan pendeteksian pengganti pelaku dalam ayat-ayat Al-Qur'an.",
+          "points": [
+            {
+              "label": "Verifikasi Bentuk Fi'il",
+              "arabic": "مَاضٍ (فُعِلَ) أَمْ مُضَارِعٌ (يُفْعَلُ)",
+              "desc": "Pastikan membedakan apakah kata kerja pasif berwaktu lampau atau kini/akan datang."
+            },
+            {
+              "label": "Verifikasi Tanda Rafa'",
+              "arabic": "عَلَامَاتُ إِعْرَابِ نَائِبِ الْفَاعِلِ",
+              "desc": "Tentukan tanda rafa' na'ibul fa'il (dhammah, alif, wawu)."
+            }
+          ]
+        },
+        "questions": [
+          {
+            "id": "q8_5_1",
+            "type": "mcq",
+            "question": "Pada ayat: إِذَا زُلْزِلَتِ الْأَرْضُ زِلْزَالَهَا, kata الْأَرْضُ berkedudukan sebagai apa dan bertanda apa?",
+            "prompt": "Pada ayat: إِذَا زُلْزِلَتِ الْأَرْضُ زِلْزَالَهَا, kata الْأَرْضُ berkedudukan sebagai apa dan bertanda apa?",
+            "arabic": "إِذَا زُلْزِلَتِ الْأَرْضُ",
+            "translation": "Apabila bumi digoncangkan",
+            "meaning": "Apabila bumi digoncangkan",
+            "options": [
+              {
+                "label": "Na'ibul Fa'il marfu' dengan dhammah",
+                "value": "naibul_fail_dhammah"
+              },
+              {
+                "label": "Fa'il marfu' dengan dhammah",
+                "value": "fail_dhammah"
+              },
+              {
+                "label": "Maf'ul bih manshub dengan fathah",
+                "value": "maful_fathah"
+              },
+              {
+                "label": "Mubtada' marfu'",
+                "value": "mubtada"
+              }
+            ],
+            "correct": "naibul_fail_dhammah",
+            "explanation": "زُلْزِلَتْ adalah fi'il madhi majhul (dhumma awwaluhu wa kusira ma qabla akhirih), sehingga الْأَرْضُ adalah Na'ibul Fa'il marfu' dengan dhammah.",
+            "whyModal": {
+              "title": "I'rab Zulzilatil Ardhu",
+              "matan": "الْأَرْضُ: نَائِبُ فَاعِلٍ مَرْفُوعٌ بِالضَّمَّةِ",
+              "reason": "Al-Ardhu adalah na'ibul fa'il setelah fi'il majhul zulzilat."
+            }
+          },
+          {
+            "id": "q8_5_2",
+            "type": "mcq",
+            "question": "Pada ayat: وَحُمِلَتِ الْأَرْضُ وَالْجِبَالُ فَدُكَّتَا دَكَّةً وَاحِدَةً, kata الْجِبَالُ berkedudukan sebagai...",
+            "prompt": "Pada ayat: وَحُمِلَتِ الْأَرْضُ وَالْجِبَالُ فَدُكَّتَا دَكَّةً وَاحِدَةً, kata الْجِبَالُ berkedudukan sebagai...",
+            "arabic": "وَحُمِلَتِ الْأَرْضُ وَالْجِبَالُ",
+            "translation": "Dan diangkatlah bumi dan gunung-gunung",
+            "meaning": "Dan diangkatlah bumi dan gunung-gunung",
+            "options": [
+              {
+                "label": "Ma'thuf kepada na'ibul fa'il (marfu' dengan dhammah)",
+                "value": "mathuf_marfu"
+              },
+              {
+                "label": "Na'ibul fa'il kedua",
+                "value": "naib2"
+              },
+              {
+                "label": "Maf'ul bih",
+                "value": "maful"
+              },
+              {
+                "label": "Taukid",
+                "value": "taukid"
+              }
+            ],
+            "correct": "mathuf_marfu",
+            "explanation": "الْأَرْضُ adalah Na'ibul Fa'il marfu', dan الْجِبَالُ di-'athaf-kan kepadanya dengan huruf Wawu sehingga ikut marfu' bertanda dhammah.",
+            "whyModal": {
+              "title": "'Athaf pada Na'ibul Fa'il",
+              "matan": "وَالتَّابِعُ لِلْمَرْفُوعِ... وَالْعَطْفُ",
+              "reason": "Al-Jibalu ma'thuf pada al-Ardhu yang marfu'."
+            }
+          },
+          {
+            "id": "q8_5_3",
+            "type": "mcq",
+            "question": "Pada ayat: يُعْرَفُ الْمُجْرِمُونَ بِسِيمَاهُمْ, kata الْمُجْرِمُونَ marfu' dengan tanda apa?",
+            "prompt": "Pada ayat: يُعْرَفُ الْمُجْرِمُونَ بِسِيمَاهُمْ, kata الْمُجْرِمُونَ marfu' dengan tanda apa?",
+            "arabic": "يُعْرَفُ الْمُجْرِمُونَ",
+            "translation": "Orang-orang berdosa itu dikenal dengan tanda-tanda mereka",
+            "meaning": "Orang-orang berdosa itu dikenal dengan tanda-tanda mereka",
+            "options": [
+              {
+                "label": "Wawu karena Jamak Mudzakkar Salim",
+                "value": "wawu"
+              },
+              {
+                "label": "Dhammah",
+                "value": "dhammah"
+              },
+              {
+                "label": "Nun",
+                "value": "nun"
+              },
+              {
+                "label": "Fathah pada huruf nun",
+                "value": "fathah"
+              }
+            ],
+            "correct": "wawu",
+            "explanation": "الْمُجْرِمُونَ adalah Na'ibul Fa'il dari fi'il mudhari' majhul يُعْرَفُ, berbentuk jamak mudzakkar salim sehingga tanda rafa'nya adalah huruf Wawu.",
+            "whyModal": {
+              "title": "Na'ibul Fa'il Jamak Mudzakkar Salim",
+              "matan": "وَفِي جَمْعِ الْمُذَكَّرِ السَّالِمِ... يُرْفَعُ بِالْوَاوِ",
+              "reason": "Al-Mujrimuna adalah na'ibul fa'il marfu' bertanda Wawu."
+            }
+          },
+          {
+            "id": "q8_5_4",
+            "type": "mcq",
+            "question": "Pada ayat: وَإِذَا قُرِئَ الْقُرْآنُ فَاسْتَمِعُوا لَهُ, manakah fi'il madhi majhul dan na'ibul fa'ilnya?",
+            "prompt": "Pada ayat: وَإِذَا قُرِئَ الْقُرْآنُ فَاسْتَمِعُوا لَهُ, manakah fi'il madhi majhul dan na'ibul fa'ilnya?",
+            "arabic": "وَإِذَا قُرِئَ الْقُرْآنُ",
+            "translation": "Dan apabila Al-Qur'an dibacakan",
+            "meaning": "Dan apabila Al-Qur'an dibacakan",
+            "options": [
+              {
+                "label": "Fi'il majhul: قُرِئَ, Na'ibul fa'il: الْقُرْآنُ",
+                "value": "quria_quran"
+              },
+              {
+                "label": "Fi'il: فاسْتَمِعُوا, Na'ibul fa'il: له",
+                "value": "istamiu"
+              },
+              {
+                "label": "Fi'il: قُرِئَ, Na'ibul fa'il: dhamir mustatir",
+                "value": "mustatir"
+              },
+              {
+                "label": "Tidak ada fi'il majhul",
+                "value": "tidak_ada"
+              }
+            ],
+            "correct": "quria_quran",
+            "explanation": "قُرِئَ adalah fi'il madhi majhul (bervokal u-i), dan الْقُرْآنُ adalah na'ibul fa'il marfu' bertanda dhammah.",
+            "whyModal": {
+              "title": "I'rab Quri'al Qur'an",
+              "matan": "ضُمَّ أَوَّلُهُ وَكُسِرَ مَا قَبْلَ آخِرِهِ",
+              "reason": "Quri'a adalah fi'il majhul dan al-Qur'anu adalah na'ibul fa'ilnya."
+            }
+          },
+          {
+            "id": "q8_5_5",
+            "type": "mcq",
+            "question": "Ubahlah kalimat aktif: غَسَلَ الْوَلَدُ الثَّوْبَيْنِ (Anak itu mencuci dua baju) menjadi kalimat pasif yang tepat!",
+            "prompt": "Ubahlah kalimat aktif: غَسَلَ الْوَلَدُ الثَّوْبَيْنِ (Anak itu mencuci dua baju) menjadi kalimat pasif yang tepat!",
+            "arabic": "غَسَلَ الْوَلَدُ الثَّوْبَيْنِ -> ...",
+            "translation": "Anak itu mencuci dua baju -> ...",
+            "meaning": "Anak itu mencuci dua baju -> ...",
+            "options": [
+              {
+                "label": "غُسِلَ الثَّوْبَانِ",
+                "value": "ghusila_tsaubani"
+              },
+              {
+                "label": "غُسِلَ الثَّوْبَيْنِ",
+                "value": "ghusila_tsaubaini"
+              },
+              {
+                "label": "غَسَلَ الثَّوْبَانِ",
+                "value": "ghasala_tsaubani"
+              },
+              {
+                "label": "غُسِلَا الثَّوْبَانِ",
+                "value": "ghusilaa"
+              }
+            ],
+            "correct": "ghusila_tsaubani",
+            "explanation": "Fi'il menjadi majhul (غُسِلَ), fa'il (الْوَلَدُ) dibuang, dan objek mutsanna (الثَّوْبَيْنِ) diubah dari ya' manshub menjadi alif marfu' (الثَّوْبَانِ).",
+            "whyModal": {
+              "title": "Transformasi Pasif Mutsanna",
+              "matan": "ضُمَّ أَوَّلُهُ وَكُسِرَ مَا قَبْلَ آخِرِهِ... وَالْمُثَنَّى يُرْفَعُ بِالْأَلِفِ",
+              "reason": "Tsaubani marfu' dengan alif menggantikan posisi fa'il."
+            }
+          },
+          {
+            "id": "q8_5_6",
+            "type": "mcq",
+            "question": "Pada ayat: وَغِيضَ الْمَاءُ وَقُضِيَ الْأَمْرُ, kedua fi'il tersebut (غِيضَ dan قُضِيَ) tergolong fi'il...",
+            "prompt": "Pada ayat: وَغِيضَ الْمَاءُ وَقُضِيَ الْأَمْرُ, kedua fi'il tersebut (غِيضَ dan قُضِيَ) tergolong fi'il...",
+            "arabic": "وَغِيضَ الْمَاءُ وَقُضِيَ الْأَمْرُ",
+            "translation": "Dan air pun disurutkan dan urusan pun diselesaikan",
+            "meaning": "Dan air pun disurutkan dan urusan pun diselesaikan",
+            "options": [
+              {
+                "label": "Fi'il Madhi Mabni Majhul",
+                "value": "madhi_majhul"
+              },
+              {
+                "label": "Fi'il Mudhari' Mabni Majhul",
+                "value": "mudhari_majhul"
+              },
+              {
+                "label": "Fi'il Madhi Ma'lum",
+                "value": "madhi_malum"
+              },
+              {
+                "label": "Fi'il Amr",
+                "value": "amr"
+              }
+            ],
+            "correct": "madhi_majhul",
+            "explanation": "Keduanya adalah fi'il madhi pasif (majhul); الْمَاءُ dan الْأَمْرُ berkedudukan sebagai Na'ibul Fa'il marfu'.",
+            "whyModal": {
+              "title": "Fi'il Madhi Majhul Ayat Thufan",
+              "matan": "فَإِنْ كَانَ الْفِعْلُ مَاضِيًا...",
+              "reason": "Ghidha dan qudhiya adalah contoh agung fi'il madhi majhul."
+            }
+          },
+          {
+            "id": "q8_5_7",
+            "type": "mcq",
+            "question": "Pada kalimat يُحْتَرَمُ ذُو الْعِلْمِ (Orang yang berilmu dihormati), tanda rafa' dari na'ibul fa'il ذُو adalah...",
+            "prompt": "Pada kalimat يُحْتَرَمُ ذُو الْعِلْمِ (Orang yang berilmu dihormati), tanda rafa' dari na'ibul fa'il ذُو adalah...",
+            "arabic": "يُحْتَرَمُ ذُو الْعِلْمِ",
+            "translation": "Dihormati orang yang memiliki ilmu",
+            "meaning": "Dihormati orang yang memiliki ilmu",
+            "options": [
+              {
+                "label": "Wawu karena termasuk Asma'ul Khamsah",
+                "value": "wawu"
+              },
+              {
+                "label": "Dhammah",
+                "value": "dhammah"
+              },
+              {
+                "label": "Alif",
+                "value": "alif"
+              },
+              {
+                "label": "Sukun",
+                "value": "sukun"
+              }
+            ],
+            "correct": "wawu",
+            "explanation": "ذُو adalah Na'ibul Fa'il dari Asma'ul Khamsah, tanda rafa'nya adalah huruf Wawu (الْعِلْمِ adalah mudhaf ilaih majrur).",
+            "whyModal": {
+              "title": "Na'ibul Fa'il Asma'ul Khamsah",
+              "matan": "وَفِي الْأَسْمَاءِ الْخَمْسَةِ... تُcode_execرْفَعُ بِالْوَاوِ",
+              "reason": "Dzu marfu' dengan Wawu sebagai na'ibul fa'il."
+            }
+          },
+          {
+            "id": "q8_5_8",
+            "type": "mcq",
+            "question": "Jika kalimat pasif: كُرِّمُوا dibedah, di manakah Na'ibul Fa'il-nya?",
+            "prompt": "Jika kalimat pasif: كُرِّمُوا dibedah, di manakah Na'ibul Fa'il-nya?",
+            "arabic": "كُرِّمُوا",
+            "translation": "Mereka telah dihormati",
+            "meaning": "Mereka telah dihormati",
+            "options": [
+              {
+                "label": "Wawu Jama'ah di dalam fi'il",
+                "value": "wawu_jamaah"
+              },
+              {
+                "label": "Dhamir mustatir",
+                "value": "mustatir"
+              },
+              {
+                "label": "Huruf Ra' bertasydid",
+                "value": "ra"
+              },
+              {
+                "label": "Tidak ada na'ibul fa'il",
+                "value": "tidak_ada"
+              }
+            ],
+            "correct": "wawu_jamaah",
+            "explanation": "Wawu pada كُرِّمُوا adalah Wawu Jama'ah, berstatus dhamir muttashil mabni fi mahalli raf'in Na'ibul Fa'il.",
+            "whyModal": {
+              "title": "Dhamir Pasif Wawu",
+              "matan": "وَضُرِبُوا",
+              "reason": "Wawu adalah na'ibul fa'il muttashil."
+            }
+          },
+          {
+            "id": "q8_5_9",
+            "type": "mcq",
+            "question": "Mengapa kalimat: ضُرِبَ زَيْدٌ بِوَاسِطَةِ عَمْرٍو (Zaid dipukul oleh perantara 'Amr) tidak lazim dalam gaya fushha klasik?",
+            "prompt": "Mengapa kalimat: ضُرِبَ زَيْدٌ بِوَاسِطَةِ عَمْرٍو (Zaid dipukul oleh perantara 'Amr) tidak lazim dalam gaya fushha klasik?",
+            "arabic": "أُسْلُوبُ الْفِعْلِ الْمَجْهُولِ فِي الْفُصْحَى",
+            "translation": "Gaya fi'il majhul dalam bahasa fushha",
+            "meaning": "Gaya fi'il majhul dalam bahasa fushha",
+            "options": [
+              {
+                "label": "Karena fungsi asli fi'il majhul adalah menghapus penyebutan pelaku demi tujuan balaghah",
+                "value": "balaghah_hapus_pelaku"
+              },
+              {
+                "label": "Karena kata biwashithati adalah haram",
+                "value": "haram"
+              },
+              {
+                "label": "Karena 'Amr tidak boleh menjadi pelaku",
+                "value": "amr_tidak_boleh"
+              },
+              {
+                "label": "Karena huruf jar membatalkan na'ibul fa'il",
+                "value": "batal_jar"
+              }
+            ],
+            "correct": "balaghah_hapus_pelaku",
+            "explanation": "Dalam balaghah bahasa Arab murni, jika pelaku hendak diberitahukan, kalimat harus disusun aktif (ضَرَبَ عَمْرٌو زَيْدًا). Fi'il majhul dipakai khusus ketika fa'il tidak ingin/tidak perlu disebut.",
+            "whyModal": {
+              "title": "Karakteristik Fushha Majhul",
+              "matan": "الَّذِي لَمْ يُذْكَرْ مَعَهُ فَاعِلُهُ",
+              "reason": "Tujuan fi'il majhul adalah merahasiakan atau menyembunyikan pelaku asli."
+            }
+          },
+          {
+            "id": "q8_5_10",
+            "type": "mcq",
+            "question": "Berapakah nilai minimal yang harus diraih santri untuk membuka Bab 9 (Al-Mubtada' wal Khabar)?",
+            "prompt": "Berapakah nilai minimal yang harus diraih santri untuk membuka Bab 9 (Al-Mubtada' wal Khabar)?",
+            "arabic": "شَرْطُ انْتِقَالِ الْمَرْحَلَةِ",
+            "translation": "Syarat pembukaan bab baru",
+            "meaning": "Syarat pembukaan bab baru",
+            "options": [
+              {
+                "label": "Minimal 7 dari 10 soal benar (70%) tanpa pengurangan nyawa",
+                "value": "skor_7_10"
+              },
+              {
+                "label": "Harus 100% sempurna",
+                "value": "harus_100"
+              },
+              {
+                "label": "Cukup 4 dari 10 benar",
+                "value": "cukup_4"
+              },
+              {
+                "label": "Mengulang dari Bab 1 jika gagal",
+                "value": "ulang_bab1"
+              }
+            ],
+            "correct": "skor_7_10",
+            "explanation": "Sesuai sistem edukasi JurumiPlay: skor min 7/10 pada Boss stage meloloskan santri ke bab berikutnya dengan retry non-punitif.",
+            "whyModal": {
+              "title": "Gamifikasi JurumiPlay",
+              "matan": "شَرْطُ الْفَوْزِ: سَبْعَةٌ مِنْ عَشَرَةٍ",
+              "reason": "Standar kelulusan non-punitif JurumiPlay."
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

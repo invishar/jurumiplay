@@ -1,0 +1,2255 @@
+{
+  "chapter": {
+    "id": "bab_10",
+    "number": 10,
+    "title_ar": "بَابُ الْعَوَامِلِ الدَّاخِلَةِ عَلَى الْمُبْتَدَإِ وَالْخَبَرِ",
+    "title_id": "Bab 10: Al-'Awamil Ad-Dakhilah (Nawasikh)",
+    "description": "Tiga kelompok amil pengubah hukum mubtada' dan khabar (An-Nawasikh): Kaana wa akhawatuha (tarfa'ul isma wa tanshibul khabar), Inna wa akhawatuha (tanshibul isma wa tarfa'ul khabar), dan Zhanna wa akhawatuha (tanshibuhuma maf'ulaini).",
+    "matan_full": "وَهِيَ ثَلَاثَةُ أَشْيَاءَ: كَانَ وَأَخَوَاتُهَا، وَإِنَّ وَأَخَوَاتُهَا، وَظَنَنْتُ وَأَخَوَاتُهَا. فَأَمَّا كَانَ وَأَخَوَاتُهَا: فَإِنَّهَا تَرْفَعُ الِاسْمَ، وَتَنْصِبُ الْخَبَرَ، وَهِيَ: كَانَ، وَأَمْسَى، وَأَصْبَحَ، وَأَضْحَى، وَظَلَّ، وَبَاتَ، وَصَارَ، وَلَيْسَ، وَمَا زَالَ، وَمَا انْفَكَّ، وَمَا فَتِئَ، وَمَا بَرِحَ، وَمَا دَامَ، وَمَا تَصَرَّفَ مِنْهَا نَحْوُ: كَانَ، وَيَكُونُ، وَكُنْ، وَأَصْبَحَ، وَيُصْبِحُ، وَأَصْبِحْ، تَقُولُ: كَانَ زَيْدٌ قَائِمًا، وَلَيْسَ عَمْرٌو شَاخِصًا، وَمَا أَشْبَهَ ذَلِكَ. وَأَمَّا إِنَّ وَأَخَوَاتُهَا: فَإِنَّهَا تَنْصِبُ الِاسْمَ، وَتَرْفَعُ الْخَبَرَ، وَهِيَ: إِنَّ، وَأَنَّ، وَلَكِنَّ، وَكَأَنَّ، وَلَيْتَ، وَلَعَلَّ، تَقُولُ: إِنَّ زَيْدًا قَائِمٌ، وَلَيْتَ عَمْرًا شَاخِصٌ، وَمَا أَشْبَهَ ذَلِكَ؛ وَمَعْنَى إِنَّ وَأَنَّ لِلتَّوْكِيدِ، وَلَكِنَّ لِلِاسْتِدْرَاكِ، وَكَأَنَّ لِلتَّشْبِيهِ، وَلَيْتَ لِلتَّمَنِّي، وَلَعَلَّ لِلتَّرَجِّي وَالتَّوَقُّعِ. وَأَمَّا ظَنَنْتُ وَأَخَوَاتُهَا: فَإِنَّهَا تَنْصِبُ الْمُبْتَدَأَ وَالْخَبَرَ عَلَى أَنَّهُمَا مَفْعُولَانِ لَهَا، وَهِيَ: ظَنَنْتُ، وَحَسِبْتُ، وَخِلْتُ، وَزَعَمْتُ، وَرَأَيْتُ، وَعَلِمْتُ، وَوَجَدْتُ، وَاتَّخَذْتُ، وَجَعَلْتُ، وَسَمِعْتُ؛ تَقُولُ: ظَنَنْتُ زَيْدًا قَائِمًا، وَرَأَيْتُ عَمْرًا شَاخِصًا، وَمَا أَشْبَهَ ذَلِكَ.",
+    "qawaidCard": {
+      "title": "Kaidah Bab An-Nawasikh",
+      "matanSnippet": "وَهِيَ ثَلَاثَةُ أَشْيَاءَ: كَانَ وَأَخَوَاتُهَا، وَإِنَّ وَأَخَوَاتُهَا، وَظَنَنْتُ وَأَخَوَاتُهَا.",
+      "formula": "Nawasikh = Kaana (Rafa' Isim + Nashab Khabar) | Inna (Nashab Isim + Rafa' Khabar) | Zhanna (Nashab Isim & Khabar Dua-duanya)",
+      "points": [
+        "Nawasikh adalah amil-amil yang menghapus (nasakh) hukum asli mubtada' dan khabar.",
+        "Kaana wa akhawatuha (13 fi'il): Merafa'kan isim dan menashabkan khabar (تَرْفَعُ الِاسْمَ وَتَنْصِبُ الْخَبَرَ). Tasyrif madhi, mudhari', amr beramal sama.",
+        "Inna wa akhawatuha (6 huruf): Menashabkan isim dan merafa'kan khabar (تَنْصِبُ الِاسْمَ وَتَرْفَعُ الْخَبَرَ). Masing-masing memiliki faedah makna balaghah.",
+        "Zhanna wa akhawatuha (10 fi'il hati & transformasi): Menashabkan mubtada' dan khabar sekaligus sebagai maf'ul pertama dan maf'ul kedua."
+      ],
+      "keyTakeaways": [
+        "Kaana = Tarfa'ul Isma wa Tanshibul Khabar (كَانَ زَيْدٌ قَائِمًا).",
+        "Inna = Tanshibul Isma wa Tarfa'ul Khabar (إِنَّ زَيْدًا قَائِمٌ).",
+        "Zhanna = Tanshibul Isma wal Khabara (ظَنَنْتُ زَيْدًا قَائِمًا).",
+        "Laisa termasuk saudara Kaana untuk makna negasi/penafian.",
+        "Laita untuk angan-angan mustahil, La'alla untuk harapan yang mungkin terjadi (tarajji) atau kewaspadaan (tawaqqu')."
+      ]
+    },
+    "levels": [
+      {
+        "id": "level_10_1",
+        "code": "10.1",
+        "title": "Tiga Pasukan Nawasikh",
+        "subtitle": "Pengantar Kaana, Inna, dan Zhanna (Penghapus Hukum Asli)",
+        "titleArabic": "أَقْسَامُ النَّوَاسِخِ الثَّلَاثَةُ",
+        "type": "mcq",
+        "xp": 70,
+        "unlocked": true,
+        "is_boss": false,
+        "theory": {
+          "title": "Tiga Golongan Nawasikh Matan",
+          "matan": "وَهِيَ ثَلَاثَةُ أَشْيَاءَ: كَانَ وَأَخَوَاتُهَا، وَإِنَّ وَأَخَوَاتُهَا، وَظَنَنْتُ وَأَخَوَاتُهَا.",
+          "translation": "Dan ia ada tiga perkara: Kaana dan saudara-saudaranya, Inna dan saudara-saudaranya, dan Zhannantu dan saudara-saudaranya.",
+          "points": [
+            {
+              "label": "Makna An-Nawasikh",
+              "arabic": "النَّوَاسِخُ",
+              "desc": "Berasal dari kata an-Naskh yang bermakna menghapus atau mengganti. Amil-amil ini masuk ke kalimat nominal dan menghapus status i'rab asal mubtada' & khabar."
+            },
+            {
+              "label": "Peta Kekuatan Tiga Pasukan",
+              "arabic": "خَرِيطَةُ عَمَلِ النَّوَاسِخِ",
+              "desc": "Kaana: Rafa' Isim, Nashab Khabar. Inna: Nashab Isim, Rafa' Khabar. Zhanna: Nashab kedua-duanya."
+            }
+          ]
+        },
+        "questions": [
+          {
+            "id": "q10_1_1",
+            "type": "mcq",
+            "question": "Ada berapakah golongan amil yang masuk menghapus hukum Mubtada' dan Khabar (An-Nawasikh) menurut matan?",
+            "prompt": "Ada berapakah golongan amil yang masuk menghapus hukum Mubtada' dan Khabar (An-Nawasikh) menurut matan?",
+            "arabic": "وَهِيَ ثَلَاثَةُ أَشْيَاءَ",
+            "translation": "Dan ia ada tiga perkara",
+            "meaning": "Dan ia ada tiga perkara",
+            "options": [
+              {
+                "label": "3 Perkara (Kaana dkk, Inna dkk, Zhannantu dkk)",
+                "value": "3_perkara"
+              },
+              {
+                "label": "2 Perkara saja",
+                "value": "2"
+              },
+              {
+                "label": "4 Perkara",
+                "value": "4"
+              },
+              {
+                "label": "7 Perkara",
+                "value": "7"
+              }
+            ],
+            "correct": "3_perkara",
+            "explanation": "Teks matan: 'وَهِيَ ثَلَاثَةُ أَشْيَاءَ: كَانَ وَأَخَوَاتُهَا، وَإِنَّ وَأَخَوَاتُهَا، وَظَنَنْتُ وَأَخَوَاتُهَا'.",
+            "whyModal": {
+              "title": "Tiga Pasukan Nawasikh",
+              "matan": "وَهِيَ ثَلَاثَةُ أَشْيَاءَ",
+              "reason": "Kaana, Inna, dan Zhanna adalah 3 pilar pengubah kalimat nominal."
+            }
+          },
+          {
+            "id": "q10_1_2",
+            "type": "mcq",
+            "question": "Apakah tugas/amal dari amil Kaana wa akhawatuha?",
+            "prompt": "Apakah tugas/amal dari amil Kaana wa akhawatuha?",
+            "arabic": "عَمَلُ كَانَ وَأَخَوَاتِهَا",
+            "translation": "Amal Kaana dan saudara-saudaranya",
+            "meaning": "Amal Kaana dan saudara-saudaranya",
+            "options": [
+              {
+                "label": "Merafa'kan Isim dan Menashabkan Khabar (تَرْفَعُ الِاسْمَ وَتَنْصِبُ الْخَبَرَ)",
+                "value": "tarfa_tanshib"
+              },
+              {
+                "label": "Menashabkan Isim dan Merafa'kan Khabar",
+                "value": "tanshib_tarfa"
+              },
+              {
+                "label": "Menashabkan kedua-duanya",
+                "value": "tanshib_keduanya"
+              },
+              {
+                "label": "Menjazmkan kedua-duanya",
+                "value": "menjazmkan"
+              }
+            ],
+            "correct": "tarfa_tanshib",
+            "explanation": "Matan: 'فَإِنَّهَا تَرْفَعُ الِاسْمَ، وَتَنْصِبُ الْخَبَرَ' (Merafa'kan isim dan menashabkan khabar).",
+            "whyModal": {
+              "title": "Amal Kaana",
+              "matan": "تَرْفَعُ الِاسْمَ، وَتَنْصِبُ الْخَبَرَ",
+              "reason": "Kaana merafa'kan subjek dan menashabkan predikat."
+            }
+          },
+          {
+            "id": "q10_1_3",
+            "type": "mcq",
+            "question": "Apakah tugas/amal dari amil Inna wa akhawatuha?",
+            "prompt": "Apakah tugas/amal dari amil Inna wa akhawatuha?",
+            "arabic": "عَمَلُ إِنَّ وَأَخَوَاتِهَا",
+            "translation": "Amal Inna dan saudara-saudaranya",
+            "meaning": "Amal Inna dan saudara-saudaranya",
+            "options": [
+              {
+                "label": "Menashabkan Isim dan Merafa'kan Khabar (تَنْصِبُ الِاسْمَ وَتَرْفَعُ الْخَبَرَ)",
+                "value": "tanshib_tarfa"
+              },
+              {
+                "label": "Merafa'kan Isim dan Menashabkan Khabar",
+                "value": "tarfa_tanshib"
+              },
+              {
+                "label": "Menashabkan kedua-duanya",
+                "value": "tanshib_keduanya"
+              },
+              {
+                "label": "Merafa'kan kedua-duanya",
+                "value": "merafakan_keduanya"
+              }
+            ],
+            "correct": "tanshib_tarfa",
+            "explanation": "Matan: 'فَإِنَّهَا تَنْصِبُ الِاسْمَ، وَتَرْفَعُ الْخَبَرَ' (Menashabkan isim dan merafa'kan khabar - kebalikan Kaana).",
+            "whyModal": {
+              "title": "Amal Inna",
+              "matan": "تَنْصِبُ الِاسْمَ، وَتَرْفَعُ الْخَبَرَ",
+              "reason": "Inna adalah lawan operasi dari Kaana."
+            }
+          },
+          {
+            "id": "q10_1_4",
+            "type": "mcq",
+            "question": "Apakah tugas/amal dari amil Zhannantu wa akhawatuha?",
+            "prompt": "Apakah tugas/amal dari amil Zhannantu wa akhawatuha?",
+            "arabic": "عَمَلُ ظَنَنْتُ وَأَخَوَاتِهَا",
+            "translation": "Amal Zhannantu dan saudara-saudaranya",
+            "meaning": "Amal Zhannantu dan saudara-saudaranya",
+            "options": [
+              {
+                "label": "Menashabkan Mubtada' dan Khabar sekaligus sebagai dua maf'ul (مَفْعُولَيْنِ)",
+                "value": "tanshib_keduanya"
+              },
+              {
+                "label": "Merafa'kan kedua-duanya",
+                "value": "merafakan"
+              },
+              {
+                "label": "Merafa'kan isim dan menashabkan khabar",
+                "value": "kaana"
+              },
+              {
+                "label": "Menashabkan isim dan merafa'kan khabar",
+                "value": "inna"
+              }
+            ],
+            "correct": "tanshib_keduanya",
+            "explanation": "Matan: 'فَإِنَّهَا تَنْصِبُ الْمُبْتَدَأَ وَالْخَبَرَ عَلَى أَنَّهُمَا مَفْعُولَانِ لَهَا' (Menashabkan mubtada' dan khabar sebagai dua maf'ul).",
+            "whyModal": {
+              "title": "Amal Zhannantu",
+              "matan": "تَنْصِبُ الْمُبْتَدَأَ وَالْخَبَرَ عَلَى أَنَّهُمَا مَفْعُولَانِ",
+              "reason": "Zhanna mengubah mubtada' & khabar menjadi maf'ul bih ke-1 & ke-2."
+            }
+          },
+          {
+            "id": "q10_1_5",
+            "type": "mcq",
+            "question": "Mengapa ketiga kelompok amil ini disebut dengan istilah AN-NAWASIKH?",
+            "prompt": "Mengapa ketiga kelompok amil ini disebut dengan istilah AN-NAWASIKH?",
+            "arabic": "سَبَبُ تَسْمِيَتِهَا بِالنَّوَاسِخِ",
+            "translation": "Sebab penamaannya dengan Nawasikh",
+            "meaning": "Sebab penamaannya dengan Nawasikh",
+            "options": [
+              {
+                "label": "Karena menghapus/merombak hukum asal rafa' pada kalimat nominal",
+                "value": "menghapus_hukum_asal"
+              },
+              {
+                "label": "Karena ditulis dengan khat Naskhi",
+                "value": "khat_naskhi"
+              },
+              {
+                "label": "Karena meniru fi'il amr",
+                "value": "meniru_amr"
+              },
+              {
+                "label": "Karena berasal dari naskah kuno",
+                "value": "naskah_kuno"
+              }
+            ],
+            "correct": "menghapus_hukum_asal",
+            "explanation": "An-Naskh dalam bahasa Arab bermakna al-Izaalah (menghilangkan/mengganti), karena amil-amil ini membatalkan status rafa' ibtida' asal.",
+            "whyModal": {
+              "title": "Etimologi An-Nawasikh",
+              "matan": "النَّوَاسِخُ: النَّاسِخَةُ لِحُكْمِ الْمُبْتَدَإِ وَالْخَبَرِ",
+              "reason": "Menghapus status kemerdekaan mubtada' dan khabar."
+            }
+          },
+          {
+            "id": "q10_1_6",
+            "type": "mcq",
+            "question": "Kalimat asal: زَيْدٌ قَائِمٌ (keduanya marfu'). Jika dimasuki كَانَ, bunyinya berubah menjadi...",
+            "prompt": "Kalimat asal: زَيْدٌ قَائِمٌ (keduanya marfu'). Jika dimasuki كَانَ, bunyinya berubah menjadi...",
+            "arabic": "كَانَ + زَيْدٌ قَائِمٌ",
+            "translation": "Kaana + Zaidun Qa'imun",
+            "meaning": "Kaana + Zaidun Qa'imun",
+            "options": [
+              {
+                "label": "كَانَ زَيْدٌ قَائِمًا (Zaid marfu', qa'iman manshub)",
+                "value": "kana_zaidun_qaiman"
+              },
+              {
+                "label": "كَانَ زَيْدًا قَائِمٌ",
+                "value": "zaidan_qaimun"
+              },
+              {
+                "label": "كَانَ زَيْدًا قَائِمًا",
+                "value": "zaidan_qaiman"
+              },
+              {
+                "label": "كَانَ زَيْدٌ قَائِمٌ",
+                "value": "zaidun_qaimun"
+              }
+            ],
+            "correct": "kana_zaidun_qaiman",
+            "explanation": "Kaana merafa'kan isim dan menashabkan khabar: كَانَ زَيْدٌ قَائِمًا.",
+            "whyModal": {
+              "title": "Aplikasi Kaana Zaidun Qa'iman",
+              "matan": "تَقُولُ: كَانَ زَيْدٌ قَائِمًا",
+              "reason": "Contoh baku dalam matan untuk amal Kaana."
+            }
+          },
+          {
+            "id": "q10_1_7",
+            "type": "mcq",
+            "question": "Kalimat asal: زَيْدٌ قَائِمٌ. Jika dimasuki إِنَّ, bunyinya berubah menjadi...",
+            "prompt": "Kalimat asal: زَيْدٌ قَائِمٌ. Jika dimasuki إِنَّ, bunyinya berubah menjadi...",
+            "arabic": "إِنَّ + زَيْدٌ قَائِمٌ",
+            "translation": "Inna + Zaidun Qa'imun",
+            "meaning": "Inna + Zaidun Qa'imun",
+            "options": [
+              {
+                "label": "إِنَّ زَيْدًا قَائِمٌ (Zaidan manshub, qa'imun marfu')",
+                "value": "inna_zaidan_qaimun"
+              },
+              {
+                "label": "إِنَّ زَيْدٌ قَائِمًا",
+                "value": "zaidun_qaiman"
+              },
+              {
+                "label": "إِنَّ زَيْدًا قَائِمًا",
+                "value": "zaidan_qaiman"
+              },
+              {
+                "label": "إِنَّ زَيْدٌ قَائِمٌ",
+                "value": "zaidun_qaimun"
+              }
+            ],
+            "correct": "inna_zaidan_qaimun",
+            "explanation": "Inna menashabkan isim dan merafa'kan khabar: إِنَّ زَيْدًا قَائِمٌ.",
+            "whyModal": {
+              "title": "Aplikasi Inna Zaidan Qa'imun",
+              "matan": "تَقُولُ: إِنَّ زَيْدًا قَائِمٌ",
+              "reason": "Contoh baku dalam matan untuk amal Inna."
+            }
+          },
+          {
+            "id": "q10_1_8",
+            "type": "mcq",
+            "question": "Kalimat asal: زَيْدٌ قَائِمٌ. Jika dimasuki ظَنَنْتُ, bunyinya berubah menjadi...",
+            "prompt": "Kalimat asal: زَيْدٌ قَائِمٌ. Jika dimasuki ظَنَنْتُ, bunyinya berubah menjadi...",
+            "arabic": "ظَنَنْتُ + زَيْدٌ قَائِمٌ",
+            "translation": "Zhannantu + Zaidun Qa'imun",
+            "meaning": "Zhannantu + Zaidun Qa'imun",
+            "options": [
+              {
+                "label": "ظَنَنْتُ زَيْدًا قَائِمًا (keduanya manshub)",
+                "value": "zhannantu_zaidan_qaiman"
+              },
+              {
+                "label": "ظَنَنْتُ زَيْدٌ قَائِمٌ",
+                "value": "zaidun_qaimun"
+              },
+              {
+                "label": "ظَنَنْتُ زَيْدٌ قَائِمًا",
+                "value": "zaidun_qaiman"
+              },
+              {
+                "label": "ظَنَنْتُ زَيْدًا قَائِمٌ",
+                "value": "zaidan_qaimun"
+              }
+            ],
+            "correct": "zhannantu_zaidan_qaiman",
+            "explanation": "Zhannantu menashabkan kedua rukun menjadi maf'ul ke-1 dan maf'ul ke-2: ظَنَنْتُ زَيْدًا قَائِمًا.",
+            "whyModal": {
+              "title": "Aplikasi Zhannantu",
+              "matan": "تَقُولُ: ظَنَنْتُ زَيْدًا قَائِمًا",
+              "reason": "Contoh baku dalam matan untuk amal Zhannantu."
+            }
+          },
+          {
+            "id": "q10_1_9",
+            "type": "mcq",
+            "question": "Dari ketiga kelompok nawasikh, manakah kelompok yang SELURUH anggotanya berupa HURUF (bukan kata kerja)?",
+            "prompt": "Dari ketiga kelompok nawasikh, manakah kelompok yang SELURUH anggotanya berupa HURUF (bukan kata kerja)?",
+            "arabic": "الْحُرُوفُ النَّاسِخَةُ",
+            "translation": "Huruf-huruf nasikh",
+            "meaning": "Huruf-huruf nasikh",
+            "options": [
+              {
+                "label": "Inna wa akhawatuha (seluruhnya berupa huruf)",
+                "value": "inna_huruf"
+              },
+              {
+                "label": "Kaana wa akhawatuha",
+                "value": "kaana"
+              },
+              {
+                "label": "Zhannantu wa akhawatuha",
+                "value": "zhanna"
+              },
+              {
+                "label": "Semua nawasikh berupa isim",
+                "value": "semua_isim"
+              }
+            ],
+            "correct": "inna_huruf",
+            "explanation": "Inna dan saudara-saudaranya seluruhnya adalah HURUF (huruf tasyabbah bil fi'li), sedangkan Kaana dan Zhanna tergolong kata kerja (fi'il).",
+            "whyModal": {
+              "title": "Hakikat Huruf Inna",
+              "matan": "إِنَّ وَأَخَوَاتُهَا حُرُوفٌ نَاسِخَةٌ",
+              "reason": "Inna dkk berstatus huruf nasikh."
+            }
+          },
+          {
+            "id": "q10_1_10",
+            "type": "mcq",
+            "question": "Manakah di bawah ini rumus cepat perbandingan amal Kaana dan Inna?",
+            "prompt": "Manakah di bawah ini rumus cepat perbandingan amal Kaana dan Inna?",
+            "arabic": "مُعَادَلَةُ كَانَ وَإِنَّ",
+            "translation": "Persamaan Kaana dan Inna",
+            "meaning": "Persamaan Kaana dan Inna",
+            "options": [
+              {
+                "label": "Kaana: Rafa' Isim + Nashab Khabar <=> Inna: Nashab Isim + Rafa' Khabar",
+                "value": "rumus_kebalikan"
+              },
+              {
+                "label": "Kaana dan Inna amalnya sama persis",
+                "value": "sama_persis"
+              },
+              {
+                "label": "Kaana menashabkan dua-duanya",
+                "value": "kaana_dua"
+              },
+              {
+                "label": "Inna menjazmkan isim",
+                "value": "inna_jazm"
+              }
+            ],
+            "correct": "rumus_kebalikan",
+            "explanation": "Amal Inna adalah kebalikan mutlak dari amal Kaana (Kaana = Rafa' lalu Nashab, Inna = Nashab lalu Rafa').",
+            "whyModal": {
+              "title": "Rumus Cepat Kaana vs Inna",
+              "matan": "إِنَّ تَعْمَلُ عَكْسَ عَمَلِ كَانَ",
+              "reason": "Memahami prinsip kebalikan ini mempermudah i'rab secara instan."
+            }
+          }
+        ]
+      },
+      {
+        "id": "level_10_2",
+        "code": "10.2",
+        "title": "Kaana wa Akhawatuha",
+        "subtitle": "Tarfa'ul Isma wa Tanshibul Khabar (Katalog Lengkap 13 Fi'il)",
+        "titleArabic": "كَانَ وَأَخَوَاتُهَا (تَرْفَعُ الِاسْمَ وَتَنْصِبُ الْخَبَرَ)",
+        "type": "mcq",
+        "xp": 70,
+        "unlocked": false,
+        "is_boss": false,
+        "theory": {
+          "title": "Saudara-Saudara Kaana Matan",
+          "matan": "وَهِيَ: كَانَ، وَأَمْسَى، وَأَصْبَحَ، وَأَضْحَى، وَظَلَّ، وَبَاتَ، وَصَارَ، وَلَيْسَ، وَمَا زَالَ، وَمَا انْفَكَّ، وَمَا فَتِئَ، وَمَا بَرِحَ، وَمَا دَامَ، وَمَا تَصَرَّفَ مِنْهَا نَحْوُ: كَانَ، وَيَكُونُ، وَكُنْ...",
+          "translation": "Dan ia adalah: Kaana, Amsa, Ashbaha, Adh-ha, Zhalla, Bata, Shara, Laisa, Ma Zala, Man Fakka, Ma Fati'a, Ma Bariha, Ma Dama, dan apa yang bertasyrif darinya seperti: Kaana, Yakunu, Kun...",
+          "points": [
+            {
+              "label": "13 Anggota Kaana",
+              "arabic": "ثَلَاثَةَ عَشَرَ فِعْلًا",
+              "desc": "Semuanya adalah kata kerja ناقص (kurang/tidak butuh maf'ul melainkan butuh khabar)."
+            },
+            {
+              "label": "Kekuatan Tasyrif",
+              "arabic": "وَمَا تَصَرَّفَ مِنْهَا",
+              "desc": "Turunan fi'il mudhari' (يَكُونُ) dan amr (كُنْ) serta isim fa'ilnya beramal persis seperti bentuk madhi-nya."
+            }
+          ]
+        },
+        "questions": [
+          {
+            "id": "q10_2_1",
+            "type": "mcq",
+            "question": "Berapakah jumlah total anggota Kaana dan saudara-saudaranya menurut rincian Matan Al-Ajurrumiyyah?",
+            "prompt": "Berapakah jumlah total anggota Kaana dan saudara-saudaranya menurut rincian Matan Al-Ajurrumiyyah?",
+            "arabic": "عَدَدُ أَخَوَاتِ كَانَ",
+            "translation": "Jumlah saudara-saudara Kaana",
+            "meaning": "Jumlah saudara-saudara Kaana",
+            "options": [
+              {
+                "label": "13 Fi'il",
+                "value": "13"
+              },
+              {
+                "label": "10 Fi'il",
+                "value": "10"
+              },
+              {
+                "label": "6 Fi'il",
+                "value": "6"
+              },
+              {
+                "label": "18 Fi'il",
+                "value": "18"
+              }
+            ],
+            "correct": "13",
+            "explanation": "Matan merinci 13 fi'il: Kaana, Amsa, Ashbaha, Adh-ha, Zhalla, Bata, Shara, Laisa, Ma Zala, Man Fakka, Ma Fati'a, Ma Bariha, Ma Dama.",
+            "whyModal": {
+              "title": "13 Saudara Kaana",
+              "matan": "وَهِيَ ثَلَاثَةَ عَشَرَ فِعْلًا",
+              "reason": "Katalog lengkap fi'il naqis perubah kalimat nominal."
+            }
+          },
+          {
+            "id": "q10_2_2",
+            "type": "mcq",
+            "question": "Apakah bentuk mudhari' (يَكُونُ) dan amr (كُنْ) beramal sama persis seperti bentuk madhi (كَانَ)?",
+            "prompt": "Apakah bentuk mudhari' (يَكُونُ) dan amr (كُنْ) beramal sama persis seperti bentuk madhi (كَانَ)?",
+            "arabic": "وَمَا تَصَرَّفَ مِنْهَا",
+            "translation": "Dan apa-apa yang ditasyrif darinya",
+            "meaning": "Dan apa-apa yang ditasyrif darinya",
+            "options": [
+              {
+                "label": "Ya, beramal sama persis (merafa'kan isim dan menashabkan khabar)",
+                "value": "sama_persis"
+              },
+              {
+                "label": "Tidak, hanya madhi yang beramal",
+                "value": "hanya_madhi"
+              },
+              {
+                "label": "Bentuk amr menashabkan kedua-duanya",
+                "value": "amr_beda"
+              },
+              {
+                "label": "Bentuk mudhari' menjazmkan",
+                "value": "mudhari_jazm"
+              }
+            ],
+            "correct": "sama_persis",
+            "explanation": "Matan: 'وَمَا تَصَرَّفَ مِنْهَا نَحْوُ: كَانَ، وَيَكُونُ، وَكُنْ، وَأَصْبَحَ، وَيُصْبِحُ، وَأَصْبِحْ' (Turunan tasyrifnya beramal serupa).",
+            "whyModal": {
+              "title": "Tasyrif Kaana Beramal Sama",
+              "matan": "وَمَا تَصَرَّفَ مِنْهَا نَحْوُ: كَانَ، وَيَكُونُ، وَكُنْ",
+              "reason": "Yakunu dan Kun beramal merafa'kan isim dan menashabkan khabar."
+            }
+          },
+          {
+            "id": "q10_2_3",
+            "type": "mcq",
+            "question": "Pada kalimat perintah: كُنْ عَالِمًا (Jadilah engkau orang yang berilmu!), di manakah Isim Kun dan Khabar Kun?",
+            "prompt": "Pada kalimat perintah: كُنْ عَالِمًا (Jadilah engkau orang yang berilmu!), di manakah Isim Kun dan Khabar Kun?",
+            "arabic": "كُنْ عَالِمًا",
+            "translation": "Jadilah engkau orang yang berilmu",
+            "meaning": "Jadilah engkau orang yang berilmu",
+            "options": [
+              {
+                "label": "Isim Kun: dhamir mustatir (أَنْتَ), Khabar Kun: عَالِمًا (manshub)",
+                "value": "isim_mustatir_khabar_aliman"
+              },
+              {
+                "label": "Isim Kun: عَالِمًا",
+                "value": "aliman_isim"
+              },
+              {
+                "label": "Tidak butuh isim",
+                "value": "tidak_butuh"
+              },
+              {
+                "label": "Isimnya adalah Zaid",
+                "value": "zaid"
+              }
+            ],
+            "correct": "isim_mustatir_khabar_aliman",
+            "explanation": "Isim Kun adalah dhamir mustatir wujuban takdirnya أَنْتَ (fi mahalli raf'in), dan عَالِمًا adalah Khabar Kun manshub bertanda fathah.",
+            "whyModal": {
+              "title": "I'rab Fi'il Amr Kun",
+              "matan": "كُنْ: فِعْلُ أَمْرٍ نَاقِصٌ، وَاسْمُهُ مُسْتَتِرٌ، وَعَالِمًا خَبَرُهُ",
+              "reason": "Amr Kaana tetap menuntut isim marfu' dan khabar manshub."
+            }
+          },
+          {
+            "id": "q10_2_4",
+            "type": "mcq",
+            "question": "Pada contoh matan: لَيْسَ عَمْرٌو شَاخِصًا, kata عَمْرٌو dan شَاخِصًا berstatus...",
+            "prompt": "Pada contoh matan: لَيْسَ عَمْرٌو شَاخِصًا, kata عَمْرٌو dan شَاخِصًا berstatus...",
+            "arabic": "لَيْسَ عَمْرٌو شَاخِصًا",
+            "translation": "Bukanlah 'Amr itu pergi",
+            "meaning": "Bukanlah 'Amr itu pergi",
+            "options": [
+              {
+                "label": "عَمْرٌو = Isim Laisa marfu' (dhammah), شَاخِصًا = Khabar Laisa manshub (fathah)",
+                "value": "isim_laisa_khabar_laisa"
+              },
+              {
+                "label": "Fa'il dan Maf'ul",
+                "value": "fail_maful"
+              },
+              {
+                "label": "Mubtada' dan Khabar",
+                "value": "mubtada_khabar"
+              },
+              {
+                "label": "Dua maf'ul dari laisa",
+                "value": "dua_maful"
+              }
+            ],
+            "correct": "isim_laisa_khabar_laisa",
+            "explanation": "لَيْسَ adalah fi'il madhi jamid (saudara Kaana), عَمْرٌو adalah isimnya yang marfu', dan شَاخِصًا adalah khabarnya yang manshub.",
+            "whyModal": {
+              "title": "Contoh Matan Laisa 'Amrun",
+              "matan": "وَلَيْسَ عَمْرٌو شَاخِصًا",
+              "reason": "Contoh resmi matan untuk penerapan saudara Kaana yaitu Laisa."
+            }
+          },
+          {
+            "id": "q10_2_5",
+            "type": "mcq",
+            "question": "Pada ayat Al-Qur'an: وَكَانَ اللَّهُ غَفُورًا رَحِيمًا, lafazh اللَّهُ dan غَفُورًا berkedudukan sebagai...",
+            "prompt": "Pada ayat Al-Qur'an: وَكَانَ اللَّهُ غَفُورًا رَحِيمًا, lafazh اللَّهُ dan غَفُورًا berkedudukan sebagai...",
+            "arabic": "وَكَانَ اللَّهُ غَفُورًا",
+            "translation": "Dan adalah Allah Maha Pengampun",
+            "meaning": "Dan adalah Allah Maha Pengampun",
+            "options": [
+              {
+                "label": "اللَّهُ = Isim Kaana marfu' dhammah, غَفُورًا = Khabar Kaana manshub fathah",
+                "value": "isim_kaana_khabar_kaana"
+              },
+              {
+                "label": "Fa'il dan maf'ul bih",
+                "value": "fail_maful"
+              },
+              {
+                "label": "Mubtada' dan khabar",
+                "value": "mubtada_khabar"
+              },
+              {
+                "label": "Maf'ul pertama dan kedua",
+                "value": "maful1_2"
+              }
+            ],
+            "correct": "isim_kaana_khabar_kaana",
+            "explanation": "Lafazh Jalalah adalah Isim Kaana yang marfu' (dhammah), dan غَفُورًا adalah Khabar Kaana yang manshub (fathah).",
+            "whyModal": {
+              "title": "I'rab Wa Kaanallaahu Ghafura",
+              "matan": "تَرْفَعُ الِاسْمَ وَتَنْصِبُ الْخَبَرَ",
+              "reason": "Penerapan paling agung dari amal Kaana dalam Al-Qur'an."
+            }
+          },
+          {
+            "id": "q10_2_6",
+            "type": "mcq",
+            "question": "Mengapa Kaana dan saudara-saudaranya disebut dengan istilah FI'IL NAQIS (فِعْلٌ نَاقِصٌ)?",
+            "prompt": "Mengapa Kaana dan saudara-saudaranya disebut dengan istilah FI'IL NAQIS (فِعْلٌ نَاقِصٌ)?",
+            "arabic": "سَبَبُ تَسْمِيَتِهَا بِالنَّاقِصَةِ",
+            "translation": "Sebab dinamakan fi'il naqish",
+            "meaning": "Sebab dinamakan fi'il naqish",
+            "options": [
+              {
+                "label": "Karena maknanya belum sempurna hanya dengan isim marfu' saja, tetapi mutlak membutuhkan khabar",
+                "value": "butuh_khabar"
+              },
+              {
+                "label": "Karena hurufnya kurang dari 3",
+                "value": "kurang_huruf"
+              },
+              {
+                "label": "Karena tidak bisa diucapkan",
+                "value": "tidak_bisa_ucap"
+              },
+              {
+                "label": "Karena tidak memiliki arti",
+                "value": "tanpa_arti"
+              }
+            ],
+            "correct": "butuh_khabar",
+            "explanation": "Fi'il taam sempurna dengan fa'il. Sedangkan Kaana belum sempurna faidahnya jika hanya ada isimnya (misal: 'كَانَ زَيْدٌ' belum berfaedah tanpa 'قَائِمًا').",
+            "whyModal": {
+              "title": "Pengertian Fi'il Naqis",
+              "matan": "الْأَفْعَالُ النَّاقِصَةُ",
+              "reason": "Naqis karena tidak cukup dengan marfu'nya saja, wajib ada manshubnya."
+            }
+          },
+          {
+            "id": "q10_2_7",
+            "type": "mcq",
+            "question": "Jika kalimat: الْمُعَلِّمُونَ مُجْتَهِدُونَ dimasuki amil كَانَ, bagaimanakah perubahan i'rabnya?",
+            "prompt": "Jika kalimat: الْمُعَلِّمُونَ مُجْتَهِدُونَ dimasuki amil كَانَ, bagaimanakah perubahan i'rabnya?",
+            "arabic": "كَانَ + الْمُعَلِّمُونَ مُجْتَهِدُونَ",
+            "translation": "Kaana + para guru rajin",
+            "meaning": "Kaana + para guru rajin",
+            "options": [
+              {
+                "label": "كَانَ الْمُعَلِّمُونَ مُجْتَهِدِينَ (Khabar berubah jadi Ya' manshub)",
+                "value": "muallimuna_mujtahidina"
+              },
+              {
+                "label": "كَانَ الْمُعَلِّمِينَ مُجْتَهِدُونَ",
+                "value": "muallimina_mujtahiduna"
+              },
+              {
+                "label": "كَانَ الْمُعَلِّمِينَ مُجْتَهِدِينَ",
+                "value": "keduanya_ya"
+              },
+              {
+                "label": "كَانَ الْمُعَلِّمُونَ مُجْتَهِدُونَ",
+                "value": "keduanya_wawu"
+              }
+            ],
+            "correct": "muallimuna_mujtahidina",
+            "explanation": "Isim Kaana tetap marfu' dengan Wawu (الْمُعَلِّمُونَ), sedangkan Khabar Kaana berubah menjadi manshub bertanda Ya' (مُجْتَهِدِينَ).",
+            "whyModal": {
+              "title": "Kaana pada Jamak Mudzakkar Salim",
+              "matan": "تَرْفَعُ الِاسْمَ وَتَنْصِبُ الْخَبَرَ",
+              "reason": "Khabar jamak mudzakkar salim manshub dengan tanda Ya'."
+            }
+          },
+          {
+            "id": "q10_2_8",
+            "type": "mcq",
+            "question": "Jika kalimat: الطَّالِبَانِ حَاضِرَانِ dimasuki amil كَانَ, bagaimanakah bentuknya?",
+            "prompt": "Jika kalimat: الطَّالِبَانِ حَاضِرَانِ dimasuki amil كَانَ, bagaimanakah bentuknya?",
+            "arabic": "كَانَ + الطَّالِبَانِ حَاضِرَانِ",
+            "translation": "Kaana + dua siswa hadir",
+            "meaning": "Kaana + dua siswa hadir",
+            "options": [
+              {
+                "label": "كَانَ الطَّالِبَانِ حَاضِرَيْنِ (Khabar berubah jadi Ya' manshub)",
+                "value": "thalibani_hadhiraini"
+              },
+              {
+                "label": "كَانَ الطَّالِبَيْنِ حَاضِرَانِ",
+                "value": "thalibaini_hadhirani"
+              },
+              {
+                "label": "كَانَا الطَّالِبَانِ حَاضِرَيْنِ",
+                "value": "kaanaa"
+              },
+              {
+                "label": "كَانَ الطَّالِبَانِ حَاضِرَانِ",
+                "value": "keduanya_alif"
+              }
+            ],
+            "correct": "thalibani_hadhiraini",
+            "explanation": "Isim Kaana marfu' dengan Alif (الطَّالِبَانِ), sedangkan Khabar Kaana manshub dengan Ya' (حَاضِرَيْنِ).",
+            "whyModal": {
+              "title": "Kaana pada Isim Mutsanna",
+              "matan": "تَنْصِبُ الْخَبَرَ... وَالْمُثَنَّى يُنْصَبُ بِالْيَاءِ",
+              "reason": "Khabar mutsanna manshub dengan tanda Ya'."
+            }
+          },
+          {
+            "id": "q10_2_9",
+            "type": "mcq",
+            "question": "Jika kalimat: أَبُوكَ ذُو مَالٍ dimasuki amil كَانَ, bagaimanakah perubahan i'rab dari Asma'ul Khamsah tersebut?",
+            "prompt": "Jika kalimat: أَبُوكَ ذُو مَالٍ dimasuki amil كَانَ, bagaimanakah perubahan i'rab dari Asma'ul Khamsah tersebut?",
+            "arabic": "كَانَ + أَبُوكَ ذُو مَالٍ",
+            "translation": "Kaana + ayahmu pemilik harta",
+            "meaning": "Kaana + ayahmu pemilik harta",
+            "options": [
+              {
+                "label": "كَانَ أَبُوكَ ذَا مَالٍ (ذُو berubah jadi ذَا manshub dengan Alif)",
+                "value": "abuka_dza_malin"
+              },
+              {
+                "label": "كَانَ أَبَاكَ ذُو مَالٍ",
+                "value": "abaka_dzu"
+              },
+              {
+                "label": "كَانَ أَبَاكَ ذَا مَالٍ",
+                "value": "keduanya_alif"
+              },
+              {
+                "label": "كَانَ أَبِيكَ ذِي مَالٍ",
+                "value": "keduanya_ya"
+              }
+            ],
+            "correct": "abuka_dza_malin",
+            "explanation": "Isim Kaana marfu' dengan Wawu (أَبُوكَ), dan Khabar Kaana manshub dengan Alif karena Asma'ul Khamsah (ذَا مَالٍ).",
+            "whyModal": {
+              "title": "Kaana pada Asma'ul Khamsah",
+              "matan": "تَرْفَعُ الِاسْمَ بِالْوَاوِ وَتَنْصِبُ الْخَبَرَ بِالْأَلِفِ",
+              "reason": "Dzu marfu' berubah menjadi dza manshub."
+            }
+          },
+          {
+            "id": "q10_2_10",
+            "type": "mcq",
+            "question": "Apakah fi'il لَيْسَ memiliki bentuk mudhari' dan amr?",
+            "prompt": "Apakah fi'il لَيْسَ memiliki bentuk mudhari' dan amr?",
+            "arabic": "تَصْرِيفُ لَيْسَ",
+            "translation": "Tasyrif Laisa",
+            "meaning": "Tasyrif Laisa",
+            "options": [
+              {
+                "label": "Tidak ada, Laisa adalah fi'il jamid yang membeku hanya dalam bentuk madhi",
+                "value": "fiil_jamid"
+              },
+              {
+                "label": "Ada, yaitu yalisu dan lis",
+                "value": "ada"
+              },
+              {
+                "label": "Bisa diubah jadi amr saja",
+                "value": "amr_saja"
+              },
+              {
+                "label": "Bisa diubah jadi isim fa'il",
+                "value": "isim_fail"
+              }
+            ],
+            "correct": "fiil_jamid",
+            "explanation": "لَيْسَ tergolong Fi'il Jamid (tidak memiliki tasyrif mudhari' maupun amr), membeku hanya dalam bentuk lampau untuk makna negasi.",
+            "whyModal": {
+              "title": "Fi'il Jamid Laisa",
+              "matan": "لَيْسَ: فِعْلٌ مَاضٍ جَامِدٌ",
+              "reason": "Laisa tidak dapat ditasyrif ke masa sekarang/perintah."
+            }
+          }
+        ]
+      },
+      {
+        "id": "level_10_3",
+        "code": "10.3",
+        "title": "Makna Saudara-Saudara Kaana",
+        "subtitle": "Spesialisasi Waktu, Transformasi, Negasi & Kontinuitas",
+        "titleArabic": "مَعَانِي كَانَ وَأَخَوَاتِهَا",
+        "type": "mcq",
+        "xp": 70,
+        "unlocked": false,
+        "is_boss": false,
+        "theory": {
+          "title": "Klasifikasi Makna Saudara Kaana",
+          "matan": "وَهِيَ: كَانَ، وَأَمْسَى، وَأَصْبَحَ، وَأَضْحَى، وَظَلَّ، وَبَاتَ، وَصَارَ، وَلَيْسَ، وَمَا زَالَ، وَمَا انْفَكَّ، وَمَا فَتِئَ، وَمَا بَرِحَ، وَمَا دَامَ.",
+          "translation": "Makna-makna fungsional saudara Kaana: Waktu lampau (Kaana), waktu sore (Amsa), waktu pagi (Ashbaha), waktu dhuha (Adh-ha), waktu siang (Zhalla), waktu malam (Bata), perubahan kondisi (Shara), peniadaan (Laisa), dan senantiasa/kontinuitas (Ma Zala dkk).",
+          "points": [
+            {
+              "label": "Fi'il Waktu (At-Tauqit)",
+              "arabic": "أَفْعَالُ التَّوْقِيتِ",
+              "desc": "أَمْسَى (sore), أَصْبَحَ (pagi), أَضْحَى (dhuha), ظَلَّ (siang hari), بَاتَ (malam hari)."
+            },
+            {
+              "label": "Fi'il Transformasi (At-Tahawwul)",
+              "arabic": "صَارَ لِلتَّحَوُّلِ",
+              "desc": "صَارَ bermakna perubahan dari satu wujud ke wujud lain (contoh: صَارَ الطِّينُ خَزَفًا - tanah liat berubah jadi tembikar)."
+            },
+            {
+              "label": "Fi'il Kontinuitas (Al-Istimrar)",
+              "arabic": "مَا زَالَ، مَا انْفَكَّ، مَا فَتِئَ، مَا بَرِحَ",
+              "desc": "Keempat fi'il ini bermakna senantiasa/terus-menerus dan wajib didahului oleh nafi (huruf ma/la)."
+            }
+          ]
+        },
+        "questions": [
+          {
+            "id": "q10_3_1",
+            "type": "mcq",
+            "question": "Saudara Kaana yang memiliki arti perubahan status/kondisi (At-Tahawwul) adalah...",
+            "prompt": "Saudara Kaana yang memiliki arti perubahan status/kondisi (At-Tahawwul) adalah...",
+            "arabic": "فِعْلُ التَّحَوُّلِ: صَارَ",
+            "translation": "Fi'il transformasi: Shara",
+            "meaning": "Fi'il transformasi: Shara",
+            "options": [
+              {
+                "label": "صَارَ (Shara - menjadi/berubah)",
+                "value": "shara"
+              },
+              {
+                "label": "لَيْسَ (Laisa)",
+                "value": "laisa"
+              },
+              {
+                "label": "بَاتَ (Bata)",
+                "value": "bata"
+              },
+              {
+                "label": "أَمْسَى (Amsa)",
+                "value": "amsa"
+              }
+            ],
+            "correct": "shara",
+            "explanation": "صَارَ berfaedah untuk tahawwul (perubahan suatu zat/kondisi menjadi hal lain). Contoh: صَارَ الْمَاءُ ثَلْجًا (Air berubah menjadi es).",
+            "whyModal": {
+              "title": "Makna Fi'il Shara",
+              "matan": "صَارَ: لِلتَّحَوُّلِ مِنَ صِفَةٍ إِلَى أُخْرَى",
+              "reason": "Shara menunjukkan perubahan dari satu sifat/zat ke sifat lain."
+            }
+          },
+          {
+            "id": "q10_3_2",
+            "type": "mcq",
+            "question": "Saudara Kaana yang bermakna penafian/peniadaan (An-Nafyu) adalah...",
+            "prompt": "Saudara Kaana yang bermakna penafian/peniadaan (An-Nafyu) adalah...",
+            "arabic": "فِعْلُ النَّفْيِ: لَيْسَ",
+            "translation": "Fi'il negasi: Laisa",
+            "meaning": "Fi'il negasi: Laisa",
+            "options": [
+              {
+                "label": "لَيْسَ (Laisa - bukanlah/tidak)",
+                "value": "laisa"
+              },
+              {
+                "label": "أَصْبَحَ",
+                "value": "ashbaha"
+              },
+              {
+                "label": "ظَلَّ",
+                "value": "zhalla"
+              },
+              {
+                "label": "كَانَ",
+                "value": "kaana"
+              }
+            ],
+            "correct": "laisa",
+            "explanation": "لَيْسَ berfaedah untuk menafikan keterikatan khabar dari isimnya (nafyul khabar 'anil ism). Contoh: لَيْسَ الْفَقْرُ عَيْبًا.",
+            "whyModal": {
+              "title": "Makna Laisa",
+              "matan": "لَيْسَ لِلنَّفْيِ",
+              "reason": "Laisa adalah amil negasi nominal."
+            }
+          },
+          {
+            "id": "q10_3_3",
+            "type": "mcq",
+            "question": "Kata أَصْبَحَ menunjukkan terjadinya sesuatu pada waktu...",
+            "prompt": "Kata أَصْبَحَ menunjukkan terjadinya sesuatu pada waktu...",
+            "arabic": "أَصْبَحَ",
+            "translation": "Di waktu pagi",
+            "meaning": "Di waktu pagi",
+            "options": [
+              {
+                "label": "Waktu Pagi (Ash-Shabaah)",
+                "value": "pagi"
+              },
+              {
+                "label": "Waktu Sore",
+                "value": "sore"
+              },
+              {
+                "label": "Waktu Malam",
+                "value": "malam"
+              },
+              {
+                "label": "Waktu Dhuha",
+                "value": "dhuha"
+              }
+            ],
+            "correct": "pagi",
+            "explanation": "أَصْبَحَ menunjukkan keterikatan khabar dengan isim pada waktu pagi hari (ash-Shabaah).",
+            "whyModal": {
+              "title": "Makna Ashbaha",
+              "matan": "أَصْبَحَ: لِاتِّصَافِ الْخَبَرِ بِالِاسْمِ صَبَاحًا",
+              "reason": "Ashbaha menunjukkan peristiwa di waktu pagi."
+            }
+          },
+          {
+            "id": "q10_3_4",
+            "type": "mcq",
+            "question": "Kata أَمْسَى menunjukkan terjadinya sesuatu pada waktu...",
+            "prompt": "Kata أَمْسَى menunjukkan terjadinya sesuatu pada waktu...",
+            "arabic": "أَمْسَى",
+            "translation": "Di waktu sore",
+            "meaning": "Di waktu sore",
+            "options": [
+              {
+                "label": "Waktu Sore / Petang (Al-Masaa')",
+                "value": "sore"
+              },
+              {
+                "label": "Waktu Pagi",
+                "value": "pagi"
+              },
+              {
+                "label": "Waktu Subuh",
+                "value": "subuh"
+              },
+              {
+                "label": "Waktu Siang",
+                "value": "siang"
+              }
+            ],
+            "correct": "sore",
+            "explanation": "أَمْسَى menunjukkan pensifatan khabar atas isim pada waktu sore hari.",
+            "whyModal": {
+              "title": "Makna Amsa",
+              "matan": "أَمْسَى: لِاتِّصَافِ الْخَبَرِ بِالِاسْمِ مَسَاءً",
+              "reason": "Amsa berasosiasi dengan waktu petang."
+            }
+          },
+          {
+            "id": "q10_3_5",
+            "type": "mcq",
+            "question": "Kata بَاتَ menunjukkan terjadinya peristiwa pada waktu...",
+            "prompt": "Kata بَاتَ menunjukkan terjadinya peristiwa pada waktu...",
+            "arabic": "بَاتَ",
+            "translation": "Di waktu malam hari",
+            "meaning": "Di waktu malam hari",
+            "options": [
+              {
+                "label": "Waktu Malam Hari (Al-Bayaat / Al-Lail)",
+                "value": "malam"
+              },
+              {
+                "label": "Waktu Tengah Hari",
+                "value": "tengah_hari"
+              },
+              {
+                "label": "Waktu Ashar",
+                "value": "ashar"
+              },
+              {
+                "label": "Waktu Fajar",
+                "value": "fajar"
+              }
+            ],
+            "correct": "malam",
+            "explanation": "بَاتَ bermakna bermalam atau terjadinya perbuatan di malam hari. Contoh: بَاتَ الْمُتَهَجِّدُ قَانِتًا.",
+            "whyModal": {
+              "title": "Makna Bata",
+              "matan": "بَاتَ: لِاتِّصَافِ الْخَبَرِ بِالِاسْمِ لَيْلًا",
+              "reason": "Bata berasosiasi dengan waktu malam/menginap."
+            }
+          },
+          {
+            "id": "q10_3_6",
+            "type": "mcq",
+            "question": "Kelompok fi'il kontinuitas: مَا زَالَ، مَا انْفَكَّ، مَا فَتِئَ، مَا بَرِحَ memiliki arti...",
+            "prompt": "Kelompok fi'il kontinuitas: مَا زَالَ، مَا انْفَكَّ، مَا فَتِئَ، مَا بَرِحَ memiliki arti...",
+            "arabic": "مَا زَالَ وَأَخَوَاتُهَا",
+            "translation": "Ma zala dan saudara-saudaranya",
+            "meaning": "Ma zala dan saudara-saudaranya",
+            "options": [
+              {
+                "label": "Senantiasa / Masih terus-menerus (Al-Istimrar)",
+                "value": "senantiasa_istimrar"
+              },
+              {
+                "label": "Berhenti total",
+                "value": "berhenti"
+              },
+              {
+                "label": "Mungkin saja",
+                "value": "mungkin"
+              },
+              {
+                "label": "Hanya di waktu dhuha",
+                "value": "dhuha"
+              }
+            ],
+            "correct": "senantiasa_istimrar",
+            "explanation": "Keempat fi'il ini berfaedah untuk Istimraar (terus-menerusnya sifat khabar pada isim). Contoh: مَا زَالَ زَيْدٌ مُجْتَهِدًا (Zaid senantiasa rajin).",
+            "whyModal": {
+              "title": "Makna Ma Zala",
+              "matan": "مَا زَالَ: لِمُلَازَمَةِ الْخَبَرِ لِلِاسْمِ",
+              "reason": "Ma zala menunjukkan kontinuitas perbuatan tanpa putus."
+            }
+          },
+          {
+            "id": "q10_3_7",
+            "type": "mcq",
+            "question": "Apakah syarat mutlak agar kata زَالَ، انْفَكَّ، فَتِئَ، بَرِحَ dapat beramal seperti Kaana?",
+            "prompt": "Apakah syarat mutlak agar kata زَالَ، انْفَكَّ، فَتِئَ، بَرِحَ dapat beramal seperti Kaana?",
+            "arabic": "شَرْطُ عَمَلِ مَا زَالَ",
+            "translation": "Syarat amal Ma Zala",
+            "meaning": "Syarat amal Ma Zala",
+            "options": [
+              {
+                "label": "Wajib didahului oleh huruf Nafi (seperti مَا atau لَا) atau Syibh Nafi (nahi/doa)",
+                "value": "didahului_nafi"
+              },
+              {
+                "label": "Wajib berada di akhir kalimat",
+                "value": "di_akhir"
+              },
+              {
+                "label": "Wajib berharakat sukun",
+                "value": "sukun"
+              },
+              {
+                "label": "Wajib berupa jamak",
+                "value": "jamak"
+              }
+            ],
+            "correct": "didahului_nafi",
+            "explanation": "Keempat fi'il ini tidak beramal kecuali jika didahului nafi atau syibh nafi, oleh karena itu Ibnu Ajurrum menyematkan huruf 'Maa': مَا زَالَ، مَا انْفَكَّ...",
+            "whyModal": {
+              "title": "Syarat Nafi pada Ma Zala",
+              "matan": "أَنْ يَتَقَدَّمَهَا نَفْيٌ أَوْ شِبْهُهُ",
+              "reason": "Tanpa nafi di depannya, fi'il-fi'il ini tidak beramal sebagai naqis."
+            }
+          },
+          {
+            "id": "q10_3_8",
+            "type": "mcq",
+            "question": "Huruf مَا pada kata مَا دَامَ adalah huruf...",
+            "prompt": "Huruf مَا pada kata مَا دَامَ adalah huruf...",
+            "arabic": "مَا دَامَ",
+            "translation": "Selama",
+            "meaning": "Selama",
+            "options": [
+              {
+                "label": "Maa Mashdariyyah Zharfiyyah (bermakna durasi masa/waktu)",
+                "value": "mashdariyyah_zharfiyyah"
+              },
+              {
+                "label": "Maa Nafi peniadaan",
+                "value": "nafi"
+              },
+              {
+                "label": "Maa Syarthiyyah",
+                "value": "syarthiyyah"
+              },
+              {
+                "label": "Maa Istifham kata tanya",
+                "value": "istifham"
+              }
+            ],
+            "correct": "mashdariyyah_zharfiyyah",
+            "explanation": "مَا pada مَا دَامَ bukan peniada (nafi), melainkan Ma Mashdariyyah Zharfiyyah bermakna 'selama/sepanjang durasi waktu'. Contoh: مَا دُمْتُ حَيًّا (selama masa hidupku).",
+            "whyModal": {
+              "title": "Karakteristik Ma Dama",
+              "matan": "مَا الْمَصْدَرِيَّةُ الظَّرْفِيَّةُ",
+              "reason": "Maa pada Ma Dama mengubah makna menjadi durasi waktu."
+            }
+          },
+          {
+            "id": "q10_3_9",
+            "type": "mcq",
+            "question": "Pada ayat Al-Qur'an: وَأَوْصَانِي بِالصَّلَاةِ وَالزَّكَاةِ مَا دُمْتُ حَيًّا, manakah Isim dan Khabar dari مَا دَامَ?",
+            "prompt": "Pada ayat Al-Qur'an: وَأَوْصَانِي بِالصَّلَاةِ وَالزَّكَاةِ مَا دُمْتُ حَيًّا, manakah Isim dan Khabar dari مَا دَامَ?",
+            "arabic": "مَا دُمْتُ حَيًّا",
+            "translation": "Selama aku masih hidup",
+            "meaning": "Selama aku masih hidup",
+            "options": [
+              {
+                "label": "Isim: Ta' dhommah (تُ) mabni fi mahalli raf'in, Khabar: حَيًّا manshub fathah",
+                "value": "ta_dan_hayyan"
+              },
+              {
+                "label": "Isim: hayyan, khabar: mustatir",
+                "value": "terbalik"
+              },
+              {
+                "label": "Isim: ash-shalah",
+                "value": "shalah"
+              },
+              {
+                "label": "Tidak ada khabar",
+                "value": "tidak_ada"
+              }
+            ],
+            "correct": "ta_dan_hayyan",
+            "explanation": "Ta' dhamir muttashil pada دُمْتُ adalah isimnya fi mahalli raf'in, dan حَيًّا adalah khabarnya yang manshub bertanda fathah.",
+            "whyModal": {
+              "title": "I'rab Ma Dumtu Hayyan",
+              "matan": "تَرْفَعُ الِاسْمَ وَتَنْصِبُ الْخَبَرَ",
+              "reason": "Ayat agung penjelas penerapan Ma Dama."
+            }
+          },
+          {
+            "id": "q10_3_10",
+            "type": "mcq",
+            "question": "Kata ظَلَّ memiliki kekhasan makna terjadinya perbuatan pada...",
+            "prompt": "Kata ظَلَّ memiliki kekhasan makna terjadinya perbuatan pada...",
+            "arabic": "ظَلَّ",
+            "translation": "Sepanjang siang hari",
+            "meaning": "Sepanjang siang hari",
+            "options": [
+              {
+                "label": "Siang hari (An-Nahaar)",
+                "value": "siang_hari"
+              },
+              {
+                "label": "Malam hari",
+                "value": "malam"
+              },
+              {
+                "label": "Subuh saja",
+                "value": "subuh"
+              },
+              {
+                "label": "Tengah malam",
+                "value": "tengah_malam"
+              }
+            ],
+            "correct": "siang_hari",
+            "explanation": "ظَلَّ menunjukkan terjadinya perbuatan di sepanjang siang hari (an-nahar). Contoh: ظَلَّ الْجَوُّ مَاطِرًا (Cuaca sepanjang siang tetap hujan).",
+            "whyModal": {
+              "title": "Makna Zhalla",
+              "matan": "ظَلَّ: لِاتِّصَافِ الْخَبَرِ بِالِاسْمِ نَهَارًا",
+              "reason": "Zhalla spesifik untuk waktu siang hari."
+            }
+          }
+        ]
+      },
+      {
+        "id": "level_10_4",
+        "code": "10.4",
+        "title": "Inna wa Akhawatuha",
+        "subtitle": "Tanshibul Isma wa Tarfa'ul Khabar (Katalog 6 Huruf & Makna Balaghah)",
+        "titleArabic": "إِنَّ وَأَخَوَاتُهَا (تَنْصِبُ الِاسْمَ وَتَرْفَعُ الْخَبَرَ)",
+        "type": "mcq",
+        "xp": 70,
+        "unlocked": false,
+        "is_boss": false,
+        "theory": {
+          "title": "Inna dan Saudara-Saudaranya Matan",
+          "matan": "وَأَمَّا إِنَّ وَأَخَوَاتُهَا: فَإِنَّهَا تَنْصِبُ الِاسْمَ، وَتَرْفَعُ الْخَبَرَ، وَهِيَ: إِنَّ، وَأَنَّ، وَلَكِنَّ، وَكَأَنَّ، وَلَيْتَ، وَلَعَلَّ، تَقُولُ: إِنَّ زَيْدًا قَائِمٌ، وَلَيْتَ عَمْرًا شَاخِصٌ... وَمَعْنَى إِنَّ وَأَنَّ لِلتَّوْكِيدِ، وَلَكِنَّ لِلِاسْتِدْرَاكِ، وَكَأَنَّ لِلتَّشْبِيهِ، وَلَيْتَ لِلتَّمَنِّي، وَلَعَلَّ لِلتَّرَجِّي وَالتَّوَقُّعِ.",
+          "translation": "Adapun Inna dan saudara-saudaranya, ia menashabkan isim dan merafa'kan khabar: Inna, Anna, Lakinna, Ka'anna, Laita, La'alla. Makna Inna dan Anna untuk penegasan (taukid), Lakinna untuk meralat (istidrak), Ka'anna untuk penyerupaan (tasybih), Laita untuk angan-angan mustahil (tamanni), La'alla untuk harapan yang mungkin tercapai (tarajji) atau kewaspadaan (tawaqqu').",
+          "points": [
+            {
+              "label": "Katalog 6 Huruf",
+              "arabic": "سِتَّةُ أَحْرُفٍ",
+              "desc": "إِنَّ، أَنَّ، لَكِنَّ، كَأَنَّ، لَيْتَ، لَعَلَّ."
+            },
+            {
+              "label": "Faedah Makna Balaghah",
+              "arabic": "مَعَانِي الْحُرُوفِ",
+              "desc": "Ibnu Ajurrum secara istimewa menjelaskan makna setiap huruf di dalam matan karena pengaruhnya yang sangat vital dalam memahami Al-Qur'an."
+            }
+          ]
+        },
+        "questions": [
+          {
+            "id": "q10_4_1",
+            "type": "mcq",
+            "question": "Berapakah jumlah saudara Inna menurut rincian Matan Al-Ajurrumiyyah?",
+            "prompt": "Berapakah jumlah saudara Inna menurut rincian Matan Al-Ajurrumiyyah?",
+            "arabic": "عَدَدُ أَخَوَاتِ إِنَّ",
+            "translation": "Jumlah saudara-saudara Inna",
+            "meaning": "Jumlah saudara-saudara Inna",
+            "options": [
+              {
+                "label": "6 Huruf",
+                "value": "6"
+              },
+              {
+                "label": "13 Huruf",
+                "value": "13"
+              },
+              {
+                "label": "10 Huruf",
+                "value": "10"
+              },
+              {
+                "label": "4 Huruf",
+                "value": "4"
+              }
+            ],
+            "correct": "6",
+            "explanation": "Matan: 'وَهِيَ: إِنَّ، وَأَنَّ، وَلَكِنَّ، وَكَأَنَّ، وَلَيْتَ، وَلَعَلَّ' (Tepat berjumlah 6 huruf).",
+            "whyModal": {
+              "title": "6 Saudara Inna",
+              "matan": "وَهِيَ: إِنَّ، وَأَنَّ، وَلَكِنَّ، وَكَأَنَّ، وَلَيْتَ، وَلَعَلَّ",
+              "reason": "Enam huruf nasikh perubah kalimat nominal."
+            }
+          },
+          {
+            "id": "q10_4_2",
+            "type": "mcq",
+            "question": "Apakah makna balaghah dari huruf إِنَّ dan أَنَّ menurut teks matan?",
+            "prompt": "Apakah makna balaghah dari huruf إِنَّ dan أَنَّ menurut teks matan?",
+            "arabic": "وَمَعْنَى إِنَّ وَأَنَّ لِلتَّوْكِيدِ",
+            "translation": "Dan makna Inna dan Anna adalah untuk taukid (penegasan)",
+            "meaning": "Dan makna Inna dan Anna adalah untuk taukid (penegasan)",
+            "options": [
+              {
+                "label": "Untuk Penegasan / Penguat (At-Tawkiid)",
+                "value": "taukid"
+              },
+              {
+                "label": "Untuk Penyerupaan (At-Tasybiih)",
+                "value": "tasybih"
+              },
+              {
+                "label": "Untuk Angan-angan (At-Tamanni)",
+                "value": "tamanni"
+              },
+              {
+                "label": "Untuk Meralat (Al-Istidraak)",
+                "value": "istidrak"
+              }
+            ],
+            "correct": "taukid",
+            "explanation": "Matan menyatakan: 'وَمَعْنَى إِنَّ وَأَنَّ لِلتَّوْكِيدِ' (Makna Inna dan Anna adalah untuk menguatkan/menegaskan berita dan menghilangkan keraguan).",
+            "whyModal": {
+              "title": "Makna Inna dan Anna",
+              "matan": "وَمَعْنَى إِنَّ وَأَنَّ لِلتَّوْكِيدِ",
+              "reason": "Inna dan Anna berfungsi menegaskan kepastian kalimat."
+            }
+          },
+          {
+            "id": "q10_4_3",
+            "type": "mcq",
+            "question": "Apakah fungsi dan makna dari kata لَكِنَّ menurut matan?",
+            "prompt": "Apakah fungsi dan makna dari kata لَكِنَّ menurut matan?",
+            "arabic": "وَلَكِنَّ لِلِاسْتِدْرَاكِ",
+            "translation": "Dan lakinna untuk istidrak (meralat/menambal pemahaman)",
+            "meaning": "Dan lakinna untuk istidrak (meralat/menambal pemahaman)",
+            "options": [
+              {
+                "label": "Untuk Meralat / Meluruskan Pemahaman (Al-Istidraak)",
+                "value": "istidrak"
+              },
+              {
+                "label": "Untuk Menyerupakan",
+                "value": "tasybih"
+              },
+              {
+                "label": "Untuk Menegaskan",
+                "value": "taukid"
+              },
+              {
+                "label": "Untuk Berharap",
+                "value": "tarajji"
+              }
+            ],
+            "correct": "istidrak",
+            "explanation": "Matan: 'وَلَكِنَّ لِلِاسْتِدْرَاكِ'. Istidrak bermakna menyusulkan perkataan untuk mencegah kesalahpahaman dari kalimat sebelumnya (contoh: زَيْدٌ شُجَاعٌ وَلَكِنَّهُ بَخِيلٌ).",
+            "whyModal": {
+              "title": "Makna Lakinna Istidrak",
+              "matan": "وَلَكِنَّ لِلِاسْتِدْرَاكِ",
+              "reason": "Lakinna mencegah prasangka keliru dari tuturan awal."
+            }
+          },
+          {
+            "id": "q10_4_4",
+            "type": "mcq",
+            "question": "Apakah faedah makna dari kata كَأَنَّ menurut teks matan?",
+            "prompt": "Apakah faedah makna dari kata كَأَنَّ menurut teks matan?",
+            "arabic": "وَكَأَنَّ لِلتَّشْبِيهِ",
+            "translation": "Dan Ka'anna adalah untuk tasybih (penyerupaan)",
+            "meaning": "Dan Ka'anna adalah untuk tasybih (penyerupaan)",
+            "options": [
+              {
+                "label": "Untuk Penyerupaan / Seperti (At-Tasybiih)",
+                "value": "tasybih"
+              },
+              {
+                "label": "Untuk Menegaskan",
+                "value": "taukid"
+              },
+              {
+                "label": "Untuk Negasi",
+                "value": "negasi"
+              },
+              {
+                "label": "Untuk Mengharap",
+                "value": "harapan"
+              }
+            ],
+            "correct": "tasybih",
+            "explanation": "Matan: 'وَكَأَنَّ لِلتَّشْبِيهِ'. Contoh: كَأَنَّ زَيْدًا أَسَدٌ (Seolah-olah Zaid itu laksana singa).",
+            "whyModal": {
+              "title": "Makna Ka'anna Tasybih",
+              "matan": "وَكَأَنَّ لِلتَّشْبِيهِ",
+              "reason": "Ka'anna menyerupakan isim dengan sifat khabarnya."
+            }
+          },
+          {
+            "id": "q10_4_5",
+            "type": "mcq",
+            "question": "Apakah perbedaan mendasar antara لَيْتَ (Tamanni) dan لَعَلَّ (Tarajji)?",
+            "prompt": "Apakah perbedaan mendasar antara لَيْتَ (Tamanni) dan لَعَلَّ (Tarajji)?",
+            "arabic": "الْفَرْقُ بَيْنَ لَيْتَ وَلَعَلَّ",
+            "translation": "Perbedaan antara Laita dan La'alla",
+            "meaning": "Perbedaan antara Laita dan La'alla",
+            "options": [
+              {
+                "label": "Laita untuk hal yang mustahil/sangat sulit terjadi, sedangkan La'alla untuk hal yang disukai dan mungkin tercapai (atau tawaqqu' hal buruk)",
+                "value": "mustahil_vs_mungkin"
+              },
+              {
+                "label": "Laita huruf, sedangkan La'alla fi'il",
+                "value": "huruf_fiil"
+              },
+              {
+                "label": "Laita merafa'kan isim, La'alla menashabkan",
+                "value": "beda_amal"
+              },
+              {
+                "label": "Tidak ada perbedaan",
+                "value": "tidak_beda"
+              }
+            ],
+            "correct": "mustahil_vs_mungkin",
+            "explanation": "Tamanni (لَيْتَ) dipakai untuk angan-angan mustahil (contoh: لَيْتَ الشَّبَابَ يَعُودُ يَوْمًا - Duhai kiranya masa muda kembali). Sedangkan Tarajji (لَعَلَّ) untuk harapan realistis (لَعَلَّ اللَّهَ يَرْحَمُنَا).",
+            "whyModal": {
+              "title": "Perbedaan Laita vs La'alla",
+              "matan": "وَلَيْتَ لِلتَّمَنِّي، وَلَعَلَّ لِلتَّرَجِّي وَالتَّوَقُّعِ",
+              "reason": "Tamanni untuk hal mustahil; Tarajji untuk harapan mungkin."
+            }
+          },
+          {
+            "id": "q10_4_6",
+            "type": "mcq",
+            "question": "Apakah makna dari istilah 'AT-TAWAQQU'' pada kata لَعَلَّ menurut penjelasan matan?",
+            "prompt": "Apakah makna dari istilah 'AT-TAWAQQU'' pada kata لَعَلَّ menurut penjelasan matan?",
+            "arabic": "مَعْنَى التَّوَقُّعِ",
+            "translation": "Makna at-Tawaqqu'",
+            "meaning": "Makna at-Tawaqqu'",
+            "options": [
+              {
+                "label": "Kewaspadaan / kekhawatiran terhadap terjadinya sesuatu yang tidak disukai (Al-Isyfaaq)",
+                "value": "isyfaq_kekhawatiran"
+              },
+              {
+                "label": "Harapan hal yang menyenangkan",
+                "value": "harapan_senang"
+              },
+              {
+                "label": "Menegaskan kalimat",
+                "value": "menegaskan"
+              },
+              {
+                "label": "Penyesalan masa lalu",
+                "value": "penyesalan"
+              }
+            ],
+            "correct": "isyfaq_kekhawatiran",
+            "explanation": "Tarajji adalah menanti hal baik yang dicintai (mahbub), sedangkan Tawaqqu' (atau Isyfaaq) adalah mewaspadai/mengkhawatirkan hal buruk (makruh). Contoh: لَعَلَّ الْعَدُوَّ قَرِيبٌ.",
+            "whyModal": {
+              "title": "Makna Tawaqqu' pada La'alla",
+              "matan": "وَلَعَلَّ لِلتَّرَجِّي وَالتَّوَقُّعِ",
+              "reason": "Tawaqqu' adalah kekhawatiran terjadinya hal tak disukai."
+            }
+          },
+          {
+            "id": "q10_4_7",
+            "type": "mcq",
+            "question": "Pada ayat: إِنَّ اللَّهَ عَلِيمٌ حَكِيمٌ, bagaimanakah status i'rab lafazh اللَّهَ dan عَلِيمٌ?",
+            "prompt": "Pada ayat: إِنَّ اللَّهَ عَلِيمٌ حَكِيمٌ, bagaimanakah status i'rab lafazh اللَّهَ dan عَلِيمٌ?",
+            "arabic": "إِنَّ اللَّهَ عَلِيمٌ",
+            "translation": "Sesungguhnya Allah Maha Mengetahui",
+            "meaning": "Sesungguhnya Allah Maha Mengetahui",
+            "options": [
+              {
+                "label": "اللَّهَ = Isim Inna manshub (fathah), عَلِيمٌ = Khabar Inna marfu' (dhammah)",
+                "value": "isim_inna_khabar_inna"
+              },
+              {
+                "label": "Fa'il dan maf'ul",
+                "value": "fail_maful"
+              },
+              {
+                "label": "Mubtada' dan khabar asal",
+                "value": "mubtada_khabar"
+              },
+              {
+                "label": "Isim Kaana dan khabar Kaana",
+                "value": "kaana"
+              }
+            ],
+            "correct": "isim_inna_khabar_inna",
+            "explanation": "إِنَّ menashabkan isim (اللَّهَ) bertanda fathah, dan merafa'kan khabar (عَلِيمٌ) bertanda dhammah.",
+            "whyModal": {
+              "title": "I'rab Ayat Innallaaha 'Aliimun",
+              "matan": "تَنْصِبُ الِاسْمَ، وَتَرْفَعُ الْخَبَرَ",
+              "reason": "Amal resmi Inna dalam ayat Al-Qur'an."
+            }
+          },
+          {
+            "id": "q10_4_8",
+            "type": "mcq",
+            "question": "Jika kalimat: الْمُسْلِمُونَ صَادِقُونَ dimasuki huruf إِنَّ, bagaimanakah perubahan lafazhnya?",
+            "prompt": "Jika kalimat: الْمُسْلِمُونَ صَادِقُونَ dimasuki huruf إِنَّ, bagaimanakah perubahan lafazhnya?",
+            "arabic": "إِنَّ + الْمُسْلِمُونَ صَادِقُونَ",
+            "translation": "Inna + kaum muslimin jujur",
+            "meaning": "Inna + kaum muslimin jujur",
+            "options": [
+              {
+                "label": "إِنَّ الْمُسْلِمِينَ صَادِقُونَ (Isim berubah jadi Ya' manshub, Khabar tetap Wawu)",
+                "value": "muslimina_shodiqun"
+              },
+              {
+                "label": "إِنَّ الْمُسْلِمُونَ صَادِقِينَ",
+                "value": "muslimuna_shodiqina"
+              },
+              {
+                "label": "إِنَّ الْمُسْلِمِينَ صَادِقِينَ",
+                "value": "keduanya_ya"
+              },
+              {
+                "label": "إِنَّ الْمُسْلِمُونَ صَادِقُونَ",
+                "value": "keduanya_wawu"
+              }
+            ],
+            "correct": "muslimina_shodiqun",
+            "explanation": "Inna menashabkan isimnya sehingga jamak mudzakkar salim berubah bertanda Ya' (الْمُسْلِمِينَ), sedangkan khabarnya tetap marfu' bertanda Wawu (صَادِقُونَ).",
+            "whyModal": {
+              "title": "Inna pada Jamak Mudzakkar Salim",
+              "matan": "تَنْصِبُ الِاسْمَ... وَجَمْعُ الْمُذَكَّرِ السَّالِمِ يُنْصَبُ بِالْيَاءِ",
+              "reason": "Isim Inna manshub dengan tanda Ya'."
+            }
+          },
+          {
+            "id": "q10_4_9",
+            "type": "mcq",
+            "question": "Jika kalimat: أَبُوكَ كَرِيمٌ dimasuki huruf إِنَّ, bagaimanakah bentuk Asma'ul Khamsah tersebut?",
+            "prompt": "Jika kalimat: أَبُوكَ كَرِيمٌ dimasuki huruf إِنَّ, bagaimanakah bentuk Asma'ul Khamsah tersebut?",
+            "arabic": "إِنَّ + أَبُوكَ كَرِيمٌ",
+            "translation": "Inna + ayahmu dermawan",
+            "meaning": "Inna + ayahmu dermawan",
+            "options": [
+              {
+                "label": "إِنَّ أَبَاكَ كَرِيمٌ (Isim Inna manshub dengan Alif)",
+                "value": "abaka_karimun"
+              },
+              {
+                "label": "إِنَّ أَبُوكَ كَرِيمٌ",
+                "value": "abuka"
+              },
+              {
+                "label": "إِنَّ أَبِيكَ كَرِيمٌ",
+                "value": "abika"
+              },
+              {
+                "label": "إِنَّ أَبَاكَ كَرِيمًا",
+                "value": "kariman"
+              }
+            ],
+            "correct": "abaka_karimun",
+            "explanation": "Asma'ul Khamsah dinashabkan dengan Alif ketika menjadi Isim Inna: إِنَّ أَبَاكَ كَرِيمٌ.",
+            "whyModal": {
+              "title": "Inna pada Asma'ul Khamsah",
+              "matan": "وَالْأَسْمَاءُ الْخَمْسَةُ تُنْصَبُ بِالْأَلِفِ",
+              "reason": "Abaka manshub dengan tanda Alif."
+            }
+          },
+          {
+            "id": "q10_4_10",
+            "type": "mcq",
+            "question": "Jika Inna bersambung dengan dhamir mutakallim jamak (نَا), bagaimanakah penulisannya dalam Al-Qur'an?",
+            "prompt": "Jika Inna bersambung dengan dhamir mutakallim jamak (نَا), bagaimanakah penulisannya dalam Al-Qur'an?",
+            "arabic": "إِنَّ + نَا",
+            "translation": "Inna + Naa",
+            "meaning": "Inna + Naa",
+            "options": [
+              {
+                "label": "إِنَّا atau إِنَّنَا",
+                "value": "inna_innana"
+              },
+              {
+                "label": "إِنَّكُمْ",
+                "value": "innakum"
+              },
+              {
+                "label": "إِنَّهُمْ",
+                "value": "innahum"
+              },
+              {
+                "label": "إِنَّهُ",
+                "value": "innahu"
+              }
+            ],
+            "correct": "inna_innana",
+            "explanation": "Bisa ditulis إِنَّنَا atau diringkas dengan idgham menjadi إِنَّا (contoh: إِنَّا أَعْطَيْنَاكَ الْكَوْثَرَ), di mana 'naa' adalah isim inna fi mahalli nashbin.",
+            "whyModal": {
+              "title": "Dhamir Muttashil Isim Inna",
+              "matan": "إِنَّا أَعْطَيْنَاكَ: نَا اسْمُ إِنَّ فِي مَحَلِّ نَصْبٍ",
+              "reason": "Dhamir naa bertindak sebagai isim Inna."
+            }
+          }
+        ]
+      },
+      {
+        "id": "level_10_5",
+        "code": "10.5",
+        "title": "Zhanna wa Akhawatuha",
+        "subtitle": "Tanshibul Mubtada'a wal Khabara 'ala annahuma maf'ulani",
+        "titleArabic": "ظَنَنْتُ وَأَخَوَاتُهَا (تَنْصِبُ الْمَفْعُولَيْنِ)",
+        "type": "mcq",
+        "xp": 70,
+        "unlocked": false,
+        "is_boss": false,
+        "theory": {
+          "title": "Zhannantu dan Saudara-Saudaranya Matan",
+          "matan": "وَأَمَّا ظَنَنْتُ وَأَخَوَاتُهَا: فَإِنَّهَا تَنْصِبُ الْمُبْتَدَأَ وَالْخَبَرَ عَلَى أَنَّهُمَا مَفْعُولَانِ لَهَا، وَهِيَ: ظَنَنْتُ، وَحَسِبْتُ، وَخِلْتُ، وَزَعَمْتُ، وَرَأَيْتُ، وَعَلِمْتُ، وَوَجَدْتُ، وَاتَّخَذْتُ، وَجَعَلْتُ، وَسَمِعْتُ؛ تَقُولُ: ظَنَنْتُ زَيْدًا قَائِمًا، وَرَأَيْتُ عَمْرًا شَاخِصًا.",
+          "translation": "Dan adapun Zhannantu dan saudara-saudaranya, ia menashabkan mubtada' dan khabar atas dasar keduanya adalah dua maf'ul baginya: Zhannantu, Hasibtu, Khiltu, Za'amtu, Ra'aitu, 'Alimtu, Wajadtu, Ittakhadztu, Ja'altu, Sami'tu. Contoh ucapanmu: Zhannantu Zaidan Qa'iman, Ra'aitu 'Amran Syaakhishan.",
+          "points": [
+            {
+              "label": "Af'alul Qulub & At-Tashyir",
+              "arabic": "أَفْعَالُ الْقُلُوبِ وَالتَّصْيِيرِ",
+              "desc": "Terbagi menjadi kata kerja keraguan/dugaan (Al-Irtiyab/Rujhan), kepastian keyakinan (Al-Yaqin: Ra'aitu, 'Alimtu, Wajadtu), dan pengubahan (At-Tahwil: Ittakhadztu, Ja'altu)."
+            },
+            {
+              "label": "Amal Ganda Nashab",
+              "arabic": "تَنْصِبُ مَفْعُولَيْنِ أَصْلُهُمَا مُبْتَدَأٌ وَخَبَرٌ",
+              "desc": "Mubtada' menjadi Maf'ul Bih Pertama (Manshub), dan Khabar menjadi Maf'ul Bih Kedua (Manshub)."
+            }
+          ]
+        },
+        "questions": [
+          {
+            "id": "q10_5_1",
+            "type": "mcq",
+            "question": "Berapakah jumlah fi'il saudara Zhannantu yang dirinci dalam Matan Al-Ajurrumiyyah?",
+            "prompt": "Berapakah jumlah fi'il saudara Zhannantu yang dirinci dalam Matan Al-Ajurrumiyyah?",
+            "arabic": "عَدَدُ أَخَوَاتِ ظَنَنْتُ",
+            "translation": "Jumlah saudara-saudara Zhannantu",
+            "meaning": "Jumlah saudara-saudara Zhannantu",
+            "options": [
+              {
+                "label": "10 Fi'il",
+                "value": "10"
+              },
+              {
+                "label": "13 Fi'il",
+                "value": "13"
+              },
+              {
+                "label": "6 Fi'il",
+                "value": "6"
+              },
+              {
+                "label": "4 Fi'il",
+                "value": "4"
+              }
+            ],
+            "correct": "10",
+            "explanation": "Matan menyebutkan 10 fi'il: Zhannantu, Hasibtu, Khiltu, Za'amtu, Ra'aitu, 'Alimtu, Wajadtu, Ittakhadztu, Ja'altu, Sami'tu.",
+            "whyModal": {
+              "title": "10 Saudara Zhannantu",
+              "matan": "وَهِيَ عَشَرَةُ أَفْعَالٍ",
+              "reason": "Sepuluh kata kerja penashab dua maf'ul asal mubtada'-khabar."
+            }
+          },
+          {
+            "id": "q10_5_2",
+            "type": "mcq",
+            "question": "Bagaimanakah kedudukan Mubtada' dan Khabar setelah dimasuki oleh fi'il Zhannantu?",
+            "prompt": "Bagaimanakah kedudukan Mubtada' dan Khabar setelah dimasuki oleh fi'il Zhannantu?",
+            "arabic": "تَنْصِبُ الْمُبْتَدَأَ وَالْخَبَرَ عَلَى أَنَّهُمَا مَفْعُولَانِ لَهَا",
+            "translation": "Menashabkan mubtada' dan khabar atas dasar keduanya adalah dua maf'ul baginya",
+            "meaning": "Menashabkan mubtada' dan khabar atas dasar keduanya adalah dua maf'ul baginya",
+            "options": [
+              {
+                "label": "Keduanya menjadi Maf'ul Bih Pertama dan Kedua yang berstatus MANSHUB",
+                "value": "dua_maful_manshub"
+              },
+              {
+                "label": "Mubtada' marfu' dan khabar manshub",
+                "value": "kaana"
+              },
+              {
+                "label": "Mubtada' manshub dan khabar marfu'",
+                "value": "inna"
+              },
+              {
+                "label": "Keduanya tetap marfu'",
+                "value": "marfu"
+              }
+            ],
+            "correct": "dua_maful_manshub",
+            "explanation": "Matan: 'فَإِنَّهَا تَنْصِبُ الْمُبْتَدَأَ وَالْخَبَرَ عَلَى أَنَّهُمَا مَفْعُولَانِ لَهَا' (Keduanya ditashabkan sebagai dua maf'ul).",
+            "whyModal": {
+              "title": "Amal Zhannantu Menashabkan Dua Objek",
+              "matan": "تَنْصِبُ الْمُبْتَدَأَ وَالْخَبَرَ عَلَى أَنَّهُمَا مَفْعُولَانِ",
+              "reason": "Subjek dan predikat berubah menjadi objek 1 dan objek 2."
+            }
+          },
+          {
+            "id": "q10_5_3",
+            "type": "mcq",
+            "question": "Contoh kalimat yang dibawakan langsung dalam matan untuk amal Zhannantu adalah...",
+            "prompt": "Contoh kalimat yang dibawakan langsung dalam matan untuk amal Zhannantu adalah...",
+            "arabic": "ظَنَنْتُ زَيْدًا قَائِمًا",
+            "translation": "Aku menduga Zaid berdiri",
+            "meaning": "Aku menduga Zaid berdiri",
+            "options": [
+              {
+                "label": "ظَنَنْتُ زَيْدًا قَائِمًا",
+                "value": "zhannantu_zaidan_qaiman"
+              },
+              {
+                "label": "كَانَ زَيْدٌ قَائِمًا",
+                "value": "kaana"
+              },
+              {
+                "label": "إِنَّ زَيْدًا قَائِمٌ",
+                "value": "inna"
+              },
+              {
+                "label": "قَامَ زَيْدٌ قَائِمًا",
+                "value": "qama"
+              }
+            ],
+            "correct": "zhannantu_zaidan_qaiman",
+            "explanation": "Matan: 'تَقُولُ: ظَنَنْتُ زَيْدًا قَائِمًا' (Zaidan maf'ul ke-1 manshub, Qa'iman maf'ul ke-2 manshub).",
+            "whyModal": {
+              "title": "Contoh Matan Zhannantu",
+              "matan": "تَقُولُ: ظَنَنْتُ زَيْدًا قَائِمًا",
+              "reason": "Model baku penashaban dua rukun kalimat."
+            }
+          },
+          {
+            "id": "q10_5_4",
+            "type": "mcq",
+            "question": "Kata رَأَيْتُ yang masuk dalam bab Zhannantu bermakna...",
+            "prompt": "Kata رَأَيْتُ yang masuk dalam bab Zhannantu bermakna...",
+            "arabic": "رَأَيْتُ الْقَلْبِيَّةُ",
+            "translation": "Ra'aitu mata hati (keyakinan)",
+            "meaning": "Ra'aitu mata hati (keyakinan)",
+            "options": [
+              {
+                "label": "Melihat dengan mata hati / meyakini sepenuhnya (Ra'yul Qalbi)",
+                "value": "melihat_hati_yakin"
+              },
+              {
+                "label": "Melihat dengan biji mata fisik (bashariyyah)",
+                "value": "mata_fisik"
+              },
+              {
+                "label": "Bermimpi di malam hari",
+                "value": "mimpi"
+              },
+              {
+                "label": "Mendengar suara",
+                "value": "mendengar"
+              }
+            ],
+            "correct": "melihat_hati_yakin",
+            "explanation": "رَأَيْتُ penashab dua maf'ul adalah Ra'a Qalbiyyah (bermakna keyakinan hati/berpandangan). Jika melihat dengan mata kepala, ia hanya menashabkan 1 maf'ul bih biasa.",
+            "whyModal": {
+              "title": "Hakikat Ra'aitu Qalbiyyah",
+              "matan": "رَأَيْتُ: مِنَ الْيَقِينِ الْقَلْبِيِّ",
+              "reason": "Penglihatan hati menashabkan dua maf'ul asal mubtada'-khabar."
+            }
+          },
+          {
+            "id": "q10_5_5",
+            "type": "mcq",
+            "question": "Pada contoh matan: رَأَيْتُ عَمْرًا شَاخِصًا, kata عَمْرًا dan شَاخِصًا berstatus i'rab...",
+            "prompt": "Pada contoh matan: رَأَيْتُ عَمْرًا شَاخِصًا, kata عَمْرًا dan شَاخِصًا berstatus i'rab...",
+            "arabic": "رَأَيْتُ عَمْرًا شَاخِصًا",
+            "translation": "Aku melihat/meyakini 'Amr itu pergi",
+            "meaning": "Aku melihat/meyakini 'Amr itu pergi",
+            "options": [
+              {
+                "label": "عَمْرًا = Maf'ul ke-1 manshub (fathah), شَاخِصًا = Maf'ul ke-2 manshub (fathah)",
+                "value": "maful1_maful2"
+              },
+              {
+                "label": "Fa'il dan Maf'ul",
+                "value": "fail_maful"
+              },
+              {
+                "label": "Isim dan Khabar",
+                "value": "isim_khabar"
+              },
+              {
+                "label": "Maf'ul dan Hal",
+                "value": "maful_hal"
+              }
+            ],
+            "correct": "maful1_maful2",
+            "explanation": "Matan: 'وَرَأَيْتُ عَمْرًا شَاخِصًا'. Keduanya adalah maf'ul bih pertama dan kedua dari fi'il ra'aitu.",
+            "whyModal": {
+              "title": "I'rab Ra'aitu 'Amran Syaakhishan",
+              "matan": "عَمْرًا مَفْعُولٌ أَوَّلُ، وَشَاخِصًا مَفْعُولٌ ثَانٍ",
+              "reason": "Keduanya manshub sebagai dua objek kata kerja hati."
+            }
+          },
+          {
+            "id": "q10_5_6",
+            "type": "mcq",
+            "question": "Pada firman Allah: وَاتَّخَذَ اللَّهُ إِبْرَاهِيمَ خَلِيلًا, kata إِبْرَاهِيمَ dan خَلِيلًا berkedudukan sebagai...",
+            "prompt": "Pada firman Allah: وَاتَّخَذَ اللَّهُ إِبْرَاهِيمَ خَلِيلًا, kata إِبْرَاهِيمَ dan خَلِيلًا berkedudukan sebagai...",
+            "arabic": "وَاتَّخَذَ اللَّهُ إِبْرَاهِيمَ خَلِيلًا",
+            "translation": "Dan Allah telah menjadikan Ibrahim sebagai kekasih",
+            "meaning": "Dan Allah telah menjadikan Ibrahim sebagai kekasih",
+            "options": [
+              {
+                "label": "إِبْرَاهِيمَ = Maf'ul ke-1 manshub, خَلِيلًا = Maf'ul ke-2 manshub",
+                "value": "maful1_dan_2"
+              },
+              {
+                "label": "Fa'il dan maf'ul",
+                "value": "fail_maful"
+              },
+              {
+                "label": "Isim Kaana dan khabar",
+                "value": "kaana"
+              },
+              {
+                "label": "Mubtada' dan khabar",
+                "value": "mubtada"
+              }
+            ],
+            "correct": "maful1_dan_2",
+            "explanation": "اتَّخَذَ adalah saudara Zhannantu (fi'il tashyir/mengubah/menjadikan), إِبْرَاهِيمَ adalah maf'ul pertama dan خَلِيلًا adalah maf'ul kedua.",
+            "whyModal": {
+              "title": "I'rab Ayat Ittakhadzallaahu Ibraahiima Khaliila",
+              "matan": "وَاتَّخَذْتُ: تَنْصِبُ مَفْعُولَيْنِ",
+              "reason": "Ibraahima dan Khaliila adalah dua objek manshub."
+            }
+          },
+          {
+            "id": "q10_5_7",
+            "type": "mcq",
+            "question": "Kata عَلِمْتُ dan وَجَدْتُ tergolong dalam kelompok fi'il yang bermakna...",
+            "prompt": "Kata عَلِمْتُ dan وَجَدْتُ tergolong dalam kelompok fi'il yang bermakna...",
+            "arabic": "أَفْعَالُ الْيَقِينِ: عَلِمْتُ وَوَجَدْتُ",
+            "translation": "Fi'il kepastian/keyakinan: 'Alimtu dan Wajadtu",
+            "meaning": "Fi'il kepastian/keyakinan: 'Alimtu dan Wajadtu",
+            "options": [
+              {
+                "label": "Kepastian dan Keyakinan (Al-Yaqiin)",
+                "value": "al_yaqin"
+              },
+              {
+                "label": "Keraguan semata (Asy-Syakk)",
+                "value": "syakk"
+              },
+              {
+                "label": "Harapan di masa depan",
+                "value": "harapan"
+              },
+              {
+                "label": "Waktu malam hari",
+                "value": "malam"
+              }
+            ],
+            "correct": "al_yaqin",
+            "explanation": "عَلِمْتُ (aku meyakini/mengetahui pasti) dan وَجَدْتُ (aku mendapati secara nyata) adalah Af'alul Yaqin penashab dua maf'ul.",
+            "whyModal": {
+              "title": "Af'alul Yaqin",
+              "matan": "عَلِمْتُ وَوَجَدْتُ لِلْيَقِينِ",
+              "reason": "Keduanya menunjukkan keyakinan penuh terhadap kebenaran informasi."
+            }
+          },
+          {
+            "id": "q10_5_8",
+            "type": "mcq",
+            "question": "Kata حَسِبْتُ، خِلْتُ، زَعَمْتُ tergolong dalam kelompok fi'il yang bermakna...",
+            "prompt": "Kata حَسِبْتُ، خِلْتُ، زَعَمْتُ tergolong dalam kelompok fi'il yang bermakna...",
+            "arabic": "أَفْعَالُ الرُّجْحَانِ أَوِ الظَّنِّ",
+            "translation": "Fi'il dugaan kuat (Ar-Rujhan)",
+            "meaning": "Fi'il dugaan kuat (Ar-Rujhan)",
+            "options": [
+              {
+                "label": "Dugaan kuat / Anggapan (Ar-Rujhaan / Azh-Zhann)",
+                "value": "dugaan_kuat"
+              },
+              {
+                "label": "Peniadaan mutlak",
+                "value": "peniadaan"
+              },
+              {
+                "label": "Perintah tegas",
+                "value": "perintah"
+              },
+              {
+                "label": "Keterangan tempat",
+                "value": "tempat"
+              }
+            ],
+            "correct": "dugaan_kuat",
+            "explanation": "حَسِبْتُ (aku mengira), خِلْتُ (aku menyangka), dan زَعَمْتُ (aku menganggap) adalah fi'il-fi'il yang menunjukkan sangkaan kuat (rujhan).",
+            "whyModal": {
+              "title": "Af'alur Rujhan",
+              "matan": "حَسِبْتُ، وَخِلْتُ، وَزَعَمْتُ لِلرُّجْحَانِ",
+              "reason": "Menunjukkan timbangan dugaan yang lebih berat daripada ragu."
+            }
+          },
+          {
+            "id": "q10_5_9",
+            "type": "mcq",
+            "question": "Jika kalimat: الصِّدْقُ مُنْجٍ (Kejujuran itu menyelamatkan) dimasuki عَلِمْتُ, bagaimanakah bunyinya?",
+            "prompt": "Jika kalimat: الصِّدْقُ مُنْجٍ (Kejujuran itu menyelamatkan) dimasuki عَلِمْتُ, bagaimanakah bunyinya?",
+            "arabic": "عَلِمْتُ + الصِّدْقُ مُنْجٍ",
+            "translation": "'Alimtu + ash-shidqu munjin",
+            "meaning": "'Alimtu + ash-shidqu munjin",
+            "options": [
+              {
+                "label": "عَلِمْتُ الصِّدْقَ مُنْجِيًا (keduanya difathahkan)",
+                "value": "shidqa_munjiyan"
+              },
+              {
+                "label": "عَلِمْتُ الصِّدْقُ مُنْجٍ",
+                "value": "marfu_keduanya"
+              },
+              {
+                "label": "عَلِمْتُ الصِّدْقُ مُنْجِيًا",
+                "value": "shidqu_munjiyan"
+              },
+              {
+                "label": "عَلِمْتُ الصِّدْقَ مُنْجٍ",
+                "value": "shidqa_munjin"
+              }
+            ],
+            "correct": "shidqa_munjiyan",
+            "explanation": "Keduanya wajib manshub dengan fathah sebagai maf'ul ke-1 dan maf'ul ke-2: عَلِمْتُ الصِّدْقَ مُنْجِيًا.",
+            "whyModal": {
+              "title": "Aplikasi 'Alimtu Manshub Ganda",
+              "matan": "تَنْصِبُ الْمُبْتَدَأَ وَالْخَبَرَ عَلَى أَنَّهُمَا مَفْعُولَانِ",
+              "reason": "Keduanya mendapat harakat fathah tanda nashab."
+            }
+          },
+          {
+            "id": "q10_5_10",
+            "type": "mcq",
+            "question": "Kata سَمِعْتُ dimasukkan oleh Ibnu Ajurrum ke dalam bab ini menurut Madzhab apa?",
+            "prompt": "Kata سَمِعْتُ dimasukkan oleh Ibnu Ajurrum ke dalam bab ini menurut Madzhab apa?",
+            "arabic": "سَمِعْتُ عِنْدَ ابْنِ آجُرُّومَ",
+            "translation": "Sami'tu menurut Ibnu Ajurrum",
+            "meaning": "Sami'tu menurut Ibnu Ajurrum",
+            "options": [
+              {
+                "label": "Madzhab Kufah (Kufiyyin) yang membolehkan sami'tu menashabkan dua maf'ul jika maf'ul keduanya berupa suara",
+                "value": "madzhab_kufah"
+              },
+              {
+                "label": "Madzhab Bashrah murni",
+                "value": "bashrah"
+              },
+              {
+                "label": "Madzhab Andalusia",
+                "value": "andalusia"
+              },
+              {
+                "label": "Madzhab Mesir",
+                "value": "mesir"
+              }
+            ],
+            "correct": "madzhab_kufah",
+            "explanation": "Pencantuman سَمِعْتُ adalah salah satu jejak kecenderungan madzhab Kufah pada Ibnu Ajurrum, di mana ulama Kufah menjadikannya penashab dua maf'ul jika maf'ul ke-2 berupa suara/tuturan (contoh: سَمِعْتُ زَيْدًا يَقُولُ كَذَا).",
+            "whyModal": {
+              "title": "Sami'tu Madzhab Kufah",
+              "matan": "وَسَمِعْتُ (عَلَى مَذْهَبِ الْكُوفِيِّينَ)",
+              "reason": "Karakteristik khas sistematika nahwu Matan Al-Ajurrumiyyah."
+            }
+          }
+        ]
+      },
+      {
+        "id": "level_10_6",
+        "code": "10.6",
+        "title": "Khatam Marfu'atil Asma'",
+        "subtitle": "Tantangan Grand Master: Ujian Komprehensif Seluruh Nawasikh (Kaana, Inna, Zhanna)",
+        "titleArabic": "اخْتِبَارُ الزَّعِيمِ الْأَكْبَرِ لِلنَّوَاسِخِ",
+        "type": "mcq",
+        "xp": 100,
+        "unlocked": false,
+        "is_boss": true,
+        "theory": {
+          "title": "Puncak Marfu'atil Asma' (Grand Boss)",
+          "matan": "وَهِيَ ثَلَاثَةُ أَشْيَاءَ: كَانَ وَأَخَوَاتُهَا، وَإِنَّ وَأَخَوَاتُهَا، وَظَنَنْتُ وَأَخَوَاتُهَا.",
+          "translation": "Ujian Akbar Penyelesaian Bab Marfu'at: Menguji kemampuan santri membedakan dan menganalisis secara instan perombakan kalimat nominal oleh Kaana, Inna, dan Zhanna dalam teks Al-Qur'an dan hadits.",
+          "points": [
+            {
+              "label": "Tiga Operasi Ajaib",
+              "arabic": "كَانَ (رَفْعٌ فَنَصْبٌ) ، إِنَّ (نَصْبٌ فَرَفْعٌ) ، ظَنَّ (نَصْبٌ فَنَصْبٌ)",
+              "desc": "Pastikan reflek membedakan efek harakat dari ketiga komandan amil ini terpasang dengan kuat."
+            },
+            {
+              "label": "Kelulusan Bintang 10 Bab",
+              "arabic": "إِتْمَامُ عَشَرَةِ أَبْوَابٍ",
+              "desc": "Kelulusan bab ini menandai tuntasnya separuh perjalanan besar Matan Al-Ajurrumiyyah."
+            }
+          ]
+        },
+        "questions": [
+          {
+            "id": "q10_6_1",
+            "type": "mcq",
+            "question": "Pada ayat Al-Qur'an: إِنَّ اللَّهَ كَانَ عَلِيمًا حَكِيمًا, amil apakah yang berada di dalam struktur kalimat tersebut?",
+            "prompt": "Pada ayat Al-Qur'an: إِنَّ اللَّهَ كَانَ عَلِيمًا حَكِيمًا, amil apakah yang berada di dalam struktur kalimat tersebut?",
+            "arabic": "إِنَّ اللَّهَ كَانَ عَلِيمًا حَكِيمًا",
+            "translation": "Sesungguhnya Allah adalah Maha Mengetahui lagi Maha Bijaksana",
+            "meaning": "Sesungguhnya Allah adalah Maha Mengetahui lagi Maha Bijaksana",
+            "options": [
+              {
+                "label": "Terdapat DUA amil nawasikh: إِنَّ (menashabkan lafazh Allah) dan كَانَ (berada di dalam posisi khabar Inna)",
+                "value": "dua_nawasikh"
+              },
+              {
+                "label": "Hanya ada Inna saja",
+                "value": "hanya_inna"
+              },
+              {
+                "label": "Hanya ada Kaana saja",
+                "value": "hanya_kaana"
+              },
+              {
+                "label": "Tidak ada amil nasikh",
+                "value": "tidak_ada"
+              }
+            ],
+            "correct": "dua_nawasikh",
+            "explanation": "Lafazh Allah dinashabkan oleh إِنَّ, sedangkan عَلِيمًا dinashabkan oleh كَانَ yang berkedudukan sebagai khabar Inna dalam bentuk jumlah.",
+            "whyModal": {
+              "title": "Perpaduan Inna dan Kaana dalam Satu Ayat",
+              "matan": "إِنَّ تَنْصِبُ، وَكَانَ تَنْصِبُ الْخَبَرَ",
+              "reason": "Arsitektur bertingkat kalimat Al-Qur'an yang sangat memukau."
+            }
+          },
+          {
+            "id": "q10_6_2",
+            "type": "mcq",
+            "question": "Pada ayat: يَحْسَبُهُمُ الْجَاهِلُ أَغْنِيَاءَ مِنَ التَّعَفُّفِ, manakah dua maf'ul dari fi'il يَحْسَبُ (saudara Zhanna)?",
+            "prompt": "Pada ayat: يَحْسَبُهُمُ الْجَاهِلُ أَغْنِيَاءَ مِنَ التَّعَفُّفِ, manakah dua maf'ul dari fi'il يَحْسَبُ (saudara Zhanna)?",
+            "arabic": "يَحْسَبُهُمُ الْجَاهِلُ أَغْنِيَاءَ",
+            "translation": "Orang yang tidak tahu mengira mereka adalah orang-orang kaya",
+            "meaning": "Orang yang tidak tahu mengira mereka adalah orang-orang kaya",
+            "options": [
+              {
+                "label": "Maf'ul 1: Dhamir 'hum' (هُمْ), Maf'ul 2: أَغْنِيَاءَ",
+                "value": "hum_dan_aghniya"
+              },
+              {
+                "label": "Al-Jahil dan aghniya",
+                "value": "aljahil"
+              },
+              {
+                "label": "Yahsabuhu dan ta'affuf",
+                "value": "taaffuf"
+              },
+              {
+                "label": "Dhamir mustatir saja",
+                "value": "mustatir"
+              }
+            ],
+            "correct": "hum_dan_aghniya",
+            "explanation": "الْجَاهِلُ adalah fa'il marfu', dhamir هُمْ adalah maf'ul bih ke-1 fi mahalli nashbin, dan أَغْنِيَاءَ adalah maf'ul bih ke-2 manshub dengan fathah.",
+            "whyModal": {
+              "title": "I'rab Dua Maf'ul Hasiba dalam Al-Qur'an",
+              "matan": "وَحَسِبْتُ... تَنْصِبُ الْمُبْتَدَأَ وَالْخَبَرَ عَلَى أَنَّهُمَا مَفْعُولَانِ",
+              "reason": "Hum dan aghniyaa-a adalah dua objek kata kerja hati."
+            }
+          },
+          {
+            "id": "q10_6_3",
+            "type": "mcq",
+            "question": "Jika kalimat: الزَّيْدَانِ قَائِمَانِ dimasuki huruf إِنَّ, manakah bentuk yang BENAR?",
+            "prompt": "Jika kalimat: الزَّيْدَانِ قَائِمَانِ dimasuki huruf إِنَّ, manakah bentuk yang BENAR?",
+            "arabic": "إِنَّ + الزَّيْدَانِ قَائِمَانِ",
+            "translation": "Inna + dua Zaid berdiri",
+            "meaning": "Inna + dua Zaid berdiri",
+            "options": [
+              {
+                "label": "إِنَّ الزَّيْدَيْنِ قَائِمَانِ (Isim ber-Ya' manshub, Khabar ber-Alif marfu')",
+                "value": "zaidaini_qaimani"
+              },
+              {
+                "label": "إِنَّ الزَّيْدَانِ قَائِمَيْنِ",
+                "value": "zaidani_qaimaini"
+              },
+              {
+                "label": "إِنَّ الزَّيْدَيْنِ قَائِمَيْنِ",
+                "value": "keduanya_ya"
+              },
+              {
+                "label": "إِنَّ الزَّيْدَانِ قَائِمَانِ",
+                "value": "keduanya_alif"
+              }
+            ],
+            "correct": "zaidaini_qaimani",
+            "explanation": "Inna menashabkan isim mutsanna dengan huruf Ya' (الزَّيْدَيْنِ) dan merafa'kan khabarnya dengan Alif (قَائِمَانِ).",
+            "whyModal": {
+              "title": "Inna pada Mutsanna",
+              "matan": "تَنْصِبُ الِاسْمَ وَتَرْفَعُ الْخَبَرَ",
+              "reason": "Zaidaini manshub dengan ya', qa'imani marfu' dengan alif."
+            }
+          },
+          {
+            "id": "q10_6_4",
+            "type": "mcq",
+            "question": "Jika kalimat: الزَّيْدَانِ قَائِمَانِ dimasuki amil كَانَ, manakah bentuk yang BENAR?",
+            "prompt": "Jika kalimat: الزَّيْدَانِ قَائِمَانِ dimasuki amil كَانَ, bagaimanakah bentuk yang BENAR?",
+            "arabic": "كَانَ + الزَّيْدَانِ قَائِمَانِ",
+            "translation": "Kaana + dua Zaid berdiri",
+            "meaning": "Kaana + dua Zaid berdiri",
+            "options": [
+              {
+                "label": "كَانَ الزَّيْدَانِ قَائِمَيْنِ (Isim ber-Alif marfu', Khabar ber-Ya' manshub)",
+                "value": "zaidani_qaimaini"
+              },
+              {
+                "label": "كَانَ الزَّيْدَيْنِ قَائِمَانِ",
+                "value": "zaidaini_qaimani"
+              },
+              {
+                "label": "كَانَا الزَّيْدَانِ قَائِمَيْنِ",
+                "value": "kaanaa"
+              },
+              {
+                "label": "كَانَ الزَّيْدَانِ قَائِمَانِ",
+                "value": "keduanya_alif"
+              }
+            ],
+            "correct": "zaidani_qaimaini",
+            "explanation": "Kaana merafa'kan isim mutsanna dengan Alif (الزَّيْدَانِ) dan menashabkan khabarnya dengan Ya' (قَائِمَيْنِ).",
+            "whyModal": {
+              "title": "Kaana pada Mutsanna",
+              "matan": "تَرْفَعُ الِاسْمَ وَتَنْصِبُ الْخَبَرَ",
+              "reason": "Zaidani marfu' dengan alif, qa'imaini manshub dengan ya'."
+            }
+          },
+          {
+            "id": "q10_6_5",
+            "type": "mcq",
+            "question": "Jika kalimat: الزَّيْدَانِ قَائِمَانِ dimasuki amil ظَنَنْتُ, manakah bentuk yang BENAR?",
+            "prompt": "Jika kalimat: الزَّيْدَانِ قَائِمَانِ dimasuki amil ظَنَنْتُ, bagaimanakah bentuk yang BENAR?",
+            "arabic": "ظَنَنْتُ + الزَّيْدَانِ قَائِمَانِ",
+            "translation": "Zhannantu + dua Zaid berdiri",
+            "meaning": "Zhannantu + dua Zaid berdiri",
+            "options": [
+              {
+                "label": "ظَنَنْتُ الزَّيْدَيْنِ قَائِمَيْنِ (keduanya berakhiran Ya' manshub)",
+                "value": "keduanya_ya"
+              },
+              {
+                "label": "ظَنَنْتُ الزَّيْدَانِ قَائِمَانِ",
+                "value": "keduanya_alif"
+              },
+              {
+                "label": "ظَنَنْتُ الزَّيْدَانِ قَائِمَيْنِ",
+                "value": "alif_ya"
+              },
+              {
+                "label": "ظَنَنْتُ الزَّيْدَيْنِ قَائِمَانِ",
+                "value": "ya_alif"
+              }
+            ],
+            "correct": "keduanya_ya",
+            "explanation": "Zhannantu menashabkan kedua rukun, sehingga kedua isim mutsanna sama-sama bertanda Ya': ظَنَنْتُ الزَّيْدَيْنِ قَائِمَيْنِ.",
+            "whyModal": {
+              "title": "Zhannantu pada Mutsanna",
+              "matan": "تَنْصِبُ الْمُبْتَدَأَ وَالْخَبَرَ عَلَى أَنَّهُمَا مَفْعُولَانِ",
+              "reason": "Kedua kata mutsanna wajib menggunakan tanda Ya' manshub."
+            }
+          },
+          {
+            "id": "q10_6_6",
+            "type": "mcq",
+            "question": "Pada ayat Al-Qur'an: أَلَيْسَ اللَّهُ بِأَحْكَمِ الْحَاكِمِينَ, manakah Isim Laisa dan bagaimanakah bentuk Khabarnya?",
+            "prompt": "Pada ayat Al-Qur'an: أَلَيْسَ اللَّهُ بِأَحْكَمِ الْحَاكِمِينَ, manakah Isim Laisa dan bagaimanakah bentuk Khabarnya?",
+            "arabic": "أَلَيْسَ اللَّهُ بِأَحْكَمِ الْحَاكِمِينَ",
+            "translation": "Bukankah Allah Hakim yang paling adil?",
+            "meaning": "Bukankah Allah Hakim yang paling adil?",
+            "options": [
+              {
+                "label": "Isim Laisa: lafazh اللَّهُ marfu' dhammah, Khabar Laisa: بِأَحْكَمِ (majrur lafazh dengan Ba' za'idah, manshub secara mahal)",
+                "value": "allah_dan_bi_ahkam"
+              },
+              {
+                "label": "Isim Laisa: Al-Hakimin",
+                "value": "alhakimin"
+              },
+              {
+                "label": "Khabar Laisa marfu' dhammah",
+                "value": "dhammah"
+              },
+              {
+                "label": "Laisa tidak punya khabar",
+                "value": "tidak_punya"
+              }
+            ],
+            "correct": "allah_dan_bi_ahkam",
+            "explanation": "Huruf Ba' pada بِأَحْكَمِ adalah huruf jar tambahan (za'idah taukid), sehingga أحكم majrur secara lafazh namun menempati posisi nashab (fi mahalli nashbin) sebagai Khabar Laisa.",
+            "whyModal": {
+              "title": "Khabar Laisa Kemasukan Ba' Za'idah",
+              "matan": "بِأَحْكَمِ: مَجْرُورٌ لَفْظًا مَنْصُوبٌ مَحَلًّا خَبَرُ لَيْسَ",
+              "reason": "Pola balaghah Al-Qur'an yang sangat agung pada khabar Laisa."
+            }
+          },
+          {
+            "id": "q10_6_7",
+            "type": "mcq",
+            "question": "Pada hadits: إِنَّمَا الْأَعْمَالُ بِالنِّيَّاتِ, mengapa kata الْأَعْمَالُ tetap MARFU' (dhammah) meskipun didahului إِنَّ?",
+            "prompt": "Pada hadits: إِنَّمَا الْأَعْمَالُ بِالنِّيَّاتِ, mengapa kata الْأَعْمَالُ tetap MARFU' (dhammah) meskipun didahului إِنَّ?",
+            "arabic": "إِنَّمَا الْأَعْمَالُ بِالنِّيَّاتِ",
+            "translation": "Sesungguhnya setiap amal bergantung pada niat",
+            "meaning": "Sesungguhnya setiap amal bergantung pada niat",
+            "options": [
+              {
+                "label": "Karena huruf Inna bersambung dengan 'Maa Kaaffah' yang membatalkan fungsi amalnya",
+                "value": "maa_kaaffah"
+              },
+              {
+                "label": "Karena Al-A'mal adalah fi'il",
+                "value": "fiil"
+              },
+              {
+                "label": "Karena salah tulis",
+                "value": "salah_tulis"
+              },
+              {
+                "label": "Karena niat selalu marfu'",
+                "value": "niat"
+              }
+            ],
+            "correct": "maa_kaaffah",
+            "explanation": "Jika huruf Inna dimasuki oleh 'Maa' pencegah (الْكَافَّةُ), amal penashabannya batal seketika, dan kata sesudahnya kembali marfu' sebagai Mubtada' asal (الْأَعْمَالُ).",
+            "whyModal": {
+              "title": "Pengaruh Maa Kaaffah pada Inna",
+              "matan": "إِنَّمَا: كَافَّةٌ وَمَكْفُوفَةٌ",
+              "reason": "Maa Kaaffah menetralkan amil Inna sehingga kalimat kembali nominal murni."
+            }
+          },
+          {
+            "id": "q10_6_8",
+            "type": "mcq",
+            "question": "Manakah di antara pilihan berikut yang merupakan pasangan Isim dan Khabar Kaana yang BENAR secara nahwu?",
+            "prompt": "Manakah di antara pilihan berikut yang merupakan pasangan Isim dan Khabar Kaana yang BENAR secara nahwu?",
+            "arabic": "جُمْلَةُ كَانَ الصَّحِيحَةُ",
+            "translation": "Kalimat Kaana yang benar",
+            "meaning": "Kalimat Kaana yang benar",
+            "options": [
+              {
+                "label": "كَانَ الْجَوُّ بَارِدًا",
+                "value": "jawwu_baridan"
+              },
+              {
+                "label": "كَانَ الْجَوَّ بَارِدٌ",
+                "value": "jawwa_baridun"
+              },
+              {
+                "label": "كَانَ الْجَوَّ بَارِدًا",
+                "value": "jawwa_baridan"
+              },
+              {
+                "label": "كَانَ الْجَوُّ بَارِدٌ",
+                "value": "jawwu_baridun"
+              }
+            ],
+            "correct": "jawwu_baridan",
+            "explanation": "Isim Kaana marfu' dhammah (الْجَوُّ) dan khabarnya manshub fathah (بَارِدًا): كَانَ الْجَوُّ بَارِدًا.",
+            "whyModal": {
+              "title": "Verifikasi Struktur Kaana",
+              "matan": "تَرْفَعُ الِاسْمَ وَتَنْصِبُ الْخَبَرَ",
+              "reason": "Al-Jawwu marfu' dan baridan manshub."
+            }
+          },
+          {
+            "id": "q10_6_9",
+            "type": "mcq",
+            "question": "Manakah di antara pilihan berikut yang merupakan kalimat Zhannantu dengan maf'ul jamak yang BENAR?",
+            "prompt": "Manakah di antara pilihan berikut yang merupakan kalimat Zhannantu dengan maf'ul jamak yang BENAR?",
+            "arabic": "جُمْلَةُ ظَنَنْتُ مَعَ الْجَمْعِ",
+            "translation": "Kalimat Zhannantu bersama jamak",
+            "meaning": "Kalimat Zhannantu bersama jamak",
+            "options": [
+              {
+                "label": "ظَنَنْتُ الْمُهَنْدِسِينَ قَادِمِينَ",
+                "value": "muhandisina_qadimina"
+              },
+              {
+                "label": "ظَنَنْتُ الْمُهَنْدِسُونَ قَادِمُونَ",
+                "value": "muhandisuna_qadimuna"
+              },
+              {
+                "label": "ظَنَنْتُ الْمُهَنْدِسُونَ قَادِمِينَ",
+                "value": "muhandisuna_qadimina"
+              },
+              {
+                "label": "ظَنَنْتُ الْمُهَنْدِسِينَ قَادِمُونَ",
+                "value": "muhandisina_qadimuna"
+              }
+            ],
+            "correct": "muhandisina_qadimina",
+            "explanation": "Kedua objek jamak mudzakkar salim wajib berakhiran Ya' dan Nun tanda manshub: ظَنَنْتُ الْمُهَنْدِسِينَ قَادِمِينَ.",
+            "whyModal": {
+              "title": "Zhanna Dua Maf'ul Jamak Mudzakkar",
+              "matan": "تَنْصِبُ الْمَفْعُولَيْنِ بِالْيَاءِ",
+              "reason": "Keduanya manshub dengan tanda Ya'."
+            }
+          },
+          {
+            "id": "q10_6_10",
+            "type": "mcq",
+            "question": "Alhamdulillah! Dengan menuntaskan Bab 10, pilar agung apa dari Matan Al-Ajurrumiyyah yang telah khatam dipelajari seluruhnya?",
+            "prompt": "Alhamdulillah! Dengan menuntaskan Bab 10, pilar agung apa dari Matan Al-Ajurrumiyyah yang telah khatam dipelajari seluruhnya?",
+            "arabic": "خَتْمُ بَابِ الْمَرْفُوعَاتِ",
+            "translation": "Khatam Bab Isim-Isim Marfu'",
+            "meaning": "Khatam Bab Isim-Isim Marfu'",
+            "options": [
+              {
+                "label": "Seluruh Isim-Isim yang Dirafa'kan (Marfu'atul Asma': 7 Pilar Pokok)",
+                "value": "khatam_marfuat"
+              },
+              {
+                "label": "Seluruh isim manshub",
+                "value": "manshubat"
+              },
+              {
+                "label": "Seluruh isim makhfudhat",
+                "value": "makhfudhat"
+              },
+              {
+                "label": "Hanya bab fi'il saja",
+                "value": "fiil_saja"
+              }
+            ],
+            "correct": "khatam_marfuat",
+            "explanation": "Bab 6 sampai Bab 10 membahas tuntas seluruh Marfu'atil Asma' (Fa'il, Na'ibul Fa'il, Mubtada', Khabar, Isim Kaana, Khabar Inna, dan Tawabi'). Selamat kepada para santri pejuang nahwu!",
+            "whyModal": {
+              "title": "Khatam Marfu'atul Asma'",
+              "matan": "تَمَّ بِحَمْدِ اللَّهِ بَابُ الْمَرْفُوعَاتِ",
+              "reason": "Separuh tonggak mahkota ilmu nahwu Matan Al-Ajurrumiyyah telah dikuasai."
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,39 @@
+<?php
+// ==============================================================================
+// JurumiPlay - Database & Environment Configuration Template
+// Salin berkas ini ke 'config.php' dan sesuaikan kredensial di server hosting.
+// JANGAN PERNAH commit config.php asli yang memuat kredensial ke Git publik!
+// ==============================================================================
+
+define('DB_HOST', 'localhost');
+define('DB_NAME', 'db_jurumiplay');
+define('DB_USER', 'db_user');
+define('DB_PASS', 'secret_password_here');
+define('ADMIN_PASSKEY', 'ganti_dengan_passkey_rahasia_admin');
+
+/**
+ * Mendapatkan koneksi PDO ke database MySQL
+ * @return PDO
+ */
+function get_db_connection(): PDO {
+    static $pdo = null;
+    if ($pdo === null) {
+        $dsn = "mysql:host=" . DB_HOST . ";dbname=" . DB_NAME . ";charset=utf8mb4";
+        $options = [
+            PDO::ATTR_ERRMODE            => PDO::ERRMODE_EXCEPTION,
+            PDO::ATTR_DEFAULT_FETCH_MODE => PDO::FETCH_ASSOC,
+            PDO::ATTR_EMULATE_PREPARES   => false,
+        ];
+        try {
+            $pdo = new PDO($dsn, DB_USER, DB_PASS, $options);
+        } catch (PDOException $e) {
+            http_response_code(500);
+            echo json_encode([
+                'success' => false,
+                'error'   => 'Koneksi database gagal. Silakan periksa konfigurasi server.'
+            ]);
+            exit;
+        }
+    }
+    return $pdo;
+}

@@ -1,0 +1,1540 @@
+{
+  "chapter": {
+    "id": "bab_06",
+    "number": 6,
+    "title_ar": "بَابُ مَرْفُوعَاتِ الْأَسْمَاءِ",
+    "title_id": "Bab 6: Marfu'atil Asma'",
+    "description": "Pengantar 7 posisi jabatan isim yang wajib dibaca rafa' (marfu') menurut kaidah Matan Al-Ajurrumiyyah.",
+    "matan_full": "الْمَرْفُوعَاتُ سَبْعَةٌ، وَهِيَ: الْفَاعِلُ، وَالْمَفْعُولُ الَّذِي لَمْ يُسَمَّ فَاعِلُهُ، وَالْمُبْتَدَأُ، وَخَبَرُهُ، وَاسْمُ كَانَ وَأَخَوَاتِهَا، وَخَبَرُ إِنَّ وَأَخَوَاتِهَا، وَالتَّابِعُ لِلْمَرْفُوعِ، وَهُوَ أَرْبَعَةُ أَشْيَاءَ: النَّعْتُ، وَالْعَطْفُ، وَالتَّوْكِيدُ، وَالْبَدَلُ.",
+    "qawaidCard": {
+      "title": "Kaidah Bab Marfu'atil Asma'",
+      "matanSnippet": "الْمَرْفُوعَاتُ سَبْعَةٌ: الْفَاعِلُ، وَالْمَفْعُولُ الَّذِي لَمْ يُسَمَّ فَاعِلُهُ، وَالْمُبْتَدَأُ، وَخَبَرُهُ، وَاسْمُ كَانَ، وَخَبَرُ إِنَّ، وَالتَّابِعُ لِلْمَرْفُوعِ",
+      "formula": "Isim Marfu' = 7 Jabatan Pokok (Fa'il + Na'ibul Fa'il + Mubtada' + Khabar + Isim Kaana + Khabar Inna + Tawabi')",
+      "points": [
+        "Isim marfu' adalah kelompok isim dengan kedudukan pokok ('umdah) dalam tata bahasa Arab.",
+        "Terdapat 7 isim marfu': Fa'il, Na'ibul Fa'il, Mubtada', Khabar, Isim Kaana, Khabar Inna, dan At-Tabi' lil Marfu'.",
+        "At-Tabi' (pengikut) ada 4: Na'at (sifat), 'Athaf (sambung), Taukid (penegas), dan Badal (pengganti).",
+        "Tanda rafa' mengikuti jenis kata: Dhammah (mufrad, taksir, muannats salim), Alif (mutsanna), Wawu (mudzakkar salim, asmaul khamsah)."
+      ],
+      "keyTakeaways": [
+        "Isim marfu' berjumlah 7 posisi.",
+        "Fa'il & Na'ibul Fa'il ada dalam jumlah fi'liyyah.",
+        "Mubtada' & Khabar ada dalam jumlah ismiyyah.",
+        "Kaana merofa'kan isimnya, Inna merofa'kan khabarnya.",
+        "Tawabi' ada 4 macam: na'at, 'athaf, taukid, badal."
+      ]
+    },
+    "levels": [
+      {
+        "id": "level_6_1",
+        "code": "6.1",
+        "title": "7 Pilar Kemuliaan Isim",
+        "subtitle": "Mengenal Kelompok Isim yang Wajib Rofa'",
+        "titleArabic": "الْمَرْفُوعَاتُ سَبْعَةٌ",
+        "type": "mcq",
+        "xp": 70,
+        "unlocked": true,
+        "is_boss": false,
+        "theory": {
+          "title": "7 Isim yang Wajib Rofa'",
+          "matan": "الْمَرْفُوعَاتُ سَبْعَةٌ، وَهِيَ: الْفَاعِلُ، وَالْمَفْعُولُ الَّذِي لَمْ يُسَمَّ فَاعِلُهُ، وَالْمُبْتَدَأُ، وَخَبَرُهُ، وَاسْمُ كَانَ وَأَخَوَاتِهَا، وَخَبَرُ إِنَّ وَأَخَوَاتِهَا، وَالتَّابِعُ لِلْمَرْفُوعِ",
+          "translation": "Isim-isim yang dirafa'kan itu ada tujuh, yaitu: Fa'il, Maf'ul yang tidak disebut fa'ilnya (Na'ibul Fa'il), Mubtada', Khabar Mubtada', Isim Kaana dan saudaranya, Khabar Inna dan saudaranya, serta kata yang mengikuti isim marfu'.",
+          "points": [
+            {
+              "label": "Definisi Marfu'at",
+              "arabic": "الْمَرْفُوعَاتُ مِنَ الْأَسْمَاءِ",
+              "desc": "Isim-isim yang menempati posisi jabatan gramatikal utama dalam kalimat bahasa Arab yang mengharuskannya berstatus i'rab rafa'."
+            },
+            {
+              "label": "Fa'il & Na'ibul Fa'il",
+              "arabic": "الْفَاعِلُ وَنَائِبُهُ",
+              "desc": "Dua posisi marfu' dalam kalimat verbal (jumlah fi'liyyah) yang menunjukkan pelaku pekerjaan atau pengganti pelaku ketika kalimat dipasifkan."
+            },
+            {
+              "label": "Mubtada' & Khabar",
+              "arabic": "الْمُبْتَدَأُ وَخَبَرُهُ",
+              "desc": "Dua rukun pokok dalam kalimat nominal (jumlah ismiyyah): subjek pembuka dan predikat pelengkap informasi."
+            },
+            {
+              "label": "Nawasikh",
+              "arabic": "اسْمُ كَانَ وَخَبَرُ إِنَّ",
+              "desc": "Isim yang dirafa'kan oleh amil Kaana (dan saudaranya) serta khabar yang dirafa'kan oleh amil Inna (dan saudaranya)."
+            }
+          ]
+        },
+        "questions": [
+          {
+            "id": "q6_1_1",
+            "type": "mcq",
+            "question": "Ada berapakah jumlah isim yang wajib dibaca rafa' menurut Matan Al-Ajurrumiyyah?",
+            "prompt": "Ada berapakah jumlah isim yang wajib dibaca rafa' menurut Matan Al-Ajurrumiyyah?",
+            "arabic": "الْمَرْفُوعَاتُ سَبْعَةٌ",
+            "translation": "Isim-isim yang dirafa'kan itu ada tujuh",
+            "meaning": "Isim-isim yang dirafa'kan itu ada tujuh",
+            "options": [
+              {
+                "label": "5 Isim",
+                "value": "5"
+              },
+              {
+                "label": "7 Isim",
+                "value": "7"
+              },
+              {
+                "label": "10 Isim",
+                "value": "10"
+              },
+              {
+                "label": "12 Isim",
+                "value": "12"
+              }
+            ],
+            "correct": "7",
+            "explanation": "Matan Al-Ajurrumiyyah secara tegas menyatakan: 'الْمَرْفُوعَاتُ سَبْعَةٌ' (Isim-isim yang dirafa'kan ada 7).",
+            "whyModal": {
+              "title": "Jumlah Marfu'atil Asma'",
+              "matan": "الْمَرْفُوعَاتُ سَبْعَةٌ",
+              "reason": "Mushannif menetapkan ada 7 posisi marfu' dalam bab ini."
+            }
+          },
+          {
+            "id": "q6_1_2",
+            "type": "mcq",
+            "question": "Manakah di bawah ini yang BUKAN termasuk salah satu dari 7 isim marfu'?",
+            "prompt": "Manakah di bawah ini yang BUKAN termasuk salah satu dari 7 isim marfu'?",
+            "arabic": "الْفَاعِلُ، الْمَفْعُولُ بِهِ، الْمُبْتَدَأُ، اسْمُ كَانَ",
+            "translation": "Fa'il, Maf'ul bih, Mubtada', Isim Kaana",
+            "meaning": "Fa'il, Maf'ul bih, Mubtada', Isim Kaana",
+            "options": [
+              {
+                "label": "Al-Fa'il (الْفَاعِلُ)",
+                "value": "fail"
+              },
+              {
+                "label": "Al-Maf'ul Bih (الْمَفْعُولُ بِهِ)",
+                "value": "maf_ul_bih"
+              },
+              {
+                "label": "Al-Mubtada' (الْمُبْتَدَأُ)",
+                "value": "mubtada"
+              },
+              {
+                "label": "Isim Kaana (اسْمُ كَانَ)",
+                "value": "isim_kana"
+              }
+            ],
+            "correct": "maf_ul_bih",
+            "explanation": "Al-Maf'ul Bih termasuk kelompok Manshubatil Asma' (objek penderita yang wajib manshub/fathah), bukan marfu'.",
+            "whyModal": {
+              "title": "Pemilahan Marfu' vs Manshub",
+              "matan": "الْمَرْفُوعَاتُ سَبْعَةٌ... وَالْفَاعِلُ وَالْمَفْعُولُ الَّذِي لَمْ يُسَمَّ فَاعِلُهُ",
+              "reason": "Maf'ul yang marfu' hanyalah maf'ul yang tidak disebut fa'ilnya (na'ibul fa'il), sedangkan maf'ul bih asli adalah manshub."
+            }
+          },
+          {
+            "id": "q6_1_3",
+            "type": "mcq",
+            "question": "Istilah Matan Al-Ajurrumiyyah untuk Na'ibul Fa'il (pengganti pelaku) adalah...",
+            "prompt": "Istilah Matan Al-Ajurrumiyyah untuk Na'ibul Fa'il (pengganti pelaku) adalah...",
+            "arabic": "وَالْمَفْعُولُ الَّذِي لَمْ يُسَمَّ فَاعِلُهُ",
+            "translation": "Dan maf'ul yang tidak disebutkan bersamanya fa'ilnya",
+            "meaning": "Dan maf'ul yang tidak disebutkan bersamanya fa'ilnya",
+            "options": [
+              {
+                "label": "Al-Maf'ul Muthlaq",
+                "value": "muthlaq"
+              },
+              {
+                "label": "Al-Maf'ul alladzi lam yusamma fa'iluh",
+                "value": "naibul_fail_ajurrum"
+              },
+              {
+                "label": "Al-Maf'ul Li Ajlih",
+                "value": "li_ajlih"
+              },
+              {
+                "label": "Al-Maf'ul Ma'ah",
+                "value": "maah"
+              }
+            ],
+            "correct": "naibul_fail_ajurrum",
+            "explanation": "Ibnu Ajurrum menggunakan redaksi 'Al-Maf'ul alladzi lam yusamma fa'iluh' (maf'ul yang fa'ilnya tidak disebutkan namanya).",
+            "whyModal": {
+              "title": "Redaksi Matan Ajurrumiyyah",
+              "matan": "وَالْمَفْعُولُ الَّذِي لَمْ يُسَمَّ فَاعِلُهُ",
+              "reason": "Ini adalah redaksi orisinal Ibnu Ajurrum yang semakna dengan istilah populer 'Na'ibul Fa'il'."
+            }
+          },
+          {
+            "id": "q6_1_4",
+            "type": "mcq",
+            "question": "Subjek pembuka dalam kalimat nominal (jumlah ismiyyah) disebut...",
+            "prompt": "Subjek pembuka dalam kalimat nominal (jumlah ismiyyah) disebut...",
+            "arabic": "الْمُبْتَدَأُ هُوَ الِاسْمُ الْمَرْفُوعُ",
+            "translation": "Mubtada' adalah isim yang dirafa'kan",
+            "meaning": "Mubtada' adalah isim yang dirafa'kan",
+            "options": [
+              {
+                "label": "Al-Mubtada'",
+                "value": "mubtada"
+              },
+              {
+                "label": "Al-Khabar",
+                "value": "khabar"
+              },
+              {
+                "label": "Al-Fa'il",
+                "value": "fail"
+              },
+              {
+                "label": "Al-Maf'ul",
+                "value": "maful"
+              }
+            ],
+            "correct": "mubtada",
+            "explanation": "Al-Mubtada' adalah isim marfu' yang diletakkan di awal kalimat dan sunyi dari amil lafzhi.",
+            "whyModal": {
+              "title": "Definisi Mubtada'",
+              "matan": "وَالْمُبْتَدَأُ، وَخَبَرُهُ",
+              "reason": "Mubtada' adalah isim marfu' pembuka struktur jumlah ismiyyah."
+            }
+          },
+          {
+            "id": "q6_1_5",
+            "type": "mcq",
+            "question": "Isim marfu' yang menyempurnakan makna Mubtada' sehingga menjadi kalimat berfaedah adalah...",
+            "prompt": "Isim marfu' yang menyempurnakan makna Mubtada' sehingga menjadi kalimat berfaedah adalah...",
+            "arabic": "وَخَبَرُهُ نَحْوُ: زَيْدٌ قَائِمٌ",
+            "translation": "Dan khabarnya contoh: Zaid berdiri",
+            "meaning": "Dan khabarnya contoh: Zaid berdiri",
+            "options": [
+              {
+                "label": "Al-Fa'il",
+                "value": "fail"
+              },
+              {
+                "label": "Al-Khabar",
+                "value": "khabar"
+              },
+              {
+                "label": "Al-Hal",
+                "value": "hal"
+              },
+              {
+                "label": "At-Tamyiz",
+                "value": "tamyiz"
+              }
+            ],
+            "correct": "khabar",
+            "explanation": "Al-Khabar adalah isim marfu' yang disandarkan kepada mubtada' untuk melengkapi maknanya.",
+            "whyModal": {
+              "title": "Fungsi Khabar",
+              "matan": "وَالْخَبَرُ: هُوَ الِاسْمُ الْمَرْفُوعُ الْمُسْنَدُ إِلَيْهِ",
+              "reason": "Khabar menyempurnakan faedah kalimat bersama mubtada'."
+            }
+          },
+          {
+            "id": "q6_1_6",
+            "type": "mcq",
+            "question": "Bagaimanakah kedudukan i'rab Isim dari amil Kaana (كَانَ)?",
+            "prompt": "Bagaimanakah kedudukan i'rab Isim dari amil Kaana (كَانَ)?",
+            "arabic": "وَاسْمُ كَانَ وَأَخَوَاتِهَا",
+            "translation": "Dan isim Kaana serta saudari-saudarinya",
+            "meaning": "Dan isim Kaana serta saudari-saudarinya",
+            "options": [
+              {
+                "label": "Marfu' (wajib rafa')",
+                "value": "marfu"
+              },
+              {
+                "label": "Manshub (wajib nashab)",
+                "value": "manshub"
+              },
+              {
+                "label": "Majrur (wajib kasrah)",
+                "value": "majrur"
+              },
+              {
+                "label": "Majzum (wajib sukun)",
+                "value": "majzum"
+              }
+            ],
+            "correct": "marfu",
+            "explanation": "Kaana masuk ke jumlah ismiyyah merofa'kan isimnya dan menashabkan khabarnya (tarfa'ul isma).",
+            "whyModal": {
+              "title": "I'rab Isim Kaana",
+              "matan": "وَاسْمُ كَانَ وَأَخَوَاتِهَا",
+              "reason": "Isim Kaana termasuk satu dari 7 isim marfu'."
+            }
+          },
+          {
+            "id": "q6_1_7",
+            "type": "mcq",
+            "question": "Bagaimanakah kedudukan i'rab Khabar dari amil Inna (إِنَّ)?",
+            "prompt": "Bagaimanakah kedudukan i'rab Khabar dari amil Inna (إِنَّ)?",
+            "arabic": "وَخَبَرُ إِنَّ وَأَخَوَاتِهَا",
+            "translation": "Dan khabar Inna serta saudari-saudarinya",
+            "meaning": "Dan khabar Inna serta saudari-saudarinya",
+            "options": [
+              {
+                "label": "Marfu' (wajib rafa')",
+                "value": "marfu"
+              },
+              {
+                "label": "Manshub (wajib nashab)",
+                "value": "manshub"
+              },
+              {
+                "label": "Majrur (wajib kasrah)",
+                "value": "majrur"
+              },
+              {
+                "label": "Mabni mutlak",
+                "value": "mabni"
+              }
+            ],
+            "correct": "marfu",
+            "explanation": "Inna menashabkan isimnya dan merofa'kan khabarnya (tarfa'ul khabar).",
+            "whyModal": {
+              "title": "I'rab Khabar Inna",
+              "matan": "وَخَبَرُ إِنَّ وَأَخَوَاتِهَا",
+              "reason": "Khabar Inna termasuk salah satu dari 7 isim marfu'."
+            }
+          },
+          {
+            "id": "q6_1_8",
+            "type": "mcq",
+            "question": "Kelompok kata pengikut yang ikut dibaca rafa' jika kata sebelumnya marfu' disebut...",
+            "prompt": "Kelompok kata pengikut yang ikut dibaca rafa' jika kata sebelumnya marfu' disebut...",
+            "arabic": "وَالتَّابِعُ لِلْمَرْفُوعِ",
+            "translation": "Dan kata pengikut bagi isim yang dirafa'kan",
+            "meaning": "Dan kata pengikut bagi isim yang dirafa'kan",
+            "options": [
+              {
+                "label": "At-Tawabi' lil Marfu'",
+                "value": "tawabi"
+              },
+              {
+                "label": "Al-Manshubat",
+                "value": "manshubat"
+              },
+              {
+                "label": "Al-Majrurat",
+                "value": "majrurat"
+              },
+              {
+                "label": "Al-Mabniyyat",
+                "value": "mabniyyat"
+              }
+            ],
+            "correct": "tawabi",
+            "explanation": "At-Tabi' lil Marfu' adalah kata yang status i'rabnya meniru matbu' (kata yang diikutinya) yang sedang marfu'.",
+            "whyModal": {
+              "title": "Pengertian Tabi'",
+              "matan": "وَالتَّابِعُ لِلْمَرْفُوعِ",
+              "reason": "At-Tabi' adalah pilar ke-7 marfu'atil asma'."
+            }
+          },
+          {
+            "id": "q6_1_9",
+            "type": "mcq",
+            "question": "Dalam kalimat قَامَ زَيْدٌ (Zaid telah berdiri), kata زَيْدٌ berkedudukan sebagai...",
+            "prompt": "Dalam kalimat قَامَ زَيْدٌ (Zaid telah berdiri), kata زَيْدٌ berkedudukan sebagai...",
+            "arabic": "قَامَ زَيْدٌ",
+            "translation": "Zaid telah berdiri",
+            "meaning": "Zaid telah berdiri",
+            "options": [
+              {
+                "label": "Fa'il (pelaku) marfu'",
+                "value": "fail"
+              },
+              {
+                "label": "Maf'ul bih manshub",
+                "value": "maful"
+              },
+              {
+                "label": "Mubtada' marfu'",
+                "value": "mubtada"
+              },
+              {
+                "label": "Khabar marfu'",
+                "value": "khabar"
+              }
+            ],
+            "correct": "fail",
+            "explanation": "Zaid jatuh setelah fi'il ma'lum (قَامَ) dan menunjukkan pelaku perbuatan, sehingga berkedudukan sebagai fa'il marfu'.",
+            "whyModal": {
+              "title": "Tarkib Fa'il",
+              "matan": "الْفَاعِلُ هُوَ الِاسْمُ الْمَرْفُوعُ الْمَذْكُورُ قَبْلَهُ فِعْلُهُ",
+              "reason": "Kata Zaid adalah isim marfu' yang didahului kata kerjanya."
+            }
+          },
+          {
+            "id": "q6_1_10",
+            "type": "mcq",
+            "question": "Mengapa pembahasan Isim Marfu' diletakkan paling awal sebelum Manshubat dan Majrurat?",
+            "prompt": "Mengapa pembahasan Isim Marfu' diletakkan paling awal sebelum Manshubat dan Majrurat?",
+            "arabic": "الْمَرْفُوعَاتُ هِيَ الْعُمْدَةُ فِي الْكَلَامِ",
+            "translation": "Isim-isim marfu' adalah tiang pokok dalam kalimat",
+            "meaning": "Isim-isim marfu' adalah tiang pokok dalam kalimat",
+            "options": [
+              {
+                "label": "Karena merupakan pilar pokok ('Umdah) kalimat",
+                "value": "umdah"
+              },
+              {
+                "label": "Karena harakat dhommah paling ringan diucapkan",
+                "value": "ringan"
+              },
+              {
+                "label": "Karena isim marfu' selalu berada di akhir kalimat",
+                "value": "akhir"
+              },
+              {
+                "label": "Karena jumlah isim marfu' paling banyak",
+                "value": "banyak"
+              }
+            ],
+            "correct": "umdah",
+            "explanation": "Isim marfu' didahulukan karena merupakan 'Umdah (tiang penyangga pokok kalimat seperti fa'il dan mubtada'), tanpa keduanya kalimat sempurna tak dapat terbentuk.",
+            "whyModal": {
+              "title": "Kedudukan Marfu'at",
+              "matan": "الْمَرْفُوعَاتُ سَبْعَةٌ",
+              "reason": "Marfu'at adalah pondasi utama struktur gramatika Arab."
+            }
+          }
+        ]
+      },
+      {
+        "id": "level_6_2",
+        "code": "6.2",
+        "title": "Isim Mandiri vs Isim Pengikut (At-Tawabi')",
+        "subtitle": "Memahami 4 Cabang Pengikut Isim Marfu'",
+        "titleArabic": "وَالتَّابِعُ لِلْمَرْفُوعِ أَرْبَعَةُ أَشْيَاءَ",
+        "type": "mcq",
+        "xp": 70,
+        "unlocked": false,
+        "is_boss": false,
+        "theory": {
+          "title": "Empat Macam At-Tawabi'",
+          "matan": "وَالتَّابِعُ لِلْمَرْفُوعِ، وَهُوَ أَرْبَعَةُ أَشْيَاءَ: النَّعْتُ، وَالْعَطْفُ، وَالتَّوْكِيدُ، وَالْبَدَلُ.",
+          "translation": "Dan kata pengikut bagi isim yang dirafa'kan, yaitu ada 4 perkara: Na'at (sifat), 'Athaf (sambung), Taukid (penegas), dan Badal (pengganti).",
+          "points": [
+            {
+              "label": "Na'at (النَّعْتُ)",
+              "arabic": "جَاءَ زَيْدٌ الْعَاقِلُ",
+              "desc": "Kata sifat yang mengikuti kata yang disifati (man'ut) dalam hal i'rab, ma'rifah/nakirah, mudzakkar/muannats, dan bilangannya."
+            },
+            {
+              "label": "'Athaf (الْعَطْفُ)",
+              "arabic": "جَاءَ زَيْدٌ وَعَمْرٌو",
+              "desc": "Kata sambung melalui perantaraan huruf 'athaf (seperti Wawu, Fa, Tsumma) yang menyamakan status i'rab kata sesudahnya dengan sebelumnya."
+            },
+            {
+              "label": "Taukid (التَّوْكِيدُ)",
+              "arabic": "جَاءَ زَيْدٌ نَفْسُهُ",
+              "desc": "Kata penegas yang menghilangkan keraguan atau sangkaan kiasan pada pendengar, seperti kata Nafs, 'Ain, Kull."
+            },
+            {
+              "label": "Badal (الْبَدَلُ)",
+              "arabic": "جَاءَ زَيْدٌ أَخُوكَ",
+              "desc": "Kata pengganti yang dimaksudkan oleh hukum kalimat tanpa perantaraan huruf sambung."
+            }
+          ]
+        },
+        "questions": [
+          {
+            "id": "q6_2_1",
+            "type": "mcq",
+            "question": "Ada berapakah jumlah Tawabi' (kata pengikut) menurut teks Matan Al-Ajurrumiyyah?",
+            "prompt": "Ada berapakah jumlah Tawabi' (kata pengikut) menurut teks Matan Al-Ajurrumiyyah?",
+            "arabic": "وَهُوَ أَرْبَعَةُ أَشْيَاءَ",
+            "translation": "Dan ia ada empat perkara",
+            "meaning": "Dan ia ada empat perkara",
+            "options": [
+              {
+                "label": "3 Macam",
+                "value": "3"
+              },
+              {
+                "label": "4 Macam",
+                "value": "4"
+              },
+              {
+                "label": "5 Macam",
+                "value": "5"
+              },
+              {
+                "label": "7 Macam",
+                "value": "7"
+              }
+            ],
+            "correct": "4",
+            "explanation": "Matan Al-Ajurrumiyyah menetapkan: 'وَهُوَ أَرْبَعَةُ أَشْيَاءَ: النَّعْتُ، وَالْعَطْفُ، وَالتَّوْكِيدُ، وَالْبَدَلُ'.",
+            "whyModal": {
+              "title": "Jumlah Tawabi'",
+              "matan": "وَهُوَ أَرْبَعَةُ أَشْيَاءَ",
+              "reason": "Empat tawabi' adalah Na'at, 'Athaf, Taukid, dan Badal."
+            }
+          },
+          {
+            "id": "q6_2_2",
+            "type": "mcq",
+            "question": "Kata الْعَاقِلُ pada kalimat قَامَ زَيْدٌ الْعَاقِلُ berkedudukan sebagai...",
+            "prompt": "Kata الْعَاقِلُ pada kalimat قَامَ زَيْدٌ الْعَاقِلُ berkedudukan sebagai...",
+            "arabic": "قَامَ زَيْدٌ الْعَاقِلُ",
+            "translation": "Telah berdiri Zaid yang berakal",
+            "meaning": "Telah berdiri Zaid yang berakal",
+            "options": [
+              {
+                "label": "Na'at (kata sifat) marfu'",
+                "value": "naat"
+              },
+              {
+                "label": "'Athaf (kata sambung)",
+                "value": "athaf"
+              },
+              {
+                "label": "Taukid (penegas)",
+                "value": "taukid"
+              },
+              {
+                "label": "Badal (pengganti)",
+                "value": "badal"
+              }
+            ],
+            "correct": "naat",
+            "explanation": "الْعَاقِلُ adalah kata sifat (Na'at) yang menyifati Zaid (Man'ut) dan ikut dibaca rafa' (marfu').",
+            "whyModal": {
+              "title": "Kedudukan Na'at",
+              "matan": "النَّعْتُ تَابِعٌ لِلْمَنْعُوتِ فِي رَفْعِهِ",
+              "reason": "Al-'Aqilu adalah sifat dari Zaid yang marfu'."
+            }
+          },
+          {
+            "id": "q6_2_3",
+            "type": "mcq",
+            "question": "Dalam kalimat قَامَ زَيْدٌ وَعَمْرٌو, mengapa kata عَمْرٌو dibaca rafa' (dhommah)?",
+            "prompt": "Dalam kalimat قَامَ زَيْدٌ وَعَمْرٌو, mengapa kata عَمْرٌو dibaca rafa' (dhommah)?",
+            "arabic": "قَامَ زَيْدٌ وَعَمْرٌو",
+            "translation": "Telah berdiri Zaid dan 'Amr",
+            "meaning": "Telah berdiri Zaid dan 'Amr",
+            "options": [
+              {
+                "label": "Karena ma'thuf (diikutkan) kepada Zaid yang marfu'",
+                "value": "athaf"
+              },
+              {
+                "label": "Karena 'Amr adalah fa'il tersendiri",
+                "value": "fail_sendiri"
+              },
+              {
+                "label": "Karena berstatus maf'ul bih",
+                "value": "maful"
+              },
+              {
+                "label": "Karena menjadi khabar",
+                "value": "khabar"
+              }
+            ],
+            "correct": "athaf",
+            "explanation": "Kata عَمْرٌو di-'athaf-kan menggunakan huruf wawu kepada kata زَيْدٌ yang berkedudukan sebagai fa'il marfu'.",
+            "whyModal": {
+              "title": "Hukum 'Athaf",
+              "matan": "وَالْعَطْفُ... تَابِعٌ لِلْمَعْطُوفِ عَلَيْهِ",
+              "reason": "'Amr mengikuti i'rab Zaid karena perantaraan huruf 'athaf."
+            }
+          },
+          {
+            "id": "q6_2_4",
+            "type": "mcq",
+            "question": "Kata نَفْسُهُ pada kalimat جَاءَ الْأُسْتَاذُ نَفْسُهُ berfungsi sebagai...",
+            "prompt": "Kata نَفْسُهُ pada kalimat جَاءَ الْأُسْتَاذُ نَفْسُهُ berfungsi sebagai...",
+            "arabic": "جَاءَ الْأُسْتَاذُ نَفْسُهُ",
+            "translation": "Telah datang ustadz itu sendiri",
+            "meaning": "Telah datang ustadz itu sendiri",
+            "options": [
+              {
+                "label": "Taukid (penegas) marfu'",
+                "value": "taukid"
+              },
+              {
+                "label": "Na'at (sifat)",
+                "value": "naat"
+              },
+              {
+                "label": "Badal (pengganti)",
+                "value": "badal"
+              },
+              {
+                "label": "Mubtada' kedua",
+                "value": "mubtada2"
+              }
+            ],
+            "correct": "taukid",
+            "explanation": "نَفْسُهُ adalah Taukid Lafzhi/Ma'nawi yang menegaskan bahwa ustadz benar-benar datang sendiri, ikut rafa' mengikuti Al-Ustadzu.",
+            "whyModal": {
+              "title": "Fungsi Taukid",
+              "matan": "وَالتَّوْكِيدُ: تَابِعٌ لِلْمُؤَكَّدِ فِي رَفْعِهِ",
+              "reason": "Nafsuhu adalah taukid yang mengikuti mu'akkad yang marfu'."
+            }
+          },
+          {
+            "id": "q6_2_5",
+            "type": "mcq",
+            "question": "Kata أَخُوكَ pada kalimat قَامَ زَيْدٌ أَخُوكَ berkedudukan sebagai...",
+            "prompt": "Kata أَخُوكَ pada kalimat قَامَ زَيْدٌ أَخُوكَ berkedudukan sebagai...",
+            "arabic": "قَامَ زَيْدٌ أَخُوكَ",
+            "translation": "Telah berdiri Zaid, saudaramu itu",
+            "meaning": "Telah berdiri Zaid, saudaramu itu",
+            "options": [
+              {
+                "label": "Badal (pengganti) marfu'",
+                "value": "badal"
+              },
+              {
+                "label": "Na'at",
+                "value": "naat"
+              },
+              {
+                "label": "'Athaf",
+                "value": "athaf"
+              },
+              {
+                "label": "Maf'ul bih",
+                "value": "maful"
+              }
+            ],
+            "correct": "badal",
+            "explanation": "أَخُوكَ adalah Badal Kull min Kull (Badal Muthabaq) bagi Zaid, dan ikut marfu' dengan tanda wawu.",
+            "whyModal": {
+              "title": "Definisi Badal",
+              "matan": "وَالْبَدَلُ: التَّابِعُ الْمَقْصُودُ بِالْحُكْمِ",
+              "reason": "Akhuka adalah badal pengganti dari Zaid."
+            }
+          },
+          {
+            "id": "q6_2_6",
+            "type": "mcq",
+            "question": "Apakah perbedaan mendasar antara 6 isim marfu' pertama dengan Tawabi'?",
+            "prompt": "Apakah perbedaan mendasar antara 6 isim marfu' pertama dengan Tawabi'?",
+            "arabic": "الْمَرْفُوعَاتُ بِالْأَصَالَةِ وَالتَّبَعِيَّةِ",
+            "translation": "Isim marfu' secara hakiki dan secara ikutan",
+            "meaning": "Isim marfu' secara hakiki dan secara ikutan",
+            "options": [
+              {
+                "label": "Tawabi' marfu' karena ikut kata sebelumnya, bukan karena jabatan mandiri",
+                "value": "ikut"
+              },
+              {
+                "label": "Tawabi' tidak boleh memiliki harakat dhommah",
+                "value": "tidak_dhommah"
+              },
+              {
+                "label": "Tawabi' hanya ada pada fi'il",
+                "value": "hanya_fiil"
+              },
+              {
+                "label": "Tawabi' selalu menjadi awal kalimat",
+                "value": "selalu_awal"
+              }
+            ],
+            "correct": "ikut",
+            "explanation": "Enam isim pertama marfu' secara mandiri (bi al-ashalah), sedangkan Tawabi' marfu' semata-mata karena mengekor pada kata sebelumnya (bi at-taba'iyyah).",
+            "whyModal": {
+              "title": "Asal I'rab Tawabi'",
+              "matan": "وَالتَّابِعُ لِلْمَرْفُوعِ",
+              "reason": "Tawabi' tidak memiliki amil rafa' sendiri melainkan mewarisi i'rab matbu'-nya."
+            }
+          },
+          {
+            "id": "q6_2_7",
+            "type": "mcq",
+            "question": "Jika sebuah kata yang disifati (man'ut) berkedudukan marfu', maka kata sifatnya (na'at) wajib berstatus...",
+            "prompt": "Jika sebuah kata yang disifati (man'ut) berkedudukan marfu', maka kata sifatnya (na'at) wajib berstatus...",
+            "arabic": "النَّعْتُ يَتْبَعُ الْمَنْعُوتَ",
+            "translation": "Na'at mengikuti yang disifatinya",
+            "meaning": "Na'at mengikuti yang disifatinya",
+            "options": [
+              {
+                "label": "Marfu'",
+                "value": "marfu"
+              },
+              {
+                "label": "Manshub",
+                "value": "manshub"
+              },
+              {
+                "label": "Majrur",
+                "value": "majrur"
+              },
+              {
+                "label": "Bebas memilih harakat",
+                "value": "bebas"
+              }
+            ],
+            "correct": "marfu",
+            "explanation": "Kaidah nahwu menegaskan: Na'at wajib mengikuti man'ut dalam hal i'rabnya; jika man'ut marfu', na'at wajib marfu'.",
+            "whyModal": {
+              "title": "Kaidah Na'at",
+              "matan": "النَّعْتُ تَابِعٌ لِلْمَنْعُوتِ فِي رَفْعِهِ وَنَصْبِهِ وَخَفْضِهِ",
+              "reason": "Na'at tunduk total pada i'rab kata yang disifatinya."
+            }
+          },
+          {
+            "id": "q6_2_8",
+            "type": "mcq",
+            "question": "Manakah kelompok berikut yang SEMUANYA merupakan huruf-huruf 'athaf penyambung?",
+            "prompt": "Manakah kelompok berikut yang SEMUANYA merupakan huruf-huruf 'athaf penyambung?",
+            "arabic": "حُرُوفُ الْعَطْفِ",
+            "translation": "Huruf-huruf 'athaf",
+            "meaning": "Huruf-huruf 'athaf",
+            "options": [
+              {
+                "label": "الْوَاوُ، الْفَاءُ، ثُمَّ، أَوْ",
+                "value": "wawu_fa_tsumma_au"
+              },
+              {
+                "label": "مِنْ، إِلَى، عَنْ، عَلَى",
+                "value": "huruf_jar"
+              },
+              {
+                "label": "أَنْ، لَنْ، إِذَنْ، كَيْ",
+                "value": "amil_nawashib"
+              },
+              {
+                "label": "لَمْ، لَمَّا، أَلَمْ، أَلَمَّا",
+                "value": "amil_jawazim"
+              }
+            ],
+            "correct": "wawu_fa_tsumma_au",
+            "explanation": "Al-Wawu, Al-Faa, Tsumma, dan Au adalah huruf 'athaf yang dapat menyambungkan kata marfu' ke kata marfu' lainnya.",
+            "whyModal": {
+              "title": "Huruf 'Athaf",
+              "matan": "وَحُرُوفُ الْعَطْفِ عَشَرَةٌ",
+              "reason": "Wawu, fa, tsumma, dan au adalah huruf perantara penyambung kata."
+            }
+          },
+          {
+            "id": "q6_2_9",
+            "type": "mcq",
+            "question": "Kata كُلُّهُمْ pada kalimat حَضَرَ الرِّجَالُ كُلُّهُمْ berfungsi sebagai...",
+            "prompt": "Kata كُلُّهُمْ pada kalimat حَضَرَ الرِّجَالُ كُلُّهُمْ berfungsi sebagai...",
+            "arabic": "حَضَرَ الرِّجَالُ كُلُّهُمْ",
+            "translation": "Telah hadir para lelaki semuanya",
+            "meaning": "Telah hadir para lelaki semuanya",
+            "options": [
+              {
+                "label": "Taukid (penguat makna) marfu'",
+                "value": "taukid"
+              },
+              {
+                "label": "Maf'ul bih",
+                "value": "maful"
+              },
+              {
+                "label": "Badal",
+                "value": "badal"
+              },
+              {
+                "label": "Na'at",
+                "value": "naat"
+              }
+            ],
+            "correct": "taukid",
+            "explanation": "Kata كُلُّ adalah lafazh taukid ma'nawi yang menguatkan keumuman subjek الرِّجَالُ, dan berharakat dhammah karena marfu'.",
+            "whyModal": {
+              "title": "Lafazh Taukid",
+              "matan": "وَأَلْفَاظٌ مَعْلُومَةٌ: النَّفْسُ، وَالْعَيْنُ، وَكُلٌّ",
+              "reason": "Kullun adalah lafazh taukid ma'nawi."
+            }
+          },
+          {
+            "id": "q6_2_10",
+            "type": "mcq",
+            "question": "Manakah contoh kalimat yang mengandung Badal Marfu'?",
+            "prompt": "Manakah contoh kalimat yang mengandung Badal Marfu'?",
+            "arabic": "أَمْثِلَةُ الْبَدَلِ الْمَرْفُوعِ",
+            "translation": "Contoh-contoh badal yang dirafa'kan",
+            "meaning": "Contoh-contoh badal yang dirafa'kan",
+            "options": [
+              {
+                "label": "عَدَلَ الْخَلِيفَةُ عُمَرُ",
+                "value": "adala_umar"
+              },
+              {
+                "label": "رَأَيْتُ زَيْدًا وَعَمْرًا",
+                "value": "roaitu_zaidan"
+              },
+              {
+                "label": "جَلَسْتُ فِي الْمَسْجِدِ الْكَبِيرِ",
+                "value": "jalastu"
+              },
+              {
+                "label": "ضَرَبْتُ اللِّصَّ نَفْسَهُ",
+                "value": "dhorabtu"
+              }
+            ],
+            "correct": "adala_umar",
+            "explanation": "Kata عُمَرُ adalah badal muthabaq bagi الْخَلِيفَةُ (fa'il marfu'), sehingga Umar ikut marfu' dengan dhammah.",
+            "whyModal": {
+              "title": "Aplikasi Badal Marfu'",
+              "matan": "إِذَا أُبْدِلَ اسْمٌ مِنْ اسْمٍ تَبِعَهُ فِي جَمِيعِ إِعْرَابِهِ",
+              "reason": "Umar adalah badal yang mengikuti Khalifah yang marfu'."
+            }
+          }
+        ]
+      },
+      {
+        "id": "level_6_3",
+        "code": "6.3",
+        "title": "Identifikasi Cepat Tanda Rafa' pada Isim Marfu'",
+        "subtitle": "Menguji Kepekaan Tanda Dhammah, Alif, dan Wawu",
+        "titleArabic": "عَلَامَاتُ الرَّفْعِ فِي الْمَرْفُوعَاتِ",
+        "type": "mcq",
+        "xp": 70,
+        "unlocked": false,
+        "is_boss": false,
+        "theory": {
+          "title": "Tanda-Tanda Rafa' pada Isim",
+          "matan": "لِلرَّفْعِ أَرْبَعُ عَلَامَاتٍ: الضَّمَّةُ، وَالْوَاوُ، وَالْأَلِفُ، وَالنُّونُ",
+          "translation": "Rafa' memiliki 4 tanda: Dhammah, Wawu, Alif, dan Nun (Nun khusus untuk fi'il mudhari').",
+          "points": [
+            {
+              "label": "Tanda Dhammah (الضَّمَّةُ)",
+              "arabic": "الْمُفْرَدُ، جَمْعُ التَّكْسِيرِ، جَمْعُ الْمُؤَنَّثِ السَّالِمِ",
+              "desc": "Tanda asal rafa' berlaku pada isim mufrad (زَيْدٌ), jamak taksir (الرِّجَالُ), dan jamak muannats salim (الْمُسْلِمَاتُ)."
+            },
+            {
+              "label": "Tanda Alif (الْأَلِفُ)",
+              "arabic": "تَثْنِيَةُ الْأَسْمَاءِ خَاصَّةً",
+              "desc": "Tanda pengganti khusus untuk isim tatsniyah / mutsanna (الزَّيْدَانِ / الطَّالِبَانِ)."
+            },
+            {
+              "label": "Tanda Wawu (الْوَاوُ)",
+              "arabic": "جَمْعُ الْمُذَكَّرِ السَّالِمِ وَالْأَسْمَاءُ الْخَمْسَةُ",
+              "desc": "Tanda pengganti untuk jamak mudzakkar salim (الْمُؤْمِنُونَ) dan Asma'ul Khamsah (أَبُوكَ، أَخُوكَ)."
+            }
+          ]
+        },
+        "questions": [
+          {
+            "id": "q6_3_1",
+            "type": "mcq",
+            "question": "Apakah tanda rafa' asli pada isim mufrad ketika menempati posisi marfu'?",
+            "prompt": "Apakah tanda rafa' asli pada isim mufrad ketika menempati posisi marfu'?",
+            "arabic": "الِاسْمُ الْمُفْرَدُ مَرْفُوعٌ بِـ...",
+            "translation": "Isim mufrad dirafa'kan dengan...",
+            "meaning": "Isim mufrad dirafa'kan dengan...",
+            "options": [
+              {
+                "label": "Dhammah",
+                "value": "dhammah"
+              },
+              {
+                "label": "Fathah",
+                "value": "fathah"
+              },
+              {
+                "label": "Kasrah",
+                "value": "kasrah"
+              },
+              {
+                "label": "Sukun",
+                "value": "sukun"
+              }
+            ],
+            "correct": "dhammah",
+            "explanation": "Tanda asal rafa' bagi isim mufrad adalah harakat dhammah zhahirah atau muqaddarah.",
+            "whyModal": {
+              "title": "Tanda Asal Rafa'",
+              "matan": "فَأَمَّا الضَّمَّةُ فَتَكُونُ عَلَامَةً لِلرَّفْعِ فِي أَرْبَعَةِ مَوَاضِعَ: فِي الِاسْمِ الْمُفْرَدِ...",
+              "reason": "Isim mufrad bertanda rafa' dengan dhammah."
+            }
+          },
+          {
+            "id": "q6_3_2",
+            "type": "mcq",
+            "question": "Apakah tanda rafa' bagi Isim Mutsanna (dua orang/benda)?",
+            "prompt": "Apakah tanda rafa' bagi Isim Mutsanna (dua orang/benda)?",
+            "arabic": "وَأَمَّا الْأَلِفُ فَتَكُونُ عَلَامَةً لِلرَّفْعِ فِي تَثْنِيَةِ الْأَسْمَاءِ خَاصَّةً",
+            "translation": "Dan adapun alif, ia menjadi tanda bagi rafa' khusus pada isim tatsniyah",
+            "meaning": "Dan adapun alif, ia menjadi tanda bagi rafa' khusus pada isim tatsniyah",
+            "options": [
+              {
+                "label": "Alif",
+                "value": "alif"
+              },
+              {
+                "label": "Wawu",
+                "value": "wawu"
+              },
+              {
+                "label": "Ya'",
+                "value": "ya"
+              },
+              {
+                "label": "Nun tetap",
+                "value": "nun"
+              }
+            ],
+            "correct": "alif",
+            "explanation": "Isim mutsanna dirafa'kan dengan huruf Alif, contoh: الرَّجُلَانِ (kedua lelaki itu).",
+            "whyModal": {
+              "title": "Tanda Rafa' Mutsanna",
+              "matan": "وَأَمَّا الْأَلِفُ فَتَكُونُ عَلَامَةً لِلرَّفْعِ فِي تَثْنِيَةِ الْأَسْمَاءِ خَاصَّةً",
+              "reason": "Alif adalah tanda rafa' khusus isim mutsanna."
+            }
+          },
+          {
+            "id": "q6_3_3",
+            "type": "mcq",
+            "question": "Kata الْمُفْلِحُونَ pada ayat أُولَئِكَ هُمُ الْمُفْلِحُونَ dirafa'kan dengan tanda...",
+            "prompt": "Kata الْمُفْلِحُونَ pada ayat أُولَئِكَ هُمُ الْمُفْلِحُونَ dirafa'kan dengan tanda...",
+            "arabic": "أُولَئِكَ هُمُ الْمُفْلِحُونَ",
+            "translation": "Mereka itulah orang-orang yang beruntung",
+            "meaning": "Mereka itulah orang-orang yang beruntung",
+            "options": [
+              {
+                "label": "Wawu karena Jamak Mudzakkar Salim",
+                "value": "wawu"
+              },
+              {
+                "label": "Dhammah karena Isim Mufrad",
+                "value": "dhammah"
+              },
+              {
+                "label": "Alif karena Mutsanna",
+                "value": "alif"
+              },
+              {
+                "label": "Nun karena Fi'il Mudhari'",
+                "value": "nun"
+              }
+            ],
+            "correct": "wawu",
+            "explanation": "الْمُفْلِحُونَ adalah Jamak Mudzakkar Salim yang dirafa'kan dengan huruf Wawu (nun di akhir adalah pengganti tanwin).",
+            "whyModal": {
+              "title": "Rafa' Jamak Mudzakkar Salim",
+              "matan": "وَفِي جَمْعِ الْمُذَكَّرِ السَّالِمِ",
+              "reason": "Jamak mudzakkar salim bertanda rafa' dengan wawu."
+            }
+          },
+          {
+            "id": "q6_3_4",
+            "type": "mcq",
+            "question": "Kata أَبُوكَ pada kalimat جَاءَ أَبُوكَ dirafa'kan dengan tanda...",
+            "prompt": "Kata أَبُوكَ pada kalimat جَاءَ أَبُوكَ dirafa'kan dengan tanda...",
+            "arabic": "جَاءَ أَبُوكَ",
+            "translation": "Telah datang ayahmu",
+            "meaning": "Telah datang ayahmu",
+            "options": [
+              {
+                "label": "Wawu karena termasuk Asma'ul Khamsah",
+                "value": "wawu"
+              },
+              {
+                "label": "Alif karena Mutsanna",
+                "value": "alif"
+              },
+              {
+                "label": "Dhammah pada huruf kaf",
+                "value": "dhammah"
+              },
+              {
+                "label": "Fathah",
+                "value": "fathah"
+              }
+            ],
+            "correct": "wawu",
+            "explanation": "أَبُو adalah satu dari Asma'ul Khamsah yang dirafa'kan dengan Wawu saat di-idhafah-kan kepada selain Ya' Mutakallim.",
+            "whyModal": {
+              "title": "Rafa' Asma'ul Khamsah",
+              "matan": "وَفِي الْأَسْمَاءِ الْخَمْسَةِ، وَهِيَ: أَبُوكَ، وَأَخُوكَ...",
+              "reason": "Asma'ul Khamsah dirafa'kan dengan Wawu."
+            }
+          },
+          {
+            "id": "q6_3_5",
+            "type": "mcq",
+            "question": "Kata الْمُسْلِمَاتُ pada kalimat قَامَتِ الْمُسْلِمَاتُ dirafa'kan dengan tanda...",
+            "prompt": "Kata الْمُسْلِمَاتُ pada kalimat قَامَتِ الْمُسْلِمَاتُ dirafa'kan dengan tanda...",
+            "arabic": "قَامَتِ الْمُسْلِمَاتُ",
+            "translation": "Telah berdiri wanita-wanita muslimah",
+            "meaning": "Telah berdiri wanita-wanita muslimah",
+            "options": [
+              {
+                "label": "Dhammah karena Jamak Muannats Salim",
+                "value": "dhammah"
+              },
+              {
+                "label": "Alif",
+                "value": "alif"
+              },
+              {
+                "label": "Kasrah",
+                "value": "kasrah"
+              },
+              {
+                "label": "Wawu",
+                "value": "wawu"
+              }
+            ],
+            "correct": "dhammah",
+            "explanation": "Jamak Muannats Salim memiliki tanda rafa' asli yaitu harakat Dhammah pada huruf ta' ta'nits maftuhah.",
+            "whyModal": {
+              "title": "Rafa' Jamak Muannats Salim",
+              "matan": "وَجَمْعِ الْمُؤَنَّثِ السَّالِمِ",
+              "reason": "Jamak muannats salim dirafa'kan dengan dhammah."
+            }
+          },
+          {
+            "id": "q6_3_6",
+            "type": "mcq",
+            "question": "Kata الْعُلَمَاءُ pada ayat إِنَّمَا يَخْشَى اللَّهَ مِنْ عِبَادِهِ الْعُلَمَاءُ dirafa'kan dengan...",
+            "prompt": "Kata الْعُلَمَاءُ pada ayat إِنَّمَا يَخْشَى اللَّهَ مِنْ عِبَادِهِ الْعُلَمَاءُ dirafa'kan dengan...",
+            "arabic": "إِنَّمَا يَخْشَى اللَّهَ مِنْ عِبَادِهِ الْعُلَمَاءُ",
+            "translation": "Sesungguhnya yang takut kepada Allah di antara hamba-Nya adalah para ulama",
+            "meaning": "Sesungguhnya yang takut kepada Allah di antara hamba-Nya adalah para ulama",
+            "options": [
+              {
+                "label": "Dhammah karena Jamak Taksir",
+                "value": "dhammah"
+              },
+              {
+                "label": "Alif karena Mutsanna",
+                "value": "alif"
+              },
+              {
+                "label": "Wawu karena Jamak",
+                "value": "wawu"
+              },
+              {
+                "label": "Fathah",
+                "value": "fathah"
+              }
+            ],
+            "correct": "dhammah",
+            "explanation": "الْعُلَمَاءُ adalah Fa'il mu'akhkhar (pelaku yang diakhirkan) berbentuk Jamak Taksir, dirafa'kan dengan dhammah zhahirah.",
+            "whyModal": {
+              "title": "Rafa' Jamak Taksir",
+              "matan": "وَجَمْعِ التَّكْسِيرِ",
+              "reason": "Jamak taksir dirafa'kan dengan dhammah."
+            }
+          },
+          {
+            "id": "q6_3_7",
+            "type": "mcq",
+            "question": "Tanda rafa' apa yang TIDAK PERNAH digunakan oleh isim manapun?",
+            "prompt": "Tanda rafa' apa yang TIDAK PERNAH digunakan oleh isim manapun?",
+            "arabic": "عَلَامَاتُ الرَّفْعِ فِي الْأَسْمَاءِ وَالْأَفْعَالِ",
+            "translation": "Tanda-tanda rafa' pada isim dan fi'il",
+            "meaning": "Tanda-tanda rafa' pada isim dan fi'il",
+            "options": [
+              {
+                "label": "Nun tetap (Tsubutun Nun)",
+                "value": "tsubut_nun"
+              },
+              {
+                "label": "Dhammah",
+                "value": "dhammah"
+              },
+              {
+                "label": "Alif",
+                "value": "alif"
+              },
+              {
+                "label": "Wawu",
+                "value": "wawu"
+              }
+            ],
+            "correct": "tsubut_nun",
+            "explanation": "Tsubutun Nun (tetapnya huruf nun) adalah tanda rafa' khusus untuk Af'alul Khamsah (kata kerja), bukan untuk isim.",
+            "whyModal": {
+              "title": "Kekhususan Tsubut Nun",
+              "matan": "وَأَمَّا النُّونُ فَتَكُونُ عَلَامَةً لِلرَّفْعِ فِي الْفِعْلِ الْمُضَارِعِ",
+              "reason": "Nun hanya menjadi tanda rafa' pada fi'il mudhari', bukan pada isim."
+            }
+          },
+          {
+            "id": "q6_3_8",
+            "type": "mcq",
+            "question": "Jika kata قَاضٍ menempati posisi isim marfu' (contoh: جَاءَ الْقَاضِي), tanda rafa'nya adalah...",
+            "prompt": "Jika kata قَاضٍ menempati posisi isim marfu' (contoh: جَاءَ الْقَاضِي), tanda rafa'nya adalah...",
+            "arabic": "جَاءَ الْقَاضِي",
+            "translation": "Telah datang hakim itu",
+            "meaning": "Telah datang hakim itu",
+            "options": [
+              {
+                "label": "Dhammah muqaddarah karena berat (tsiqaal)",
+                "value": "muqaddarah_tsiqal"
+              },
+              {
+                "label": "Kasrah zhahirah",
+                "value": "kasrah"
+              },
+              {
+                "label": "Alif",
+                "value": "alif"
+              },
+              {
+                "label": "Fathah",
+                "value": "fathah"
+              }
+            ],
+            "correct": "muqaddarah_tsiqal",
+            "explanation": "Isim manqush (berakhiran Ya' lazimah) seperti الْقَاضِي dirafa'kan dengan dhammah muqaddarah karena berat mengucapkannya (tsiqaal).",
+            "whyModal": {
+              "title": "I'rab Isim Manqush",
+              "matan": "الِاسْمُ الْمَنْقُوصُ يُرْفَعُ بِضَمَّةٍ مُقَدَّرَةٍ لِلثِّقَلِ",
+              "reason": "Harakat dhommah diandaikan ada di atas huruf ya'."
+            }
+          },
+          {
+            "id": "q6_3_9",
+            "type": "mcq",
+            "question": "Kata مُوسَى pada kalimat قَامَ مُوسَى dirafa'kan dengan...",
+            "prompt": "Kata مُوسَى pada kalimat قَامَ مُوسَى dirafa'kan dengan...",
+            "arabic": "قَامَ مُوسَى",
+            "translation": "Musa telah berdiri",
+            "meaning": "Musa telah berdiri",
+            "options": [
+              {
+                "label": "Dhammah muqaddarah karena uzur (ta'adzdzur)",
+                "value": "muqaddarah_taazzur"
+              },
+              {
+                "label": "Fathah zhahirah",
+                "value": "fathah"
+              },
+              {
+                "label": "Alif",
+                "value": "alif"
+              },
+              {
+                "label": "Sukun",
+                "value": "sukun"
+              }
+            ],
+            "correct": "muqaddarah_taazzur",
+            "explanation": "Isim maqshur (berakhiran Alif lazimah) seperti مُوسَى dirafa'kan dengan dhammah muqaddarah karena mustahil diberi harakat (ta'adzdzur).",
+            "whyModal": {
+              "title": "I'rab Isim Maqshur",
+              "matan": "الِاسْمُ الْمَقْصُورُ يُرْفَعُ بِضَمَّةٍ مُقَدَّرَةٍ لِلتَّعَذُّرِ",
+              "reason": "Alif maqshurah tidak dapat menerima harakat apapun."
+            }
+          },
+          {
+            "id": "q6_3_10",
+            "type": "mcq",
+            "question": "Manakah di antara isim marfu' berikut yang bertanda Alif?",
+            "prompt": "Manakah di antara isim marfu' berikut yang bertanda Alif?",
+            "arabic": "الْمَرْفُوعُ بِالْأَلِفِ",
+            "translation": "Isim yang dirafa'kan dengan Alif",
+            "meaning": "Isim yang dirafa'kan dengan Alif",
+            "options": [
+              {
+                "label": "الصَّادِقَانِ",
+                "value": "al_shodiqoni"
+              },
+              {
+                "label": "الصَّادِقُونَ",
+                "value": "al_shodiquna"
+              },
+              {
+                "label": "الصَّادِقُ",
+                "value": "al_shodiqu"
+              },
+              {
+                "label": "الصَّادِقَاتُ",
+                "value": "al_shodiqotu"
+              }
+            ],
+            "correct": "al_shodiqoni",
+            "explanation": "الصَّادِقَانِ adalah isim mutsanna (dua orang yang jujur), sehingga tanda rafa'nya adalah huruf Alif.",
+            "whyModal": {
+              "title": "Deteksi Isim Mutsanna",
+              "matan": "وَأَمَّا الْأَلِفُ فَتَكُونُ عَلَامَةً لِلرَّفْعِ فِي تَثْنِيَةِ الْأَسْمَاءِ",
+              "reason": "Tanda alif menunjukkan bentuk mutsanna marfu'."
+            }
+          }
+        ]
+      },
+      {
+        "id": "level_6_4",
+        "code": "6.4",
+        "title": "Ujian Gerbang Marfu'at",
+        "subtitle": "Tantangan Boss: Evaluasi Komprehensif Seluruh Marfu'atil Asma'",
+        "titleArabic": "اخْتِبَارُ مَرْفُوعَاتِ الْأَسْمَاءِ",
+        "type": "mcq",
+        "xp": 100,
+        "unlocked": false,
+        "is_boss": true,
+        "theory": {
+          "title": "Rangkuman Ujian Boss Marfu'at",
+          "matan": "الْمَرْفُوعَاتُ سَبْعَةٌ: الْفَاعِلُ، وَنَائِبُهُ، وَالْمُبْتَدَأُ، وَخَبَرُهُ، وَاسْمُ كَانَ، وَخَبَرُ إِنَّ، وَالتَّابِعُ لِلْمَرْفُوعِ (نَعْتٌ، عَطْفٌ، تَوْكِيدٌ، بَدَلٌ).",
+          "translation": "Tujuh isim marfu': Fa'il, Na'ibul Fa'il, Mubtada', Khabar, Isim Kaana, Khabar Inna, dan At-Tabi' (Na'at, 'Athaf, Taukid, Badal).",
+          "points": [
+            {
+              "label": "Verifikasi Jumlah Fi'liyyah",
+              "arabic": "الْفِعْلُ + الْفَاعِلُ / نَائِبُ الْفَاعِلِ",
+              "desc": "Pastikan membedakan apakah kata kerja aktif (ma'lum) yang butuh Fa'il, atau kata kerja pasif (majhul) yang butuh Na'ibul Fa'il."
+            },
+            {
+              "label": "Verifikasi Jumlah Ismiyyah",
+              "arabic": "الْمُبْتَدَأُ + الْخَبَرُ",
+              "desc": "Pastikan mengenali subjek dan predikat dasar sebelum dimasuki amil perusak (nawasikh)."
+            },
+            {
+              "label": "Verifikasi Amil Nawasikh",
+              "arabic": "كَانَ (تَرْفَعُ الِاسْمَ) | إِنَّ (تَرْفَعُ الْخَبَرَ)",
+              "desc": "Kaana merofa'kan isimnya, sedangkan Inna merofa'kan khabarnya."
+            }
+          ]
+        },
+        "questions": [
+          {
+            "id": "q6_4_1",
+            "type": "mcq",
+            "question": "Pada kalimat حَضَرَ الْمُعَلِّمُ, kata الْمُعَلِّمُ berkedudukan sebagai apa dan bertanda apa?",
+            "prompt": "Pada kalimat حَضَرَ الْمُعَلِّمُ, kata الْمُعَلِّمُ berkedudukan sebagai apa dan bertanda apa?",
+            "arabic": "حَضَرَ الْمُعَلِّمُ",
+            "translation": "Telah hadir guru itu",
+            "meaning": "Telah hadir guru itu",
+            "options": [
+              {
+                "label": "Fa'il marfu' dengan dhammah",
+                "value": "fail_dhammah"
+              },
+              {
+                "label": "Maf'ul bih manshub dengan fathah",
+                "value": "maful_fathah"
+              },
+              {
+                "label": "Mubtada' marfu' dengan alif",
+                "value": "mubtada_alif"
+              },
+              {
+                "label": "Khabar marfu' dengan dhammah",
+                "value": "khabar_dhammah"
+              }
+            ],
+            "correct": "fail_dhammah",
+            "explanation": "الْمُعَلِّمُ jatuh setelah fi'il aktif حَضَرَ sebagai pelaku, maka berkedudukan sebagai fa'il marfu' dengan tanda dhammah.",
+            "whyModal": {
+              "title": "Analisis Fa'il",
+              "matan": "الْفَاعِلُ هُوَ الِاسْمُ الْمَرْفُوعُ الْمَذْكُورُ قَبْلَهُ فِعْلُهُ",
+              "reason": "Al-Mu'allimu adalah pelaku perbuatan yang marfu' dengan dhommah."
+            }
+          },
+          {
+            "id": "q6_4_2",
+            "type": "mcq",
+            "question": "Pada kalimat فُتِحَ الْبَابُ, kata الْبَابُ berkedudukan sebagai...",
+            "prompt": "Pada kalimat فُتِحَ الْبَابُ, kata الْبَابُ berkedudukan sebagai...",
+            "arabic": "فُتِحَ الْبَابُ",
+            "translation": "Pintu itu telah dibuka",
+            "meaning": "Pintu itu telah dibuka",
+            "options": [
+              {
+                "label": "Na'ibul Fa'il marfu' dengan dhammah",
+                "value": "naibul_fail"
+              },
+              {
+                "label": "Fa'il marfu' dengan dhammah",
+                "value": "fail"
+              },
+              {
+                "label": "Maf'ul bih manshub",
+                "value": "maful"
+              },
+              {
+                "label": "Mubtada'",
+                "value": "mubtada"
+              }
+            ],
+            "correct": "naibul_fail",
+            "explanation": "Kata kerja فُتِحَ berbentuk pasif (fi'il majhul), sehingga isim setelahnya (الْبَابُ) menjadi Na'ibul Fa'il marfu'.",
+            "whyModal": {
+              "title": "Analisis Na'ibul Fa'il",
+              "matan": "وَالْمَفْعُولُ الَّذِي لَمْ يُسَمَّ فَاعِلُهُ",
+              "reason": "Al-Babu menggantikan posisi pelaku setelah fi'il majhul."
+            }
+          },
+          {
+            "id": "q6_4_3",
+            "type": "mcq",
+            "question": "Pada kalimat الْقُرْآنُ نُورٌ, kedudukan kedua kata tersebut secara berurutan adalah...",
+            "prompt": "Pada kalimat الْقُرْآنُ نُورٌ, kedudukan kedua kata tersebut secara berurutan adalah...",
+            "arabic": "الْقُرْآنُ نُورٌ",
+            "translation": "Al-Qur'an adalah cahaya",
+            "meaning": "Al-Qur'an adalah cahaya",
+            "options": [
+              {
+                "label": "Mubtada' dan Khabar",
+                "value": "mubtada_khabar"
+              },
+              {
+                "label": "Fa'il dan Maf'ul",
+                "value": "fail_maful"
+              },
+              {
+                "label": "Fi'il dan Fa'il",
+                "value": "fiil_fail"
+              },
+              {
+                "label": "Man'ut dan Na'at",
+                "value": "manut_naat"
+              }
+            ],
+            "correct": "mubtada_khabar",
+            "explanation": "الْقُرْآنُ adalah isim pembuka (Mubtada') dan نُورٌ adalah pelengkap berita (Khabar), keduanya marfu' bertanda dhammah.",
+            "whyModal": {
+              "title": "Struktur Jumlah Ismiyyah",
+              "matan": "وَالْمُبْتَدَأُ، وَخَبَرُهُ",
+              "reason": "Kedua kata membentuk mubtada' dan khabar."
+            }
+          },
+          {
+            "id": "q6_4_4",
+            "type": "mcq",
+            "question": "Pada ayat كَانَ اللَّهُ عَلِيمًا, manakah kata yang berkedudukan sebagai Isim Marfu'?",
+            "prompt": "Pada ayat كَانَ اللَّهُ عَلِيمًا, manakah kata yang berkedudukan sebagai Isim Marfu'?",
+            "arabic": "كَانَ اللَّهُ عَلِيمًا",
+            "translation": "Allah adalah Maha Mengetahui",
+            "meaning": "Allah adalah Maha Mengetahui",
+            "options": [
+              {
+                "label": "Lafazh Jalalah اللَّهُ (Isim Kaana)",
+                "value": "lafazh_allah"
+              },
+              {
+                "label": "عَلِيمًا (Khabar Kaana)",
+                "value": "aliman"
+              },
+              {
+                "label": "كَانَ (Fi'il Madhi)",
+                "value": "kana"
+              },
+              {
+                "label": "Tidak ada yang marfu'",
+                "value": "tidak_ada"
+              }
+            ],
+            "correct": "lafazh_allah",
+            "explanation": "Lafazh Jalalah اللَّهُ adalah Isim Kaana yang marfu' bertanda dhammah, sedangkan عَلِيمًا adalah khabar Kaana yang manshub.",
+            "whyModal": {
+              "title": "Kedudukan Isim Kaana",
+              "matan": "وَاسْمُ كَانَ وَأَخَوَاتِهَا",
+              "reason": "Lafazh Allah adalah isim Kaana yang berstatus marfu'."
+            }
+          },
+          {
+            "id": "q6_4_5",
+            "type": "mcq",
+            "question": "Pada ayat إِنَّ اللَّهَ غَفُورٌ, manakah kata yang berstatus Isim Marfu'?",
+            "prompt": "Pada ayat إِنَّ اللَّهَ غَفُورٌ, manakah kata yang berstatus Isim Marfu'?",
+            "arabic": "إِنَّ اللَّهَ غَفُورٌ",
+            "translation": "Sesungguhnya Allah Maha Pengampun",
+            "meaning": "Sesungguhnya Allah Maha Pengampun",
+            "options": [
+              {
+                "label": "غَفُورٌ (Khabar Inna)",
+                "value": "ghofur"
+              },
+              {
+                "label": "اللَّهَ (Isim Inna)",
+                "value": "allah"
+              },
+              {
+                "label": "إِنَّ (Huruf Taukid)",
+                "value": "inna"
+              },
+              {
+                "label": "Semua kata marfu'",
+                "value": "semua"
+              }
+            ],
+            "correct": "ghofur",
+            "explanation": "Inna menashabkan isimnya (اللَّهَ) dan merofa'kan khabarnya (غَفُورٌ). Maka kata yang marfu' adalah غَفُورٌ.",
+            "whyModal": {
+              "title": "Kedudukan Khabar Inna",
+              "matan": "وَخَبَرُ إِنَّ وَأَخَوَاتِهَا",
+              "reason": "Ghofurun adalah khabar Inna yang berstatus marfu'."
+            }
+          },
+          {
+            "id": "q6_4_6",
+            "type": "mcq",
+            "question": "Manakah di antara kalimat berikut yang memiliki Fa'il bertanda Wawu?",
+            "prompt": "Manakah di antara kalimat berikut yang memiliki Fa'il bertanda Wawu?",
+            "arabic": "فَاعِلٌ مَرْفُوعٌ بِالْوَاوِ",
+            "translation": "Fa'il yang dirafa'kan dengan Wawu",
+            "meaning": "Fa'il yang dirafa'kan dengan Wawu",
+            "options": [
+              {
+                "label": "انْتَصَرَ الْمُجَاهِدُونَ",
+                "value": "intasara_mujahidun"
+              },
+              {
+                "label": "انْتَصَرَ الْجَيْشُ",
+                "value": "intasara_jaisy"
+              },
+              {
+                "label": "انْتَصَرَ الْقَائِدَانِ",
+                "value": "intasara_qoidan"
+              },
+              {
+                "label": "انْتَصَرَتِ الْفِرْقَةُ",
+                "value": "intasarat_firqah"
+              }
+            ],
+            "correct": "intasara_mujahidun",
+            "explanation": "الْمُجَاهِدُونَ adalah Fa'il berupa Jamak Mudzakkar Salim, tanda rafa'nya adalah huruf Wawu.",
+            "whyModal": {
+              "title": "Fa'il Jamak Mudzakkar Salim",
+              "matan": "وَفِي جَمْعِ الْمُذَكَّرِ السَّالِمِ",
+              "reason": "Al-Mujahiduna marfu' dengan wawu sebagai pelaku."
+            }
+          },
+          {
+            "id": "q6_4_7",
+            "type": "mcq",
+            "question": "Pada kalimat حَضَرَ الطَّالِبَانِ الْمُجِدَّانِ, kata الْمُجِدَّانِ marfu' karena berkedudukan sebagai...",
+            "prompt": "Pada kalimat حَضَرَ الطَّالِبَانِ الْمُجِدَّانِ, kata الْمُجِدَّanِ marfu' karena berkedudukan sebagai...",
+            "arabic": "حَضَرَ الطَّالِبَانِ الْمُجِدَّانِ",
+            "translation": "Telah hadir dua siswa yang bersungguh-sungguh itu",
+            "meaning": "Telah hadir dua siswa yang bersungguh-sungguh itu",
+            "options": [
+              {
+                "label": "Na'at (sifat) bagi fa'il marfu'",
+                "value": "naat_fail"
+              },
+              {
+                "label": "Khabar",
+                "value": "khabar"
+              },
+              {
+                "label": "Maf'ul bih",
+                "value": "maful"
+              },
+              {
+                "label": "Badal",
+                "value": "badal"
+              }
+            ],
+            "correct": "naat_fail",
+            "explanation": "الْمُجِدَّانِ adalah kata sifat (Na'at) bagi الطَّالِبَانِ, ikut marfu' dengan tanda Alif.",
+            "whyModal": {
+              "title": "Na'at Berbentuk Mutsanna",
+              "matan": "النَّعْتُ تَابِعٌ لِلْمَنْعُوتِ",
+              "reason": "Al-Mujiddani adalah na'at yang mengikuti man'ut mutsanna marfu'."
+            }
+          },
+          {
+            "id": "q6_4_8",
+            "type": "mcq",
+            "question": "Manakah kelompok yang SEMUA anggotanya termasuk dalam 7 isim marfu'?",
+            "prompt": "Manakah kelompok yang SEMUA anggotanya termasuk dalam 7 isim marfu'?",
+            "arabic": "مَجْمُوعَةُ الْمَرْفُوعَاتِ",
+            "translation": "Kelompok isim-isim marfu'",
+            "meaning": "Kelompok isim-isim marfu'",
+            "options": [
+              {
+                "label": "Fa'il, Na'ibul Fa'il, Mubtada', Khabar",
+                "value": "fail_naib_mubtada_khabar"
+              },
+              {
+                "label": "Fa'il, Maf'ul Bih, Hal, Tamyiz",
+                "value": "campur_manshub"
+              },
+              {
+                "label": "Isim Kaana, Khabar Kaana, Isim Inna",
+                "value": "campur_nawasikh"
+              },
+              {
+                "label": "Mubtada', Khabar, Mudhaf Ilaih, Majrur",
+                "value": "campur_majrur"
+              }
+            ],
+            "correct": "fail_naib_mubtada_khabar",
+            "explanation": "Fa'il, Na'ibul Fa'il, Mubtada', dan Khabar murni 100% merupakan anggota dari 7 isim marfu'.",
+            "whyModal": {
+              "title": "Verifikasi 7 Isim Marfu'",
+              "matan": "الْمَرْفُوعَاتُ سَبْعَةٌ",
+              "reason": "Keempat isim tersebut merupakan rukun pokok marfu'atil asma'."
+            }
+          },
+          {
+            "id": "q6_4_9",
+            "type": "mcq",
+            "question": "Pada kalimat صَلَّى الْمُسْلِمُونَ كُلُّهُمْ, kata كُلُّ dirafa'kan dengan dhommah karena...",
+            "prompt": "Pada kalimat صَلَّى الْمُسْلِمُونَ كُلُّهُمْ, kata كُلُّ dirafa'kan dengan dhommah karena...",
+            "arabic": "صَلَّى الْمُسْلِمُونَ كُلُّهُمْ",
+            "translation": "Kaum muslimin semuanya telah shalat",
+            "meaning": "Kaum muslimin semuanya telah shalat",
+            "options": [
+              {
+                "label": "Taukid bagi isim marfu' (الْمُسْلِمُونَ)",
+                "value": "taukid_marfu"
+              },
+              {
+                "label": "Fa'il kedua",
+                "value": "fail2"
+              },
+              {
+                "label": "Maf'ul fih (zhorof)",
+                "value": "zhorof"
+              },
+              {
+                "label": "Hal (keterangan keadaan)",
+                "value": "hal"
+              }
+            ],
+            "correct": "taukid_marfu",
+            "explanation": "كُلُّ adalah Taukid ma'nawi bagi الْمُسْلِمُونَ, sehingga ikut marfu'. Tandanya dhommah karena lafazh kullu adalah mufrad.",
+            "whyModal": {
+              "title": "Taukid Marfu'",
+              "matan": "وَالتَّوْكِيدُ: تَابِعٌ لِلْمُؤَكَّدِ فِي رَفْعِهِ",
+              "reason": "Kulluhum adalah penegas bagi fa'il yang marfu'."
+            }
+          },
+          {
+            "id": "q6_4_10",
+            "type": "mcq",
+            "question": "Berapakah skor minimal jawaban benar yang wajib diraih santri untuk menaklukkan Boss Battle Marfu'atil Asma' ini?",
+            "prompt": "Berapakah skor minimal jawaban benar yang wajib diraih santri untuk menaklukkan Boss Battle Marfu'atil Asma' ini?",
+            "arabic": "شَرْطُ النَّجَاحِ فِي مَرْحَلَةِ الزَّعِيمِ",
+            "translation": "Syarat kelulusan pada tahap Boss",
+            "meaning": "Syarat kelulusan pada tahap Boss",
+            "options": [
+              {
+                "label": "Minimal 7 dari 10 soal benar (70%)",
+                "value": "7_dari_10"
+              },
+              {
+                "label": "Harus 10 dari 10 soal benar (100%)",
+                "value": "10_dari_10"
+              },
+              {
+                "label": "Cukup 5 dari 10 soal benar (50%)",
+                "value": "5_dari_10"
+              },
+              {
+                "label": "Cukup 3 dari 10 soal benar (30%)",
+                "value": "3_dari_10"
+              }
+            ],
+            "correct": "7_dari_10",
+            "explanation": "Standar kelulusan Boss Battle JurumiPlay adalah minimal 7/10 soal benar (70%) untuk membuka bab berikutnya tanpa sistem pengurangan nyawa.",
+            "whyModal": {
+              "title": "Aturan Gamifikasi JurumiPlay",
+              "matan": "شَرْطُ الْفَوْزِ: سَبْعَةٌ مِنْ عَشَرَةٍ",
+              "reason": "Syarat lulus Boss Stage adalah minimal 7 dari 10 soal benar dengan kesempatan retry non-punitif."
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -5,12 +5,12 @@ state.db
 # Python scripts (dev only)
 *.py
 
-# Misc
+# Local drafts & backups
+*.bak
+
+# Sensitive config & migration files
 .DS_Store
 .env
 config.php
-api.php
-panel.php
 migrate.php
-.htaccess
 node_modules/

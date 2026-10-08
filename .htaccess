@@ -1,0 +1,35 @@
+DirectoryIndex index.html index.php
+
+# Security: Block sensitive files
+<FilesMatch "^(config\.php|migrate\.php|\.env|\.git|php\.ini)">
+    <IfModule mod_authz_core.c>
+        Require all denied
+    </IfModule>
+    <IfModule !mod_authz_core.c>
+        Order allow,deny
+        Deny from all
+    </IfModule>
+</FilesMatch>
+
+# Security: Disable Directory Indexing
+Options -Indexes
+
+# Security Headers
+<IfModule mod_headers.c>
+    Header set X-Content-Type-Options "nosniff"
+    Header set X-Frame-Options "SAMEORIGIN"
+    Header set X-XSS-Protection "1; mode=block"
+    Header set Referrer-Policy "strict-origin-when-cross-origin"
+    Header set Permissions-Policy "geolocation=(), camera=(), microphone=()"
+</IfModule>
+
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteBase /
+
+# Route /panel to panel.php
+RewriteRule ^panel/?$ panel.php [L,QSA]
+
+# Route /api/(action) to api.php?action=$1
+RewriteRule ^api/([a-zA-Z0-9_-]+)/?$ api.php?action=$1 [L,QSA]
+</IfModule>
